@@ -18,25 +18,27 @@ height:100%;
 
         width:100%;
         height:40rem;
-        position: relative
-
+        position: relative;
+ 
        
     }
 
     .bird {
-        top: 1rem;
-      
-    height: 38rem;
+        top: 11%;
+   
+    left: 2.5%;
+    height: 39rem;
     position: absolute;
 
+
         img {
-            width:100%;
+           
             left:0%;
             height:100%;
         }
     }
     .card {
-    
+       
         position:absolute;
         bottom:7%;
         display:flex;
@@ -46,6 +48,7 @@ height:100%;
      
         height:75%;
         .card-1 {
+           
             display:flex;
         justify-content:space-between;
         align-items:center;

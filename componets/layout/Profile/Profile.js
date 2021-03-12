@@ -28,8 +28,8 @@ export default function Home() {
        
         objectFit="cover"
       />
-      <div className="bird" > 
-  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1614316862/AirJaldi/equahrzbvek5odolroqe.png'} ></img>
+    <div className="bird" > 
+  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1615558552/vise9qvuybx9ttqj17zy.svg'} ></img>
    </div>
 
       <div class='card'  >
