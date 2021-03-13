@@ -6,11 +6,22 @@ import  Job from './Partner/Partner'
 
 import Image from 'next/image';
 
+import { useQuery } from "react-query";
+
+const fetchUsers = async () => {
+  const res = await fetch("http://52.14.64.252:3000/api/client/getPartner");
+  return res.json();
+};
 
 
 export default function Home() {
+  const { data, status } = useQuery("partner", fetchUsers);
   return (
     <>
+    {status === "error" && <p>Error fetching data</p>}
+      {status === "loading" && <p></p>}
+      {status === "success" && (
+          <>
       <Head>
         <title>Home - AirJaldi</title>
       </Head>
@@ -19,7 +30,7 @@ export default function Home() {
     <div class="grid"     >
     <Image
               className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190581/AirJaldi/deokgdy1ap2jqe7eyzqm.jpg'
+        src={data.aboutAvatar}
        
         layout="fill"
        
@@ -31,11 +42,8 @@ export default function Home() {
   <div class='grid1' >
 
   <h1>
-  Anduntias experat. Millabor rem et re
-nost, aceperuptam apere quis doluptur,
-odissunt, quo oditiore elibus esent rem.
-Ut et, cupis exerciisquo videseque nis est
-que sunto occuptatur sita volut volo
+  {data.aboutDescription}
+ 
       </h1>
 
    
@@ -56,11 +64,12 @@ que sunto occuptatur sita volut volo
       </Section>
      
 
-    <Job/>
+    <Job data={data.partner} />
       
        
       <Footer/>
-    
-    </>
+      </>
+      )}
+  </>
   );
 }
