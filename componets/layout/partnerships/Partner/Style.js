@@ -67,7 +67,7 @@ height:100%;
              .box {
                  height:100%;
                  width:100%;
-                 
+               
                  background-color: ${props => props.theme.colors.lightblue};
                  display:flex;
              justify-content:flex-start;
@@ -89,6 +89,7 @@ height:100%;
                  width:80%;
                  text-align:left;
                  margin-top:3%;
+                 margin-bottom:3%;
                 color: ${props => props.theme.colors.blue};
              }
              }
