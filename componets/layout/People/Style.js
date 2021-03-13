@@ -16,15 +16,16 @@ height:100%;
     position: relative;
 width:100%;
 height:40rem;
-
 .bird {
-        top: 1rem;
-      
-    height: 38rem;
+        top: 11%;
+   
+    left: 2.5%;
+    height: 39rem;
     position: absolute;
 
+
         img {
-            width:100%;
+           
             left:0%;
             height:100%;
         }

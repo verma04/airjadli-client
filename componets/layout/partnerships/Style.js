@@ -19,6 +19,20 @@ height:100%;
 
        
     }
+    .bird {
+        top: 11%;
+   
+    left: 2.5%;
+    height: 39rem;
+    position: absolute;
+
+
+        img {
+           
+            left:0%;
+            height:100%;
+        }
+    }
     .card {
         position:absolute;
         bottom:7%;

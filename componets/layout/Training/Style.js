@@ -20,6 +20,8 @@ height:100%;
 
        
     }
+
+   
     .card {
         position:absolute;
         bottom:7%;
