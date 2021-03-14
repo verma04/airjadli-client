@@ -1,127 +1,144 @@
-
 import styled from 'styled-components'
-export const  Section = styled.section`
-display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:column;
-width:100%;
-height:100%;
-
-@media (min-width: 1035px) {
-    margin-top:10rem;
-
-    .top {
-
-        width:80%;
-        height:40rem;
-        
-        position: relative;
-
-    }
-
-    .data {
-margin-top:4rem;
-width:80%;
 
 
-position: relative;
-display:flex;
-justify-content:space-between;
-.left {
-    width:68%;
-    display:flex;
-    justify-content:flex-start;
-    flex-direction:column;
-    h2 {
-        width:95%;
-        margin-top:1rem;
-        font-weight:1000;
-    }
-    p {
-        width:95%;
-        margin-top:1rem;
-    }
-}
 
-.right {
-    width:28%;
 
-    display:flex;
-    justify-content:flex-start;
-    flex-direction:column;
-
-    .img {
-        width:90%;
-        height:15rem;
-        margin-top:2%;
-        position: relative;
-    }
+export const Section = styled.section`
+ @media (min-width: 1025px) {
+   display:flex;
+   justify-content:center;
+   width:100%;
+   height:100%;
+   .flex {
+     margin-top:12vh;
+     width:60%;
+     height:60%;
     
-}
-
-}
-
-  
-
-}
-
-@media (max-width: 600px) {
-
-    margin-top:5rem;
-
-.top {
-
-    width:90%;
-    height:24rem;
+     .single-post{
+         display:flex;
+         justify-content:center;
+          flex-direction:column;
+          width:100%;
+          height:100%;
+          .head {
+              text-align:left;
+              font-size:2.5rem;
+              font-weight:1000;
+          }
+          figure {
+              width:100%;
+          
+              display:flex;
+              justify-content:center;
+              img {
+                width:100%;
+              }
+          }
+          p {
+            text-align:left;
+              font-size:1.2rem;
+              margin-bottom:0.5rem;
+              width:100%;
+              margin-top:0.7rem;
+              margin-bottom:0.5rem;
+          }
+          h2 {
+            font-weight:900;
+          }
+          h1 {
+              margin-top:2rem;
+              margin-bottom:0.9rem;
+          }
+          li {
+              list-style:disc;
+              margin-left:1.5rem;
+              font-size:1.2rem;
+              margin-top:0.5rem;
+              margin-bottom:0.5rem;
+          }
+     }
+   }
+   .btn {
+       position:fixed;
+       right:2%;
+       top:12vh;
+     
+       display:flex;
+       justify-content:center;
+        flex-direction:column;
+        button {
+            width:10rem;
+            margin-top:2rem;
+            font-size:1.5rem;
+        }
     
-    position: relative;
-
-}
-
-.data {
-margin-top:4rem;
-width:90%;
-
-
-position: relative;
-display:flex;
-justify-content:space-between;
-flex-direction:column;
-.left {
-width:95%;
-display:flex;
-justify-content:flex-start;
-flex-direction:column;
-h2 {
-    width:100%;
-    margin-top:1rem;
-    font-weight:1000;
-}
-p {
-    width:100%;
-    margin-top:1rem;
-}
-}
-
-.right {
-width:95%;
-
-display:flex;
-justify-content:space-between;
-
-
-.img {
-    width:48%;
-    height:8rem;
-    margin-top:2%;
-    position: relative;
-}
-
-}
-
-}
-
-
-}
+   }
+ }
+ @media (max-width: 600px) {
+   display:flex;
+   justify-content:center;
+   width:100%;
+   height:100%;
+   .flex {
+    margin-top: 3%;
+     width:90%;
+     height:60%;
+    
+     .single-post{
+         display:flex;
+         justify-content:center;
+          flex-direction:column;
+          width:100%;
+          height:100%;
+          .head {
+              text-align:left;
+              font-size:2.5rem;
+              font-weight:1000;
+          }
+          figure {
+              width:100%;
+          
+              display:flex;
+              justify-content:center;
+              img {
+                width:100%;
+              }
+          }
+          p {
+            text-align:left;
+              font-size:1.2rem;
+              margin-bottom:0.5rem;
+              width:100%;
+              margin-top:0.7rem;
+              margin-bottom:0.5rem;
+          }
+          h1 {
+              margin-top:2rem;
+              margin-bottom:0.9rem;
+          }
+          li {
+              list-style:disc;
+              margin-left:1.5rem;
+              font-size:1.2rem;
+              margin-top:0.5rem;
+              margin-bottom:0.5rem;
+          }
+     }
+   }
+   .btn {
+       position:fixed;
+       right:2%;
+       top:12vh;
+     
+       display:flex;
+       justify-content:center;
+        flex-direction:column;
+        button {
+            width:10rem;
+            margin-top:2rem;
+            font-size:1.5rem;
+        }
+    
+   }
+ }
 `
