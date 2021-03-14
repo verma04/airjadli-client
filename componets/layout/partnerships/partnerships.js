@@ -9,7 +9,7 @@ import Image from 'next/image';
 import { useQuery } from "react-query";
 
 const fetchUsers = async () => {
-  const res = await fetch("http://52.14.64.252:3000/api/client/getPartner");
+  const res = await fetch("https://airjadli.herokuapp.com/api/client/getPartner");
   return res.json();
 };
 

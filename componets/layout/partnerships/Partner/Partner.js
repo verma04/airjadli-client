@@ -52,12 +52,10 @@ export default function Job({data}) {
 
          <div className="contact" >
              <h3>CONTACT</h3>
-             <p>Ommolori consecusam faccus erunt pa expernatio
-tectianim etur, odia et latur? Quia vel in cus maxi-
-men ihillent eturem fugia vidus dellor rentur?</p>
+             <p>{user.partnerContact}</p>
          </div>
 
-         <div className="bottom" >career@airjaldi.com</div>
+         <div className="bottom" >{user.partneremail}</div>
         
      </div>
 
