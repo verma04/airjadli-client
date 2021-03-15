@@ -119,7 +119,7 @@ quam hitatibus et ut in.</p>
         src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190591/AirJaldi/s8l2fydbecxfe5w38m54.jpg"
         alt="Picture of the author"
         layout="fill"
-        objectFit="contain"
+        objectFit="cover"
       />
     </div>
 
