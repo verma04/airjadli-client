@@ -21,13 +21,13 @@ export default function News() {
       <div class='card-1'  >
   <div class='grid1' >
 
-   <div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
+   <div className="wrapper"  style={{  position: 'relative', width:"90%", height: '50%'}} >
    <Image
               className="myImage"
         src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190590/AirJaldi/u1qeedb7atqtjak6mpqj.jpg"
         alt="Picture of the author"
         layout="fill"
-        objectFit="contain"
+        objectFit="cover"
       />
    </div>
 
@@ -50,7 +50,7 @@ quam hitatibus et ut in.</p>
   </div>
   <div class='grid1' >
 
-<div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
+<div className="wrapper"  style={{  position: 'relative', width:"90%", height: '50%'}} >
 <Image
            className="myImage"
      src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190591/AirJaldi/f2j0357fxvicngshvsef.jpg"
@@ -80,7 +80,7 @@ quam hitatibus et ut in.</p>
 
 <div class='grid1' >
 
-   <div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
+   <div className="wrapper"  style={{  position: 'relative', width:"90%", height: '50%'}} >
    <Image
               className="myImage"
         src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190590/AirJaldi/zo8ds9wahfu4oyy6mxt4.jpg"

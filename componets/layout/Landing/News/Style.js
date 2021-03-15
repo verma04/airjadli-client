@@ -64,8 +64,8 @@ align-items:center;
         flex-direction:column;
         align-items:center;
         .wrapper {
-        width:100%;
-        height:50%;
+     
+       
         position: relative;
        
        

@@ -105,6 +105,9 @@ button {
     word-spacing:0.2rem;
     color: ${props => props.theme.colors.grey};
   }
+  h3 {
+    word-spacing:0.2rem;
+  }
   h4 {
     font-size: 1rem;
     line-height: var(--line-height-md);

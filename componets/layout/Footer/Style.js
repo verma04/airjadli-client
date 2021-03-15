@@ -12,7 +12,9 @@ background-color: ${props => props.theme.colors.footerColor};
 margin-top:10rem;
 @media (min-width: 1035px) {
 
-    .flex {
+    .flex { 
+       padding-top:2rem;
+       padding-bottom:1rem;
         height:15rem;
       
         width:80%;
@@ -72,7 +74,7 @@ margin-top:10rem;
              height:90%;
              
              display:flex;
-             justify-content:space-around;
+             justify-content:flex-start;
              width:70%;
              align-items:center;
              .fab {
@@ -80,6 +82,7 @@ margin-top:10rem;
                border-radius:2rem;
                background-color:white;
                font-size:2rem;
+               margin-right: 2rem;
                padding:0.5rem;
                cursor: pointer;
              }
