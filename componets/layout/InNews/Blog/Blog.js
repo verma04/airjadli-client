@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { useQuery } from "react-query";
 import {  convertFromRaw } from 'draft-js';
 import {stateToHTML} from 'draft-js-export-html';
+import Loading from '../../../Loading/Loading';
 const fetchNews = async ( id) => {
  const idd = id.queryKey[1]
   const res = await fetch(` https://airjadli.herokuapp.com/api/getNews/${idd}`);
@@ -28,9 +29,9 @@ function Blog({id}) {
     return (
         <>
         {status === "error" && <p>Error fetching data</p>}
-          {status === "loading" && <p></p>}
+          {status === "loading" && <Loading/>}
           {status === "success" && (
-      
+          
         <div>
             <Navbar/>
             <Section>

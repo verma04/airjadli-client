@@ -14,6 +14,7 @@ const fetchNews = async () => {
   return res.json();
 };
 
+import Loading from '../../Loading/Loading'
 
 
 export default function Home({}) {
@@ -22,7 +23,11 @@ export default function Home({}) {
   return (
     <>
     {status === "error" && <p>Error fetching data</p>}
-      {status === "loading" && <p></p>}
+      {status === "loading" && 
+      
+    <Loading/>
+      
+      }
       {status === "success" && (
     <>
       <Head>
@@ -99,11 +104,12 @@ export default function Home({}) {
 
 
       </Section>
+      <Footer/>
       </>
        )}
       
        
-      <Footer/>
+    
     
     </>
   );

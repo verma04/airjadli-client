@@ -7,6 +7,7 @@ import  Job from './Partner/Partner'
 import Image from 'next/image';
 
 import { useQuery } from "react-query";
+import Loading from '../../Loading/Loading';
 
 const fetchUsers = async () => {
   const res = await fetch("https://airjadli.herokuapp.com/api/client/getPartner");
@@ -19,7 +20,7 @@ export default function Home() {
   return (
     <>
     {status === "error" && <p>Error fetching data</p>}
-      {status === "loading" && <p></p>}
+      {status === "loading" && <Loading/>}
       {status === "success" && (
           <>
       <Head>
