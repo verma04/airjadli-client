@@ -41,7 +41,7 @@ export default function Home({}) {
    <div class='card-1'  >
    {data.map((number) =>  
    
-<div  onClick={() => router.push(`/news/${number._id}`) }  class='grid1' >
+<div  onClick={() => router.push(`/news/${number.slug}`) }  class='grid1' >
 
 <div className="wrapper"  style={{  position: 'relative', width:"100%", height: '13rem'}} >
 {(() => {

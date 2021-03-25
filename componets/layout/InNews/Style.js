@@ -42,7 +42,7 @@ height:100%;
             position: relative;
              width:30%;
              box-shadow: rgb(0 0 0 / 10%) 0px 3px 30px, rgb(0 0 0 / 10%) 0px 3px 20px;
-       
+         cursor: pointer;
              margin-top:2rem;
              background-color:white;
              display:flex;
