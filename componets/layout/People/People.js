@@ -13,7 +13,7 @@ const fetchPeoplePage = async () => {
 };
 
 export default function Home() {
-  const { data, status } = useQuery("profile", fetchPeoplePage);
+  const { data, status } = useQuery("peoplePage", fetchPeoplePage);
   return (
     <>
   
@@ -38,6 +38,7 @@ export default function Home() {
    <div className="bird" > 
   <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
    </div>
+    
       <div class='card'  >
       <div class='card-1'  >
   <div class='grid1' >

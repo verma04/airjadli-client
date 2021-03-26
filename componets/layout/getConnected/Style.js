@@ -19,17 +19,27 @@ position: relative;
         height: 40rem;
 
         .bird {
-        top: 11%;
-   
-    left: 2.5%;
-    height: 39rem;
+        top: 6%;
+    height: 70rem;
+    width: 39%;
+    left: 2%;
     position: absolute;
+    -webkit-transform: rotate( 
+1deg
+ );
+    -ms-transform: rotate( 1deg );
+    -webkit-transform: rotate( 
+1deg
+ );
+    -ms-transform: rotate( 1deg );
+    transform: rotate( 
+1deg
+ );
 
 
         img {
-           
-            left:0%;
-            height:100%;
+            width: 96%;
+    height: 100%;
         }
     }
     }
