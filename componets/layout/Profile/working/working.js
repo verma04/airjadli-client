@@ -24,7 +24,7 @@ export default function Home() {
         objectFit="cover"
       />
        <div className="bird" > 
-  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1614316862/AirJaldi/equahrzbvek5odolroqe.png'} ></img>
+  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616736338/i4zzojgwybld0b5moqqq.png'} ></img>
    </div>
 
       <div class='card'  >

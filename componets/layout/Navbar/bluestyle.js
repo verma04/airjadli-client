@@ -60,9 +60,9 @@ height:100%;
      
 align-items:center;       
         h3 {
-           height:18%;
+          
            font-weight:900;
-       
+          border: 1px solid red;
            font-size:1.1rem;
            display:flex;
            justify-content:center;

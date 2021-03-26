@@ -17,16 +17,18 @@ margin-top:5rem;
         height:40rem;
         position: relative;
         .bird {
-          right: 0;
-      
-    height: 40rem;
+          right: -37px;
+          top: -1%;
+    right: 44%;
+    /* height: 53rem; */
+    /* width: 126%; */
     position: absolute;
-    transform: rotateY(180deg);
 
         img {
             width:100%;
             right:0%;
             height:100%;
+            margin-left: 90%;
         }
     }
        

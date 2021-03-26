@@ -39,7 +39,7 @@ export default function Home({}) {
    
    <div class='card'  >
    <div class='card-1'  >
-   {data.reverse().map((number) =>  
+   {data.map((number) =>  
    
 <div  onClick={() => router.push(`/news/${number.slug}`) }  class='grid1' >
 
