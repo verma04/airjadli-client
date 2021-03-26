@@ -14,7 +14,7 @@ margin-top:5rem;
 
    .flex{
 
-       height:28rem;
+ 
 
        display:flex;
        justify-content:space-between;
@@ -32,6 +32,7 @@ margin-top:5rem;
 
        }
        .data {
+           margin-top:1rem;
         display:flex;
        justify-content:space-around;
        flex-direction:column;

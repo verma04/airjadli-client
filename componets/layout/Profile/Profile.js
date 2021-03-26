@@ -9,11 +9,20 @@ import Fact from './facts/fact'
 import History from './history/History'
 import Working from './working/working';
 import Stat from './Stat/Stat'
-
-
+import { useQuery } from "react-query";
+import Loading from '../../Loading/Loading';
+const fetchProfile = async () => {
+  const res = await fetch("https://airjadli.herokuapp.com/api/client/getprofile");
+  return res.json();
+};
 export default function Home() {
+  const { data, status } = useQuery("profile", fetchProfile);
   return (
     <>
+     {status === "error" && <p>Error fetching data</p>}
+      {status === "loading" && <Loading/>}
+      {status === "success" && (
+          <>
       <Head>
         <title>Home - AirJaldi</title>
       </Head>
@@ -22,24 +31,21 @@ export default function Home() {
     <div class="grid"    >
     <Image
               className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190590/AirJaldi/kbqhktvtedyumcpvapra.jpg'
+        src={data.profileAvatar}
         alt="Picture of the author"
         layout="fill"
        
         objectFit="cover"
       />
-    <div className="bird" > 
-  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1615558552/vise9qvuybx9ttqj17zy.svg'} ></img>
+  <div className="bird" > 
+  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
    </div>
-
       <div class='card'  >
       <div class='card-1'  >
   <div class='grid1' >
 
   <h1>
-  We envision a world where broadband
-connectivity is readily available in rural
-areas and transforms lives.
+ {data.profileDescription}
       </h1>
 
    
@@ -59,7 +65,7 @@ areas and transforms lives.
 
       </Section>
      
-     <About/>
+     <About about={data.profileAboutus} />
      <Fact/>
 
      <History/>
@@ -69,7 +75,8 @@ areas and transforms lives.
       <Stat/>
        
       <Footer/>
-    
-    </>
+      </>
+      )}
+  </>
   );
 }

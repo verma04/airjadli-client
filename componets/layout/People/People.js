@@ -1,16 +1,26 @@
 import Head from 'next/head';
-import Navbar from '../Navbar/BlueNavbar';
+import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer'
 import { Section} from './Style'
 import styled, { createGlobalStyle } from 'styled-components';
 import Team from './Team/Team'
 import Image from 'next/image';
-
-
+import { useQuery } from "react-query";
+import Loading from '../../Loading/Loading';
+const fetchPeoplePage = async () => {
+  const res = await fetch("https://airjadli.herokuapp.com/api/client/Peopelpage");
+  return res.json();
+};
 
 export default function Home() {
+  const { data, status } = useQuery("profile", fetchPeoplePage);
   return (
     <>
+  
+     {status === "error" && <p>Error fetching data</p>}
+      {status === "loading" && <Loading/>}
+      {status === "success" && (
+          <>
       <Head>
         <title>Home - AirJaldi</title>
       </Head>
@@ -19,24 +29,21 @@ export default function Home() {
     <div class="grid"     >
     <Image
               className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190589/AirJaldi/ckoxveih6huqgv23ekoq.jpg'
+        src={data.PeoplePageAvatar}
         alt="Picture of the author"
         layout="fill"
        
         objectFit="cover"
       />
-     <div className="bird" > 
-  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1615558552/vise9qvuybx9ttqj17zy.svg'} ></img>
+   <div className="bird" > 
+  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
    </div>
-
       <div class='card'  >
       <div class='card-1'  >
   <div class='grid1' >
 
   <h1>
-  The AirJaldi Team Ulpa natiatur, cor re
-quia comnimusam evel et rum aritate
-mint latesti onsecat ut volore.
+{data.PeoplePageDescription}
       </h1>
 
    
@@ -62,5 +69,7 @@ mint latesti onsecat ut volore.
       <Footer/>
     
     </>
-  );
-}
+    )}
+    </>
+    );
+  }

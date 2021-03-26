@@ -1,0 +1,62 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+MenuName:Roboto
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Roboto
+WritingScript:Roman
+OutlineFileName:\Roboto-Regular.ttf
+DataFormat:sfntData
+FileLength:171676
+FileModTime:1357686000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SourceSansPro-Bold
+FamilyName:Source Sans Pro
+StyleName:Bold
+MenuName:Source Sans Pro
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Source Sans Pro Bold
+WritingScript:Roman
+OutlineFileName:\SourceSansPro-Bold.ttf
+DataFormat:sfntData
+FileLength:267388
+FileModTime:1343692800
+DesignSize:100
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SourceSansPro-Regular
+FamilyName:Source Sans Pro
+StyleName:Regular
+MenuName:Source Sans Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Source Sans Pro Regular
+WritingScript:Roman
+OutlineFileName:\SourceSansPro-Regular.ttf
+DataFormat:sfntData
+FileLength:269108
+FileModTime:1343692800
+DesignSize:100
+%EndFont
+
