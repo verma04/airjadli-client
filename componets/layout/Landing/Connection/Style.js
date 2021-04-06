@@ -16,9 +16,9 @@ align-items:center;
     margin-top:5rem;
 
     .flex {
-        height:25rem;
+        height:23rem;
          
-        width:80%;
+        width:76%;
         display:flex;
         justify-content:space-between;
        align-items:center;
@@ -42,9 +42,9 @@ align-items:center;
              h2 {
                 color:white;
                 width:90%; 
-            font-size:1.8rem;
+            font-size:2.2rem;
             span {
-                font-weight:1000;
+                font-family: SourceSansPro-Bold ;
             }
              }
 
@@ -61,6 +61,7 @@ align-items:center;
                 width:90%; 
             font-size:2rem;
             span {
+                font-family: SourceSansPro-Bold ;
                 font-weight:1000;
             }
              }
