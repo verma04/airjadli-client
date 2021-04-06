@@ -70,7 +70,7 @@ flex-direction:column;
       }
       .data {
           width:100%;
-          border: 1px solid red;
+         
           .name {
           span {
               font-size:1.2rem;
