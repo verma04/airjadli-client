@@ -12,12 +12,15 @@ const fetchPeoplePage = async () => {
   return res.json();
 };
 
+
+
 export default function Home() {
   const { data, status } = useQuery("peoplePage", fetchPeoplePage);
+ 
   return (
     <>
   
-     {status === "error" && <p>Error fetching data</p>}
+     {status === "error"  && <p>Error fetching data</p>}
       {status === "loading" && <Loading/>}
       {status === "success" && (
           <>
@@ -63,7 +66,7 @@ export default function Home() {
 
       </Section>
      
-     <Team/>
+     <Team page={data}/>
     
       
        

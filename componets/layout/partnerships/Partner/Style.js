@@ -13,8 +13,8 @@ height:100%;
 @media (min-width: 1035px) {
 
    .flex {
-       width:80%;
-       
+       width:74%;
+    
        display:flex;
        justify-content:center;
      flex-direction:column;

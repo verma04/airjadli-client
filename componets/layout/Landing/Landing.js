@@ -22,15 +22,15 @@ export default function Home() {
 
     <Image
               className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1613976586/nfw0rsulyjyndllyoson.png'
+        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617685666/AirJaldi/nmgm0xy80efeaaug5bxr.jpg'
         alt="Picture of the author"
         layout="fill"
        
         objectFit="cover"
       />
- <div className="bird" > 
+ {/* <div className="bird" > 
   <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
-   </div>
+   </div> */}
       <div class='card'  >
 
      
@@ -55,7 +55,7 @@ technically and economically viable
 Internet connectivity solutions for rural
 areas ...</p>
 <div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
  <span>  See our company profile </span> </div>
    </div>
   </div>
@@ -80,7 +80,7 @@ connect large and small clients from
 the corporate, civil society and private
 sectors ...</p>
 <div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
 <span>  More about our networks </span> </div>
 </div>
 </div>
@@ -107,7 +107,7 @@ home and office and our wifi hotspots
 all over India you are always connected.
 Our service-team is ready respond to ...</p>
 <div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
  <span> To our products and deals </span> </div>
    </div>
   </div>
@@ -143,7 +143,7 @@ technically and economically viable
 Internet connectivity solutions for rural
 areas ...</p>
 <div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
  <span>  See our company profile </span> </div>
    </div>
   </div>
@@ -168,7 +168,7 @@ connect large and small clients from
 the corporate, civil society and private
 sectors ...</p>
 <div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
 <span>  More about our networks </span> </div>
 </div>
 </div>
@@ -193,7 +193,7 @@ home and office and our wifi hotspots
 all over India you are always connected.
 Our service-team is ready respond to ...</p>
 <div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
  <span> To our products and deals </span> </div>
    </div>
   </div>

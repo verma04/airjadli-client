@@ -63,10 +63,11 @@ height:100%;
         justify-content:space-between;
         align-items:center;
         height:100%;
-        width:80%;
+        width:74%;
+  
       
         .grid1 {
-             width:30%;
+             width:32%;
              height:100%;
              background-color:white;
              display:flex;
@@ -101,10 +102,12 @@ display:flex;
 cursor: pointer;
 justify-content:flex-start;
 color:${props => props.theme.colors.blue};
-i {
-    font-size:1.2rem;
+img {
+    width:34px;
+    height:1rem;
 }
 span {
+    margin-left:0.5rem;
     font-size:1.2rem;
 }
 

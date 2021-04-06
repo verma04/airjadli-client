@@ -6,11 +6,11 @@ a {
   text-decoration: none; 
   color: white;
 
-  font-family: FSAlbert;
+  font-family:  SourceSansPro-Regular;
 } 
 
 div {
-    font-family: FSAlbert;
+    font-family:  SourceSansPro-Regular;
   
 }
 .bird {
@@ -29,7 +29,7 @@ div {
     }
   body {
     color: #2f3435; 
-  font-family: FSAlbert;
+  font-family:  SourceSansPro-Regular;
 
       overflow-x: hidden;
        
@@ -72,14 +72,14 @@ div {
 }
 button {
   cursor: pointer;
-  font-family: FSAlbert;
+  font-family:  SourceSansPro-Regular;
 }
 
  
   h1 {
     font-size: 1.65rem;
     line-height: var(--line-height-lg);
-  font-family: FSAlbert;
+  font-family:  SourceSansPro-Regular;
   color: #2f3435; 
   word-spacing:0.2rem;
   }
@@ -87,21 +87,22 @@ button {
     font-size: 1.4rem;
     line-height: var(--line-height-lg);
     color: ${props => props.theme.colors.grey};
-  font-family: FSAlbert;
+  font-family:  SourceSansPro-Regular;
   color: #2f3435; 
+  font-weight:500;
   word-spacing:0.2rem;
   }
   h3 {
     font-size: 1.2rem;
     line-height: var(--line-height-lg);
     color: ${props => props.theme.colors.grey};
-    font-family: FSAlbert;
+    font-family:  SourceSansPro-Regular;
     color: #2f3435; 
     word-spacing:0.2rem;
     /* family=FiesoleTextW00-Italic */
   }
   p {
-    font-family: FSAlbert;
+    font-family:  SourceSansPro-Regular;
     word-spacing:0.2rem;
     color: ${props => props.theme.colors.grey};
   }
@@ -130,17 +131,17 @@ button {
     font-size:1.2rem;
 line-height:1.1;
   
-    font-family: FSAlbert;
+    font-family:  SourceSansPro-Regular;
     word-spacing:0.2rem;
     color: #2f3435; 
   }
   select {
-  font-family: FSAlbert;
+  font-family:  SourceSansPro-Regular;
   color: #2f3435; 
   }
   
   .date {
-  font-family: FSAlbert;
+  font-family:  SourceSansPro-Regular;
   }
   .card {
     border-radius:10px;
@@ -153,17 +154,17 @@ line-height:1.1;
 }
   button {
 border-radius:5px;
-font-family: FSAlbert;
+font-family:  SourceSansPro-Regular;
 transition: transform .8s;
 
   }
   input {
-  font-family: FSAlbert;
+  font-family:  SourceSansPro-Regular;
     border:1px solid #EFEAE4;
     color:white;
   }
   span {
-  font-family: FSAlbert;
+  font-family:  SourceSansPro-Regular;
   }
   i {
     color: ${props => props.theme.colors.darkBrown};
@@ -190,10 +191,10 @@ transition: transform .8s;
   a { 
     text-decoration: none; 
     color: ${props => props.theme.colors.darkBrown};
-  font-family: FSAlbert;
+  font-family:  SourceSansPro-Regular;
 } 
 button {
-  font-family: FSAlbert;
+  font-family:  SourceSansPro-Regular;
 }
 li {
   cursor: pointer;

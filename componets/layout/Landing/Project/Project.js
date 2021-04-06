@@ -42,7 +42,7 @@ qui dolore pa perum expe autae simusa udit
 eume cum hil mo odiciis ipsa alit a conse-
 quam hitatibus et ut in.</p>
 <div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
  <span>  Learn more </span> </div>
    </div>
   </div>
@@ -70,7 +70,7 @@ qui dolore pa perum expe autae simusa udit
 eume cum hil mo odiciis ipsa alit a conse-
 quam hitatibus et ut in.</p>
 <div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
 <span>  Learn more </span> </div>
 </div>
 </div>
@@ -99,7 +99,7 @@ qui dolore pa perum expe autae simusa udit
 eume cum hil mo odiciis ipsa alit a conse-
 quam hitatibus et ut in.</p>
 <div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
 <span>  Learn more </span> </div>
    </div>
   </div>
@@ -138,7 +138,7 @@ Now, we no longer need to commute
    </div>
 
    <div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
  <span> Watch the video </span> </div>
 
     </div>

@@ -20,7 +20,7 @@ width:100%;
     .flex {
         height:5rem;
         
-        width:80%;
+        width:76%;
         display:flex;
         justify-content:space-between;
        align-items:center;
@@ -62,7 +62,7 @@ align-items:center;
         h3 {
           
            font-weight:900;
-          border: 1px solid red;
+       
            font-size:1.1rem;
            display:flex;
            justify-content:center;

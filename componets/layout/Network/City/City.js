@@ -1,29 +1,82 @@
-import React from 'react';
-import Navbar from '../../Navbar/BlueNavbar';
-import Footer from '../../Footer/Footer';
+import React, {useState, useEffect} from 'react'
+import {  convertFromRaw } from 'draft-js';
+import {stateToHTML} from 'draft-js-export-html';
+import axios from "axios";
 import { Section} from './Style'
 import Image from 'next/image';
 import Map from './Map/Map';
 import Team from './Team/Team'
+import router from 'next/router';
+import { useQuery } from "react-query";
+import Loading from '@/componets/Loading/Loading';
+const fetchNetwork = async ( id) => {
+  const idd = id.queryKey[1]
+   const res = await fetch(`http://localhost:3000/api/client/network/${idd}`);
+   return res.json();
+ };
+
+ 
+ 
 function City({id}) {
+
+  const [people, setpeople] = useState("");
+  useEffect( async () => {
+    const res = await axios.get(`http://localhost:3000/api/client/people/${id}`)
+   
+  
+    const data = await res.data;
+    setpeople(data)
+    
+  } , [id]);
+  
+    const convertFromJSONToHTML = (text) => {
+
+        console.log(text)
+          try{
+              return { __html: stateToHTML(convertFromRaw(text))}
+            } catch(exp) {
+              console.log(exp)
+              return { __html: 'Error' }
+            }
+      }
+
+      const { data, status } = useQuery(["news" , id ], fetchNetwork);
+
+      if(data === '') {
+        return (
+         <Loading/>
+        )
+  
+      }
+
+      if(people === '')
+      {
+        return (
+          null
+        )
+      }  
+
     return (
-        <div>
-             <Navbar/>
+          <>
+        {status === "error" && <p>Error fetching data</p>}
+          {status === "loading" && <Loading/>}
+          {status === "success" && (
+            <>
+        
              <Section>
               <div className="flex" >
               <div className="flex-1" >
 
                   <div className="head" >
-              <h1>{id}</h1>    
+              <h1>{data.cityName}</h1>    
                   </div>
 
 
                   <div className="data" >
                       <ul>
                           <li>Technical Contact:</li>
-                          <li>Network Head: Amit Padokar</li>
-                          <li>
-Telephone: 9075831181</li>
+                          <li>{data.contact}</li>
+                     
                           <li>Email: <span>support@airjaldi.net</span> </li>
                          
 
@@ -31,13 +84,7 @@ Telephone: 9075831181</li>
                       </ul>
                       <ul>
                           <li>Office Address:</li>
-                          <li>Rural Broadband Pvt. Ltd. (AirJaldi)</li>
-                          <li>Near Grampanchayt</li>
-                          <li>Office 1st floor,</li>
-                          <li>Tehsil- Dharni, Harisal</li>
-                          <li>Distt -Amravati</li>
-                         <li>Pin – 444813</li>
-                         <li>State- Maharashtra</li>
+                         <li>{data.address}</li>
                           
                       </ul>
 
@@ -60,20 +107,26 @@ Telephone: 9075831181</li>
                   <div className="flex-2" >
                   <Image
               className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190580/AirJaldi/vg6y1smh6x3xdoeq0ifu.jpg"
+        src={data.featureImg}
         alt="Picture of the author"
         layout="fill"
         objectFit="contain"
         
-      />  
+      /> 
                   </div>
               </div>
-            </Section>
-         <Map/>
-         <Team id={id} />
-            <Footer/>
-        </div>
-    )
-}
+            
+            
+            </Section >
+         <Map  convertFromJSONToHTML={convertFromJSONToHTML}  data={data}/>
+       
+       
+</>
+      
+         )}
+<Team id={id}  data={people} />  
+         </>
+          )
+      }
 
 export default City

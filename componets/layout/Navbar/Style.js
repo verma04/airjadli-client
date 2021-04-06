@@ -20,7 +20,7 @@ width:100%;
     .flex {
         height:5rem;
       
-        width:80%;
+        width:75%;
         display:flex;
         justify-content:space-between;
        align-items:center;

@@ -20,7 +20,7 @@ corporate, civil society and private sectors.</p>
 the internet should be as
 readily available to all.</p>
 <div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
  <span> Watch the video </span> </div>
                     
 </div>

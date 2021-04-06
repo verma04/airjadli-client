@@ -84,6 +84,7 @@ height:70rem;
            height:18%;
            font-weight: normal;
            width:100%;
+           text-transform:uppercase;
            font-size:1.3rem;
            display:flex;
            justify-content:center;

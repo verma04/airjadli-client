@@ -169,6 +169,7 @@ span {
   font-size:1.2rem;
 }
 span {
+    margin-left:0.5rem;
   font-size:1.2rem;
 }
 
@@ -275,6 +276,7 @@ i {
   font-size:1.2rem;
 }
 span {
+    margin-left:0.5rem;
   font-size:1.2rem;
 }
 

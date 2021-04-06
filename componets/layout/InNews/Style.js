@@ -36,7 +36,7 @@ height:100%;
         align-items:center;
         flex-wrap: wrap;
       
-        width:80%;
+        width:76%;
       
         .grid1 {
             position: relative;

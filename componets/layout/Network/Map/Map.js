@@ -6,7 +6,10 @@ import { Section} from './Style'
 import Image from 'next/image';
 import { useRouter } from 'next/router'
 
-export default function Home() {
+export default function Home({data}) {
+   
+  console.log(data)
+
   const router = useRouter()
   return (
     <>
@@ -25,43 +28,33 @@ export default function Home() {
      <div className="head-2" >
          <h2>WEST
 
-         <div class="dropdown-content">
+         <div id="north" class="dropdown-content">
 
                 
-       <div className="content" >
-       <div className="list" >
-       <span className="ban" onClick={() => router.push(`/networks/barwani`) }  >BARWANI
-       <div id="point"  class="point" ><i class="fas fa-circle-notch"></i> </div>
-       </span>
-        <span className='har' onClick={() => router.push(`/networks/barwani`) } >HARISAL
-        <div id="point1" class="point" > <i class="fas fa-circle-notch"></i></div>  
-        </span>
-        <span className='chh'  onClick={() => router.push(`/networks/barwani`) } >CHHINDWARA
-        <div id="point2" class="point" > <i class="fas fa-circle-notch"></i></div>  
-        </span>
-        <span className="kha" onClick={() => router.push(`/networks/barwani`) } >KHARGONE
-        <div id="point3" class="point" > <i class="fas fa-circle-notch"></i></div> 
-        </span>
-        <span className='seo' >SEONI
-        <div  id="point5" class="point" ><i class="fas fa-circle-notch"></i></div>  
-        </span>
-        <span>AKOLA
-        <div id="point6" class="point" ><i class="fas fa-circle-notch"></i></div>   
-        </span>
-        <span>AMRAVATI
+<div className="content" >
+<div className="list" >
 
-        <div id="point7" class="point" ><i class="fas fa-circle-notch"></i></div>  
-        </span>
+{data.filter(element => element.zone === "West").map((number) => 
+ 
+ <span  onClick={() => router.push(`/networks/${number.slug}`) } >{number.cityName}</span>
 
-        <span>BULDHANA</span>
-       </div>
-       <div className="list" >
-     
-       </div>
-      
+)}
 
-       </div>
-  </div>
+
+
+
+
+
+</div>
+<div className="list" >
+
+</div>
+
+
+</div>
+</div>
+
+
 
 
          </h2>
@@ -72,16 +65,18 @@ export default function Home() {
                 
 <div className="content" >
 <div className="list" >
-<span className="kan"  onClick={() => router.push(`/networks/kangra`)} >KANGRA
-<div id="point"  class="point" ><i class="fas fa-circle-notch"></i> </div>
-</span>
+
+{data.filter(element => element.zone === "North").map((number) => 
+ 
+ <span  onClick={() => router.push(`/networks/${number.slug}`) } >{number.cityName}</span>
+
+)}
 
 
 
 
 
 
- <span>BULDHANA</span>
 </div>
 <div className="list" >
 
@@ -94,8 +89,70 @@ export default function Home() {
 
 
          </h2>
-         <h2>EAST</h2>
-         <h2>SOUTH</h2>
+         <h2>EAST
+
+         <div id="east" class="dropdown-content">
+
+                
+<div className="content" >
+<div className="list" >
+
+{data.filter(element => element.zone === "East").map((number) => 
+ 
+ <span  onClick={() => router.push(`/networks/${number.slug}`) } >{number.cityName}</span>
+
+)}
+
+
+
+
+
+
+</div>
+<div className="list" >
+
+</div>
+
+
+</div>
+</div>
+
+
+
+
+         </h2>
+         <h2>SOUTH
+
+         <div id="north" class="dropdown-content">
+
+                
+<div className="content" >
+<div className="list" >
+
+{data.filter(element => element.zone === "South").map((number) => 
+ 
+ <span  onClick={() => router.push(`/networks/${number.slug}`) } >{number.cityName}</span>
+
+)}
+
+
+
+
+
+
+</div>
+<div className="list" >
+
+</div>
+
+
+</div>
+</div>
+
+
+
+
+         </h2>
      </div>
         </div>
     

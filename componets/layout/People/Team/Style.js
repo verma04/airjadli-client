@@ -20,45 +20,84 @@ margin-top:5rem;
        justify-content:space-between;
        flex-direction:column;
        align-items:center;
-       width:90%;
+       width:76%;
        .head {
-           width:90%;
+           width:100%;
         height:3rem;
            display:flex;
-       justify-content:space-evenly;
+           
+       justify-content: flex-start;
        align-items:center;
       
-      #active {
+      
+       
+       h2 {
+          margin-left:1rem;
+          margin-right:1rem;
+         z-index:1000;
+         text-transform:uppercase;
+         cursor: pointer;
+    color: ${props => props.theme.colors.blue};
+   
+       }
+       #active {
         border-bottom:2px solid  #4089bd;;
       }
        
-       h2 {
-         cursor: pointer;
-    color: ${props => props.theme.colors.blue};
-       }
 
        }
        .data {
-     width:90%;
+     width:100%;
 
      .team {
-         display:flex;
-         justify-content:space-evenly;
-         align-items:center;
+
          flex-flow: wrap;
-         .member {
-            width:30%;
-            height:25rem;
-            background-color: transparent;
-            margin-top:2rem;
-            cursor: pointer;
-            position: relative;
-            .flip-card-front {
-              display:block;
-            .det {
+         width:100%;
+         margin-top:3rem;
+         .flip-card {
+  background-color: transparent;
+  width: 98%;
+  height: 300px;
+  margin-bottom:0.9rem;
+
+
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+background-color: rgb(221,243,255);
+  color: black;
+  img {
+    width:100%;
+    height:100%;
+  }
+  .det {
                 position: absolute;
-                width:60%;
-                height:4rem;
+               
+            
                 left:3%;
                 bottom:4%;
                 opacity:1;
@@ -66,53 +105,62 @@ margin-top:5rem;
                 display:flex;
                justify-content:center;
                 .data {
-                    width:90%;
+                
+                    width:100%;
+                    padding:0.5rem;
                   
                display:flex;
                justify-content:center;
               
-               align-items:center;
+             
                flex-direction:column;
                h2 {
+                   
                  text-align:left;
                  width:100%;
+                   font-weight:900;
                }
                span {
                 text-align:left;
-                width:100%;
+                width:50%;
                }
                 }
             }
-            }
+}
 
-             .flip-card-front:hover {
-                display:none;
-             }
+.flip-card-back {
+  background-color: rgb(221,243,255);
+  color: white;
+  transform: rotateY(180deg);
+  display:flex;
+  justify-content:center;
+  align-items:center;
 
-             .flip-card-back {
-               width:100%;
-               height:100%;
-               display:flex;
-               justify-content:center;
-               flex-direction:column;
-               align-items:center;
-               h3 {
-                 width:95%;
-                 font-weight:900;
-                
-               }
-               h4 {
-                width:95%;
-                 font-size:1.2rem;
-               }
-               p {
-                width:95%;
-                font-size:1.1rem;
-               }
-               background-color:#ddf3ff;
-             }
+  .data {
+    display:flex;
+    justify-content:flex-start;
+      align-items:left;
+     flex-direction:column;
+     width:100%;
+     height:100%;
 
-         }
+     h1 {
+       margin:0.3rem;
+       text-align:left;
+  
+       font-weight:900;
+     }
+     p {
+     padding:0.3rem;
+       font-size:0.9rem;
+      text-align:left;
+      
+      background-color: rgb(221,243,255);
+      z-index:1000;
+      margin-bottom:1rem;
+     }
+  }
+}
      }
       
        }
@@ -165,6 +213,7 @@ width:100%;
   justify-content:space-evenly;
   align-items:center;
   flex-flow: wrap;
+  margin-top:3rem;
   .member {
      width:49%;
      height:15rem;

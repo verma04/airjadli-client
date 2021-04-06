@@ -7,11 +7,22 @@ import Section1 from './Section/Section';
 import Map from './Map/Map'
 
 import Image from 'next/image';
-
-
+import { useQuery } from "react-query";
+import Loading from '../../Loading/Loading';
+const networks = async () => {
+  const res = await fetch("http://localhost:3000/api/client/network");
+  return res.json();
+};
 export default function Home() {
+  const { data, status } = useQuery("networks", networks);
   return (
     <>
+    {status === "error" && <p>Error fetching data</p>}
+      {status === "loading" && 
+      <Loading/>
+      }
+      {status === "success" && (
+          <>
       <Head>
         <title>Home - AirJaldi</title>
       </Head>
@@ -61,12 +72,14 @@ que sunto occuptatur sita volut volo
       </Section>
      
 <Section1/>
-<Map/>
+<Map  data={data} />
  
     
        
       <Footer/>
     
-    </>
+      </>
+      )}
+  </>
   );
 }

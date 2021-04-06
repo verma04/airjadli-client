@@ -4,11 +4,25 @@
 */
 
 @font-face {
-    font-family: FSAlbert  ;
-  src: url('../public//font/Roboto-Regular.otf') format('truetype');
+    font-family: Roboto-Regular  ;
+  src: url('../public//font//Roboto-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+    font-family: SourceSansPro-Bold  ;
+  src: url('../public//font//SourceSansPro-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: SourceSansPro-Regular  ;
+  src: url('../public//font//SourceSansPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,

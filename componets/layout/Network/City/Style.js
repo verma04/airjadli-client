@@ -20,6 +20,7 @@ max-height:50rem;
     justify-content:center;
     width:100%;
     height:100%;
+   
     .flex-1 {
      
         width:50%;
@@ -61,7 +62,8 @@ max-height:50rem;
             flex-direction:column;
             li {
                 margin-top:0.5rem;
-                font-size:1.5rem;
+                font-size:1.2rem;
+                line-height:1.5;
                 text-align:left;
                 width:100%;
                 span {
@@ -78,9 +80,22 @@ max-height:50rem;
         width:50%;
         height:100%;
         position: relative;
+         iframe {
+            width:100%;
+            height:100%; 
+         }
     }
 }
-   
+.btn {
+    position:  fixed;
+    
+    top: 12%;
+    right: 4%;
+    button {
+        padding: 0.5rem;
+    font-size: 1.3rem
+    }
+    }
     
 
   
@@ -168,7 +183,8 @@ height:100%;
 }
 
    
-    
+ 
+
 
   
 

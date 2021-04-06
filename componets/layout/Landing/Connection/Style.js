@@ -106,8 +106,8 @@ align-items:center;
                      
                   }
                   button {
-                     width:10rem;
-                      padding:0.5rem;
+                     width:13rem;
+                      padding:0.7rem;
                       border: none;
                       font-size:1.3rem;
                       padding:0.4rem;

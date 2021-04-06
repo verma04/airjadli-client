@@ -1,6 +1,7 @@
 import React from 'react'
 import  City from '@/componets/layout/Network/City/City'
-import  Navbar from '@/componets/layout/Navbar/Navbar'
+import  Navbar from '@/componets/layout/Navbar/BlueNavbar'
+
 function index({query}) {
     return (
         <div>
@@ -12,8 +13,14 @@ function index({query}) {
 }
 
 index.getInitialProps = async ({query}) => {
-    return {query};
+
+  
+    return { query }
+  
+  
   }
+
+    
 
 
 export default index;
