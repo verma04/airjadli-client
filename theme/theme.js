@@ -104,6 +104,7 @@ button {
   p {
     font-family:  SourceSansPro-Regular;
     word-spacing:0.2rem;
+    font-weight: normal;
     color: ${props => props.theme.colors.grey};
   }
   h3 {
