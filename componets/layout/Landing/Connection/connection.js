@@ -14,7 +14,7 @@ const Navbar = () => {
           <div className="flex-1" >
               <div className='top' >
 
-           <h2> Get a <span>Wireless Internet Connection</span> for Your Home or Office.
+           <h2> Get a <br/> <span>Wireless Internet Connection</span> for Your Home or Office.
 </h2>  
               </div>
               <div className='bottom' >

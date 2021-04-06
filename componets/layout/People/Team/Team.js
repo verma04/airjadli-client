@@ -9,8 +9,9 @@ import Head from './Head'
 import Network from './Netwrk'
 import Masonry from "react-responsive-masonry"
 import { useQuery } from "react-query";
+import Loading from '../../../Loading/Loading';
 const fetchAllPeople = async () => {
-  const res = await fetch("http://localhost:3000/api/client/allpeople");
+  const res = await fetch("https://airjadli.herokuapp.com/api/client/allpeople");
   return res.json();
 };
 
@@ -23,7 +24,7 @@ function Aboutus({page}) {
     return (
       <>
       {status === "error"  && <p>Error fetching data</p>}
-      {status === "loading" && <p></p>}
+      {status === "loading" && <Loading/>  }
       {status === "success" && (
         
         <Section>

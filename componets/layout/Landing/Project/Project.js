@@ -26,7 +26,7 @@ export default function Project() {
         src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190590/AirJaldi/za5xtu8v76hx46byd9eq.jpg"
         alt="Picture of the author"
         layout="fill"
-        objectFit="contain"
+        objectFit="cover"
       />
    </div>
 
@@ -54,7 +54,7 @@ quam hitatibus et ut in.</p>
      src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190591/AirJaldi/f2j0357fxvicngshvsef.jpg"
      alt="Picture of the author"
      layout="fill"
-     objectFit="contain"
+     objectFit="cover"
    />
 </div>
 
@@ -84,7 +84,7 @@ quam hitatibus et ut in.</p>
         src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190590/AirJaldi/qqgyle8fzxj4ukuou7vo.jpg"
         alt="Picture of the author"
         layout="fill"
-        objectFit="contain"
+        objectFit="cover"
       />
    </div>
 

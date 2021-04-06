@@ -11,7 +11,7 @@ import { useQuery } from "react-query";
 import Loading from '@/componets/Loading/Loading';
 const fetchNetwork = async ( id) => {
   const idd = id.queryKey[1]
-   const res = await fetch(`http://localhost:3000/api/client/network/${idd}`);
+   const res = await fetch(`https://airjadli.herokuapp.com/api/client/network/${idd}`);
    return res.json();
  };
 
@@ -21,7 +21,7 @@ function City({id}) {
 
   const [people, setpeople] = useState("");
   useEffect( async () => {
-    const res = await axios.get(`http://localhost:3000/api/client/people/${id}`)
+    const res = await axios.get(`http://https://airjadli.herokuapp.com/api/client/people/${id}`)
    
   
     const data = await res.data;
@@ -52,7 +52,7 @@ function City({id}) {
       if(people === '')
       {
         return (
-          null
+          <Loading/>
         )
       }  
 

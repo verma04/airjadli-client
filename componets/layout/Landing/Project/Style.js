@@ -69,6 +69,8 @@ flex-direction:column;
      
       }
       .data {
+          width:100%;
+          border: 1px solid red;
           .name {
           span {
               font-size:1.2rem;
@@ -78,7 +80,7 @@ flex-direction:column;
               font-weight:900; 
           }
           }
-      width:90%;
+ 
       height:50%;
       
       display:flex;

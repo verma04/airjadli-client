@@ -37,28 +37,32 @@ align-items:center;
     }
 
     .flex {
-        height:40rem;
+        height:60rem;
         
-        width:80%;
+        width:76%;
         display:flex;
-        justify-content:space-evenly;
+        justify-content:center;
        align-items:center;
-        
+       
        .flex-1 {
-         width:20%;
+         width:30%;
+        
          height:100%;
        
          color: white;
          display:flex;
-         justify-content:flex-start;
+         align-items:center;
+         justify-content:center;
          flex-direction:column;
+         
          p{
-           margin-top:50%;
-       
-           line-height:1.5rem;
-           font-size:1.3rem;
           
-           text-align:center;
+         
+           line-height:1.5rem;
+           font-size:1.5rem;
+           width:80%;
+           text-align:left;
+         
 
          }
          .link {
@@ -67,13 +71,14 @@ margin-top:1rem;
 cursor: pointer;
 justify-content:flex-start;
 color:${props => props.theme.colors.blue};
-i {
-    font-size:1.2rem;
+img {
+  width:2rem;
 }
 span {
   margin-left:0.5rem;
-    font-size:1.2rem;
+    font-size:1rem;
 }
+margin-bottom:40%;
 
   }
         
