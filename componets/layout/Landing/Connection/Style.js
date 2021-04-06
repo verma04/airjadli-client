@@ -121,6 +121,8 @@ align-items:center;
                     
                       span {
                            font-weight:1000;
+                           font-family: SourceSansPro-Bold ;
+            
                       }
                   }
 
