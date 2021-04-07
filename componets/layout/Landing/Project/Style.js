@@ -26,7 +26,7 @@ flex-direction:column;
          flex-direction:column;
 
          .head {
-            width:80%;
+            width:76%;
             height:15%;
             display:flex;
             justify-content:center;
@@ -52,7 +52,7 @@ flex-direction:column;
       justify-content:space-between;
       align-items:center;
       height:100%;
-      width:80%;
+      width:76%;
     
       .grid1 {
            width:30%;

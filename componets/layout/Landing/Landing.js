@@ -10,9 +10,26 @@ import Project from './Project/Project'
 import InNews from './News/inNews'
 import Map from './Map/Map'
 import Partner from '../partners/partner'
+import { useQuery } from "react-query";
+import Loading from '../../Loading/Loading';
+const fetchNews = async () => {
+  const res = await fetch(" https://airjadli.herokuapp.com/api/client/getNews");
+  return res.json();
+};
+
 export default function Home() {
+  const { data, status } = useQuery("news", fetchNews);
   return (
     <>
+    {status === "error" && <p>Error fetching data</p>}
+      {status === "loading" && 
+      
+   <Loading/>
+      
+      }
+      {status === "success" && (
+    <>
+      
       <Head>
         <title>Home - AirJaldi</title>
       </Head>
@@ -213,12 +230,18 @@ Our service-team is ready respond to ...</p>
       <Connection/>
       <Project/>
       <News/>
-      <InNews/>
+      <InNews  data={data}/>
 
       <Partner/>
       
        
       <Footer/>
+    
+      </>
+       )}
+      
+       
+    
     
     </>
   );
