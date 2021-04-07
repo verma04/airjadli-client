@@ -28,7 +28,7 @@ export default function Home({data}) {
      <div className="head-2" >
          <h2>WEST
 
-         <div id="north" class="dropdown-content">
+         <div id="west" class="dropdown-content">
 
                 
 <div className="content" >

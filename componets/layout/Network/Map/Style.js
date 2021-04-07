@@ -45,6 +45,7 @@ height:70rem;
   width:100%;
   height:50%;
   h2 {
+       position: relative;
       font-weight:900;
       cursor: pointer;
       .dropdown-content {
@@ -77,13 +78,14 @@ height:70rem;
          
         flex-direction:column;
         align-items:center;
-       
+        margin-top:1.3rem;
         span {
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             background-color:white;
            height:18%;
            font-weight: normal;
-           width:100%;
+           width:12rem;
+          
            text-transform:uppercase;
            font-size:1.3rem;
            display:flex;
@@ -101,6 +103,10 @@ height:70rem;
          }
           
         }
+        span:hover {
+            background-color: #ddf3ff;
+
+        }
       
       
      }
@@ -114,6 +120,11 @@ height:70rem;
         #north {
             margin-left:30%;
         }
+
+        #east {
+            margin-left:30%;
+        }
+      
       
     
   }

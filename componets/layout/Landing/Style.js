@@ -17,7 +17,7 @@ height:100%;
     .grid {
 
         width:100%;
-        height:45rem;
+        height:48rem;
         position: relative;
  
        

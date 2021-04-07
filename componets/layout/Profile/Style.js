@@ -21,7 +21,7 @@ height:100%;
         top: 6%;
     height: 70rem;
     width: 39%;
-    left: 2%;
+    left: 4%;
     position: absolute;
     -webkit-transform: rotate( 
 1deg
