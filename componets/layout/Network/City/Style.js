@@ -52,22 +52,26 @@ max-height:50rem;
             justify-content:flex-start;
             align-items:center;
             flex-direction:column;
+            justify-content:flex-start;
+         
+          
             ul {
-              
+                margin-left:25%;
                 margin-top:1rem;
                
                 height:50%;
-                width:35%;
+               
+                
                 display:flex;
-            justify-content:center;
-            align-items:center;
+            justify-content:flex-start;
+            align-items:flex-start;
             flex-direction:column;
             li {
                 margin-top:0.5rem;
                 font-size:1.2rem;
                 line-height:1.5;
                 text-align:left;
-                width:100%;
+                width:50%;
                 span {
                     color:${props => props.theme.colors.blue};
                 }
@@ -150,11 +154,11 @@ height:100%;
           
             display:flex;
             justify-content:flex-start;
-            border: 1px solid red;
+            align-items:center;
             flex-direction:column;
             ul {
                 margin-top:1rem;
-                 border: 1px solid red;
+               
                 height:50%;
                 width: 90%;
                 display:flex;

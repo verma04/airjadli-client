@@ -49,7 +49,7 @@ margin-top:5rem;
         align-items:center;
         flex-direction:column;
         height:100%;
-        width:80%;
+        width:76%;
         .head {
              width:100%;
              height:10%;

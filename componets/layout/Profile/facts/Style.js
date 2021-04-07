@@ -19,7 +19,7 @@ margin-top:5rem;
        display:flex;
        justify-content:space-between;
        flex-direction:column;
-       width:80%;
+       width:76%;
        .head {
            width:100%;
            height:5%;

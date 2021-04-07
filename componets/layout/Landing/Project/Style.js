@@ -107,6 +107,7 @@ i {
 }
 span {
   font-size:1.2rem;
+  margin-left:0.5rem;
 }
 
 }

@@ -19,7 +19,7 @@ margin-top:5rem;
        display:flex;
        justify-content:space-between;
       
-       width:80%;
+       width:76%;
       .flex-1 {
           width:40%;
           height:100%;
