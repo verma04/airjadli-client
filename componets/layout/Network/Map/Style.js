@@ -11,19 +11,19 @@ export const  Section = styled.section`
 justify-content:center;
 height:100%;
 margin-top:5rem;
-height:70rem;
+height:100rem;
  background-color:#ddf3ff;
 .grid {
     display:flex;
     justify-content:center;
      align-items:center;
      flex-direction:column;
-     width:80%;
+     width:100%;
      height:100%;
       position: relative;
      .head  {
-       width:100%;
-         height:15%;
+       width:76%;
+         height:10%;
           
          display:flex;
     justify-content:center;
@@ -35,6 +35,7 @@ height:70rem;
          font-size:1.7rem;
          h2 {
             color:${props => props.theme.colors.blue};
+           
          }
      }
   
@@ -45,8 +46,10 @@ height:70rem;
   width:100%;
   height:50%;
   h2 {
+    font-family: SourceSansPro-Bold;
+            font-family:1000;
        position: relative;
-      font-weight:900;
+    
       cursor: pointer;
       .dropdown-content {
           display:none;
@@ -96,7 +99,7 @@ height:70rem;
          
            height:3rem;
            .point {
-           color:red;
+       
            position: absolute;
           
      display:none;
@@ -171,8 +174,9 @@ height:70rem;
      }
      }
      .map {
-    width:100%;
-    height:85%;
+  
+    width:82%;
+    height:90%;
     
     position: relative;
 

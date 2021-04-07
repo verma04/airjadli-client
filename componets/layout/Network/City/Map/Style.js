@@ -57,7 +57,7 @@ margin-top:5rem;
        display:flex;
        justify-content:space-evenly;
         flex-direction:column;
-        width:80%;
+        width:76%;
   
         
         h3 {

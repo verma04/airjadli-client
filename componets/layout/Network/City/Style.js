@@ -33,10 +33,11 @@ max-height:50rem;
             width:100%;
             height:10%;
             display:flex;
-            justify-content:center;
+            justify-content:flex-start;
+            margin-left:50%;
             align-items:flex-end;
             h1 {
-                width:50%;
+                width:35%;
                 text-align:left;
                 color:${props => props.theme.colors.blue};
                 font-weight:1000;
@@ -52,10 +53,11 @@ max-height:50rem;
             align-items:center;
             flex-direction:column;
             ul {
+              
                 margin-top:1rem;
                
                 height:50%;
-                width:50%;
+                width:35%;
                 display:flex;
             justify-content:center;
             align-items:center;
@@ -148,11 +150,11 @@ height:100%;
           
             display:flex;
             justify-content:flex-start;
-            align-items:center;
+            border: 1px solid red;
             flex-direction:column;
             ul {
                 margin-top:1rem;
-               
+                 border: 1px solid red;
                 height:50%;
                 width: 90%;
                 display:flex;
