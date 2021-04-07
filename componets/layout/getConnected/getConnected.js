@@ -4,13 +4,24 @@ import Footer from '../Footer/Footer'
 import { Section} from './Style'
 import  Job from './Job/job'
 
+import { useQuery } from "react-query";
 import Image from 'next/image';
+import Loading from '../../Loading/Loading';
 
+const fetchCareer = async () => {
+  const res = await fetch("https://airjadli.herokuapp.com/api/client/getCarrer");
+  return res.json();
+};
 
 
 export default function Home() {
+  const { data, status } = useQuery("carrer",fetchCareer);
   return (
     <>
+    {status === "error" && <p>Error fetching data</p>}
+      {status === "loading" &&  <Loading/> }
+      {status === "success" && (
+          <>
       <Head>
         <title>Home - AirJaldi</title>
       </Head>
@@ -19,7 +30,7 @@ export default function Home() {
     <div class="grid"      >
     <Image
               className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190582/AirJaldi/ck6ozlnivejkb7q1coqe.jpg'
+        src={data.carrerAvatar}
        
         layout="fill"
        
@@ -37,11 +48,7 @@ export default function Home() {
   <div class='grid1' >
 
   <h1>
-  Anduntias experat. Millabor rem et re
-nost, aceperuptam apere quis doluptur,
-odissunt, quo oditiore elibus esent rem.
-Ut et, cupis exerciisquo videseque nis est
-que sunto occuptatur sita volut volo
+{data.carrerDescription}
       </h1>
 
    
@@ -62,11 +69,13 @@ que sunto occuptatur sita volut volo
       </Section>
      
 
-    <Job/>
+    <Job partner={data.carrer} />
       
        
       <Footer/>
     
-    </>
+      </>
+      )}
+  </>
   );
 }

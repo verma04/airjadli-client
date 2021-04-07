@@ -5,13 +5,23 @@ import { Section } from './Style'
 import NewsLetter from '../NewsLetter/News'
 import Section1 from './Section/Section'
 
-
+import { useQuery } from "react-query";
 import Image from 'next/image';
+import Loading from '../../Loading/Loading';
+const fetchservices = async () => {
+  const res = await fetch("https://airjadli.herokuapp.com/api/client/getServices");
+  return res.json();
+};
 
 
 export default function Home() {
+  const { data, status } = useQuery("services", fetchservices);
   return (
     <>
+    {status === "error" && <p>Error fetching data</p>}
+      {status === "loading" && <Loading/>}
+      {status === "success" && (
+          <>
       <Head>
         <title>dsd - AirJaldi</title>
       </Head>
@@ -24,7 +34,7 @@ export default function Home() {
    </div>
     <Image
               className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190579/AirJaldi/ctexqzri0qnr9zfhtynk.jpg'
+        src={data.servicesAvatar}
        
         layout="fill"
        
@@ -36,11 +46,7 @@ export default function Home() {
   <div class='grid1' >
 
   <h1>
-  Anduntias experat. Millabor rem et re
-nost, aceperuptam apere qudssdsdis doluptur,
-odissunt, quo oditiore elibus esent rem.
-Ut et, cupis exerciisquo videseque nis est
-que sunto occuptatur sita volut volo
+{data.servicesDescription}
       </h1>
 
    
@@ -60,12 +66,14 @@ que sunto occuptatur sita volut volo
 
       </Section>
      
-<Section1/>
+<Section1 data={data} />
  
 <NewsLetter/>
        
       <Footer/>
     
-    </>
+      </>
+      )}
+  </>
   );
 }

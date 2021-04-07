@@ -19,7 +19,7 @@ position: relative;
         height: 40rem;
 
         .bird {
-        top: 6%;
+        top: 8%;
     height: 70rem;
     width: 39%;
     left: 2%;
@@ -57,7 +57,7 @@ position: relative;
         justify-content:space-between;
         align-items:center;
         height:100%;
-        width:80%;
+        width:76%;
       
         .grid1 {
              width:50%;

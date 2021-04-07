@@ -36,7 +36,7 @@ height:100%;
     }
     .card {
         position:absolute;
-        
+        bottom:7%;
         display:flex;
         justify-content:center;
         align-items:center;
@@ -48,7 +48,7 @@ height:100%;
         justify-content:space-between;
         align-items:center;
         height:100%;
-        width:80%;
+        width:76%;
       
         .grid1 {
              width:50%;
@@ -72,7 +72,6 @@ height:100%;
     
     }
     }
-
   
 
 }

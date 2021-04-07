@@ -88,7 +88,7 @@ height:100rem;
            height:18%;
            font-weight: normal;
            width:12rem;
-          
+            text-align:left;
            text-transform:uppercase;
            font-size:1.3rem;
            display:flex;
@@ -107,7 +107,7 @@ height:100rem;
           
         }
         span:hover {
-            background-color: #ddf3ff;
+           border-bottom: 2px solid ;
 
         }
       
