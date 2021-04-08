@@ -63,6 +63,7 @@ align-items:center;
         justify-content:center;
         flex-direction:column;
         align-items:center;
+        cursor: pointer;
         .wrapper {
      
        
