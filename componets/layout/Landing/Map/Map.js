@@ -26,9 +26,9 @@ readily available to all.</p>
 </div>
 <div class="flex-2" >
 
-<Image
+<img
               className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1614312334/AirJaldi/navay4zmiewrhrwidudm.jpg"
+        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617867710/enzr8rp5kqmb6hmxbjed.png"
         alt="Picture of the author"
         layout="fill"
         objectFit="contain"
