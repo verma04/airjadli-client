@@ -86,10 +86,12 @@ margin-top:5rem;
    
               p {
                   width:90%;
+                  font-size:2rem;
               } 
              
              span {
                margin-top:1rem;
+               font-size:1.5rem;
              }
               
        
