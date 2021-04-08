@@ -33,7 +33,7 @@ function Aboutus({page}) {
     
                {page.category.filter(element => element.category !== "Member").map((number) => 
                <>
-               <h2  id={active === number.category ? "active" : ""}  onClick={() => setActive(number.category)  }   >{number.category}</h2>
+               <span id={active === number.category ? "active" : ""}  onClick={() => setActive(number.category)  }   >{number.category}</span>
              </>
                
    
@@ -50,9 +50,7 @@ function Aboutus({page}) {
             
                    </div> 
               
-                <div className="btn" >
-                  <button>Load More</button>
-                </div>
+                
                </div> 
         </Section>
 

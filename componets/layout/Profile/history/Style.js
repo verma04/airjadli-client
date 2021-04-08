@@ -14,12 +14,12 @@ margin-top:5rem;
 
    .flex{
 
-       height:35rem;
+       height:45rem;
 
        display:flex;
-       justify-content:space-between;
+       justify-content:flex-start;
       
-       width:76%;
+       width:100%;
       .flex-1 {
           width:40%;
           height:100%;
@@ -29,12 +29,13 @@ margin-top:5rem;
 
       }
       .flex-2 {
+          margin-left:7%;
         display:flex;
        justify-content:space-between;
        align-items:center;
        flex-direction:column;
  
-       width:55%;
+       width:40%;
        height:100%;
        .head {
            display:flex;

@@ -54,10 +54,10 @@ Bihar: Bodhgaya District</p>
                <div className="right" >
 
                <div className="bottom" >
-                         <p>* This number includes fixed wireless and
+                         <p>* This number includes fixed wireless and
 hotspot clients</p>
 <p>
-** Many of our clients are institutions and bu-
+**Many of our clients are institutions and bu-
 siness. These clients in turn enable access
 to multiple users. The number provided
 here is an estimate of the number of these

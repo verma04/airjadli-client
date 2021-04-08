@@ -14,7 +14,7 @@ margin-top:5rem;
 
    .flex{
 
-       height:20rem;
+       height:24rem;
 
        display:flex;
        justify-content:space-between;
@@ -50,7 +50,7 @@ margin-top:5rem;
       flex-direction:column;
       .img {
           position: relative;
-          width:90%;
+          width:100%;
           height: 60%;
         
       }

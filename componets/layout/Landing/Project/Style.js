@@ -124,7 +124,7 @@ span {
     .grid-1 {
         margin-top:5rem;
         width:100%;
-        height:30rem;
+        height:35rem;
    
         display:flex;
         justify-content:center;
@@ -151,7 +151,7 @@ span {
                 flex-direction:column;
                 h2 {
                     width:70%;
-                    font-size:1.7rem;
+                    font-size:2rem;
                     
                 }
                 span {

@@ -31,12 +31,13 @@ margin-top:5rem;
       
       
        
-       h2 {
+      span {
           margin-left:1rem;
           margin-right:1rem;
          z-index:1000;
          text-transform:uppercase;
          cursor: pointer;
+         font-size:1.2rem;
     color: ${props => props.theme.colors.blue};
    
        }
@@ -162,11 +163,12 @@ background-color: rgb(221,243,255);
   }
 }
      }
-      
-       }
+     .btn {
 
-       .btn {
+       width:100%;
          margin-top:5rem;
+         display:flex;
+         justify-content:center;
          button {
      font-size:1.2rem;
      width:10rem;
@@ -176,6 +178,9 @@ background-color: rgb(221,243,255);
      background-color:white;
          }
        }
+       }
+
+     
 
    }
 }
