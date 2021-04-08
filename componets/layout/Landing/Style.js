@@ -92,7 +92,9 @@ height:100%;
     }
     .head {
         h2 {
+            font-size:1.8rem;
         text-align:left;
+     
     }
 
     }
@@ -171,12 +173,15 @@ margin-top:3rem;
         display:flex;
         justify-content:space-evenly;
         flex-direction:column;
-      
+      h2 {
+        font-size:1.8rem;
+      }
     p {
        color: #2f3435; 
     }
     .head {
         h2 {
+           
         text-align:left;
     }
 

@@ -21,7 +21,7 @@ export default function Home() {
   const { data, status } = useQuery("news", fetchNews);
   return (
     <>
-    {status === "error" && <p>Error fetching data</p>}
+    {status === "error" && <p></p>}
       {status === "loading" && 
       
    <Loading/>
@@ -65,7 +65,7 @@ export default function Home() {
    </div>
 
    <div className="data" >
-     <h2>WHO WE ARE</h2>
+   <div className="head" >   <h2>WHO WE ARE</h2> </div>
      <p>AirJaldi, a Class A ISP (Pan-India), is a
 leading innovator and implementer of
 technically and economically viable
@@ -118,7 +118,7 @@ sectors ...</p>
  
 
    <div className="data" >
-     <h2>GET CONNECTED</h2>
+   <div className="head" > <h2>GET CONNECTED</h2></div> 
      <p>With custom-made solutions for your
 home and office and our wifi hotspots
 all over India you are always connected.
