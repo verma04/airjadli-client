@@ -41,7 +41,7 @@ height:100%;
         .grid1 {
             position: relative;
              width:30%;
-             box-shadow: rgb(0 0 0 / 10%) 0px 3px 30px, rgb(0 0 0 / 10%) 0px 3px 20px;
+            
          cursor: pointer;
              margin-top:2rem;
              background-color:white;
@@ -56,7 +56,7 @@ height:100%;
         }
         .data {
         width:90%;
-        height:12rem;
+        height:13rem;
          margin-bottom:2rem;
         display:flex;
         justify-content:space-evenly;
@@ -143,6 +143,7 @@ i {
     font-size:1.2rem;
 }
 span {
+    margin-left:0.5rem;
     font-size:1.2rem;
 }
 

@@ -82,17 +82,19 @@ export default function Home({}) {
 
   <h2>{number.title}</h2>
   <p>
-  <ReadMoreReact text={number.newsDescription}
+
+ 
+  {number.newsDescription}
        
        
-             readMoreText="  click here to read more"/>
+            
   </p>
-<div className='link' >
+  <div className='link' >
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<span>  Learn more </span> </div>
 
-</div>
 
-
-<span className='status' >{number.status} {moment(number.created).format("DD")} {moment(number.created).format("MMMM")} {moment(number.created).format("YYYY")}   </span>
+{/* <span className='status' >{number.status} {moment(number.created).format("DD")} {moment(number.created).format("MMMM")} {moment(number.created).format("YYYY")}   </span> */}
 </div>
 </div>
    )}
