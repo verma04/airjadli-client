@@ -36,7 +36,7 @@ height:100%;
         justify-content:space-between;
         align-items:center;
         height:100%;
-        width:80%;
+        width:76%;
       
         .grid1 {
              width:50%;

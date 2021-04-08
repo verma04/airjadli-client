@@ -34,7 +34,7 @@ margin-top:5rem;
               justify-content:center;
               align-items:left;
               flex-direction:column;
-              width:80%;
+              width:76%;
               
          margin-top:5rem;
               .set {
