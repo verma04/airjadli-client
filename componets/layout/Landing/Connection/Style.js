@@ -16,7 +16,7 @@ align-items:center;
     margin-top:5rem;
 
     .flex {
-        height:23rem;
+        height: 27rem;
          
         width:76%;
         display:flex;
@@ -26,14 +26,15 @@ align-items:center;
        .flex-1 {
          width:48%;
          height:100%;
+        
          background-color: ${props => props.theme.colors.darkblue};
          color: white;
          display:flex;
-         justify-content:space-around;
+         justify-content: flex-start;
          flex-direction:column;
          .top {
             
-             height:50%;
+             height:35%;
             
              display:flex;
              justify-content:center;
@@ -51,7 +52,7 @@ align-items:center;
          }
          .bottom {
              width:100%;
-             height:50%;
+             height:40%;
              display:flex;
              justify-content:center;
               flex-direction:column;
@@ -63,6 +64,8 @@ align-items:center;
             span {
                 font-family: SourceSansPro-Bold ;
                 font-weight:1000;
+                margin-left:0.5rem;
+                text-decoration: underline;
             }
              }
          }
@@ -78,13 +81,14 @@ align-items:center;
          flex-direction:column;
          .top {
              width:100%;
-             height:40%;
-          
+             height:50%;
+     
              display:flex;
              justify-content:center;
              flex-direction:column;
            
              .wrapper {
+                 margin-left:8%;
                   width:30%;
                   height:80%;
                   
@@ -95,7 +99,7 @@ align-items:center;
          }
          .bottom {
              width:90%;
-             height:60%;
+             height:50%;
             
              display:flex;
                   justify-content:space-around;
@@ -111,9 +115,10 @@ align-items:center;
                       padding:0.7rem;
                       border: none;
                       font-size:1.3rem;
-                      padding:0.4rem;
+                      padding:0.6rem;
                       background-color: ${props => props.theme.colors.blue};
-                    color:white
+                    color:white;
+                    font-family: SourceSansPro-Bold ;
                   }
                   h2 {
                       word-spacing:0.2rem;

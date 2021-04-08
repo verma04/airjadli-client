@@ -180,6 +180,24 @@ span {
             }
         }
     }
+
+    .btn {
+        display:flex;
+        justify-content:center;
+        height:15%;
+
+   margin-top:4rem;
+        align-items:center;
+        button {
+            height:3.5rem; 
+            width:13rem;
+            color: ${props => props.theme.colors.blue};
+            font-weight:900;
+            font-size:1.3rem;
+            background-color:white;
+            border: 1px solid  ${props => props.theme.colors.blue};
+        }
+    }
    
 
   

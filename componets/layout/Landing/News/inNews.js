@@ -51,7 +51,7 @@ export default function News({data}) {
 </div>
 </div>
 <div className='btn' >
-<button onClick={() => router.push('/news')} >See all news</button>
+<button onClick={() => router.push('/news')} >see all news</button>
 </div>
     </div>
 

@@ -24,7 +24,7 @@ align-items:center;
          flex-direction:column;
 
          .head {
-            width:80%;
+            width:78%;
             height:15%;
             display:flex;
             justify-content:center;
@@ -122,16 +122,16 @@ span {
         display:flex;
         justify-content:center;
         height:15%;
-
+   margin-top:2rem;
         align-items:center;
         button {
-            height:50%; 
-            width:10rem;
+            height:60%; 
+            width:13rem;
             color: ${props => props.theme.colors.blue};
             font-weight:900;
             font-size:1.3rem;
             background-color:white;
-            border: 2px solid  ${props => props.theme.colors.blue};
+            border: 1px solid  ${props => props.theme.colors.blue};
         }
     }
 

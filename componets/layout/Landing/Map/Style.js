@@ -37,7 +37,7 @@ align-items:center;
     }
 
     .flex {
-        height:60rem;
+        height:50rem;
         
         width:76%;
         display:flex;
@@ -45,7 +45,7 @@ align-items:center;
        align-items:center;
        
        .flex-1 {
-         width:30%;
+         width:25%;
         
          height:100%;
        
@@ -60,7 +60,7 @@ align-items:center;
          
            line-height:1.5rem;
            font-size:1.5rem;
-           width:80%;
+           width:100%;
            text-align:left;
          
 
@@ -86,7 +86,8 @@ margin-bottom:40%;
         
        }
        .flex-2 {
-         width:70%;
+         width:75%;
+         
          height:100%;
         
          display:flex;
@@ -94,6 +95,10 @@ margin-bottom:40%;
          align-items:center;
          flex-direction:column;
          position:relative;
+         img {
+           width:100%;
+           height:100%;
+         }
         
          .point {
            color:${props => props.theme.colors.lightblue};

@@ -20,11 +20,11 @@ const Navbar = () => {
        <h3>info@airjaldi.net</h3>
      </div>
 
-     <div className ="contact" >
+     <div className ="contact1" >
        <h3>For New Connections & Support:</h3>
        <h3>support@airjaldi.net</h3>
      </div>
-     <div className ="contact" >
+     <div className ="contact1" >
        <h3>Call Us Toll-Free:</h3>
        <h3>1-800-121-3648</h3>
      </div>
@@ -37,7 +37,7 @@ const Navbar = () => {
            
            <div className='icon' >
            <i class="fab fa-facebook-f"></i>
-           <i class="fab fa-twitter-square"></i>
+           <i class="fab fa-twitter"></i>
            <i class="fab fa-youtube"></i>
 
 
@@ -56,11 +56,11 @@ const Navbar = () => {
        
      </div>
 
-     <div className ="contact" >
+     <div className ="contact1" >
        <h3>TERMS AND CONDITIONS</h3>
      
      </div>
-     <div className ="contact" >
+     <div className ="contact2" >
        <h3>© AirJaldi 2021</h3>
        </div>
 

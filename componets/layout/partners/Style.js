@@ -31,6 +31,7 @@ export const  Item = styled.div`
    }
    }
     .center{
+  
      width:100%;
      .img-wrapper {
        display:flex;
@@ -88,6 +89,7 @@ export const  Item = styled.div`
    }
   
    .center{
+    margin-top:5rem;
      width:100%;
    
      .img-wrapper {

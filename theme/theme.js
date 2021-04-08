@@ -148,11 +148,7 @@ line-height:1.1;
     border-radius:10px;
     color: #2f3435; 
   }
-  button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  transform: scale(1.1); 
  
-}
   button {
 border-radius:5px;
 font-family:  SourceSansPro-Regular;

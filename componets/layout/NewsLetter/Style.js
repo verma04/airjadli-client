@@ -8,12 +8,12 @@ export const News = styled.div`
 display:flex;
 justify-content:center;
 height:100%;
-background-color: ${props => props.theme.colors.blue};
+background-color: #1690D2;
 margin-top:5rem;
 @media (min-width: 1035px) {
 
     .flex {
-        height:15rem;
+        height:20rem;
       
         width:80%;
         display:flex;
@@ -22,18 +22,26 @@ margin-top:5rem;
        flex-direction:column;
 
        h2 {
-         font-size:2.2rem;
+        
+         margin-top:2rem;
+         font-size:3.2rem;
          color:white;
+        
+         width:100%;
+         text-align:center;
          word-spacing: 0.1rem;
+       font-family:1000;
        }
        button {
-         font-size:1.5rem;
-         color:${props => props.theme.colors.blue};
+         font-size:1.4rem;
+         color:#1690D2;
          background-color:white;
-         padding:0.5rem;
+         padding:0.7rem;
+        
          border:none;
          font-weight:900;
          border-radius:0.5rem;
+         margin-bottom:1rem;
 
        }
     

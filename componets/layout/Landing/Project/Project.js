@@ -146,6 +146,10 @@ Now, we no longer need to commute
 </div>
 
 
+<div className='btn' >
+<button onClick={() => router.push('/projects')} >see all projects</button>
+</div>
+
       </Section>
 
      
