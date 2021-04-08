@@ -86,7 +86,7 @@ const dat  =   list.filter(element => element.memberCategory === active)
 <div  className="team"  >
 <Masonry columnsCount={3} gutter="10px">
 {data.map((number) =>  {
- const height = Math.random() * (500 - 350) + 300;
+ const height = Math.random() * (500 - 350) + 350;
 
  return (
       <div  style={{height: `${height}px`}} class="flip-card">
