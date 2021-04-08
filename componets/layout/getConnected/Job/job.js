@@ -31,7 +31,7 @@ export default function Job({partner}) {
             <div   key={number._id} className="flex-1" >
       <div className="head" >
           <h2>{number.title}</h2>
-          <h2>{number.location}</h2>
+    
       </div>
       
       <div className='data' >
