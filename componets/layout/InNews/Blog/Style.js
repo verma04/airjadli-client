@@ -11,8 +11,8 @@ export const Section = styled.section`
    height:100%;
    .flex {
      margin-top:12vh;
-     width:60%;
-     height:60%;
+     width:76%;
+     height:76%;
     
      .single-post{
          display:flex;

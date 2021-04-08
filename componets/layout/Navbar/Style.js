@@ -139,7 +139,7 @@ width:100%;
       width:100%;
       background-color:#1690d2;
       .input {
-         width:80%;
+         width:76%;
         
          height:100%;
          display:flex;
