@@ -67,8 +67,11 @@ align-items:center;
          }
          .link {
 display:flex;
-margin-top:1rem;
+margin-top:2rem;
 cursor: pointer;
+width:100%;
+
+
 justify-content:flex-start;
 color:${props => props.theme.colors.blue};
 img {
