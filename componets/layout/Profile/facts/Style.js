@@ -27,6 +27,7 @@ margin-top:5rem;
        justify-content:center;
        flex-direction:column;
        h1 {
+           
     color: ${props => props.theme.colors.blue};
        }
 
@@ -55,6 +56,7 @@ margin-top:5rem;
         
       }
       h2 {
+        
             text-align:center;
             font-weight:900;
           }
