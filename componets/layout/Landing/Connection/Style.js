@@ -108,9 +108,14 @@ align-items:center;
                   .text {
                       width:90%;
                       color:white;
+                      h2 {
+                          font-size:1.7rem;
+                          line-height:1.2;
+                      }
                      
                   }
                   button {
+                      margin-bottom:0.5rem;
                      width:13rem;
                       padding:0.7rem;
                       border: none;

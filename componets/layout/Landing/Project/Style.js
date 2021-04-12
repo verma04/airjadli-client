@@ -144,13 +144,13 @@ span {
             align-items:center;
             .text {
                 width:90%;
-                height:80%;
+                height:90%;
                 display:flex;
                 justify-content:center;
             
                 flex-direction:column;
                 h2 {
-                    width:70%;
+                    width:80%;
                     font-size:2rem;
                     
                 }
@@ -161,6 +161,7 @@ span {
               
             }
             .link {
+               
                 width:90%;
                 height:10%;
                 display:flex;

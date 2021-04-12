@@ -150,7 +150,7 @@ line-height:1.1;
   }
  
   button {
-border-radius:5px;
+border-radius:10px;
 font-family:  SourceSansPro-Regular;
 transition: transform .8s;
 
