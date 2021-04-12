@@ -14,7 +14,7 @@ margin-top:5rem;
 
    .flex{
 
-       height:40rem;
+       height:37rem;
 
        display:flex;
        justify-content:space-between;
@@ -28,6 +28,9 @@ margin-top:5rem;
        flex-direction:column;
        h1 {
     color: ${props => props.theme.colors.blue};
+       }
+       h2 {
+           margin-top:1rem;
        }
 
        }
@@ -86,6 +89,12 @@ margin-top:5rem;
           display:flex;
           flex-direction:column;
            justify-content:center;
+           p {
+               margin-bottom:1rem;
+            
+                   width:80%;
+               
+           }
            }
 
        }

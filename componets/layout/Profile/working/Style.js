@@ -60,6 +60,7 @@ margin-top:5rem;
    
         flex-direction:column;
         h2 {
+          
         color:white; 
       }
            
@@ -79,6 +80,7 @@ margin-top:5rem;
           color:white;
       }
       h2 {
+        font-family:SourceSansPro-Bold;
         color:white; 
       }
            

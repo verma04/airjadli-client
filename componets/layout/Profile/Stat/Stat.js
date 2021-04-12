@@ -7,6 +7,7 @@ function Stat() {
              <div class="flex" >
            <div class="head" >
                <h1>VITAL STATISTICS</h1>
+                <h2>Rural Broadband Pvt. Ltd.</h2>
                 </div>
 
                <div className="data" >
@@ -55,7 +56,8 @@ Bihar: Bodhgaya District</p>
 
                <div className="bottom" >
                          <p>* This number includes fixed wireless and
-hotspot clients</p>
+hotspot clients.
+</p>
 <p>
 **Many of our clients are institutions and bu-
 siness. These clients in turn enable access

@@ -119,7 +119,7 @@ const dat  =   list.filter(element => element.memberCategory === active)
 )}
 </Masonry>
 <div className="btn" >
-                  <button>Load More</button>
+                  <button>load more</button>
                 </div>
         </div>
    

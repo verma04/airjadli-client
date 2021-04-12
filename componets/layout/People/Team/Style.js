@@ -171,8 +171,10 @@ background-color: rgb(221,243,255);
          justify-content:center;
          button {
      font-size:1.2rem;
-     width:10rem;
-     height:2rem;
+     width:13rem;
+    
+     font-weight:900;
+     padding:0.6rem;
      color: #0085C5;
      border: 1px solid #0085C5;
      background-color:white;
