@@ -41,7 +41,7 @@ align-items:center;
         
         width:76%;
         display:flex;
-        justify-content:center;
+        justify-content:space-between;
        align-items:center;
        
        .flex-1 {
@@ -86,7 +86,7 @@ margin-bottom:40%;
         
        }
        .flex-2 {
-         width:75%;
+         width:65%;
          
          height:100%;
         
@@ -201,47 +201,10 @@ align-items:center;
          flex-direction:column;
          position:relative;
         
-         .point {
-           color:${props => props.theme.colors.lightblue};
-           position: absolute;
-           top: 18%;
-    left: 33%;
-         }
-         .point1 {
-           color:${props => props.theme.colors.lightblue};
-           position: absolute;
-           top: 23%;
-    left: 39%;
-         }
-         .point2 {
-           color:${props => props.theme.colors.lightblue};
-           position: absolute;
-           top: 37%;
-    right: 37%;
-         }
-         .point3 {
-           color:${props => props.theme.colors.lightblue};
-           position: absolute;
-           top: 45%;
-    left: 44%;
-         }
-         .point4 {
-           color:${props => props.theme.colors.lightblue};
-           position: absolute;
-           top: 42%;
-    right: 28%;
-         }
-         .point5 {
-           color:${props => props.theme.colors.lightblue};
-           position: absolute;
-           top: 53%;
-    right: 73%;
-         }
-         .point6 {
-           color:${props => props.theme.colors.lightblue};
-           position: absolute;
-           top: 66%;
-    right: 72%;
+         img {
+           
+           width:100%;
+           height:100%;
          }
          
        }

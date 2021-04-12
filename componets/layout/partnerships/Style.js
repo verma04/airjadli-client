@@ -20,10 +20,10 @@ height:100%;
        
     }
     .bird {
-        top: 6%;
+        top: 5%;
     height: 70rem;
     width: 39%;
-    left: 2%;
+    left: 5%;
     position: absolute;
     -webkit-transform: rotate( 
 1deg

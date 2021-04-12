@@ -315,6 +315,23 @@ span {
     .grid-1 {
       display:none;
     }
+
+    .btn {
+        display:flex;
+        justify-content:center;
+        height:15%;
+
+        align-items:center;
+        button {
+            height:50%; 
+            width:10rem;
+            color: ${props => props.theme.colors.blue};
+            font-weight:900;
+            font-size:1.3rem;
+            background-color:white;
+            border: 2px solid  ${props => props.theme.colors.blue};
+        }
+    }
    
 
 }

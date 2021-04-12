@@ -182,6 +182,14 @@ margin-top:12rem;
             color: white;
           }
 
+          
+
+         }
+         .contact1 {
+          line-height: 1.5rem;
+          h3 {
+            color: white;
+          }
          }
          h2 {
                color:white;
@@ -260,6 +268,16 @@ margin-top:12rem;
            flex-direction:column;
            color:white;
            .contact{
+           h3 {
+            color: white;
+          }
+           }
+           .contact1{
+           h3 {
+            color: white;
+          }
+           }
+           .contact2{
            h3 {
             color: white;
           }

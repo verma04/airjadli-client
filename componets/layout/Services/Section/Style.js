@@ -45,11 +45,16 @@ margin-top:5rem;
               width:60%;
                
               h2 {
+                font-size:2rem;
                   width:70%;
                 color: ${props => props.theme.colors.blue};
               }
               p {
                   margin-top:1rem;
+                  span {
+                    color: ${props => props.theme.colors.blue};
+                    text-decoration:underline;
+                  }
               }
               }
           }
@@ -59,7 +64,7 @@ margin-top:5rem;
               justify-content:flex-end;
               align-items:left;
               margin-top:5rem;
-         height:25rem;
+         height:30rem;
        
               
               width:100%;
@@ -88,6 +93,7 @@ margin-top:5rem;
               }
               
                 button {
+              
          font-size:1.5rem;
          background-color:${props => props.theme.colors.blue};
     width:40%;
@@ -99,6 +105,7 @@ margin-top:5rem;
 
        }
        h2 {
+         font-size:2rem;
         color:${props => props.theme.colors.blue};
        }
               

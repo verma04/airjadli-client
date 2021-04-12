@@ -28,7 +28,7 @@ readily available to all.</p>
 
 <img
               className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617867710/enzr8rp5kqmb6hmxbjed.png"
+        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1618204067/slogjvnpcsu4da6icflj.png"
         alt="Picture of the author"
         layout="fill"
         objectFit="contain"

@@ -211,8 +211,10 @@ align-items:center;
              flex-direction:column;
            
              .wrapper {
+                margin-left:8%;
                   width:30%;
                   height:80%;
+                  
                   
              
                   

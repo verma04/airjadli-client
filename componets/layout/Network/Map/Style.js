@@ -83,9 +83,9 @@ height:100rem;
         align-items:center;
         margin-top:1.3rem;
         span {
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            
             background-color:white;
-           height:18%;
+          text-align:left;
            font-weight: normal;
            width:12rem;
             text-align:left;

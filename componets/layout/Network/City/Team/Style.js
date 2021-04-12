@@ -21,7 +21,7 @@ margin-top:5rem;
        justify-content:space-between;
        flex-direction:column;
        align-items:center;
-       width:80%;
+       width:76%;
        .head {
            width:100%;
         height:3rem;
