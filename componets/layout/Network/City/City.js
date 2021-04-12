@@ -42,13 +42,7 @@ function City({id}) {
 
       const { data, status } = useQuery(["news" , id ], fetchNetwork);
 
-      if(data === '') {
-        return (
-         <Loading/>
-        )
-  
-      }
-
+    
       if(people === '')
       {
         return (
