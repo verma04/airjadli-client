@@ -50,6 +50,9 @@ margin-top:5rem;
               }
               p {
                   margin-top:1rem;
+                  span {
+                    text-decoration:underline;
+                  }
               }
               }
           }

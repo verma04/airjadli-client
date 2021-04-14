@@ -77,7 +77,7 @@ button {
 
  
   h1 {
-    font-size: 1.65rem;
+    font-size: 2rem;
     line-height: var(--line-height-lg);
   font-family:  SourceSansPro-Regular;
   color: #2f3435; 
@@ -176,7 +176,7 @@ transition: transform .8s;
       overflow-x: hidden;
     }
     h1 {
-      font-size: 1.75rem;
+      font-size: 2rem;
     }
     h2 {
       color: ${props => props.theme.colors.grey};

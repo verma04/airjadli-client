@@ -16,20 +16,22 @@ flex-direction:column;
 align-items:center;
 
 align-items:center;
-  margin-top:5rem;
+
 
     .head {
-        height:10rem;
+      
+        height:16rem;
         display:flex;
         justify-content:center;
         align-items:center;
         flex-direction:column;
         h1 {
+         
          font-family: SourceSansPro-Bold ;
         }
         p {
           line-height:1.1;
-          font-size:1.5rem;
+          font-size:1.7rem;
           width:50%;
         text-align:center;
         }
@@ -45,7 +47,7 @@ align-items:center;
        align-items:center;
        
        .flex-1 {
-         width:25%;
+         width:27%;
         
          height:100%;
        
@@ -59,7 +61,7 @@ align-items:center;
           
          
            line-height:1.5rem;
-           font-size:1.5rem;
+           font-size:1.7rem;
            width:100%;
            text-align:left;
          

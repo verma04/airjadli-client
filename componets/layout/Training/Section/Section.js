@@ -27,7 +27,7 @@ export default function Home({data}) {
 
 <p>{data.SectionData}</p>
 
-<p>Call 1-800-200-9989 or email support@airjaldi.com to get connected</p>
+<p>Call 1-800-200-9989 or email <span>support@airjaldi.com</span>  to get connected</p>
 
     </div>
     </div>

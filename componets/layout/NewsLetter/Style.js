@@ -37,7 +37,7 @@ margin-top:5rem;
          color:#1690D2;
          background-color:white;
          padding:0.7rem;
-        
+          width:15rem;
          border:none;
          font-weight:900;
          border-radius:0.5rem;
