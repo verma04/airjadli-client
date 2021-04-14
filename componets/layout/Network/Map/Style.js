@@ -68,7 +68,7 @@ height:100rem;
      display:flex;
      justify-content:flex-start;
      width: 38%;
- 
+   margin-top:0.4rem;
    
    
 

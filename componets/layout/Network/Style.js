@@ -61,15 +61,15 @@ position: relative;
         .grid1 {
              width:50%;
              height:50%;
-             background-color:white;
+            
              display:flex;
         justify-content:center;
    
     
         align-items:center;
         h1 {
-            margin-top:10%;
-      
+        padding:1rem;
+            background-color:white;
             width:90%;
             text-align:center;
             text-align:center;
