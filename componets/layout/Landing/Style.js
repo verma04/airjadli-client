@@ -117,6 +117,111 @@ span {
 
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .grid-1 {
+        display:none;
+    }
+
+    .grid {
+
+        width:100%;
+        height:42rem;
+        position: relative;
+ 
+       
+    }
+
+    .bird {
+        top: 6%;
+    height: 60rem;
+    width: 39%;
+    left: 1%;
+    position: absolute;
+
+    transform: rotate( 
+3.2deg
+ );
+
+
+        img {
+            width: 96%;
+            height: 109%;
+        }
+    }
+    .card {
+       z-index:1000;
+        position:absolute;
+        bottom:7%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100%;
+     
+        height:75%;
+        .card-1 {
+           
+            display:flex;
+        justify-content:space-between;
+        align-items:center;
+        height:100%;
+        width:80%;
+  
+      
+        .grid1 {
+             width:32%;
+             height:100%;
+             background-color:white;
+             display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+        .wrapper {
+        width:100%;
+        height:50%;
+       
+        }
+        .data {
+        width:95%;
+        height:50%;
+        
+        display:flex;
+        justify-content:space-evenly;
+        flex-direction:column;
+      
+    p {
+       color: #2f3435; 
+    }
+    .head {
+        h2 {
+            font-size:1.5rem;
+        text-align:left;
+     
+    }
+
+    }
+   
+  .link {
+display:flex;
+cursor: pointer;
+justify-content:flex-start;
+color:${props => props.theme.colors.blue};
+img {
+    width:34px;
+    height:1rem;
+}
+span {
+    margin-left:0.3rem;
+    font-size:1.1rem;
+}
+
+  }
+        }
+        }
+        }
+    
+    }
+
+}
 @media (max-width: 600px) {
 
 .grid {

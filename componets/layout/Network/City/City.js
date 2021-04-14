@@ -68,7 +68,7 @@ function City({id}) {
 
                   <div className="data" >
                       <ul>
-                          <li>Technical Contact:</li>
+                          <li className="top" >Technical Contact:</li>
                           <li>{data.contact}</li>
                      
                           <li>Email: <span>support@airjaldi.net</span> </li>
@@ -77,7 +77,7 @@ function City({id}) {
 
                       </ul>
                       <ul>
-                          <li>Office Address:</li>
+                          <li className="top" >Office Address:</li>
                          <li>{data.address}</li>
                           
                       </ul>
@@ -104,7 +104,7 @@ function City({id}) {
         src={data.featureImg}
         alt="Picture of the author"
         layout="fill"
-        objectFit="contain"
+        objectFit="cover"
         
       /> 
                   </div>

@@ -20,7 +20,7 @@ export default function Project() {
       <div class='card-1'  >
   <div class='grid1' >
 
-   <div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
+   <div className="wrapper"  >
    <Image
               className="myImage"
         src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190590/AirJaldi/za5xtu8v76hx46byd9eq.jpg"
@@ -48,7 +48,7 @@ quam hitatibus et ut in.</p>
   </div>
   <div class='grid1' >
 
-<div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
+<div className="wrapper"  >
 <Image
            className="myImage"
      src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190591/AirJaldi/f2j0357fxvicngshvsef.jpg"
@@ -78,7 +78,7 @@ quam hitatibus et ut in.</p>
 
 <div class='grid1' >
 
-   <div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
+   <div className="wrapper"  >
    <Image
               className="myImage"
         src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190590/AirJaldi/qqgyle8fzxj4ukuou7vo.jpg"

@@ -66,10 +66,14 @@ max-height:50rem;
             justify-content:flex-start;
             align-items:flex-start;
             flex-direction:column;
+            .top {
+                font-size:1.6rem;
+
+            }
             li {
                 margin-top:0.5rem;
-                font-size:1.2rem;
-                line-height:1.5;
+                font-size:1.4rem;
+                line-height:1.3;
                 text-align:left;
                 width:50%;
                 span {

@@ -38,7 +38,7 @@ get connected. </h2>
      </div>
      <div className='bottom' >
          <div className="text" >
-      <h2>   Connect to <span>JaldiFi hotspots</span>  with
+      <h2>Connect to <span>JaldiFi hotspots</span>  with
 your devices for high speed wireless
 internet access at affordable rates</h2>
          </div>

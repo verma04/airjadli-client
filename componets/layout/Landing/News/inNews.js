@@ -22,7 +22,7 @@ export default function News({data}) {
         {data.slice(0, 3).map((number) => 
  <div class='grid1' >
 
- <div onClick={() => router.push(`/news/${number.slug}`) } className="wrapper"  style={{  position: 'relative', width:"90%", height: '50%'}} >
+ <div onClick={() => router.push(`/news/${number.slug}`) } className="wrapper"   >
  <Image
             className="myImage"
       src={number.featureImg}
