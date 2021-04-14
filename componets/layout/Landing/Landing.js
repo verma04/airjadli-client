@@ -36,10 +36,11 @@ export default function Home() {
       <Section>
       <Navbar/>
     <div class="grid"  >
-
+   
+    
     <Image
               className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1617685666/AirJaldi/nmgm0xy80efeaaug5bxr.jpg'
+        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616560444/Airjaldi/db1vpsdktno9xhjyn6b8.jpg'
         alt="Picture of the author"
         layout="fill"
        
@@ -134,7 +135,9 @@ Our service-team is ready respond to ...</p>
 </div>
 </div>
     </div>
-
+    <div className="bird" > 
+  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
+   </div>
 <div class="grid-1"  >
       
    
