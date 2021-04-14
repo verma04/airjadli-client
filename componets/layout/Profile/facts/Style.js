@@ -46,21 +46,23 @@ margin-top:5rem;
                height:80%;
                
                display:flex;
-       justify-content:space-around;
+       justify-content:center;
       align-items:center;
       flex-direction:column;
       .img {
           position: relative;
           width:100%;
           height: 60%;
-        
+     
       }
       h2 {
-        
+        margin-top:1rem;
             text-align:center;
             font-weight:900;
+            height:10%;
           }
           span {
+            height:10%;
             text-align:center;
             font-size:1.3rem;
               

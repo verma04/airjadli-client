@@ -21,6 +21,7 @@ height:100%;
         top: 6%;
     height: 70rem;
     width: 39%;
+    z-index:99;
     left: 4%;
     position: absolute;
     -webkit-transform: rotate( 
@@ -44,6 +45,7 @@ height:100%;
         .card {
         position:absolute;
         bottom:7%;
+        z-index:1000;
         display:flex;
         justify-content:center;
         align-items:center;
