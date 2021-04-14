@@ -30,7 +30,7 @@ height:100rem;
      align-items:center;
      flex-direction:column;
      .head-1 {
-         width:100%;
+         width:90%;
          align-items:left;
          font-size:1.7rem;
          h2 {
@@ -43,13 +43,13 @@ height:100rem;
         display:flex;
     justify-content:space-between;
      align-items:center;
-  width:100%;
+  width:90%;
   height:50%;
   h2 {
     font-family: SourceSansPro-Bold;
             font-family:1000;
        position: relative;
-    
+    font-size:1.9rem;
       cursor: pointer;
       .dropdown-content {
           display:none;
@@ -174,8 +174,8 @@ height:100rem;
      }
      }
      .map {
-  
-    width:82%;
+
+    width:70%;
     height:90%;
     
     position: relative;

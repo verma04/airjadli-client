@@ -160,7 +160,7 @@ export default function Home({data}) {
     <div className="map" > 
     <Image
               className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1614574387/rqfc3mkivmbhhdmgj5lm.png'
+        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1618377512/AirJaldi/yluwzprmhzewfrr8l5zt.png'
        
         layout="fill"
          

@@ -25,30 +25,23 @@ height:100%;
 
     .bird {
         top: 6%;
-    height: 75rem;
-    width: 51%;
-    left: 2%;
+    height: 70rem;
+    width: 39%;
+    left: 4%;
     position: absolute;
-    -webkit-transform: rotate( 
-1deg
- );
-    -ms-transform: rotate( 1deg );
-    -webkit-transform: rotate( 
-1deg
- );
-    -ms-transform: rotate( 1deg );
+
     transform: rotate( 
-1deg
+3.2deg
  );
 
 
         img {
             width: 96%;
-    height: 100%;
+            height: 109%;
         }
     }
     .card {
-       
+       z-index:1000;
         position:absolute;
         bottom:7%;
         display:flex;
