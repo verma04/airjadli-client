@@ -137,7 +137,7 @@ span {
     width: 39%;
     left: 1%;
     position: absolute;
-
+   
     transform: rotate( 
 3.2deg
  );

@@ -158,6 +158,7 @@ margin-top:12rem;
 
 }
 @media (min-width: 768px) and (max-width: 1024px) {
+  margin-top:5rem;
   .flex { 
       
     

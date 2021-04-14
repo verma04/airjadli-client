@@ -220,14 +220,13 @@ width:100%;
      justify-content:center;
      width:60%;
     margin-left:5%;
-
+    
      .list {
-        width:50%;
+        width:70%;
         height:100%;
         display:flex;
         justify-content:space-between;
    
-       
        
         h3 {
            height:18%;

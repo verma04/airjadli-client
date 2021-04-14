@@ -47,6 +47,44 @@ margin-top:5rem;
 
    }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .flex{
+
+ 
+
+display:flex;
+justify-content:space-between;
+flex-direction:column;
+width:80%;
+z-index:1000;
+.head {
+    width:100%;
+    height:5%;
+    display:flex;
+justify-content:center;
+flex-direction:column;
+h1 {
+color: ${props => props.theme.colors.blue};
+}
+
+}
+.data {
+    margin-top:1rem;
+ display:flex;
+justify-content:space-around;
+flex-direction:column;
+width:100%;
+    height:95%;
+
+    width:60%;
+    p {
+        font-size:1.2rem;
+    }
+}
+
+}
+}
   
 
 @media (max-width: 600px) {

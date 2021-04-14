@@ -114,7 +114,7 @@ color: ${props => props.theme.colors.darkblue};
    
   .grid {
    
-     width:70%;
+     width:80%;
      margin-top:4rem;
      margin-bottom:10rem;
      .grid-1 {
@@ -125,14 +125,14 @@ color: ${props => props.theme.colors.darkblue};
         i {
         
             font-size:6rem;
-            
+            color: ${props => props.theme.colors.darkblue};
        
         }
         h1 {
             padding-top:0.6rem;
             font-size:6.5rem;
             
-         
+            color: ${props => props.theme.colors.darkblue};
         }
       }
       .para  {
@@ -156,12 +156,14 @@ color: ${props => props.theme.colors.darkblue};
        justify-content:center;
        margin-top:1.8rem;
        button {
-           font-size:1.3rem;
-           
-           color:white;
-           padding:0.8rem;
-           border:none;
-       }
+                     width:10rem;
+                      padding:0.5rem;
+                      border: none;
+                      font-size:1.3rem;
+                      padding:0.4rem;
+                      background-color: ${props => props.theme.colors.darkblue};
+                    color:white
+                  }
    }
   }
   }
