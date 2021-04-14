@@ -60,12 +60,12 @@ height:100%;
     
         align-items:center;
         h1 {
-            margin-top:10%;
+            padding:1rem;
       
             width:90%;
             text-align:center;
             text-align:center;
-        height:100%;
+       
         }
            
         }
