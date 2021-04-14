@@ -85,7 +85,7 @@ height:100%;
     }
     .head {
         h2 {
-            font-size:1.8rem;
+            font-size:1.9rem;
         text-align:left;
      
     }
