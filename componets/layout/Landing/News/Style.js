@@ -73,7 +73,11 @@ align-items:center;
        
         }
         .data {
+            
+   
             .name {
+              padding-top:1rem;
+              padding-bottom:0.5rem;
             span {
                 font-size:1.2rem;
             }
@@ -82,11 +86,14 @@ align-items:center;
                 font-weight:900; 
             }
             }
+            .link {
+           margin-top:1.3rem;
+            }
         width:90%;
         height:50%;
         
         display:flex;
-        justify-content:space-evenly;
+        justify-content:flex-start;
         flex-direction:column;
       
     p {
