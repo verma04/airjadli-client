@@ -40,7 +40,7 @@ export default function Home() {
     
     <Image
               className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1616560444/Airjaldi/db1vpsdktno9xhjyn6b8.jpg'
+        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1618478621/ycpsax6xqmnxp58qv0nn.jpg'
         alt="Picture of the author"
         layout="fill"
        

@@ -5,11 +5,20 @@ import Image from 'next/image'
 import { useRouter } from "next/router";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch  , faBars } from '@fortawesome/free-solid-svg-icons'
+import { useQuery } from "react-query";
 
-
-
+const saerchNavbar = async (sea) => {
+  const idd = sea.queryKey[1]
+  const res = await fetch(`https://airjadli.herokuapp.com/api/client/search/${idd}`);
+  return res.json();
+};
+ 
 const Navbar = () => {
+  const [sea, setsea] = useState('');
+  const { data, status } = useQuery( ["search" , sea ], saerchNavbar);
   const [pop, setPop] = useState(true);
+
+  
   const smtoggle = () => {
     setPop(!pop)
      } 
@@ -21,6 +30,10 @@ const Navbar = () => {
    const toggle = () => {
      setSerach(!search)
    } 
+   const change= (e) => {
+   setsea(e.target.value)
+   }
+   console.log(data)
 
  
     return (
@@ -145,18 +158,58 @@ const Navbar = () => {
           )
         }  else {
           return (
+            <>
             <div className="search" >
 
               <div className="input" >
 
    <div className='input-field' >
-     <input  autofocus placeholder="Find here what you are lokking for" ></input>
+     <input onChange={change} value={sea}  autofocus placeholder="Find here what you are lokking for" ></input>
    </div>
 <div onClick={() => toggle() }  className="close" >
    <i   class="fas fa-times"></i>
    </div>
    </div>
             </div>
+           
+            {/* {status === "loading" && <p> dsdsds</p> }
+            {status === "success" && (
+           <>
+            <div className="data" >
+              <div className="data-2" >
+                
+                <div className="news" >
+              
+                 
+   <h1>sddssd</h1>
+                  {data.network.map((number, i)  => 
+                  <div className="news-1" >
+                    <img src={number.featureImg} ></img>
+                <h1> {number.cityName}</h1>
+                </div>
+                  )}
+
+                  
+                
+                
+                </div>
+                
+                <div className="news" >
+              
+
+{data.news.map(number => 
+<div className="news-1" >
+  <img src={number.featureImg} ></img>
+  <h3>{number.title} </h3>
+  </div>
+)}
+                </div>
+              </div>
+            </div>
+            
+            </>
+               )} */}
+       </> 
           )
         }
       })()}

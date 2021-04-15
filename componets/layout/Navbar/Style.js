@@ -7,6 +7,8 @@ import styled from 'styled-components'
 export const Nav = styled.nav`
 display:flex;
 justify-content:center;
+flex-direction:column;
+align-items:center;
 height:100%;
 position:absolute;
 top:0;
@@ -136,7 +138,7 @@ z-index:1000;
     .search {
        display:flex;
        justify-content:center;
-   
+       height:5rem;
       width:100%;
       background-color:#1690d2;
       .input {
@@ -179,6 +181,59 @@ z-index:1000;
           }
        }
       }
+    }
+    .data {
+       top:5rem;
+      
+       width:100%;
+       position:absolute;
+       height:25rem;
+       display:flex;
+       justify-content:center;
+       .data-2 {
+          margin-top:2rem;
+         background-color:white;
+         width:76%;
+         height:100%;
+         border: 1px solid red;
+         display:flex;
+       justify-content:space-around;
+  
+       .network {
+          width:40%;
+          display:flex;
+       justify-content:center;
+       overflow: auto;
+       height:100%;
+       border: 1px solid red;
+       }
+       .news {
+         width:40%;
+          display:flex;
+       justify-content:center;
+       overflow: auto;
+
+       border: 1px solid red;
+       flex-direction:column;
+       .news-1 {
+          margin-top:1rem;
+          display:flex;
+          justify-content:space-evenly;
+           align-items:center;
+          width:100%;
+    
+          border: 1px solid red;
+          img {
+             width:30%;
+             height:100%;
+          }
+          h3 {
+             width:65%;
+          }
+       }
+       }
+       }
+    
     }
     .sm {
        display:none;
@@ -350,6 +405,9 @@ z-index:1000;
           }
        }
       }
+    }
+    .data {
+
     }
     .sm {
        display:none;

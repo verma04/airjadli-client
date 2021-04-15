@@ -248,8 +248,10 @@ margin-bottom:40%;
          align-items:center;
          flex-direction:column;
          position:relative;
+         
          img {
            width:100%;
+         
            height:100%;
          }
         
