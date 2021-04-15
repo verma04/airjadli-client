@@ -17,7 +17,7 @@ export default function Home() {
     <div class="grid" >
     <Image
               className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190589/AirJaldi/d5dh4w88gjluwrjacv6o.jpg'
+        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1618487935/fjlpllrerc2873pkifo6.jpg'
         alt="Picture of the author"
         layout="fill"
        
