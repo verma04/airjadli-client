@@ -92,7 +92,24 @@ height:100%;
         width:100%;
         height:40rem;
     
+        .bird {
+        top: 7%;
+    height: 70rem;
+    width: 39%;
+    z-index:99;
+    left: 5%;
+    position: absolute;
+   
+    transform: rotate( 
+3.2deg
+ );
 
+
+        img {
+            width: 96%;
+    height: 100%;
+        }
+    }
        
     }
     .bird {

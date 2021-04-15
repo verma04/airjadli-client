@@ -18,22 +18,15 @@ height:100%;
         position: relative;
     
         .bird {
-        top: 6%;
+        top: 7%;
     height: 70rem;
     width: 39%;
     z-index:99;
-    left: 4%;
+    left: 5%;
     position: absolute;
-    -webkit-transform: rotate( 
-1deg
- );
-    -ms-transform: rotate( 1deg );
-    -webkit-transform: rotate( 
-1deg
- );
-    -ms-transform: rotate( 1deg );
+   
     transform: rotate( 
-1deg
+3.2deg
  );
 
 

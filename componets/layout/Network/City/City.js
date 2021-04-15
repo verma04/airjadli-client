@@ -115,11 +115,13 @@ function City({id}) {
          <Map  convertFromJSONToHTML={convertFromJSONToHTML}  data={data}/>
        
        
+
+<Team id={id} city={data}  data1={people} />  
 </>
       
          )}
-<Team id={id} city={data}  data1={people} />  
          </>
+         
           )
       }
 
