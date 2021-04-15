@@ -68,7 +68,7 @@ margin-top:5rem;
       
         .grid1 {
              width:100%;
-             height:15%;
+             height:17%;
             
           
              display:flex;
@@ -76,6 +76,7 @@ margin-top:5rem;
    
         flex-direction:column;
       p {
+        width:90%;
           font-size:1.5rem;
           color:white;
       }
