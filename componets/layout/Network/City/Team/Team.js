@@ -12,9 +12,9 @@ const fetchpeople = async ( id) => {
    const res = await fetch(`http://localhost:3000/api/client/people/${idd}`);
    return res.json();
  };
-function AllTeam({data , id}) {
+function AllTeam({data1  , city, id}) {
 
- 
+
   
   
     return (
@@ -23,14 +23,14 @@ function AllTeam({data , id}) {
         <Section>
         <div class="flex" >
                        <div class="head" >
-                       <h2>THE {id} NETWORK TEAM</h2>
+                       <h2>THE {city.cityName} NETWORK TEAM</h2>
                        </div>
                        <div className="data" >
                        <div  className="team"  >
                        <Masonry columnsCount={3} gutter="10px">
      
 
-          {data.map((number, i) => {
+          {data1.map((number, i) => {
             const height = Math.random() * (500 - 350) + 300;
             return (
               <div  style={{ height: `${height}px`,}}  class="flip-card">
