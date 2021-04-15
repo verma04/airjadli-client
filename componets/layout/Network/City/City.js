@@ -9,6 +9,7 @@ import Team from './Team/Team'
 import router from 'next/router';
 import { useQuery } from "react-query";
 import Loading from '@/componets/Loading/Loading';
+import  Footer  from '../../Footer/Footer';
 const fetchNetwork = async ( id) => {
   const idd = id.queryKey[1]
    const res = await fetch(`https://airjadli.herokuapp.com/api/client/network/${idd}`);
@@ -118,7 +119,9 @@ function City({id}) {
 </>
       
          )}
-<Team id={id}  data={people} />  
+<Team id={id}  data={people} /> 
+
+<Footer/>
          </>
           )
       }
