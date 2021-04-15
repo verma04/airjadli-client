@@ -17,12 +17,12 @@ z-index:1000;
 
 
 @media (min-width: 1035px) {
-   
+   z-index:1000;
    height:5rem;
-   z-index:1;
+
     .flex {
         height:5rem;
-      
+        z-index:1000;
         width:75%;
         display:flex;
         justify-content:space-between;
@@ -244,7 +244,7 @@ z-index:1000;
 @media (min-width: 768px) and (max-width: 1024px) {
   
    height:5rem;
-   z-index:1;
+   z-index:1000;
     .flex {
         height:5rem;
       

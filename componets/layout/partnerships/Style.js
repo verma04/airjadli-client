@@ -44,8 +44,9 @@ height:100%;
         }
     }
     .card {
+       
         position:absolute;
-        bottom:7%;
+        bottom:8%;
         display:flex;
         justify-content:center;
         align-items:center;
@@ -55,13 +56,14 @@ height:100%;
         .card-1 {
             display:flex;
         justify-content:space-between;
-        align-items:center;
+        align-items:flex-end;
         height:100%;
         width:76%;
-      
+     
         .grid1 {
+            
              width:50%;
-             height:50%;
+           
              background-color:white;
              display:flex;
         justify-content:center;
@@ -69,12 +71,12 @@ height:100%;
     
         align-items:center;
         h1 {
-            margin-top:10%;
+          padding:1rem;
       
             width:90%;
             text-align:center;
             text-align:center;
-        height:100%;
+    
         }
            
         }

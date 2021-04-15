@@ -11,12 +11,12 @@ height:100%;
 position:absolute;
 top:0;
 width:100%;
-
+z-index:1000;
 
 @media (min-width: 1035px) {
    
    height:5rem;
-   z-index:1;
+   z-index:1000;
     .flex {
         height:5rem;
         

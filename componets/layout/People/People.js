@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../Navbar/BlueNavbar';
 import Footer from '../Footer/Footer'
 import { Section} from './Style'
 import styled, { createGlobalStyle } from 'styled-components';

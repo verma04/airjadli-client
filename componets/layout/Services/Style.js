@@ -35,43 +35,45 @@ height:100%;
         }
     }
     .card {
-        position:absolute;
-        bottom:7%;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        width:100%;
-       
-        height:70%;
-        .card-1 {
+       z-index:990;
+       position:absolute;
+       bottom:8%;
+       display:flex;
+       justify-content:center;
+       align-items:center;
+       width:100%;
+      
+       height:70%;
+       .card-1 {
+           display:flex;
+       justify-content:space-between;
+       align-items:flex-end;
+       height:100%;
+       width:76%;
+    
+       .grid1 {
+         
+            width:50%;
+         
+            background-color:white;
             display:flex;
-        justify-content:space-between;
-        align-items:center;
-        height:100%;
-        width:76%;
-      
-        .grid1 {
-             width:50%;
-             height:50%;
-             background-color:white;
-             display:flex;
-        justify-content:center;
+       justify-content:center;
+  
    
-    
-        align-items:center;
-        h1 {
-            padding:1rem;
-      
-            width:90%;
-            text-align:center;
-            text-align:center;
-       
-        }
-           
-        }
-    
-    }
-    }
+       align-items:center;
+       h1 {
+         padding:1rem;
+     
+           width:90%;
+           text-align:center;
+           text-align:center;
+   
+       }
+          
+       }
+   
+   }
+   }
   
 
 }

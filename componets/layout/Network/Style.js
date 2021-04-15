@@ -37,7 +37,8 @@ position: relative;
     }
     .card {
         position:absolute;
-        bottom:7%;
+        bottom:8%;
+       
         display:flex;
         justify-content:center;
         align-items:center;
@@ -47,13 +48,13 @@ position: relative;
         .card-1 {
             display:flex;
         justify-content:space-between;
-        align-items:center;
+        align-items:flex-end;
         height:100%;
         width:76%;
       
         .grid1 {
              width:50%;
-             height:50%;
+            
             
              display:flex;
         justify-content:center;
