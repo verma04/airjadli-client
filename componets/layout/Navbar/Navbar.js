@@ -106,6 +106,9 @@ const Navbar = () => {
              
                </div>
                <div class="nav-item" >
+
+      
+
                <span   >  GET CONNECTED </span>
  
                <div className="tri" ></div>
@@ -116,7 +119,7 @@ const Navbar = () => {
        
        
         <div className="list" >
-        <h3 id={router.pathname == "/new-connection" ? "activesm" : ""} className="small" > <Link  href="/new-connection" >Get a new Connection</Link></h3>
+        <h3 id={router.pathname == "/new-connection" ? "activesm" : ""} className="small" > <Link  href="/get-connected" >Get a new Connection</Link></h3>
         <h3 id={router.pathname == "/customers" ? "activesm" : ""} className="small" >  <Link   href="/customers" >Existing Customers</Link></h3>
         <h3  id={router.pathname == "/faq" ? "active" : ""} >   <Link   href="/faq" >FAQs</Link></h3>
           
