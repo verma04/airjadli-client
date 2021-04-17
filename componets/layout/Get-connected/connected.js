@@ -128,7 +128,11 @@ function Connected() {
   </div>
 
             </div>
-            </Section>
+          
+          
+          
+          
+           </Section>
              <News/>
           
         </div>

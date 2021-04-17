@@ -41,8 +41,9 @@ function MyApp({ Component, pageProps }) {
   return (
 <div>
 <Head>
-<link rel="shortcut icon" href="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613625729/wgroxxv7wubf94wyfbke.png" />
-<link rel="stylesheet" href="https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642890/izo5ri94zqjviheltfps.jpg "/> 
+<link rel="shortcut icon" href="https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642890/izo5ri94zqjviheltfps.jpg " />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css   "/> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
       <meta
         name="viewport"
         content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"

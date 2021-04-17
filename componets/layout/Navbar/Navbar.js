@@ -131,7 +131,7 @@ const Navbar = () => {
              
                </div>
                <div class="nav-item" >
-               <span>         CONTACT US </span>
+               <span id={router.pathname == "/new-connection" ? "activesm" : ""}  >   <Link  href="/contact" >  CONTACT US  </Link> </span>
                </div>
                <div class="nav-item" >
                <span>        MAKE PAYMENT </span>
