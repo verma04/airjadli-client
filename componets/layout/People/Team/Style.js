@@ -9,6 +9,7 @@ display:flex;
 justify-content:center;
 height:100%;
 margin-top:5rem;
+z-index:1000;
 
 @media (min-width: 1035px) {
 
@@ -51,7 +52,7 @@ margin-top:5rem;
      width:100%;
 
      .team {
-
+      z-index:1000;
          flex-flow: wrap;
          width:100%;
          margin-top:3rem;

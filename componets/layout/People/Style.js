@@ -20,7 +20,7 @@ height:40rem;
         top: 7%;
     height: 70rem;
     width: 39%;
-    z-index:99;
+   
     left: 5%;
     position: absolute;
    
