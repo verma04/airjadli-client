@@ -9,7 +9,7 @@ display:flex;
 justify-content:center;
 height:100%;
 background-color: ${props => props.theme.colors.footerColor};
-margin-top:12rem;
+margin-top:5rem;
 
 @media (min-width: 1035px) {
 
