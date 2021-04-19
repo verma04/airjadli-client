@@ -238,24 +238,82 @@ export const Section = styled.section`
 
    @media (min-width: 768px) and (max-width: 1280px) {
          
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-   
+    .grid {
 
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-     
-     .flex {
+width:100%;
+height:30rem;
+position: relative;
+
+.bird {
+        top: 6%;
+    height: 60rem;
+    width: 39%;
+    left: 1%;
+    position: absolute;
+   
+    transform: rotate( 
+3.2deg
+ );
+
+
+        img {
+            width: 96%;
+            height: 109%;
+        }
+    }
+.card {
+position:absolute;
+bottom:7%;
+z-index:1000;
+display:flex;
+justify-content:center;
+align-items:center;
+width:100%;
+
+height:70%;
+.card-1 {
+    display:flex;
+justify-content:space-between;
+align-items:center;
+height:100%;
+width:80%;
+
+.grid1 {
+     width:50%;
+     height:50%;
+    
+     display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+h1 {
+    margin-top:10%;
+    width:90%;
+height:100%;
+padding:4%;
+background-color:white;
+}
+   
+}
+
+}
+}
+
+
+}
+
+.flex {
+       margin-top:2rem;
         display:flex;
   justify-content:center;
-        width:80%;
-        .flex-1 {
-          width:100%;
-        }
+   align-items:center;
+        width:70%;
+  
 
-
+  .flex-1 {
+    width:78%;
          .hero{
-        
+          width:100%;
   h2 {
     
     
@@ -267,16 +325,16 @@ export const Section = styled.section`
   }
   h4 {
     font-size: 1.2rem;
-  
+   
     margin-bottom: 1rem;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     text-align:center;
   }
          }
          .select {
-    
+         width:100%;
             margin-top:6rem;
-           
+        
            border-bottom: 1px solid  #DCD7D6;
            margin-bottom:4rem;
              .top {
@@ -287,6 +345,7 @@ export const Section = styled.section`
                  padding-bottom:0.2rem;
              }
              select {
+               width:100%;
                 background-color: #FDFCFC;
     border: 1px solid #DCD7D6;
     border-radius: 4px;
@@ -307,10 +366,12 @@ export const Section = styled.section`
 }
       
          }
+  }
   
   .contact {
       display:flex;
       justify-content:space-between;
+      margin-left:17rem;
       button {
         text-decoration: none;
     text-transform: uppercase;
@@ -326,10 +387,16 @@ export const Section = styled.section`
   }
 
   .middle {
-
+   width:100%;
+   
       margin-top:3rem;
       margin-bottom:3rem;
-      
+
+      h2 {
+          font-weight:1000;
+          margin-bottom:1.2rem;
+      }
+
       h3 {
         font-size: 1.5rem;
     text-align: center;
@@ -355,15 +422,20 @@ export const Section = styled.section`
           }
           .down {
               line-height:1.6rem;
+              
+            li {
+                
+                list-style: disc;
+              }
           }
        
       }
   }
 
-  .conatct2 {
+     .conatct2 {
        display:flex;
        justify-content:center;
-
+       width:80rem;
        height:40rem;
        
        form {
@@ -450,18 +522,9 @@ export const Section = styled.section`
 
      }
 
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
      }
+
+
 
 
 
