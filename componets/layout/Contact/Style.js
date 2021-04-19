@@ -515,8 +515,8 @@ input:focus ~ .highlight {
             i {
                 color: red;
             }
-            .fa-facebook {
-                color: #3B5998;
+            .fa-facebook-f {
+                color: #3b5998;
             }
             .fa-twitter {
   color: #55ACEE;
