@@ -116,7 +116,7 @@ describe('sdd'
                      <a target="_blank" href="http://www.facebook.com/AirJaldi" class="w-socials-item facebook">
 	
 			
-				<i class="fa fa-facebook"></i>
+				<i class="fab fa-facebook-f"></i>
 				</a>
 	
             <a target="_blank" href="http://twitter.com/AirJaldiRBB" class="w-socials-item twitter">
