@@ -1,7 +1,7 @@
 import React from 'react'
 import Contact from '../componets/layout/Contact/contact';
 import  Footer  from '../componets/layout/Footer/Footer';
-import Navbar from '../componets/layout/Navbar/BlueNavbar';
+import Navbar from '../componets/layout/Navbar/Navbar';
 import Head from 'next/head'
 function contact() {
     return (

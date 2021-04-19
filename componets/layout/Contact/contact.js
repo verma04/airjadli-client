@@ -1,8 +1,59 @@
 import React from 'react'
 import { Section} from './Style'
+import Image from 'next/image';
 function contact() {
     return (
         <Section>
+
+<div class="grid"     >
+   
+   <div className="bird" > 
+ <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
+  </div>
+   
+   
+   
+   
+   <Image
+             className="myImage"
+             src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1616044262/Airjaldi/ho0ro6wdyf9owyad4l4c.jpg"}
+      
+       layout="fill"
+      
+       objectFit="cover"
+     />
+       <div class='card'  >
+     <div class='card-1'  >
+ <div class='grid1' >
+
+ <h1>
+ dssd
+sd
+sd
+
+describe('sdd'
+
+     </h1>
+
+  
+ </div>
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+</div>
+    
+    
+    
+   
            <div className="flex" >
 
      <div className="top" >

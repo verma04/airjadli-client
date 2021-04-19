@@ -6,7 +6,9 @@ export const Section = styled.section`
 
   display:flex;
   justify-content:center;
+   flex-direction:column;
   width:100%;
+  align-items:center;
 @media (max-width: 767px) {
   width: 100%;
     margin-top: 10rem;
@@ -471,10 +473,59 @@ export const Section = styled.section`
    
   
    @media (min-width: 1281px) {
-    margin-top: 8rem;
+  
     margin-bottom: 5rem;
 
+    .grid {
+        position: relative;
+        width:100%;
+        height:30rem;
+        .card {
+       
+       position:absolute;
+       bottom:8%;
+       display:flex;
+       justify-content:center;
+       align-items:center;
+       width:100%;
+      
+       height:70%;
+       .card-1 {
+           display:flex;
+       justify-content:space-between;
+       align-items:flex-end;
+       height:100%;
+       width:76%;
+    
+       .grid1 {
+           
+            width:50%;
+          
+            background-color:white;
+            display:flex;
+       justify-content:center;
+  
+   
+       align-items:center;
+       h1 {
+         padding:1rem;
+     
+           width:90%;
+           text-align:center;
+           text-align:center;
+   
+       }
+          
+       }
+   
+   }
+   }
+
+       
+    }
+
      .flex {
+       margin-top:2rem;
         display:flex;
   justify-content:center;
    align-items:center;

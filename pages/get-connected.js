@@ -1,6 +1,6 @@
 import NotFound from '@/componets/layout/Get-connected/connected';
 import  Footer  from '../componets/layout/Footer/Footer';
-import Navbar from '../componets/layout/Navbar/BlueNavbar';
+import Navbar from '../componets/layout/Navbar/Navbar';
 import Head from 'next/head'
 function notfound() {
     return (
