@@ -1,22 +1,39 @@
 import React from 'react'
 import { Section} from './Style'
 import Image from 'next/image';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
+import { useQuery } from "react-query";
+import Loading from '../../Loading/Loading';
+const fetchContact = async () => {
+  const res = await fetch("https://airjadli.herokuapp.com/client/getContact");
+  return res.json();
+};
 function contact() {
-    return (
-        <Section>
 
+  const { data, status } = useQuery("contact", fetchContact);
+    return (
+      <>
+      
+      {status === "error" && <p>Error fetching data</p>}
+        {status === "loading" && <Loading/>  }
+        {status === "success" && (
+            <>
+       <Navbar/>
+   
+
+        <Section>
+       
 <div class="grid"     >
    
-   <div className="bird" > 
- <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
-  </div>
+ 
    
    
    
    
    <Image
              className="myImage"
-             src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1616044262/Airjaldi/ho0ro6wdyf9owyad4l4c.jpg"}
+             src={data.ContactAvatar}
       
        layout="fill"
       
@@ -27,11 +44,7 @@ function contact() {
  <div class='grid1' >
 
  <h1>
- dssd
-sd
-sd
-
-describe('sdd'
+{data.ContactDescription}
 
      </h1>
 
@@ -140,95 +153,28 @@ describe('sdd'
         </div>
         <div className="mid-2" >
   <h2>Network Teams:</h2>
+  {data.network.map(number =>
+    <li>
+    {number.NetworkName}:
+    <span> <i class="fas fa-phone-alt"></i>{number.NetworkNumber}</span>
+  
+    </li>
+        )
+  }
 
-  <li>
-  Kangra Network (HP):
-  <span> <i class="fas fa-phone-alt"></i>+91 9882 268 068</span>
-
-  </li>
-  <li>
-  Dehradun (UK):
-
-<span> <i class="fas fa-phone-alt"></i>+91 941 113 9134</span>
-  </li>
-  <li>
-  Kumaon(UK):
-
-<span> <i class="fas fa-phone-alt"></i>+91 963 911 8102</span>
-  </li>
-  <li>
-  Ranchi (JH):
-
-<span> <i class="fas fa-phone-alt"></i>+91 827 191 1777</span>
-  </li>
-
-  <li>
-  Chamba (HP):
  
- <span> <i class="fas fa-phone-alt"></i>1800 200 9989</span>
-  </li>
-  <li>
-  Bylakuppe (KA):
-
-<span> <i class="fas fa-phone-alt"></i>+91 782 901 9860</span>
-
-  </li>
-  <li>
-  Mundgod (KA):
-
-<span> <i class="fas fa-phone-alt"></i>+91 998 015 1768</span>
-
-  </li>
-  <li>
-  Amraviti (MH):
-
-<span> <i class="fas fa-phone-alt"></i>+91 9075831181</span>
-  </li>
-  <li>
-  Bodh Gaya (BR):
-
-<span> <i class="fas fa-phone-alt"></i> +91 7273961683</span>
-
-  </li>
-
-  <li>
-  Palampur (HP):
-
-<span> <i class="fas fa-phone-alt"></i>+91 9418725760</span>
-
-  </li>
-  <li>
-  Hazaribagh:(JH)
-
-<span> <i class="fas fa-phone-alt"></i>+91 7 807885509</span>
-  </li>
-  <li>
-  Tehri (UK):
-
-<span>  <i class="fas fa-phone-alt"></i>+91 7055712698</span>
-  </li>
-  <li>
-  Sahibganj (JH):
-
-<span> <i class="fas fa-phone-alt"></i>+91 7807885502</span>
-  </li>
-
-  <li>
-  Uttarkashi (UK):
-
-<span> <i class="fas fa-phone-alt"></i>+91 7055712694</span>
-  </li>
-  <li>
-  Pauri (UK):
-
-<span> <i class="fas fa-phone-alt"></i>+91 7055712691</span>
-  </li>
-
         </div>
 
      </div>
            </div>
+        
+        
+        
         </Section>
+     <Footer/>
+        </>
+           )}
+           </>
     )
 }
 

@@ -219,7 +219,7 @@ input:focus ~ .highlight {
     }
     }
     
-    .active{
+    #active{
       width:100%;
       height:45%;
       background: #1690d2;
@@ -486,7 +486,7 @@ input:focus ~ .highlight {
     }
     }
     
-    .active{
+    #active{
       width:100%;
       height:45%;
       background: #1690d2;

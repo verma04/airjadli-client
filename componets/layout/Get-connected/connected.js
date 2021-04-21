@@ -7,10 +7,22 @@ import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import News from '../NewsLetter/News';
 import Image from 'next/image';
+import { useQuery } from "react-query";
+import Loading from '../../Loading/Loading';
+const fetchConnection = async () => {
+  const res = await fetch("https://airjadli.herokuapp.com/client/getConnection");
+  return res.json();
+};
 function Connected() {
+  const { data, status } = useQuery("connection", fetchConnection);
     return (
+      <>
+      {status === "error" && <p>Error fetching data</p>}
+        {status === "loading" && <Loading/>  }
+        {status === "success" && (
+            <>
         <div>
-            
+            <Navbar/>
               <Section>
 
               <div class="grid"     >
@@ -24,7 +36,7 @@ function Connected() {
    
    <Image
              className="myImage"
-             src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1616044262/Airjaldi/ho0ro6wdyf9owyad4l4c.jpg"}
+             src={data.ConnectionAvatar}
       
        layout="fill"
       
@@ -35,11 +47,7 @@ function Connected() {
  <div class='grid1' >
 
  <h1>
- dssd
-sd
-sd
-
-describe('sdd'
+ {data.ConnectionDescription}
 
      </h1>
 
@@ -105,78 +113,36 @@ describe('sdd'
                 </div>
 
   <div  className="offer" >
-  
-  <div className="offer-1" >
-      <div className="top" >
-      <h5 class="w-pricing-item-title">BUSINESS CONNECTION</h5>
-       <h2>Starting from Rs 865</h2>
-       <span>pre month</span>
-      </div>
-      <div className="bottom" >
-  
-
-      <li>Class A Internet Service Provider</li>
-      <li>24/7 Customer Support</li>
-
-
-      <li>Dedicated service</li>
-
-
-      <li>Promised Speed</li>
-        <li>10 Years of Experience</li>
-        <li>97% Uptime</li>
+   {data.package.map(number => 
+     <div className="offer-1" >
+     <div  id={number.active} className="top" >
+     <h5 class="w-pricing-item-title">{number.packageType}</h5>
+      <h2>Starting from Rs {number.packagePrice}</h2>
+      <span>pre month</span>
+     </div>
+     <div className="bottom" >
  
-      </div>
 
-  </div>
-  <div className="offer-1" >
-      <div className="active" >
-      <h5 class="w-pricing-item-title">HOME CONNECTION</h5>
-       <h2>Starting from Rs 374</h2>
-       <span>pre month</span>
-      </div>
-      <div className="bottom" >
-  
-
-      <li>Class A Internet Service Provider</li>
-      <li>24/7 Customer Support</li>
+     <li>Class A Internet Service Provider</li>
+     <li>24/7 Customer Support</li>
 
 
-      <li>Dedicated service</li>
+     <li>Dedicated service</li>
 
 
-      <li>Promised Speed</li>
-        <li>10 Years of Experience</li>
-        <li>97% Uptime</li>
+     <li>Promised Speed</li>
+       <li>10 Years of Experience</li>
+       <li>97% Uptime</li>
+
+     </div>
+
+ </div>
  
-      </div>
 
-  </div>
    
-  <div className="offer-1" >
-      <div className="top" >
-      <h5 class="w-pricing-item-title">SMALL BUSINESS</h5>
-       <h2>Starting from Rs 465</h2>
-       <span>pre month</span>
-      </div>
-      <div className="bottom" >
-  
+   )
 
-      <li>Class A Internet Service Provider</li>
-      <li>24/7 Customer Support</li>
-
-
-      <li>Dedicated service</li>
-
-
-      <li>Promised Speed</li>
-        <li>10 Years of Experience</li>
-        <li>97% Uptime</li>
- 
-      </div>
-
-  </div>
-   
+   }
 
   </div>
 
@@ -187,9 +153,13 @@ describe('sdd'
           
            </Section>
              <News/>
-          
+          <Footer/>
         </div>
-    )
+   
+        </>
+      )}
+  </>
+  );
 }
 
 export default Connected

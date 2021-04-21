@@ -535,7 +535,7 @@ background-color:white;
 
    
   
-   @media (min-width: 1281px) {
+   @media (min-width: 1035px) {
   
     margin-bottom: 5rem;
 
@@ -709,7 +709,8 @@ background-color:white;
               line-height:1.6rem;
               
             li {
-                
+                margin-left:1rem;
+                font-size:1.1rem;
                 list-style: disc;
               }
           }

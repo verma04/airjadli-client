@@ -9,9 +9,9 @@ function notfound() {
         <title>Get-Connected</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-            <Navbar/>
+           
             <NotFound/>
-            <Footer/>
+           
         </div>
     )
 }
