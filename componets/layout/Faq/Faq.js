@@ -51,7 +51,7 @@ function Faq() {
  
  <Image
            className="myImage"
-           src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1616044262/Airjaldi/ho0ro6wdyf9owyad4l4c.jpg"}
+           src={data.FaqAvatar}
     
      layout="fill"
     
@@ -62,11 +62,7 @@ function Faq() {
 <div class='grid1' >
 
 <h1>
-dssd
-sd
-sd
-
-describe('sdd'
+{data.FaqDescription}
 
    </h1>
 

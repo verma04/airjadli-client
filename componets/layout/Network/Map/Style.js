@@ -90,14 +90,14 @@ height:100rem;
            width:12rem;
             text-align:left;
            text-transform:uppercase;
-           font-size:1.3rem;
+           font-size:1.2rem;
            display:flex;
            justify-content:center;
            flex-direction:column;
            align-items:center;
            color:black;
          
-           height:3rem;
+           height:2.5rem;
            .point {
        
            position: absolute;

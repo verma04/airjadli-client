@@ -5,6 +5,7 @@ import axios from "axios";
 import { Section} from './Style'
 import Image from 'next/image';
 import Map from './Map/Map';
+import Head from 'next/head';
 import Team from './Team/Team'
 import router from 'next/router';
 import { useQuery } from "react-query";
@@ -56,7 +57,9 @@ function City({id}) {
           {status === "loading" && <Loading/>}
           {status === "success" && (
             <>
-        
+          <Head>
+        <title>{data.cityName} - AirJaldi</title>
+      </Head>
              <Section>
               <div className="flex" >
               <div className="flex-1" >

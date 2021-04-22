@@ -3,324 +3,96 @@ import Navbar from '../Navbar/BlueNavbar';
 import Footer from '../Footer/Footer'
 import { Section} from './Style'
 import styled, { createGlobalStyle } from 'styled-components';
-
+import { useQuery } from "react-query";
 import Image from 'next/image'
-
-
+const fetchProjects = async () => {
+  const res = await fetch("https://airjadli.herokuapp.com/client/getprojects");
+  return res.json();
+};
+import { useRouter } from 'next/router'
+import Loading from '../../Loading/Loading';
 export default function Home() {
+  const { data, status } = useQuery("Projects", fetchProjects);
+  const router = useRouter()
   return (
     <>
       <Head>
-        <title>Home - AirJaldi</title>
+        <title>Projects - AirJaldi</title>
       </Head>
+      {status === "error" && <p>Error fetching data</p>}
+      {status === "loading" && 
+      
+    <Loading/>
+      
+      }
+        {status === "success" && (
+    <>
+
       <Section>
       <Navbar/>
     <div class="grid"    >
    
       <div class='card'  >
       <div class='card-1'  >
-  <div class='grid1' >
+      {data.map((number) =>  
+      <div  onClick={() => router.push(`/projects/${number.slug}`) }  class='grid1' >
 
-   <div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
-   <Image
-              className="myImage"
+<div className="wrapper"  style={{  position: 'relative', width:"100%", height: '13rem'}} >
+{(() => {
+     if (number.featureImg === "" ) {
+       return (
+         <Image
+         className="myImage"
         src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613451963/AirJaldi/odjjeta8wpc8nn2cwbit.png"
         alt="Picture of the author"
         layout="fill"
         objectFit="cover"
-      />
-   </div>
+        />
+            
+        
+       )
+     } 
+       else { 
+       return (
+         <Image
+         className="myImage"
+        src={number.featureImg}
+        alt="Picture of the author"
+        layout="fill"
+        objectFit="cover"
+        />
+       )
+       }
+    
+   })()}
+    
 
-   <div className="data" >
-     <h2>WHO WE ARE</h2>
-     <p>AirJaldi, a Class A ISP (Pan-India), is a
-leading innovator and implementer of
-technically and economically viable
-Internet connectivity solutions for rural
-areas ...</p>
-<div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
- <span>  See our company profile </span> </div>
-   </div>
-  </div>
-  <div class='grid1' >
 
-<div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
-<Image
-           className="myImage"
-     src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613451963/AirJaldi/odjjeta8wpc8nn2cwbit.png"
-     alt="Picture of the author"
-     layout="fill"
-     objectFit="cover"
-   />
 </div>
 
 <div className="data" >
-  <div className="head" ><h2>WHAT WE DO</h2></div>
-  
-  <p>We provide high-quality broadband
-connectivity In eight Indian states. We
-connect large and small clients from
-the corporate, civil society and private
-sectors ...</p>
-<div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
-<span>  More about our networks </span> </div>
-</div>
-</div>
-
-
-<div class='grid1' >
-
-   <div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
-   <Image
-              className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613451963/AirJaldi/odjjeta8wpc8nn2cwbit.png"
-        alt="Picture of the author"
-        layout="fill"
-        objectFit="cover"
-      />
-   </div>
-
-   <div className="data" >
-     <h2>GET CONNECTED</h2>
-     <p>With custom-made solutions for your
-home and office and our wifi hotspots
-all over India you are always connected.
-Our service-team is ready respond to ...</p>
-<div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
- <span> To our products and deals </span> </div>
-   </div>
-  </div>
  
-  <div class='grid1' >
+   <h2>{number.category}</h2> 
 
-   <div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
-   <Image
-              className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613451963/AirJaldi/odjjeta8wpc8nn2cwbit.png"
-        alt="Picture of the author"
-        layout="fill"
-        objectFit="cover"
-      />
-   </div>
+  <h3>{number.title}</h3>
+  <p>
 
-   <div className="data" >
-     <h2>WHO WE ARE</h2>
-     <p>AirJaldi, a Class A ISP (Pan-India), is a
-leading innovator and implementer of
-technically and economically viable
-Internet connectivity solutions for rural
-areas ...</p>
-<div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
- <span>  See our company profile </span> </div>
-   </div>
-  </div>
-  <div class='grid1' >
-
-<div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
-<Image
-           className="myImage"
-     src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613451963/AirJaldi/odjjeta8wpc8nn2cwbit.png"
-     alt="Picture of the author"
-     layout="fill"
-     objectFit="cover"
-   />
-</div>
-
-<div className="data" >
-  <div className="head" ><h2>WHAT WE DO</h2></div>
-  
-  <p>We provide high-quality broadband
-connectivity In eight Indian states. We
-connect large and small clients from
-the corporate, civil society and private
-sectors ...</p>
-<div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
-<span>  More about our networks </span> </div>
-</div>
-</div>
-
-
-<div class='grid1' >
-
-   <div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
-   <Image
-              className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613451963/AirJaldi/odjjeta8wpc8nn2cwbit.png"
-        alt="Picture of the author"
-        layout="fill"
-        objectFit="cover"
-      />
-   </div>
-
-   <div className="data" >
-     <h2>GET CONNECTED</h2>
-     <p>With custom-made solutions for your
-home and office and our wifi hotspots
-all over India you are always connected.
-Our service-team is ready respond to ...</p>
-<div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
- <span> To our products and deals </span> </div>
-   </div>
-  </div>
  
-  <div class='grid1' >
-
-   <div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
-   <Image
-              className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613451963/AirJaldi/odjjeta8wpc8nn2cwbit.png"
-        alt="Picture of the author"
-        layout="fill"
-        objectFit="cover"
-      />
-   </div>
-
-   <div className="data" >
-     <h2>WHO WE ARE</h2>
-     <p>AirJaldi, a Class A ISP (Pan-India), is a
-leading innovator and implementer of
-technically and economically viable
-Internet connectivity solutions for rural
-areas ...</p>
-<div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
- <span>  See our company profile </span> </div>
-   </div>
-  </div>
-  <div class='grid1' >
-
-<div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
-<Image
-           className="myImage"
-     src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613451963/AirJaldi/odjjeta8wpc8nn2cwbit.png"
-     alt="Picture of the author"
-     layout="fill"
-     objectFit="cover"
-   />
-</div>
-
-<div className="data" >
-  <div className="head" ><h2>WHAT WE DO</h2></div>
   
-  <p>We provide high-quality broadband
-connectivity In eight Indian states. We
-connect large and small clients from
-the corporate, civil society and private
-sectors ...</p>
-<div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
-<span>  More about our networks </span> </div>
+       
+       
+            
+  </p>
+  <div className='link' >
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<span>  Learn more </span> </div>
+
+
+{/* <span className='status' >{number.status} {moment(number.created).format("DD")} {moment(number.created).format("MMMM")} {moment(number.created).format("YYYY")}   </span> */}
 </div>
 </div>
 
-
-<div class='grid1' >
-
-   <div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
-   <Image
-              className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613451963/AirJaldi/odjjeta8wpc8nn2cwbit.png"
-        alt="Picture of the author"
-        layout="fill"
-        objectFit="cover"
-      />
-   </div>
-
-   <div className="data" >
-     <h2>GET CONNECTED</h2>
-     <p>With custom-made solutions for your
-home and office and our wifi hotspots
-all over India you are always connected.
-Our service-team is ready respond to ...</p>
-<div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
- <span> To our products and deals </span> </div>
-   </div>
-  </div>
- 
-  <div class='grid1' >
-
-   <div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
-   <Image
-              className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613451963/AirJaldi/odjjeta8wpc8nn2cwbit.png"
-        alt="Picture of the author"
-        layout="fill"
-        objectFit="cover"
-      />
-   </div>
-
-   <div className="data" >
-     <h2>WHO WE ARE</h2>
-     <p>AirJaldi, a Class A ISP (Pan-India), is a
-leading innovator and implementer of
-technically and economically viable
-Internet connectivity solutions for rural
-areas ...</p>
-<div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
- <span>  See our company profile </span> </div>
-   </div>
-  </div>
-  <div class='grid1' >
-
-<div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
-<Image
-           className="myImage"
-     src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613451963/AirJaldi/odjjeta8wpc8nn2cwbit.png"
-     alt="Picture of the author"
-     layout="fill"
-     objectFit="cover"
-   />
-</div>
-
-<div className="data" >
-  <div className="head" ><h2>WHAT WE DO</h2></div>
-  
-  <p>We provide high-quality broadband
-connectivity In eight Indian states. We
-connect large and small clients from
-the corporate, civil society and private
-sectors ...</p>
-<div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
-<span>  More about our networks </span> </div>
-</div>
-</div>
-
-
-<div class='grid1' >
-
-   <div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
-   <Image
-              className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613451963/AirJaldi/odjjeta8wpc8nn2cwbit.png"
-        alt="Picture of the author"
-        layout="fill"
-        objectFit="cover"
-      />
-   </div>
-
-   <div className="data" >
-     <h2>GET CONNECTED</h2>
-     <p>With custom-made solutions for your
-home and office and our wifi hotspots
-all over India you are always connected.
-Our service-team is ready respond to ...</p>
-<div className='link' >
-<i className="fas fa-long-arrow-alt-right"></i>
- <span> To our products and deals </span> </div>
-   </div>
-  </div>
- 
-
-
+)}
 </div>
 </div>
     </div>
@@ -332,7 +104,8 @@ Our service-team is ready respond to ...</p>
       
        
       <Footer/>
-    
+      </>
+       )}
     </>
   );
 }

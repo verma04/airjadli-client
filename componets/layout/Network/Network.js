@@ -17,15 +17,16 @@ export default function Home() {
   const { data, status } = useQuery("networks", networks);
   return (
     <>
+    <Head>
+        <title>Network - AirJaldi</title>
+      </Head>
     {status === "error" && <p>Error fetching data</p>}
       {status === "loading" && 
       <Loading/>
       }
       {status === "success" && (
           <>
-      <Head>
-        <title>Home - AirJaldi</title>
-      </Head>
+      
       <Section>
       <Navbar/>
     <div class="grid"    >

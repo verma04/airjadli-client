@@ -22,6 +22,10 @@ export default function Home({}) {
   const router = useRouter()
   return (
     <>
+     <Head>
+        <title>News - AirJaldi</title>
+      </Head>
+     
     {status === "error" && <p>Error fetching data</p>}
       {status === "loading" && 
       
@@ -30,9 +34,8 @@ export default function Home({}) {
       }
       {status === "success" && (
     <>
-      <Head>
-        <title>Home - AirJaldi</title>
-      </Head>
+     
+     
       <Section>
       <Navbar/>
       <div class="grid"    >
