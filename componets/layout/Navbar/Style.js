@@ -13,7 +13,7 @@ height:100%;
 position:absolute;
 top:0;
 width:100%;
-z-index:1000;
+
 
 
 @media (min-width: 1035px) {
