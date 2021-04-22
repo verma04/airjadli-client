@@ -89,8 +89,8 @@ align-items:center;
            
              .wrapper {
                  margin-left:8%;
-                  width:30%;
-                  height:80%;
+                  width:25%;
+                  height:70%;
                   
              
                   

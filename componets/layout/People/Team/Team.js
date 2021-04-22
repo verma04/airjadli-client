@@ -19,7 +19,7 @@ const fetchAllPeople = async () => {
 function Aboutus({page}) {
     const { data, status} = useQuery("AllPeople", fetchAllPeople);
   ;
-    const [  active , setActive] = useState("Management");
+    const [  active , setActive] = useState("Board");
   
     return (
       <>

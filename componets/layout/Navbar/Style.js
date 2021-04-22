@@ -341,9 +341,9 @@ z-index:1000;
       }
 .nav-item:hover .dropdown-content {display: flex;}
 .nav-item:hover span  {
-   
+  
    border-bottom:2px solid white;
-
+       
 
 }
 

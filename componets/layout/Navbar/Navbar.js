@@ -93,7 +93,7 @@ const Navbar = () => {
        
         <div className="list" >
         <h3 id={router.pathname == "/networks" ? "active" : ""}>  <Link    href="/networks" >Networks</Link></h3>
-        <h3 id={router.pathname == "/projects" ? "active" : ""}>  <Link    href="/projects" >Project</Link></h3>
+        <h3 id={router.pathname == "/projects" ? "active" : ""}>  <Link    href="/projects" >Projects</Link></h3>
         <h3 id={router.pathname == "/services" ? "active" : ""}>  <Link   href="/services" >Services</Link></h3>
         <h3 id={router.pathname == "/training" ? "active" : ""}>  <Link    href="/training" >Training</Link></h3>
         <h3 className="news" id={router.pathname == "/field-stories" ? "active" : ""}>  <Link    href="/field-stories" >Field Stories</Link></h3>
@@ -259,7 +259,7 @@ const Navbar = () => {
 
  <div  className="list" >
         <h3 id={router.pathname == "/networks" ? "active" : ""}>  <Link    href="/networks" >Networks</Link></h3>
-        <h3 id={router.pathname == "/projects" ? "active" : ""}>  <Link    href="/projects" >Project</Link></h3>
+        <h3 id={router.pathname == "/projects" ? "active" : ""}>  <Link    href="/projects" >Projects</Link></h3>
         <h3 id={router.pathname == "/services" ? "active" : ""}>  <Link   href="/services" >Services</Link></h3>
         <h3 id={router.pathname == "/training" ? "active" : ""}>  <Link    href="/training" >Training</Link></h3>
         <h3 id={router.pathname == "/field-stories" ? "active" : ""}>  <Link   c href="/field-stories" >Field Stories</Link></h3>

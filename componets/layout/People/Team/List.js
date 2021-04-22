@@ -40,13 +40,73 @@ function List({list , active }) {
 
     const [  del , setdel] = useState(false);
     const [  visible , setvisible] = useState(false);
-
+  
+   
 
 const dat  =   list.filter(element => element.memberCategory === active)
  const data = dat.sort((a, b) => parseFloat(a.memberCategoryId) - parseFloat(b.memberCategoryId))
 
+  
+ const boar  =   list.filter(element => element.memberCategory !== "Member")
+  
+ 
+ console.log(boar)
+ list = boar.sort(() => Math.random() - 0.5)
+ 
+
  const random = Math.floor(Math.random() * months.length);
 
+
+   if(active === "Board") {
+     return (
+       <div>
+        <div  className="team"  >
+<Masonry columnsCount={3} gutter="10px">
+{list.map((number) =>  {
+ const height = Math.random() * (500 - 350) + 350;
+
+ return (
+      <div  style={{height: `${height}px`}} class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src={number.memberAvatar} alt="Avatar" />
+         <div className="det" > 
+          <div className="data" >
+                         <h2>{number.memberName}</h2>
+                        <span>{number.memberPosition}
+    </span>
+                      
+                         </div>
+                         </div>
+        </div>
+        <div class="flip-card-back">
+          <div className="data" >
+          <h1>{number.memberName}</h1> 
+          
+          <p>{number.memberDescription}</p>
+    </div>
+        </div>
+      </div>
+    
+            </div>
+ )
+}   
+    
+           
+)}
+</Masonry>
+<div className="btn" >
+                  <button>load more</button>
+                </div>
+        </div>
+   
+   
+       </div>
+
+     )
+   }
+
+  
     return (
     <>
             {/* {list.map((number) => 
