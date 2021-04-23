@@ -77,7 +77,7 @@ margin-top:5rem;
         flex-direction:column;
       p {
         width:90%;
-          font-size:1.5rem;
+          font-size:1.4rem;
           color:white;
       }
       h2 {
