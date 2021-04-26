@@ -184,12 +184,9 @@ height:100%;
 
     align-items:center;
     h1 {
-        margin-top:10%;
-  
-        width:90%;
-        text-align:center;
-        text-align:center;
-    height:100%;
+        background-color:white;
+        font-size:1.5rem;
+        padding:1rem;
     }
        
     }

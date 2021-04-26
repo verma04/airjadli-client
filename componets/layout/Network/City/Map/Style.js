@@ -87,7 +87,7 @@ align-items:center;
 
  
 
-.flex {
+.flex-0 {
     height:100%;
 margin-top:3rem;
 
@@ -97,7 +97,9 @@ margin-top:3rem;
     width:90%;
     height:100%;
     .flex-1 {
-        height:20rem;
+        
+       padding-top:1rem;
+       padding-bottom:1rem;
         width:100%;
         height:100%;
         display:flex;

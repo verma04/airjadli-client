@@ -170,6 +170,7 @@ height:100%;
             align-items:center;
             flex-direction:column;
             li {
+                line-height:1.1;
                 margin-top:0.5rem;
                 font-size:1.5rem;
                 text-align:left;

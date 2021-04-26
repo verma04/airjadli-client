@@ -27,9 +27,7 @@ function Connected() {
 
               <div class="grid"     >
    
-   <div className="bird" > 
- <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
-  </div>
+  
    
    
    
