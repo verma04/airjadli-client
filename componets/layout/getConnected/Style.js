@@ -168,6 +168,10 @@ position: relative;
 
    
 }
+.bird {
+    display:none;
+
+}
 .card {
     position:absolute;
     bottom:7%;
@@ -187,19 +191,19 @@ position: relative;
     .grid1 {
          width:100%;
          height:55%;
-         background-color:white;
+     
          display:flex;
     justify-content:center;
 
 
     align-items:center;
     h1 {
-        margin-top:10%;
-  
-        width:90%;
+        background-color:white;
         text-align:center;
         text-align:center;
-    height:100%;
+        font-size:1.5rem;
+        padding:1rem;
+   
     }
        
     }

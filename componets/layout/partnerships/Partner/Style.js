@@ -249,15 +249,15 @@ z-index:-1;
           .box {
               height:100%;
               width:100%;
-              
+                
               background-color: ${props => props.theme.colors.lightblue};
               display:flex;
           justify-content:flex-start;
           align-items:center;
           flex-direction:column;
           .contact {
-              width:80%;
-             
+              width:90%;
+             margin-top:1rem;
             h3 {
              color: ${props => props.theme.colors.blue};
              font-weight:900;
@@ -265,13 +265,14 @@ z-index:-1;
             p {
              color: ${props => props.theme.colors.blue};
             }
-              margin-top:5%;
+              margin-top:1rem;
               margin-bottom:5%;
           }
           .bottom {
-              width:80%;
+              width:90%;
               text-align:left;
               margin-top:3%;
+              margin-bottom:3%;
              color: ${props => props.theme.colors.blue};
           }
           }

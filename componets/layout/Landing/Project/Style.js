@@ -465,7 +465,7 @@ margin-top:4rem;
               font-weight:900; 
           }
           }
-      width:90%;
+          width: 100%;
       height:50%;
       
       display:flex;

@@ -199,15 +199,14 @@ width:100%;
   
 
 @media (max-width: 600px) {
-
+  display:none;
     .flex{
-
-
-
 display:flex;
-justify-content:space-between;
+justify-content:space-around;
 flex-direction:column;
 width:90%;
+height:60rem;
+border: 1px solid;
 .head {
     width:100%;
     height:5%;
@@ -223,6 +222,7 @@ color: ${props => props.theme.colors.blue};
  display:flex;
 justify-content:space-around;
 flex-direction:column;
+border: 1px solid red;
 width:100%;
     height:95%;
 .left {

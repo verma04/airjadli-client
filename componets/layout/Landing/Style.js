@@ -230,12 +230,19 @@ span {
    
 }
 
+ .bird {
+     display:none;
+ }
+
 .grid-1 {
-z-index:1;
-width:100%;
-margin-top:3rem;
+    z-index: 1;
+    height: 17%;
+    width: 100%;
+    margin-top: 3rem;
+
+
 .card {
-        
+
         display:flex;
         justify-content:center;
         align-items:center;
@@ -253,7 +260,7 @@ margin-top:3rem;
         .grid1 {
             margin-top:2rem;
              width:100%;
-             height:30rem;
+             height: 27rem;
              background-color:white;
              display:flex;
         justify-content:center;
@@ -273,6 +280,7 @@ margin-top:3rem;
         flex-direction:column;
       h2 {
         font-size:1.8rem;
+        color:${props => props.theme.colors.blue};
       }
     p {
        color: #2f3435; 
@@ -292,6 +300,9 @@ justify-content:flex-start;
 color:${props => props.theme.colors.blue};
 i {
     font-size:1.2rem;
+}
+img {
+    margin-right:1rem;
 }
 span {
     font-size:1.2rem;

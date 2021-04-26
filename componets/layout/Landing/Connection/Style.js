@@ -307,7 +307,8 @@ align-items:center;
              h2 {
                 color:white;
                 width:90%; 
-                font-size:1.8rem;
+                font-size: 1.7rem;
+                line-height: 1.1;
             span {
                 font-weight:1000;
             }
@@ -324,7 +325,8 @@ align-items:center;
               h2 {
                 color:white;
                 width:90%; 
-            font-size:1.8rem;
+                font-size: 1.7rem;
+                line-height: 1.1;
             span {
                 font-weight:1000;
             }
@@ -373,7 +375,8 @@ align-items:center;
 
                       h2 {
                       word-spacing:0.2rem;
-                      font-size:1.8rem;
+                      font-size: 1.7rem;
+                line-height: 1.1;
                     
                       span {
                            font-weight:1000;

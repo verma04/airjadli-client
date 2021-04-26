@@ -156,7 +156,7 @@ justify-content:space-between;
 width:90%;
 .flex-1 {
    width:100%;
-   height:20rem;
+   height:25rem;
 
    position: relative;
   

@@ -304,6 +304,7 @@ margin-bottom:40%;
 
 }
 @media (max-width: 600px) {
+  margin-top:2rem;
   display:flex;
 justify-content:center;
 height:100%;
@@ -314,7 +315,7 @@ align-items:center;
 align-items:center;
 
   .head {
-        height:10rem;
+        height:12rem;
         display:flex;
         
         justify-content:center;
@@ -322,6 +323,10 @@ align-items:center;
         flex-direction:column;
         width:90%;
         text-align:left;
+        h1 {
+          font-size:1.5rem;
+          font-weight:1000;
+        }
         }
         p {
           line-height:1.1;
@@ -329,6 +334,7 @@ align-items:center;
           width:100%;
      
         }
+
 
     
 

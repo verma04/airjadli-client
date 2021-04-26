@@ -345,7 +345,7 @@ span {
                 font-weight:900; 
             }
             }
-        width:90%;
+        width:100%;
         height:50%;
         
         display:flex;
@@ -367,8 +367,8 @@ display:flex;
 cursor: pointer;
 justify-content:flex-start;
 color:${props => props.theme.colors.blue};
-i {
-    font-size:1.2rem;
+img {
+   margin-right:0.5rem;
 }
 span {
     font-size:1.2rem;

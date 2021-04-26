@@ -366,6 +366,7 @@ height:100%;
     justify-content:center;
   flex-direction:column;
   .bird {
+      display:none;
         top: 1rem;
       
     height: 38rem;
@@ -438,14 +439,17 @@ height:100%;
              font-weight:900;
             }
             p {
+            
              color: ${props => props.theme.colors.blue};
             }
               margin-top:5%;
+              
           }
           .bottom {
               width:80%;
               text-align:left;
               margin-top:3%;
+              padding-bottom:1rem;
              color: ${props => props.theme.colors.blue};
           }
           }

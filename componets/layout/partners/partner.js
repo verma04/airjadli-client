@@ -32,7 +32,7 @@ export default class vendor extends Component {
             },
             mobile: {
               breakpoint: { max: 760, min: 0 },
-              items: 2
+              items: 1
             }
           };
         return (

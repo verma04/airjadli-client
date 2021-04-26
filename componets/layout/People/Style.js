@@ -183,15 +183,15 @@ width:90%;
 .grid1 {
  width:90%;
  height:60%;
- background-color:white;
+ 
  display:flex;
 justify-content:center;
 align-items:center;
 flex-direction:column;
 h1 {
-margin-top:10%;
-width:90%;
-height:100%;
+    background-color:white;
+   padding:1rem;
+   font-size:1.5rem;
 }
 
 }

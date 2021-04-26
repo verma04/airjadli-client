@@ -154,7 +154,9 @@ background-color:white;
 
 @media (max-width: 600px) {
     margin-top:22%;
-
+  .bird {
+      display:none;
+  }
 .grid {
     position: relative;
     width:100%;
@@ -179,15 +181,17 @@ background-color:white;
     .grid1 {
          width:90%;
          height:80%;
-         background-color:white;
+        
          display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
     h1 {
         margin-top:10%;
-        width:90%;
-    height:100%;
+        
+        padding:1rem;
+     font-size:1.5rem;
+     background-color:white;
     }
        
     }

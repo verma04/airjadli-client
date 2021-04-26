@@ -21,11 +21,7 @@ div {
     position: absolute;
 
 
-        img {
-           
-            left:0%;
-            height:100%;
-        }
+    
     }
   body {
     color: #2f3435; 
@@ -174,6 +170,9 @@ transition: transform .8s;
   @media only screen and (min-width: 768px) {
     body {
       overflow-x: hidden;
+    }
+    .card {
+      display:none;
     }
     h1 {
       font-size: 2rem;

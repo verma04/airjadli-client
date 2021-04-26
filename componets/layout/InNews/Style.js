@@ -393,7 +393,7 @@ z-index:1;
    
     }
     .data {
-    width:90%;
+    width:100%;
     height:50%;
     
     display:flex;

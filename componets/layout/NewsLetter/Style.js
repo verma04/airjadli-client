@@ -98,7 +98,8 @@ margin-top:5rem;
    flex-direction:column;
 
    h2 {
-     font-size:2.2rem;
+     font-size:2rem;
+     line-height:1.1;
      color:white;
      word-spacing: 0.1rem;
     text-align:center;

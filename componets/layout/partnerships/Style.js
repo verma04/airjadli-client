@@ -181,6 +181,10 @@ height:100%;
 
 @media (max-width: 600px) {
 margin-top:20%;
+
+.bird {
+    display:none;
+}
 .grid {
     position: relative;
     width:100%;
@@ -215,12 +219,9 @@ margin-top:20%;
 
     align-items:center;
     h1 {
-        margin-top:10%;
-  
-        width:90%;
-        text-align:center;
-        text-align:center;
-    height:100%;
+        font-size:1.5rem;
+        padding:1rem;
+        background-color:white;
     }
        
     }

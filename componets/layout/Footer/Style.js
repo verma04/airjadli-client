@@ -304,7 +304,7 @@ margin-top:8rem;
 }
 @media (max-width: 767px) {
   .flex {
-        height:30rem;
+        height:35rem;
       
         width:90%;
         display:flex;
