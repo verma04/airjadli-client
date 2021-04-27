@@ -62,7 +62,7 @@ width:100%;
        
         h3 {
            height:18%;
-           font-weight:900;
+  
        
            font-size:1.1rem;
            display:flex;
@@ -286,7 +286,7 @@ width:100%;
        
         h3 {
            height:18%;
-           font-weight:900;
+          
        
            font-size:1.1rem;
            display:flex;

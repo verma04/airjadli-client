@@ -61,7 +61,7 @@ height:100%;
 align-items:center;       
         h3 {
           
-           font-weight:900;
+      
        
            font-size:1.1rem;
            display:flex;
@@ -234,7 +234,7 @@ height:100%;
 align-items:center;       
         h3 {
           
-           font-weight:900;
+         
        
            font-size:1.1rem;
            display:flex;
