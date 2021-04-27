@@ -3,8 +3,9 @@ import { Section} from './Style'
 
 import Image from 'next/image'
 
-
+import { Router, useRouter } from "next/router";
 export default function Project() {
+  const router = useRouter();
   return (
     <>
       
