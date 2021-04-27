@@ -6,7 +6,7 @@ import { Integrations } from "@sentry/tracing";
  import theme from '../theme/colors';
  import { ReactQueryDevtools } from 'react-query/devtools'
  import GlobalFonts from '../theme/theme';
- 
+ import BacktoTop from '../componets/backtotop'
  import { ToastContainer, toast } from 'react-toastify';
  import 'react-toastify/dist/ReactToastify.css';
 
@@ -65,6 +65,7 @@ function MyApp({ Component, pageProps }) {
  <Component {...pageProps} />
  
  </Hydrate>
+ <BacktoTop/>
  <ReactQueryDevtools initialIsOpen={true} />
  </QueryClientProvider>
  

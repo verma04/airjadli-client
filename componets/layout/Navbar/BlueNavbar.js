@@ -117,7 +117,7 @@ const Navbar = () => {
              
                </div>
                <div class="nav-item" >
-               <span id={router.pathname == "/new-connection" ? "activesm" : ""}  >   <Link  href="/contact" >  CONTACT US  </Link> </span>
+               <span id={router.pathname == "/get-connected" ? "activesm" : ""}  >   <Link  href="/contact" >  CONTACT US  </Link> </span>
                </div>
                <div class="nav-item" >
                <span>        MAKE PAYMENT </span>
@@ -232,7 +232,7 @@ const Navbar = () => {
   </div>
 
   <div className="link" >
- <h2 id={router.pathname == "/new-connection" ? "activesm" : ""}  >   <Link  href="/contact" >  CONTACT US  </Link>  CONTACT US </h2>
+ <h2 id={router.pathname == "/get-connected" ? "activesm" : ""}  >   <Link  href="/contact" >  CONTACT US  </Link>  CONTACT US </h2>
   </div>
   <div className="link" >
  <h2>MAKE PAYMENT</h2> 
