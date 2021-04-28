@@ -19,28 +19,47 @@ height:100%;
         width:100%;
         height:46rem;
         position: relative;
- 
-       
-    }
-
-    .bird {
-        top: 6%;
-    height: 70rem;
-    width: 39%;
-    left: -1%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+         .birdOut {
+             z-index:999;
+           width:90rem;
+           position: relative;
+           height:100%;
+          
+         .birdd {
+           
+         z-index:999;
+    height: 100%;
+    display:flex;
+  top:10%;
+        justify-content:flex-start;
+        
+        height: 70rem;
+    width: 100%;
+   
+   width:100%;
     position: absolute;
-
     transform: rotate( 
 3.2deg
  );
 
 
+
         img {
-            width: 96%;
-            height: 109%;
+        
         }
+    } 
+         }
+   
+    
+       
     }
+
+
     .card {
+   
        z-index:1000;
         position:absolute;
         bottom:7%;
@@ -122,20 +141,56 @@ span {
         display:none;
     }
 
+    
+
     .grid {
 
         width:100%;
         height:46rem;
         position: relative;
- 
+        display:flex;
+        justify-content:center;
        
-    }
+        .birdOut {
+             z-index:999;
+           width:90%;
+           position: relative;
+           height:100%;
+            
+         .birdd {
+           
+         z-index:999;
+    height: 100%;
+    display:flex;
+  top:8%;
+        justify-content:flex-start;
+        
+        height: 65rem;
+    width: 100%;
+   
+   width:100%;
+    position: absolute;
+    transform: rotate( 
+3.2deg
+ );
 
-    .bird {
-        top: 6%;
+
+
+        img {
+        
+        }
+    } 
+         }
+        .bird {
+            top: 9%;
+        z-index:999;
     height: 70rem;
-    width: 39%;
-    left: 4%;
+    display:flex;
+        justify-content:flex-start
+        ;
+  
+    width: 100%;
+    left: 1%;
     position: absolute;
 
     transform: rotate( 
@@ -144,10 +199,14 @@ span {
 
 
         img {
-            width: 96%;
-            height: 109%;
+            width: 48%;
+    height: 109%;
         }
     }
+       
+    }
+
+    
     .card {
        z-index:1000;
         position:absolute;
@@ -235,27 +294,44 @@ span {
         width:100%;
         height:42rem;
         position: relative;
- 
+        display:flex;
+        justify-content:center;
        
-    }
-
-    .bird {
-        top: 6%;
-    height: 60rem;
-    width: 39%;
-    left: 1%;
-    position: absolute;
+        .birdOut {
+             z-index:999;
+           width:100%;
+           position: relative;
+           height:100%;
+            
+         .birdd {
+           
+         z-index:999;
+    height: 100%;
+    display:flex;
+  top:8%;
+        justify-content:flex-start;
+        
+        height: 65rem;
+    width: 100%;
    
+   width:100%;
+    position: absolute;
     transform: rotate( 
 3.2deg
  );
 
 
+
         img {
-            width: 96%;
-            height: 109%;
+        
         }
+    } 
+         }
+ 
+       
     }
+
+   
     .card {
        z-index:1000;
         position:absolute;

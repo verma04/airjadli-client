@@ -36,6 +36,12 @@ export default function Home() {
       <Section>
       <Navbar/>
     <div class="grid"  >
+
+      <div className="birdOut" >
+      <div className="birdd" > 
+  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
+   </div>
+         </div>
    
     
     <Image
@@ -135,9 +141,7 @@ Our service-team is ready respond to ...</p>
 </div>
 </div>
     </div>
-    <div className="bird" > 
-  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
-   </div>
+   
 
 <div class="grid-1"  >
       

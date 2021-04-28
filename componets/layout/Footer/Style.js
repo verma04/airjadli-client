@@ -12,7 +12,7 @@ background-color: ${props => props.theme.colors.footerColor};
 margin-top:8rem;
 
 @media (min-width: 1281px) {
-border: 1px solid red;
+
 .flex { 
   
 
