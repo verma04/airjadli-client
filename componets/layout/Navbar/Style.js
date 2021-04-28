@@ -286,7 +286,7 @@ width:100%;
         h3 {
            height:18%;
   
-       
+         text-align:center;
            font-size:1.1rem;
            display:flex;
            justify-content:center;
@@ -546,6 +546,7 @@ width:100%;
    span {
       margin-top:1rem;
       font-size:1rem;
+      text-align:center;
    }
 
 
