@@ -24,7 +24,7 @@ height:100%;
         align-items:center;
          .birdOut {
              z-index:999;
-           width:90rem;
+           width:82rem;
            position: relative;
            height:100%;
           
@@ -33,7 +33,7 @@ height:100%;
          z-index:999;
     height: 100%;
     display:flex;
-  top:10%;
+  top:6%;
         justify-content:flex-start;
         
         height: 70rem;
@@ -41,9 +41,9 @@ height:100%;
    
    width:100%;
     position: absolute;
-    transform: rotate( 
+    /* transform: rotate( 
 3.2deg
- );
+ ); */
 
 
 
@@ -75,7 +75,8 @@ height:100%;
         justify-content:space-between;
         align-items:center;
         height:100%;
-        width:75rem;
+        width:70rem;
+        
   
       
         .grid1 {
@@ -168,7 +169,7 @@ span {
         height: 65rem;
     width: 100%;
    
-   width:100%;
+  
     position: absolute;
     transform: rotate( 
 3.2deg
@@ -181,28 +182,7 @@ span {
         }
     } 
          }
-        .bird {
-            top: 9%;
-        z-index:999;
-    height: 70rem;
-    display:flex;
-        justify-content:flex-start
-        ;
-  
-    width: 100%;
-    left: 1%;
-    position: absolute;
-
-    transform: rotate( 
-3.2deg
- );
-
-
-        img {
-            width: 48%;
-    height: 109%;
-        }
-    }
+   
        
     }
 

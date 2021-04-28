@@ -27,9 +27,7 @@ export default function Home() {
       <Navbar/>
     <div class="grid"     >
 
-    <div className="bird" > 
-  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1615558552/vise9qvuybx9ttqj17zy.svg'} ></img>
-   </div>
+
     <Image
               className="myImage"
         src={data.tranningAvatar}

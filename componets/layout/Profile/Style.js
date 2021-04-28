@@ -9,32 +9,47 @@ display:flex;
 justify-content:center;
 height:100%;
 
-@media (min-width: 1035px) {
+@media (min-width: 1281px) {
 
     .grid {
 
         width:100%;
         height:40rem;
         position: relative;
-    
-        .bird {
-        top: 7%;
-    height: 70rem;
-    width: 39%;
-    z-index:99;
-    left: 5%;
-    position: absolute;
+  display:flex;
+        justify-content:center;
+        align-items:center;
+         .birdOut {
+             z-index:999;
+           width:90rem;
+           position: relative;
+           height:100%;
+         
+          
+         .birdd {
+           
+         z-index:999;
+    height: 100%;
+    display:flex;
+  top:7%;
+        justify-content:flex-start;
+        
+        height: 70rem;
+    width: 100%;
    
-    transform: rotate( 
-3.2deg
- );
+   width:100%;
+    position: absolute;
+  
+
 
 
         img {
-            width: 96%;
-    height: 100%;
+        
         }
-    }
+    } 
+         }
+    
+   
     .card {
        z-index:990;
        position:absolute;
@@ -50,7 +65,7 @@ height:100%;
        justify-content:space-between;
        align-items:flex-end;
        height:100%;
-       width:76%;
+       width:75rem;
     
        .grid1 {
          
@@ -81,6 +96,91 @@ height:100%;
    
 
   
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px)  {
+
+    .grid {
+
+width:100%;
+height:40rem;
+position: relative;
+
+.birdOut {
+             z-index:999;
+           width:90%;
+           position: relative;
+           height:100%;
+            
+         .birdd {
+           
+         z-index:999;
+    height: 100%;
+    display:flex;
+  top:8%;
+        justify-content:flex-start;
+        
+        height: 65rem;
+    width: 100%;
+   
+ 
+    position: absolute;
+    transform: rotate( 
+3.2deg
+ );
+
+
+
+        img {
+        
+        }
+    } 
+         }
+.card {
+z-index:990;
+position:absolute;
+bottom:8%;
+display:flex;
+justify-content:center;
+align-items:center;
+width:100%;
+
+height:70%;
+.card-1 {
+   display:flex;
+justify-content:space-between;
+align-items:flex-end;
+height:100%;
+width:76%;
+
+.grid1 {
+ 
+    width:50%;
+
+    background-color:white;
+    display:flex;
+justify-content:center;
+
+
+align-items:center;
+h1 {
+ padding:1rem;
+
+   width:90%;
+   text-align:center;
+   text-align:center;
+
+}
+  
+}
+
+}
+}
+
+
+}
+
 
 }
 

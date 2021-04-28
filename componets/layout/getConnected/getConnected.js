@@ -37,10 +37,12 @@ export default function Home() {
         objectFit="cover"
       />
 
-<div className="bird" > 
+
+<div className="birdOut" >
+      <div className="birdd" > 
   <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
    </div>
-    
+         </div>
     
 
       <div class='card'  >

@@ -9,7 +9,7 @@ display:flex;
 justify-content:center;
 height:100%;
 
-@media (min-width: 1035px) {
+@media (min-width: 1281px) {
 
     .grid {
 
@@ -17,25 +17,42 @@ height:100%;
         
 position: relative;
         height: 40rem;
+        display:flex;
+        justify-content:center;
+        align-items:center;
 
-        .bird {
-        top: 7%;
-    height: 70rem;
-    width: 39%;
-    z-index:99;
-    left: 5%;
-    position: absolute;
+        .birdOut {
+             z-index:999;
+           width:82rem;
+           position: relative;
+           height:100%;
+           z-index:1;
+         .birdd {
+           
+        
+    height: 100%;
+    display:flex;
+  top:6%;
+        justify-content:flex-start;
+        
+        height: 70rem;
+    width: 100%;
    
-    transform: rotate( 
+   width:100%;
+    position: absolute;
+    /* transform: rotate( 
 3.2deg
- );
+ ); */
+
 
 
         img {
-            width: 96%;
-    height: 100%;
+        
         }
-    }
+    } 
+         }
+
+  
     }
     .card {
        z-index:990;
@@ -52,7 +69,7 @@ position: relative;
        justify-content:space-between;
        align-items:flex-end;
        height:100%;
-       width:76%;
+       width:75rem;
     
        .grid1 {
          
@@ -82,6 +99,96 @@ position: relative;
 
 }
 
+
+@media (min-width: 1024px) and (max-width: 1280px)  {
+
+.grid {
+
+    width:100%;
+    
+position: relative;
+    height: 40rem;
+    display:flex;
+        justify-content:center;
+        align-items:center;
+
+    .birdOut {
+             z-index:999;
+           width:90%;
+           position: relative;
+           height:100%;
+            
+         .birdd {
+           
+         z-index:999;
+    height: 100%;
+    display:flex;
+  top:8%;
+        justify-content:flex-start;
+        
+        height: 65rem;
+    width: 100%;
+   
+  
+    position: absolute;
+    transform: rotate( 
+3.2deg
+ );
+
+
+
+        img {
+        
+        }
+    } 
+         }
+}
+.card {
+   z-index:990;
+   position:absolute;
+   bottom:8%;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   width:100%;
+  
+   height:70%;
+   .card-1 {
+       display:flex;
+   justify-content:space-between;
+   align-items:flex-end;
+   height:100%;
+   width:76%;
+
+   .grid1 {
+     
+        width:50%;
+     
+        background-color:white;
+        display:flex;
+   justify-content:center;
+
+
+   align-items:center;
+   h1 {
+     padding:1rem;
+ 
+       width:90%;
+       text-align:center;
+       text-align:center;
+
+   }
+      
+   }
+
+}
+}
+
+
+
+}
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .grid {
 
@@ -90,30 +197,36 @@ width:100%;
 position: relative;
 height: 40rem;
 
-.bird {
-top: 5%;
-height: 70rem;
-width: 39%;
-left: 5%;
-position: absolute;
--webkit-transform: rotate( 
-1deg
-);
--ms-transform: rotate( 1deg );
--webkit-transform: rotate( 
-1deg
-);
--ms-transform: rotate( 1deg );
-transform: rotate( 
-1deg
+.birdOut {
+        
+        width:100%;
+        position: relative;
+        height:100%;
+         
+      .birdd {
+        
+  
+ height: 100%;
+ display:flex;
+top:8%;
+     justify-content:flex-start;
+     
+     height: 65rem;
+ width: 100%;
+
+width:100%;
+ position: absolute;
+ transform: rotate( 
+3.2deg
 );
 
 
-img {
-    width: 96%;
-height: 100%;
-}
-}
+
+     img {
+     
+     }
+ } 
+      }
 }
 .card {
 position:absolute;

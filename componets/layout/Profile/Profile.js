@@ -28,7 +28,7 @@ export default function Home() {
       </Head>
       <Section>
       <Navbar/>
-    <div class="grid"    >
+    <div class="grid">
     <Image
               className="myImage"
         src={data.profileAvatar}
@@ -37,10 +37,17 @@ export default function Home() {
        
         objectFit="cover"
       />
-  <div className="bird" > 
+
+
+<div className="birdOut" >
+      <div className="birdd" > 
   <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
    </div>
+         </div>
+  
       <div class='card'  >
+       
+
       <div class='card-1'  >
   <div class='grid1' >
 

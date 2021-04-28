@@ -9,12 +9,12 @@ display:flex;
 justify-content:center;
 height:100%;
 margin-top:5rem;
-@media (min-width: 1035px) {
+@media (min-width: 1281px) {
 
     .grid {
 
         width:100%;
-        height:40rem;
+        height:45rem;
         position: relative;
         .bird {
           right: -37px;
@@ -49,7 +49,7 @@ margin-top:5rem;
         align-items:center;
         flex-direction:column;
         height:100%;
-        width:76%;
+        width:75rem;
         .head {
              width:100%;
              height:10%;
@@ -93,6 +93,90 @@ margin-top:5rem;
   
 
 }
+
+@media (min-width: 1025px) and (max-width: 1280px)  {
+
+  .grid {
+
+width:100%;
+height:40rem;
+position: relative;
+.bird {
+  right: -37px;
+  top: -1%;
+right: 44%;
+/* height: 53rem; */
+/* width: 126%; */
+position: absolute;
+
+img {
+    width:100%;
+    right:0%;
+    height:100%;
+    margin-left: 90%;
+}
+}
+
+}
+.card {
+position:absolute;
+
+display:flex;
+justify-content:center;
+align-items:center;
+width:100%;
+
+height:100%;
+.card-1 {
+    margin-top:10%;
+    display:flex;
+justify-content:flex-start;
+align-items:center;
+flex-direction:column;
+height:100%;
+width:76%;
+.head {
+     width:100%;
+     height:10%;
+    
+  
+     display:flex;
+justify-content:center;
+
+flex-direction:column;
+h2 {
+  
+color:white; 
+}
+   
+}
+
+.grid1 {
+     width:100%;
+     height:17%;
+    
+  
+     display:flex;
+justify-content:center;
+
+flex-direction:column;
+p {
+width:90%;
+  font-size:1.4rem;
+  color:white;
+}
+h2 {
+font-family:SourceSansPro-Bold;
+color:white; 
+}
+   
+}
+
+}
+}
+
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .grid {
 
