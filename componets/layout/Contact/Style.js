@@ -1002,7 +1002,7 @@ input:focus ~ .highlight {
   justify-content:flex-start;
     flex-direction:column;
    align-items:center;
-        width:70%;
+   width:75rem;
   height:70rem;
       box-shadow: 0 1px 1px rgb(0 0 0 / 5%), 0 2px 5px rgb(0 0 0 / 15%);
   
