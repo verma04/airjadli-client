@@ -16,7 +16,7 @@ height:100%;
         width:100%;
         height:40rem;
         position: relative;
-  display:flex;
+   display:flex;
         justify-content:center;
         align-items:center;
          .birdOut {
@@ -24,6 +24,8 @@ height:100%;
            width:90rem;
            position: relative;
            height:100%;
+           display:flex;
+           justify-content:center;
          
           
          .birdd {
@@ -106,6 +108,8 @@ height:100%;
 width:100%;
 height:40rem;
 position: relative;
+display:flex;
+           justify-content:center;
 
 .birdOut {
              z-index:999;
@@ -118,7 +122,7 @@ position: relative;
          z-index:999;
     height: 100%;
     display:flex;
-  top:8%;
+  top:9%;
         justify-content:flex-start;
         
         height: 65rem;

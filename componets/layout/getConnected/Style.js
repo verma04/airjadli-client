@@ -123,7 +123,7 @@ position: relative;
          z-index:999;
     height: 100%;
     display:flex;
-  top:8%;
+  top:9%;
         justify-content:flex-start;
         
         height: 65rem;

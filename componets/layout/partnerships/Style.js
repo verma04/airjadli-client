@@ -116,7 +116,7 @@ height:100%;
          z-index:999;
     height: 100%;
     display:flex;
-  top:8%;
+  top:9%;
         justify-content:flex-start;
         
         height: 65rem;
@@ -213,7 +213,7 @@ height: 100%;
         height:40rem;
         display:flex;
         justify-content:center;
-        
+
     
         .birdOut {
         

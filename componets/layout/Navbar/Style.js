@@ -272,7 +272,7 @@ width:100%;
   .content {
      display:flex;
      justify-content:center;
-     width:60%;
+     width:70%;
     margin-left:5%;
 
      .list {
