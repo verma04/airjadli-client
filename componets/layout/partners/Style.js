@@ -388,7 +388,7 @@ export const  Item = styled.div`
   
    .center{
     margin-top:5rem;
-     width:100%;
+    width:75rem;
    
      .img-wrapper {
        display:flex;

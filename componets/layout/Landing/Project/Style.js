@@ -44,7 +44,7 @@ flex-direction:column;
       display:flex;
       justify-content:center;
       align-items:center;
-      width:100%;
+        width:75rem;
      
       height:85%;
       .card-1 {
