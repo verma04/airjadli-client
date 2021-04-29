@@ -851,7 +851,482 @@ height:100rem;
     
     position: relative;
 
+    .chamba {
+        position:absolute;
        
+        top: 18%;
+    left: 29%;
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+#chamba{
+    display:none;
+}
+.chamba:hover  #chamba {
+     display:flex;
+     margin-top:0.2rem;
+     background-color:white;
+     width:10rem;
+     z-index:1000;
+     border: 1px solid red;
+     height:10rem;
+
+ }
+
+      }
+
+  
+.Palampur {
+        position:absolute;
+        
+        top: 18%;
+    left: 31%;
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.Manali {
+        position:absolute;
+        
+        top: 20%;
+    left: 33%;
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.Bir {
+        position:absolute;
+        
+        top: 21%;
+    left: 31%;
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.Nurpur {
+        position:absolute;
+        
+        top: 19%;
+    left: 28%;
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.Kangra {
+        position:absolute;
+        
+        top: 20%;
+    left: 29%;
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+.dharmshala {
+        position:absolute;
+        top: 19.5%;
+    left: 31%;
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.Kot {
+        position:absolute;
+        top: 26.5%;
+    left: 34%;
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.Utt {
+        position:absolute;
+        top: 23.5%;
+    left: 35%;
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.Tehri {
+        position:absolute;
+        top: 25.5%;
+    left: 37%;
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.Pauri {
+        position:absolute;
+     
+    top: 26.5%;
+    left: 39%;
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.Dehradun {
+        position:absolute;
+        top: 25.5%;
+    left: 35%;
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.Nanital {
+        position:absolute;
+        top: 28.5%;
+    left: 40%;
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.Almora {
+        position:absolute;
+        top: 24.5%;
+    left: 39%;
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.paratwada{
+    position:absolute;
+    top: 52.5%;
+    left: 30%;
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+.murtizapur{
+    position:absolute;
+    top: 54%;
+    left: 33%;
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+
+.dharni{
+    position:absolute;
+    top: 56%;
+    left: 33%;
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+
+.balapur{
+    position:absolute;
+    top: 56%;
+    left: 27%;
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+.rohtas{
+    position:absolute;
+    top: 56%;
+    left: 27%;
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+.bky{
+    position:absolute;
+    top: 76%;
+    left: 25%;
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+.MUN{
+    position:absolute;
+    top: 71%;
+    left: 21%;
+
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+.ranchi{
+    position:absolute;
+    top: 46%;
+    left: 59%;
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+.sahibhag{
+    position:absolute;
+    top: 44%;
+    left: 62%;;
+
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+.bhojpure{
+    position:absolute;
+    top: 39%;
+    left: 58%;
+
+
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+.gaya{
+    position:absolute;
+    top: 41%;
+    left: 58%;
+
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+.jeha{
+    position:absolute;
+    top: 42%;
+    left: 59%;
+
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+.nawada{
+    position:absolute;
+    top: 42%;
+    left: 63%;
+
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+.singtam{
+    position:absolute;
+ 
+    top: 32.2%;
+    left: 70%;
+
+
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+.pelling{
+    position:absolute;
+    top: 33.5%;
+    left: 70%;;
+
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+.komipong{
+    position:absolute;
+    top: 35.2%;
+    left: 71%;
+
+
+
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+.rohtas {
+    position:absolute;
+    top: 39.2%;
+    left: 60%;
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
+}
+.barwani{
+    position:absolute;
+    top: 48.2%;
+    left: 22%;
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
+}
+
+.chinnwara{
+    position:absolute;
+    top: 50.2%;
+    left: 41%;
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
+}
+
+.seoni{
+    position:absolute;
+    top: 48%;
+    left: 43%;
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
+}
+.kha{
+    position:absolute;
+    top: 50%;
+    left: 28%;
+
+
+
+z-index:990;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
+}
     
       
      }
