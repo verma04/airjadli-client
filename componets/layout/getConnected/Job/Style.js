@@ -541,10 +541,7 @@ height:2rem;
     justify-content:center;
   flex-direction:column;
 
-  .birdd {
-           display:none;
-     
-       } 
+  
   .bird {
       display:none;
         top: 1rem;

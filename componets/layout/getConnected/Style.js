@@ -279,7 +279,10 @@ z-index:-1;
 position: relative;
     height: 30rem;
 
-   
+    .birdd {
+           display:none;
+     
+       }
 }
 .bird {
     display:none;
