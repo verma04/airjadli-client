@@ -107,7 +107,7 @@ function Connected() {
     <button> Send </button>
     
   </form>
-
+  
                 </div>
 
   <div  className="offer" >

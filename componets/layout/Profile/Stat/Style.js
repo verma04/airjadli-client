@@ -103,11 +103,11 @@ width:100%;
 }
 
 }
-@media (min-width: 1035px) {
+@media (min-width: 1281px) {
 
    .flex{
 
-       height:37rem;
+       height:32rem;
 
        display:flex;
        justify-content:space-between;

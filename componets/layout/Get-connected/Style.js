@@ -69,7 +69,7 @@ display:flex;
  .form {
    margin-top:5rem;
    width:75rem;
-   height:30rem;
+   height:37rem;
    display:flex;
      justify-content:center;
      align-items:center;
