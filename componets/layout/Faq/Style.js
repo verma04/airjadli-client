@@ -166,7 +166,7 @@ font-weight: bolder;
   
   .drop {
     padding-top:2rem;
-    padding-bottom:2rem;
+    padding-bottom:1rem;
     border-top:1px solid #E9E1DF;
   border-bottom:1px solid #E9E1DF;
       .up {
@@ -746,7 +746,7 @@ background-color:white;
       
       .drop {
         padding-top:2rem;
-        padding-bottom:2rem;
+        padding-bottom:0.5rem;
         border-top:1px solid #E9E1DF;
       border-bottom:1px solid #E9E1DF;
           .up {

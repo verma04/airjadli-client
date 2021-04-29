@@ -1052,7 +1052,7 @@ input:focus ~ .highlight {
     background-color: rgb(221,243,255);;
    
      width:100%;
-     height:60%;;
+     height:50%;;
      display:flex;
        justify-content:center;
        align-items:center;
