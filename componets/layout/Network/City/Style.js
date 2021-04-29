@@ -116,9 +116,10 @@ max-height:50rem;
 justify-content:center;
 height:100%;
 margin-top:5rem;
-height:40rem;
+height:450rem;
 max-height:50rem;
  background-color:#ddf3ff;
+ padding-bottom:2rem;
 
 .flex {
     display:flex;

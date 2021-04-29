@@ -14,7 +14,7 @@ margin-top:5rem;
     .grid {
 
         width:100%;
-        height:45rem;
+        height:38rem;
         position: relative;
         .bird {
           right: -37px;
@@ -99,7 +99,7 @@ margin-top:5rem;
   .grid {
 
 width:100%;
-height:40rem;
+height:37rem;
 position: relative;
 .bird {
   right: -37px;

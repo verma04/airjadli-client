@@ -64,6 +64,13 @@ margin-top:5rem;
             font-weight:1000;
         }
 
+        ul {
+         display:none;
+     }
+     li {
+         display:none;
+     }
+
         a {
             color:blue;
         }
@@ -198,7 +205,9 @@ margin-top:5rem;
        justify-content:space-evenly;
         flex-direction:column;
         width:76%;
-  
+     ul {
+         display:none;
+     }
         
         h3 {
             font-weight:1000;

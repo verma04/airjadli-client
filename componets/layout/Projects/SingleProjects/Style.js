@@ -60,7 +60,7 @@ export const Section = styled.section`
               width:60%;
               margin-top:0.7rem;
               margin-bottom:0.5rem;
-              line-height:1.3;
+             
           }
           h2 {
             font-weight:900;
@@ -218,7 +218,7 @@ span {
               width:60%;
               margin-top:0.7rem;
               margin-bottom:0.5rem;
-              line-height:1.3;
+             
           }
           h2 {
             font-weight:900;
@@ -377,7 +377,7 @@ span {
               width:60%;
               margin-top:0.7rem;
               margin-bottom:0.5rem;
-              line-height:1.3;
+             
           }
           h2 {
             font-weight:900;
@@ -533,7 +533,7 @@ span {
               width:100%;
               margin-top:0.7rem;
               margin-bottom:0.5rem;
-              line-height:1.3;
+             
           }
           h2 {
             font-weight:900;
