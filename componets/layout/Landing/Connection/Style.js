@@ -17,7 +17,7 @@ align-items:center;
     margin-top:5rem;
 
     .flex {
-        height: 27rem;
+        height: 26rem;
          
         width:75rem;
         display:flex;
@@ -44,7 +44,7 @@ align-items:center;
              h2 {
                 color:white;
                 width:90%; 
-            font-size:2.2rem;
+            font-size:1.9rem;
             span {
                 font-family: SourceSansPro-Bold ;
             }
@@ -61,7 +61,7 @@ align-items:center;
               h2 {
                 color:white;
                 width:90%; 
-            font-size:2rem;
+            font-size:1.9rem;
             span {
                 font-family: SourceSansPro-Bold ;
                 font-weight:1000;
@@ -110,7 +110,7 @@ align-items:center;
                       width:90%;
                       color:white;
                       h2 {
-                          font-size:1.7rem;
+                        font-size:1.9rem;
                           line-height:1.2;
                       }
                      
@@ -128,7 +128,7 @@ align-items:center;
                   }
                   h2 {
                       word-spacing:0.2rem;
-                      font-size:2rem;
+                      font-size:1.9rem;
                     
                       span {
                            font-weight:1000;
@@ -148,7 +148,7 @@ align-items:center;
     margin-top:5rem;
 
     .flex {
-        height: 27rem;
+        height: 26rem;
          
         width:76%;
         display:flex;
@@ -175,7 +175,7 @@ align-items:center;
              h2 {
                 color:white;
                 width:90%; 
-            font-size:2.2rem;
+                font-size:1.9rem;
             span {
                 font-family: SourceSansPro-Bold ;
             }
@@ -192,7 +192,7 @@ align-items:center;
               h2 {
                 color:white;
                 width:90%; 
-            font-size:2rem;
+                font-size:1.9rem;
             span {
                 font-family: SourceSansPro-Bold ;
                 font-weight:1000;
@@ -259,7 +259,7 @@ align-items:center;
                   }
                   h2 {
                       word-spacing:0.2rem;
-                      font-size:2rem;
+                      font-size:1.9rem;
                     
                       span {
                            font-weight:1000;

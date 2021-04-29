@@ -64,7 +64,7 @@ export default class vendor extends Component {
 </div>
 <div >
 <div className='img-wrapper'   >
-   <img  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1613621783/taayarx0dylikrjiczad.png"}  cache  alt="sdd"  ></img>
+   <img id="border" src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1613621783/taayarx0dylikrjiczad.png"}  cache  alt="sdd"  ></img>
    <div className="fade" >
 {/* <h2>number.category</h2> */}
 </div>
@@ -74,7 +74,7 @@ export default class vendor extends Component {
 </div>
 <div >
 <div className='img-wrapper'   >
-   <img  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1613621783/taayarx0dylikrjiczad.png"}  cache  alt="sdd"  ></img>
+   <img   src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1613621783/taayarx0dylikrjiczad.png"}  cache  alt="sdd"  ></img>
    <div className="fade" >
 {/* <h2>number.category</h2> */}
 </div>
@@ -84,7 +84,7 @@ export default class vendor extends Component {
 </div>
 <div >
 <div className='img-wrapper'   >
-   <img  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1613621783/taayarx0dylikrjiczad.png"}  cache  alt="sdd"  ></img>
+   <img id="border"  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1613621783/taayarx0dylikrjiczad.png"}  cache  alt="sdd"  ></img>
    <div className="fade" >
 {/* <h2>number.category</h2> */}
 </div>
@@ -104,7 +104,7 @@ export default class vendor extends Component {
 </div>
  <div >
 <div className='img-wrapper'   >
-   <img  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1613621783/taayarx0dylikrjiczad.png"}  cache  alt="sdd"  ></img>
+   <img id="border"  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1613621783/taayarx0dylikrjiczad.png"}  cache  alt="sdd"  ></img>
    <div className="fade" >
 {/* <h2>number.category</h2> */}
 </div>

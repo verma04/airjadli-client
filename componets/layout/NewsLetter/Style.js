@@ -14,7 +14,7 @@ margin-top:5rem;
 @media  (min-width: 1281px) {
 
 .flex {
-    height:20rem;
+    height:17rem;
 
     width:75rem;
     display:flex;
@@ -52,7 +52,9 @@ margin-top:5rem;
 @media (min-width: 1024px) and (max-width: 1280px) {
 
     .flex {
-        height:20rem;
+
+
+       height:17rem;
       
         width:80%;
         display:flex;

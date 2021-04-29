@@ -125,7 +125,7 @@ button {
     word-spacing:0.2rem;
   }
   p {
-    font-size:1.2rem;
+    font-size:1.125rem;
 line-height:1.1;
   
     font-family:  SourceSansPro-Regular;

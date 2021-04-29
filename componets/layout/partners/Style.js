@@ -36,19 +36,19 @@ export const  Item = styled.div`
      .img-wrapper {
        display:flex;
         justify-content:center;
-        border-radius:10px;
+        
         margin-bottom:1rem;
+        #border {
+          border-radius:50%;
+        }
        img {
          position:relative;
        
   width:50%;
   height:50%;
-  border-radius:10px;
+  
   background-color: rgba(0,0,0,0.5);
-  -webkit-box-shadow: 0 1rem 6px -6px grey;
-	   -moz-box-shadow: 0 1rem 6px -6px grey;
-	        box-shadow: 0 1rem 6px -6px grey;
-          transition: 1s all ease-in-out; 
+  
        }
    
        .fade {
@@ -96,15 +96,17 @@ export const  Item = styled.div`
      .img-wrapper {
        display:flex;
         justify-content:center;
-        border-radius:10px;
-       
+        
+        #border {
+          border-radius:50%;
+        }
        
        img {
          position:relative;
        
   width:80%;
   height:100%;
-  border-radius:10px;
+  
   background-color: rgba(0,0,0,0.5);
   -webkit-box-shadow: 0 1rem 6px -6px grey;
 	   -moz-box-shadow: 0 1rem 6px -6px grey;
@@ -244,7 +246,7 @@ export const  Item = styled.div`
      .img-wrapper {
        display:flex;
         justify-content:center;
-        border-radius:10px;
+        
        
        
        img {
@@ -252,13 +254,16 @@ export const  Item = styled.div`
        
   width:80%;
   height:100%;
-  border-radius:10px;
+  
   background-color: rgba(0,0,0,0.5);
   -webkit-box-shadow: 0 1rem 6px -6px grey;
 	   -moz-box-shadow: 0 1rem 6px -6px grey;
 	        box-shadow: 0 1rem 6px -6px grey;
           transition: 1s all ease-in-out; 
        }
+       #border {
+          border-radius:50%;
+        }
    
        .fade {
         top:10rem;
@@ -393,20 +398,17 @@ export const  Item = styled.div`
      .img-wrapper {
        display:flex;
         justify-content:center;
-        border-radius:10px;
-       
+        
+        #border {
+          border-radius:50%;
+        }
        
        img {
          position:relative;
        
   width:80%;
   height:100%;
-  border-radius:10px;
-  background-color: rgba(0,0,0,0.5);
-  -webkit-box-shadow: 0 1rem 6px -6px grey;
-	   -moz-box-shadow: 0 1rem 6px -6px grey;
-	        box-shadow: 0 1rem 6px -6px grey;
-          transition: 1s all ease-in-out; 
+  
        }
    
        .fade {
