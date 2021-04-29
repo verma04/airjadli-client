@@ -4,7 +4,8 @@ import { Section} from './Style'
 import Image from 'next/image'
 
 import { Router, useRouter } from "next/router";
-export default function Project() {
+import { number } from 'prop-types';
+export default function Project({data}) {
   const router = useRouter();
   return (
     <>
@@ -128,13 +129,9 @@ quam hitatibus et ut in.</p>
 
    <div class="text" >
   <h2>
-  “Our village is in a very remote place
-adn we didn’t have any internet
-facilities before AirJaldi arrived here.
-Now, we no longer need to commute
-70-80 Km to get connected.”
+  {data.section2Head}
   </h2>
-  <span>Piyush Manviya, Private User, Katkumbh, Maharashtra</span>
+  <span>{data.section2Des}</span>
 
    </div>
 

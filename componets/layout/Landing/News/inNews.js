@@ -3,10 +3,24 @@ import { Section} from './Style'
 
 import Image from 'next/image'
 import { Router, useRouter } from "next/router";
+import { useQuery } from "react-query";
 
-export default function News({data}) {
+const fetchNews = async () => {
+  const res = await fetch(" https://airjadli.herokuapp.com/api/client/getNews");
+  return res.json();
+};
+export default function News() {
+  const { data, status } = useQuery("news", fetchNews);
   const router = useRouter();
   return (
+    <>
+    {status === "error" && <p></p>}
+      {status === "loading"  && 
+       <p></p>
+    
+      
+      }
+      { status === "success" && (
     <>
       
     <Section>
@@ -58,7 +72,8 @@ export default function News({data}) {
 
 
       </Section>
-
+      </>
+       )}
      
       
     </>
