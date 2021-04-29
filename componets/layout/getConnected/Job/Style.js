@@ -540,6 +540,11 @@ height:2rem;
     display:flex;
     justify-content:center;
   flex-direction:column;
+
+  .birdd {
+           display:none;
+     
+       } 
   .bird {
       display:none;
         top: 1rem;

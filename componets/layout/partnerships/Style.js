@@ -325,7 +325,10 @@ margin-top:20%;
     width:100%;
     height:30rem;
    
-
+    .birdd {
+           display:none;
+     
+       } 
    
 }
 .card {

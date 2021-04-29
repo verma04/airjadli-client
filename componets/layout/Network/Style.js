@@ -273,7 +273,10 @@ position: relative;
     width:100%;
     height:30rem;
 
-
+    .birdd {
+           display:none;
+     
+       } 
    
 }
 .bird {

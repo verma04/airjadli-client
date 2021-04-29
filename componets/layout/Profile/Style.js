@@ -266,6 +266,26 @@ background-color:white;
     width:100%;
     height:26rem;
 
+    .birdOut {
+             z-index:999;
+           width:90rem;
+           position: relative;
+           height:100%;
+           display:flex;
+           justify-content:center;
+         
+          
+         .birdd {
+           
+        display:none;
+  
+
+
+
+        
+    } 
+         }
+
     .card {
     position:absolute;
     bottom:20%;

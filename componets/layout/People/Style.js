@@ -274,6 +274,11 @@ height:100%;
  position: relative;
 width:100%;
 height:26rem;
+
+.birdd {
+           display:none;
+     
+       } 
 .card {
 position:absolute;
 bottom:20%;
