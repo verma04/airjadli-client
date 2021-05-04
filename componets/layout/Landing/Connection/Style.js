@@ -280,7 +280,7 @@ align-items:center;
     margin-top:5rem;
 
 .flex {
-    height: 23rem;
+    height: 26rem;
     
     width:80%;
     display:flex;
@@ -346,7 +346,7 @@ align-items:center;
      flex-direction:column;
      .top {
          width:100%;
-         height:50%;
+         height:40%;
  
          display:flex;
          justify-content:center;
@@ -364,7 +364,7 @@ align-items:center;
      }
      .bottom {
          width:90%;
-         height:50%;
+         height:60%;
         
          display:flex;
               justify-content:space-around;

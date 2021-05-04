@@ -107,11 +107,7 @@ export const  Item = styled.div`
   width:80%;
   height:100%;
   
-  background-color: rgba(0,0,0,0.5);
-  -webkit-box-shadow: 0 1rem 6px -6px grey;
-	   -moz-box-shadow: 0 1rem 6px -6px grey;
-	        box-shadow: 0 1rem 6px -6px grey;
-          transition: 1s all ease-in-out; 
+  
        }
    
        .fade {
