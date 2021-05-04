@@ -127,7 +127,7 @@ margin-top:5rem;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
 
 .flex {
     height:15rem;

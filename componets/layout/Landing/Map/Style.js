@@ -450,7 +450,7 @@ margin-bottom:40%;
     }
 
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   margin-top:2rem;
   display:flex;
 justify-content:center;

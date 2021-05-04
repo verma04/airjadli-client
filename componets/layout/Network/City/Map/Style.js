@@ -223,7 +223,7 @@ margin-top:5rem;
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
 
 
     display:flex;

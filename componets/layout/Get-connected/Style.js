@@ -778,7 +778,7 @@ input:focus ~ .highlight {
   }
 
 }
-@media  (max-width: 600px) {
+@media  (max-width: 767px) {
   .grid {
         position: relative;
         width:100%;

@@ -158,21 +158,74 @@ export default function Home({data}) {
     
 
     <div className="map" > 
-    <div className="cityData" ><i class="fa fa-circle  chamba">
+    <div className="cityData" >
+      
+    <svg class="chamba" id="radar-circle">
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+</svg>
 
+     
+     
     {data.filter(element => element.cityName === "Chamba").map((number) => 
  
- <span id="chamba" onClick={() => router.push(`/networks/${number.slug}`) } >{number.cityName}</span>
+ <span className="hide" onClick={() => router.push(`/networks/${number.slug}`) } >
+   
+   
+   <h2>{number.cityName}</h2> 
+   <h2>dsd</h2>
+   
+   </span>
 
 )}
 
-    </i>
-     
+
+
 
 
       
     </div>
-    <div><i class="fa fa-circle  dharmshala"></i></div>
+    <div>
+        
+    <svg class="dharmshala" id="radar-circle">
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+</svg>
+
+     
+           
+
+
+      
+     </div>
 
     <div><i class="fa fa-circle  Kangra"></i></div>
 

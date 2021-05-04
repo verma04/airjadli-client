@@ -170,7 +170,7 @@ color: ${props => props.theme.colors.darkblue};
    }
   }
 }
-@media  (max-width: 600px) {
+@media  (max-width: 767px) {
   .flex {
     display:flex;
    justify-content:center;

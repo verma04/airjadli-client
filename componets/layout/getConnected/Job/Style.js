@@ -532,7 +532,7 @@ height:2rem;
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
 
 .flex {
     width:90%;

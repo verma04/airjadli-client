@@ -521,7 +521,7 @@ font-size:1.2rem;
 }
 
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
 z-index:1;
 .grid {
 

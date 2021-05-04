@@ -198,7 +198,7 @@ h1 {
 }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     margin-top:20%;
     z-index:-1;
 .grid {

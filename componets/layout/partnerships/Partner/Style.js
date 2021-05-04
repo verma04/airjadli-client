@@ -279,7 +279,7 @@ height:100%;
    }
 
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
 z-index:-1;
 .flex {
     width:90%;

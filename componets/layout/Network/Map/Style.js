@@ -185,27 +185,46 @@ height:100rem;
     .chamba {
         position:absolute;
        
-        top: 18%;
-    left: 29%;
+        
+    top: 13%;
+    left: 18%;
 
-z-index:990;
+
+z-index:1;
         color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+  
 }
 
-#chamba{
-    display:none;
-}
-.chamba:hover  #chamba {
-     display:flex;
+
+
+ .hide {
+    visibility: hidden;
+    position:absolute;
+    top: 10%;
+    left: 29%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color: #fff;
      margin-top:0.2rem;
+     z-index: 1;
+     background-color: black;
      background-color:white;
-     width:10rem;
+      padding:0.5rem;
+     border-radius:1rem;
      z-index:1000;
-     border: 1px solid red;
-     height:10rem;
 
- }
+     height:10rem;
+}
+    
+.chamba:hover + .hide {
+    visibility: visible;
+}
+
+.chamab:hover {
+  z-index:1000;
+}
 
       }
 
@@ -216,7 +235,7 @@ z-index:990;
         top: 18%;
     left: 31%;
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -227,7 +246,7 @@ z-index:990;
         top: 20%;
     left: 33%;
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -239,7 +258,7 @@ z-index:990;
     left: 31%;
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -251,7 +270,7 @@ z-index:990;
     left: 28%;
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -263,20 +282,20 @@ z-index:990;
     left: 29%;
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
 .dharmshala {
         position:absolute;
-        top: 19.5%;
-    left: 31%;
+        top: 14.5%;
+    left: 19%;
 
 
 
-z-index:990;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+
+z-index:1;
+       
 }
 
 .Kot {
@@ -287,7 +306,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -300,7 +319,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -313,7 +332,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -328,7 +347,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -341,7 +360,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -354,7 +373,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -367,7 +386,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -381,7 +400,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -394,7 +413,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -409,7 +428,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -424,7 +443,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -438,7 +457,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -451,7 +470,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -465,7 +484,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -479,7 +498,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -493,7 +512,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -509,7 +528,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -523,7 +542,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -538,7 +557,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -553,7 +572,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -570,7 +589,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -585,7 +604,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -600,7 +619,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -609,7 +628,7 @@ z-index:990;
     top: 39.2%;
     left: 60%;
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }
@@ -619,7 +638,7 @@ z-index:990;
     left: 22%;
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }
@@ -631,7 +650,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }
@@ -643,7 +662,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }
@@ -654,7 +673,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }
@@ -857,7 +876,7 @@ height:100rem;
         top: 18%;
     left: 29%;
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -885,7 +904,7 @@ z-index:990;
         top: 18%;
     left: 31%;
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -896,7 +915,7 @@ z-index:990;
         top: 20%;
     left: 33%;
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -908,7 +927,7 @@ z-index:990;
     left: 31%;
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -920,7 +939,7 @@ z-index:990;
     left: 28%;
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -932,7 +951,7 @@ z-index:990;
     left: 29%;
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -943,7 +962,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -956,7 +975,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -969,7 +988,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -982,7 +1001,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -997,7 +1016,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1010,7 +1029,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1023,7 +1042,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1036,7 +1055,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1050,7 +1069,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1063,7 +1082,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1078,7 +1097,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1093,7 +1112,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1107,7 +1126,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1120,7 +1139,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1134,7 +1153,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1148,7 +1167,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1162,7 +1181,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1178,7 +1197,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1192,7 +1211,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1207,7 +1226,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1222,7 +1241,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1239,7 +1258,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1254,7 +1273,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1269,7 +1288,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1278,7 +1297,7 @@ z-index:990;
     top: 39.2%;
     left: 60%;
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }
@@ -1288,7 +1307,7 @@ z-index:990;
     left: 22%;
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }
@@ -1300,7 +1319,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }
@@ -1312,7 +1331,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }
@@ -1323,7 +1342,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }
@@ -1708,16 +1727,18 @@ height:30rem;
         top: 18%;
     left: 29%;
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
 
-#chamba{
+/* #chamba{
     display:none;
 }
-.chamba:hover  #chamba {
-     display:flex;
+
+
+.chamba:hover +   #chamba {
+        display: block;
      margin-top:0.2rem;
      background-color:white;
      width:10rem;
@@ -1725,9 +1746,25 @@ z-index:990;
      border: 1px solid red;
      height:10rem;
 
- }
+ } */
+
+
+ .hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+
+
+
 
       }
+
+  
+      
 
   
 .Palampur {
@@ -1736,7 +1773,7 @@ z-index:990;
         top: 18%;
     left: 31%;
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1747,7 +1784,7 @@ z-index:990;
         top: 20%;
     left: 33%;
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1759,7 +1796,7 @@ z-index:990;
     left: 31%;
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1771,7 +1808,7 @@ z-index:990;
     left: 28%;
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1783,7 +1820,7 @@ z-index:990;
     left: 29%;
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1794,7 +1831,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1807,7 +1844,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1820,7 +1857,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1833,7 +1870,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1848,7 +1885,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1861,7 +1898,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1874,7 +1911,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1887,7 +1924,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -1901,7 +1938,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1914,7 +1951,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1929,7 +1966,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1944,7 +1981,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1958,7 +1995,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1971,7 +2008,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1985,7 +2022,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1999,7 +2036,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -2013,7 +2050,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -2029,7 +2066,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -2043,7 +2080,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -2058,7 +2095,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -2073,7 +2110,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -2090,7 +2127,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -2105,7 +2142,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -2120,7 +2157,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -2129,7 +2166,7 @@ z-index:990;
     top: 39.2%;
     left: 60%;
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }
@@ -2139,7 +2176,7 @@ z-index:990;
     left: 22%;
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }
@@ -2151,7 +2188,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }
@@ -2163,7 +2200,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }
@@ -2174,7 +2211,7 @@ z-index:990;
 
 
 
-z-index:990;
+z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }

@@ -231,7 +231,7 @@ height:100%;
 
 
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     margin-top:20%;
 .grid {
   position: relative;
