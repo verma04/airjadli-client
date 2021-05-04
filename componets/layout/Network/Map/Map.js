@@ -199,9 +199,9 @@ export default function Home({data}) {
 
       
     </div>
-    <div>
-        
-    <svg class="dharmshala" id="radar-circle">
+    <div className="cityData">
+
+    <svg className="dharmshala" id="radar-circle">
   <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
     <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
     <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
@@ -221,65 +221,702 @@ export default function Home({data}) {
 </svg>
 
      
-           
-
-
-      
      </div>
 
-    <div><i class="fa fa-circle  Kangra"></i></div>
+    <div  className="cityData" >
+      
+      <svg className="Kangra" id="radar-circle">
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+</svg>
 
-    <div><i class="fa fa-circle  Nurpur"></i></div>
-    <div><i class="fa fa-circle  Bir"></i></div>
-    <div><i class="fa fa-circle  Manali"></i></div>
-    <div><i class="fa fa-circle  Palampur"></i></div>
+      
+      </div>
+
+    <div  className="cityData" >
+      
+      
+     
+      
+      <svg className="Nurpur" id="radar-circle">
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+</svg>
+
+      
+      </div>
+    <div className="cityData" >
+      
+      
+    
+        
+      <svg className="Bir" id="radar-circle">
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+</svg>
+
+      </div>
+    <div className="cityData"  >
+          
+    <svg className="Manali" id="radar-circle">
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+</svg>
+
+      
+     
+        </div>
+    <div  className="cityData" >
+      
+      
+   
+      
+      <svg className="Palampur" id="radar-circle">
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+</svg>
+
+      
+      
+      </div>
 
 
-    <div><i class="fa fa-circle  Almora"></i></div>
-    <div><i class="fa fa-circle  Nanital"></i></div>
+      <div  className="cityData" >
+    
+    <svg className="Almora" id="radar-circle">
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+</svg>
+    
+    </div>
+    <div  className="cityData" >
+    
+    <svg className="Nanital" id="radar-circle">
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+</svg>
+    
+    </div>
 
-    <div><i class="fa fa-circle  Dehradun"></i></div>
-    <div><i class="fa fa-circle  Pauri"></i></div>
-    <div><i class="fa fa-circle  Tehri"></i></div>
-    <div><i class="fa fa-circle  Utt"></i></div>
-    <div><i class="fa fa-circle  Kot"></i></div>
+    <div  className="cityData" >
+    
+    <svg className="Dehradun" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+
+    </svg>
+    </div>
+    <div>
+    <svg className="Pauri" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+    </div>
+    <div>
+    
+    <svg className="Tehri" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+    </div>
+    <div>
+    <svg className="Utt" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+    </div>
+    <div>
+   
+    <svg className="Kot" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
    
    
-    <div><i class="fa fa-circle  MUN"></i></div>
-    <div><i class="fa fa-circle  bky"></i></div>
+    </div>
+    <div>
+    <svg className="MUN" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+    <div>
+    <svg className="bky" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
     
 
-    <div><i class="fa fa-circle  balapur"></i></div>
-    <div><i class="fa fa-circle  dharni"></i></div>
-    <div><i class="fa fa-circle murtizapur"></i></div>
-    <div><i class="fa fa-circle paratwada"></i></div>
+    <div>
+    <svg className="balapur" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+    <div>
+    <svg className="dharni" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+    <div>
+    <svg className="murtizapur" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+    <div>
+    <svg className="paratwada" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
 
   
   
   
-    <div><i class="fa fa-circle ranchi"></i></div>
-
-    <div><i class="fa fa-circle sahibhag"></i></div>
-
-    <div><i class="fa fa-circle bhojpure"></i></div>
-
-    <div><i class="fa fa-circle gaya"></i></div>
-
-    <div><i class="fa fa-circle jeha"></i></div>
-
-    <div><i class="fa fa-circle nawada"></i></div>
-    <div><i class="fa fa-circle rohtas"></i></div>
-
-    <div><i class="fa fa-circle singtam"></i></div>
-
-    <div><i class="fa fa-circle pelling"></i></div>
-
-    <div><i class="fa fa-circle komipong"></i></div>
+    <div>
+    <svg className="ranchi" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
   
-    <div><i class="fa fa-circle barwani"></i></div>
-    <div><i class="fa fa-circle chinnwara"></i></div>
-    <div><i class="fa fa-circle seoni"></i></div>
-    <div><i class="fa fa-circle kha"></i></div>
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+
+    <div>
+    <svg className="sahibhag" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+
+    <div>
+    <svg className="bhojpure" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+
+    <div>
+    <svg className="gaya" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+
+    <div>
+    <svg className="jeha" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+
+    <div>
+    <svg className="nawada" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+    <div>
+    <svg className="rohtas" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+
+    <div>
+    <svg className="singtam" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+
+    <div>
+    <svg className="pelling" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+
+    <div>
+      <svg className="komipong" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+  
+    <div>
+    <svg className="barwani" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+    <div>
+    <svg className="chinnwara" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+    <div>
+    <svg className="seoni" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
+    <div>
+    <svg className="kha" id="radar-circle">
+    <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="0.75s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="0.75s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
+    <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    <animate attributeName="stroke-opacity" from="1" to="0" dur="3s" repeatCount="indefinite" begin="1.5s"></animate>
+  </circle>
+  
+  <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
+    </svg>
+   </div>
   
   
     <Image

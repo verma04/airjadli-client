@@ -131,45 +131,7 @@ height:100rem;
       
     
   }
-  h2:hover .dropdown-content {
-          display:flex;
-      }
-
-      h2:hover .dropdown-content {
-          display:flex;
-      }
-      h2:hover .dropdown-content .content .list .ban #point  {
-          display:flex;
-          top: 120%;
-    left: 20%;
-      }
-      h2:hover .dropdown-content .content .list .har #point1  {
-          display:flex;
-          top: 80%;
-    left: 30%;
-      }
-      h2:hover .dropdown-content .content .list .chh #point2  {
-          display:flex;
-          top: 80%;
-    left: 40%;
-      }
-      h2:hover .dropdown-content .content .list .kha #point3  {
-          display:flex;
-          top: 65%;
-    left: 30%;
-      }
-
-      h2:hover .dropdown-content .content .list .seo #point5  {
-          display:flex;
-          top: 60%;
-    left: 30%;
-      }
-
-      h2:hover .dropdown-content .content .list .kan #point  {
-          display:flex;
-          top: 140%;
-    left: 10%;
-      }
+ 
     
      }
      }
@@ -179,15 +141,15 @@ height:100rem;
     height:90%;
     
     position: relative;
-
-      .cityData {  
-        cursor: pointer;
+ 
+    
     .chamba {
         position:absolute;
-       
-        
-    top: 13%;
-    left: 18%;
+        width:2rem;
+        height:2rem;
+        top: 18%;
+    left: 28%;
+  
 
 
 z-index:1;
@@ -195,6 +157,87 @@ z-index:1;
   
 }
 
+
+.Palampur {
+        position:absolute;
+        top: 19%;
+    left: 30%;
+
+    width:2rem;
+        height:2rem;
+
+z-index:1;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.Manali {
+        position:absolute;
+        width:2rem;
+        height:2rem; 
+       
+    top: 21%;
+    left: 30%;
+
+
+z-index:1;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.Bir {
+        position:absolute;
+        width:2rem;
+        height:2rem;
+        top: 21%;
+    left: 32%;
+
+
+z-index:1;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.Nurpur {
+        position:absolute;
+        width:2rem;
+        height:2rem;
+        top: 19%;
+    left: 28%;
+
+
+z-index:1;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.Kangra {
+        position:absolute;
+        width:2rem;
+        height:2rem;
+        top: 20%;
+    left: 29%;
+
+
+z-index:1;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+.dharmshala {
+        position:absolute;
+        top: 15%;
+    left: 17%;
+    width:2rem;
+        height:2rem;
+
+        top: 18%;
+    left: 30%;
+
+
+
+z-index:1;
+       
+}
 
 
  .hide {
@@ -226,84 +269,18 @@ z-index:1;
   z-index:1000;
 }
 
-      }
+      
 
   
-.Palampur {
-        position:absolute;
-        
-        top: 18%;
-    left: 31%;
 
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
-}
-
-.Manali {
-        position:absolute;
-        
-        top: 20%;
-    left: 33%;
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
-}
-
-.Bir {
-        position:absolute;
-        
-        top: 21%;
-    left: 31%;
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
-}
-
-.Nurpur {
-        position:absolute;
-        
-        top: 19%;
-    left: 28%;
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
-}
-
-.Kangra {
-        position:absolute;
-        
-        top: 20%;
-    left: 29%;
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
-}
-.dharmshala {
-        position:absolute;
-        top: 14.5%;
-    left: 19%;
-
-
-
-
-z-index:1;
-       
-}
 
 .Kot {
         position:absolute;
         top: 26.5%;
     left: 34%;
 
-
+    width:1.8rem;
+        height:1.8rem;
 
 
 z-index:1;
@@ -315,7 +292,8 @@ z-index:1;
         position:absolute;
         top: 23.5%;
     left: 35%;
-
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -328,7 +306,8 @@ z-index:1;
         position:absolute;
         top: 25.5%;
     left: 37%;
-
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -342,7 +321,8 @@ z-index:1;
      
     top: 26.5%;
     left: 39%;
-
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -356,11 +336,12 @@ z-index:1;
         position:absolute;
         top: 25.5%;
     left: 35%;
+    width:1.8rem;
+        height:1.8rem;
 
 
 
-
-z-index:1;
+z-index:100;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -369,10 +350,8 @@ z-index:1;
         position:absolute;
         top: 28.5%;
     left: 40%;
-
-
-
-
+    width:1.8rem;
+        height:1.8rem;
 z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
@@ -382,7 +361,8 @@ z-index:1;
         position:absolute;
         top: 24.5%;
     left: 39%;
-
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -395,6 +375,8 @@ z-index:1;
     position:absolute;
     top: 52.5%;
     left: 30%;
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -409,6 +391,8 @@ z-index:1;
     top: 54%;
     left: 33%;
 
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -424,6 +408,8 @@ z-index:1;
     top: 56%;
     left: 33%;
 
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -440,6 +426,8 @@ z-index:1;
     left: 27%;
 
 
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -453,6 +441,8 @@ z-index:1;
     top: 56%;
     left: 27%;
 
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -467,6 +457,8 @@ z-index:1;
     left: 25%;
 
 
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -480,6 +472,8 @@ z-index:1;
     left: 21%;
 
 
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -494,7 +488,8 @@ z-index:1;
     top: 46%;
     left: 59%;
 
-
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -507,7 +502,8 @@ z-index:1;
     top: 44%;
     left: 62%;;
 
-
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -522,7 +518,8 @@ z-index:1;
     top: 39%;
     left: 58%;
 
-
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -537,7 +534,8 @@ z-index:1;
     top: 41%;
     left: 58%;
 
-
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -552,7 +550,8 @@ z-index:1;
     top: 42%;
     left: 59%;
 
-
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -567,7 +566,8 @@ z-index:1;
     top: 42%;
     left: 63%;
 
-
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -583,7 +583,8 @@ z-index:1;
     top: 32.2%;
     left: 70%;
 
-
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -599,7 +600,8 @@ z-index:1;
     top: 33.5%;
     left: 70%;;
 
-
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -614,7 +616,8 @@ z-index:1;
     top: 35.2%;
     left: 71%;
 
-
+    width:1.8rem;
+        height:1.8rem;
 
 
 
@@ -627,7 +630,8 @@ z-index:1;
     position:absolute;
     top: 39.2%;
     left: 60%;
-
+    width:1.8rem;
+        height:1.8rem;
 z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
@@ -636,7 +640,8 @@ z-index:1;
     position:absolute;
     top: 48.2%;
     left: 22%;
-
+    width:1.8rem;
+        height:1.8rem;
 
 z-index:1;
         color: ${props => props.theme.colors.blue};
@@ -647,7 +652,8 @@ z-index:1;
     position:absolute;
     top: 50.2%;
     left: 41%;
-
+    width:1.8rem;
+        height:1.8rem;
 
 
 z-index:1;
@@ -660,7 +666,8 @@ z-index:1;
     top: 48%;
     left: 43%;
 
-
+    width:1.8rem;
+        height:1.8rem;
 
 z-index:1;
         color: ${props => props.theme.colors.blue};
@@ -671,7 +678,8 @@ z-index:1;
     top: 50%;
     left: 28%;
 
-
+    width:1.8rem;
+        height:1.8rem;
 
 z-index:1;
         color: ${props => props.theme.colors.blue};
@@ -890,7 +898,7 @@ z-index:1;
      background-color:white;
      width:10rem;
      z-index:1000;
-     border: 1px solid red;
+     
      height:10rem;
 
  }
