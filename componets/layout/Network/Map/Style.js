@@ -150,12 +150,23 @@ height:100rem;
  
     
 
-    .chamba {
-        position:absolute;
+
+
+
+
+.cityData-1 {
+    position:absolute;
         width:2rem;
         height:2rem;
-        top: 18%;
-    left: 28%;
+        top: 15%;
+    left: 30%;
+   
+        .chamba {
+     
+        position:absolute;
+        width:100%;
+        height:100%;
+      
   
 
 
@@ -164,20 +175,9 @@ z-index:1;
   
 }
 
-.chamba:hover + .hide {
-     display:flex;
-}
-
-.chamab:hover {
-  z-index:1000;
-}
-
 .hide {
     display:none;
     position:absolute;
-    top: 10%;
-    left: 29%;
-
     justify-content:center;
     align-items:center;
     flex-direction:column;
@@ -189,9 +189,48 @@ z-index:1;
       padding:0.5rem;
      border-radius:1rem;
      z-index:1000;
+top: 10.2%;
+    left: 28%;
+height:7rem;
+width:7rem;
 
-     height:10rem;
+justify-content:space-around;
+align-items:center;
+ 
+.link {
+display:flex;
+cursor: pointer;
+width:90%;
+height:20%;
+font-size:1.4rem;
+justify-content:space-around;
+
+align-items:center;
+color:${props => props.theme.colors.blue};
+img {
+    width: 27px;
+    height:1rem;
 }
+span {
+    margin-left:0.5rem;
+  width:1rem;
+}
+
+  }
+
+}
+
+
+
+}
+
+.cityData-1:hover .hide {
+    display:flex;
+}
+
+
+
+
 
 .Palampur {
         position:absolute;
@@ -233,41 +272,23 @@ z-index:1;
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
 
-.Nurpur {
-        position:absolute;
-        width:2rem;
-        height:2rem;
-        top: 19%;
-    left: 28%;
 
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
-}
-
-.Kangra {
-        position:absolute;
-        width:2rem;
-        height:2rem;
-        top: 20%;
-    left: 29%;
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
-}
-.dharmshala {
-        position:absolute;
-        top: 15%;
-    left: 17%;
+.cityData-2 {
+   
+    position:absolute;
+    
     width:2rem;
         height:2rem;
 
-        top: 18%;
-    left: 30%;
+        top: 16%;
+    z-index: 1;
+    left: 32%;
 
+.dharmshala {
+       
+
+       width:100%;
+       height:100%;
 
 
 z-index:1;
@@ -275,11 +296,208 @@ z-index:1;
 }
 
 
+.hide {
+    display:none;
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color: #fff;
+     margin-top:0.2rem;
+     z-index: 1000;
+     background-color: black;
+     background-color:white;
+      padding:0.5rem;
+     border-radius:1rem;
+     z-index:1000;
+top: 10.2%;
+    left: 28%;
+height:7rem;
 
+
+justify-content:space-around;
+align-items:center;
+
+h2 {
+    margin-left:1rem;
+    margin-right:1rem;
+}
+ 
+.link {
+display:flex;
+cursor: pointer;
+width:90%;
+height:20%;
+font-size:1.4rem;
+justify-content:space-around;
+
+align-items:center;
+color:${props => props.theme.colors.blue};
+img {
+    width: 27px;
+    height:1rem;
+}
+span {
+    margin-left:0.5rem;
+  width:1rem;
+}
+
+  }
+
+}
+
+}
+
+.cityData-2:hover .hide {
+    display:flex;
+}
+
+
+.cityData-3{
+    position:absolute;
+        width:2rem;
+        height:2rem;
+        top: 17%;
+    left: 30%;
+
+    z-index:1;
+.Kangra {
+       width:100%;
+       height:100%;
+
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.hide {
+    display:none;
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color: #fff;
+     margin-top:0.2rem;
+     z-index: 1000;
+     background-color: black;
+     background-color:white;
+      padding:0.5rem;
+     border-radius:1rem;
+     z-index:1000;
+top: 10.2%;
+    left: 28%;
+height:7rem;
+
+
+justify-content:space-around;
+align-items:center;
+
+h2 {
+    margin-left:1rem;
+    margin-right:1rem;
+}
+ 
+.link {
+display:flex;
+cursor: pointer;
+width:90%;
+height:20%;
+font-size:1.4rem;
+justify-content:space-around;
+
+align-items:center;
+color:${props => props.theme.colors.blue};
+img {
+    width: 27px;
+    height:1rem;
+}
+span {
+    margin-left:0.5rem;
+  width:1rem;
+}
+
+  }
+
+}
+
+
+}
+
+.cityData-3:hover .hide {
+    display:flex;
+}
+
+.cityData-4 {
+
+    position:absolute;
+        width:2rem;
+        height:2rem;
+        top: 18%;
+    left: 32%;
+
+z-index:1;    
+.Nurpur {
+      width:100%;
+      height:100%;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+
+.hide {
+    display:none;
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color: #fff;
+     margin-top:0.2rem;
+     z-index: 1;
+     background-color: black;
+     background-color:white;
+      padding:0.5rem;
+     border-radius:1rem;
     
+top: 10.2%;
+    left: 28%;
+height:7rem;
 
 
-      
+justify-content:space-around;
+align-items:center;
+
+h2 {
+    margin-left:1rem;
+    margin-right:1rem;
+}
+ 
+.link {
+display:flex;
+cursor: pointer;
+width:90%;
+height:20%;
+font-size:1.4rem;
+justify-content:space-around;
+
+align-items:center;
+color:${props => props.theme.colors.blue};
+img {
+    width: 27px;
+    height:1rem;
+}
+span {
+    margin-left:0.5rem;
+  width:1rem;
+}
+
+  }
+
+}
+
+}
+
+.cityData-4:hover .hide {
+    display:flex;
+}
 
   
 

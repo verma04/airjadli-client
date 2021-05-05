@@ -158,7 +158,7 @@ export default function Home({data}) {
     
 
     <div className="map" > 
-    <div className="cityData" >
+    <div className="cityData-1" >
       
     <svg class="chamba" id="radar-circle">
   <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
@@ -187,7 +187,11 @@ export default function Home({data}) {
    
    
    <h2>{number.cityName}</h2> 
-   <h2>dsd</h2>
+
+   <div className='link' >
+   View 
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<span></span> </div>
    
    </span>
 
@@ -199,7 +203,7 @@ export default function Home({data}) {
 
       
     </div>
-    <div className="cityData">
+    <div className="cityData-2">
 
     <svg className="dharmshala" id="radar-circle">
   <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
@@ -220,10 +224,27 @@ export default function Home({data}) {
   <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
 </svg>
 
+
+{data.filter(element => element.cityName === "Dharamshala ").map((number) => 
+ 
+ <span className="hide" onClick={() => router.push(`/networks/${number.slug}`) } >
+   
+   
+   <h2>{number.cityName}</h2> 
+
+   <div className='link' >
+   View 
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<span></span> </div>
+   
+   </span>
+
+)}
+
      
      </div>
 
-    <div  className="cityData" >
+    <div  className="cityData-3" >
       
       <svg className="Kangra" id="radar-circle">
   <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
@@ -244,10 +265,25 @@ export default function Home({data}) {
   <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
 </svg>
 
-      
+{data.filter(element => element.cityName === "Kangra").map((number) => 
+ 
+ <span className="hide" onClick={() => router.push(`/networks/${number.slug}`) } >
+   
+   
+   <h2>{number.cityName}</h2> 
+
+   <div className='link' >
+   View 
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<span></span> </div>
+   
+   </span>
+
+)}
+
       </div>
 
-    <div  className="cityData" >
+    <div  className="cityData-4" >
       
       
      
@@ -271,13 +307,24 @@ export default function Home({data}) {
   <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
 </svg>
 
-      
+{data.filter(element => element.cityName === "Nurpur").map((number) => 
+ 
+ <span className="hide" onClick={() => router.push(`/networks/${number.slug}`) } >
+   
+   
+   <h2>{number.cityName}</h2> 
+
+   <div className='link' >
+   View 
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<span></span> </div>
+   
+   </span>
+
+)}
       </div>
-    <div className="cityData" >
-      
-      
+    <div className="cityData-5" >
     
-        
       <svg className="Bir" id="radar-circle">
   <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
     <animate attributeName="r" from="0" to="15" dur="3s" repeatCount="indefinite" />
@@ -296,9 +343,23 @@ export default function Home({data}) {
   
   <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
 </svg>
+{data.filter(element => element.cityName === "Nurpur").map((number) => 
+ 
+ <span className="hide" onClick={() => router.push(`/networks/${number.slug}`) } >
+   
+   
+   <h2>{number.cityName}</h2> 
 
+   <div className='link' >
+   View 
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<span></span> </div>
+   
+   </span>
+
+)}
       </div>
-    <div className="cityData"  >
+    <div className="cityData-6"  >
           
     <svg className="Manali" id="radar-circle">
   <circle cx="50%" cy="50%" r="0" fill-opacity="0" stroke="white" stroke-width="2px" stroke-opacity="1">
@@ -319,7 +380,21 @@ export default function Home({data}) {
   <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
 </svg>
 
-      
+{data.filter(element => element.cityName === "Nurpur").map((number) => 
+ 
+ <span className="hide" onClick={() => router.push(`/networks/${number.slug}`) } >
+   
+   
+   <h2>{number.cityName}</h2> 
+
+   <div className='link' >
+   View 
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<span></span> </div>
+   
+   </span>
+
+)}
      
         </div>
     <div  className="cityData" >
