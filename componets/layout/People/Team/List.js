@@ -210,6 +210,10 @@ const dat  =   list.filter(element => element.memberCategory === active)
           <p>{number.memberDescription}</p>
     </div>
         </div>
+ 
+ 
+ 
+ 
       </div>
     
             </div>

@@ -151,7 +151,8 @@ span {
                 flex-direction:column;
                 h2 {
                     width:80%;
-                    font-size:2rem;
+                    font-size: 1.7rem;
+
                     
                 }
                 span {

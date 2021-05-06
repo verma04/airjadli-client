@@ -31,7 +31,8 @@ align-items:center;
         }
         p {
           line-height:1.1;
-          font-size:1.7rem;
+              font-size: 1.5rem;
+
           width:50%;
         text-align:center;
         }
@@ -61,7 +62,8 @@ align-items:center;
           
          
            line-height:1.5rem;
-           font-size:1.7rem;
+               font-size: 1.5rem;
+
            width:100%;
            text-align:left;
          
@@ -179,7 +181,8 @@ align-items:center;
         }
         p {
           line-height:1.1;
-          font-size:1.7rem;
+              font-size: 1.5rem;
+
           width:50%;
         text-align:center;
         }
@@ -209,7 +212,8 @@ align-items:center;
           
          
            line-height:1.5rem;
-           font-size:1.7rem;
+               font-size: 1.5rem;
+
            width:100%;
            text-align:left;
          
