@@ -136,6 +136,7 @@ height:100rem;
   }
   h2:hover .dropdown-content {
           display:flex;
+          z-index:1000;
       }
  
     
@@ -231,46 +232,57 @@ span {
 
 
 
+.hide {
+    display:none;
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color: #fff;
+     margin-top:0.2rem;
+     z-index: 1;
+     background-color: black;
+     background-color:white;
+      padding:0.5rem;
+     border-radius:1rem;
+    
+top: 10.2%;
+    left: 28%;
+height:7rem;
 
-.Palampur {
-        position:absolute;
-        top: 19%;
-    left: 30%;
 
-    width:2rem;
-        height:2rem;
+justify-content:space-around;
+align-items:center;
 
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+h2 {
+    margin-left:1rem;
+    margin-right:1rem;
+}
+ 
+.link {
+display:flex;
+cursor: pointer;
+width:90%;
+height:20%;
+font-size:1.4rem;
+justify-content:space-around;
+
+align-items:center;
+color:${props => props.theme.colors.blue};
+img {
+    width: 27px;
+    height:1rem;
+}
+span {
+    margin-left:0.5rem;
+  width:1rem;
 }
 
-.Manali {
-        position:absolute;
-        width:2rem;
-        height:2rem; 
-       
-    top: 21%;
-    left: 30%;
+  }
 
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
 
-.Bir {
-        position:absolute;
-        width:2rem;
-        height:2rem;
-        top: 21%;
-    left: 32%;
 
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
-}
 
 
 .cityData-2 {
@@ -499,106 +511,924 @@ span {
     display:flex;
 }
 
-  
+.cityData-5 {
+    position:absolute;
+        width:2rem;
+        height:2rem;
+        top: 19%;
+    left: 32%;
 
-
-.Kot {
-        position:absolute;
-        top: 26.5%;
-    left: 34%;
-
-    width:1.8rem;
-        height:1.8rem;
-
-
+   
 z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
-}
-
-.Utt {
-        position:absolute;
-        top: 23.5%;
-    left: 35%;
-    width:1.8rem;
-        height:1.8rem;
-
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
-}
-
-.Tehri {
-        position:absolute;
-        top: 25.5%;
-    left: 37%;
-    width:1.8rem;
-        height:1.8rem;
-
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
-}
-
-.Pauri {
-        position:absolute;
+.Bir {
      
-    top: 26.5%;
-    left: 39%;
-    width:1.8rem;
-        height:1.8rem;
+    width:100%;
+    height:100%;
+   
+      
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.hide {
+    display:none;
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color: #fff;
+     margin-top:0.2rem;
+     z-index: 1;
+     background-color: black;
+     background-color:white;
+      padding:0.5rem;
+     border-radius:1rem;
+     z-index:1000;
+top: 10.2%;
+    left: 28%;
+height:7rem;
+
+
+justify-content:space-around;
+align-items:center;
+
+h2 {
+    margin-left:1rem;
+    margin-right:1rem;
+}
+ 
+.link {
+display:flex;
+cursor: pointer;
+width:90%;
+height:20%;
+font-size:1.4rem;
+justify-content:space-around;
+
+align-items:center;
+color:${props => props.theme.colors.blue};
+img {
+    width: 27px;
+    height:1rem;
+}
+span {
+    margin-left:0.5rem;
+  width:1rem;
+}
+
+  }
+
+}
+
+}
+
+.cityData-5:hover .hide {
+    display:flex;
+}
+
+
+.cityData-6 {
+
+    position:absolute;
+        width:2rem;
+        height:2rem; 
+        z-index:1;
+        top: 19%;
+    left: 34%;
+    
+.Manali {
+       
+    width:100%;
+    height:100%;
 
 
 
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
 
+.hide {
+    display:none;
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color: #fff;
+     margin-top:0.2rem;
+     z-index: 1;
+     background-color: black;
+     background-color:white;
+      padding:0.5rem;
+     border-radius:1rem;
+    
+top: 10.2%;
+    left: 28%;
+height:7rem;
+
+
+justify-content:space-around;
+align-items:center;
+
+h2 {
+    margin-left:1rem;
+    margin-right:1rem;
+}
+ 
+.link {
+display:flex;
+cursor: pointer;
+width:90%;
+height:20%;
+font-size:1.4rem;
+justify-content:space-around;
+
+align-items:center;
+color:${props => props.theme.colors.blue};
+img {
+    width: 27px;
+    height:1rem;
+}
+span {
+    margin-left:0.5rem;
+  width:1rem;
+}
+
+  }
+
+}
+}
+
+
+.cityData-6:hover .hide {
+    display:flex;
+}
+
+.cityData-7 {
+    top: 17%;
+    left: 34%;
+  
+    width:2rem;
+        height:2rem;
+        position:absolute;
 z-index:1;
+.Palampur {
+      
+     width:100%;
+     height:100%;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
 
-.Dehradun {
-        position:absolute;
-        top: 25.5%;
-    left: 35%;
-    width:1.8rem;
-        height:1.8rem;
+.hide {
+    display:none;
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color: #fff;
+     margin-top:0.2rem;
+     z-index: 1;
+     background-color: black;
+     background-color:white;
+      padding:0.5rem;
+     border-radius:1rem;
+    
+top: 10.2%;
+    left: 28%;
+height:7rem;
 
 
+justify-content:space-around;
+align-items:center;
 
-z-index:100;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+h2 {
+    margin-left:1rem;
+    margin-right:1rem;
+}
+ 
+.link {
+display:flex;
+cursor: pointer;
+width:90%;
+height:20%;
+font-size:1.4rem;
+justify-content:space-around;
+
+align-items:center;
+color:${props => props.theme.colors.blue};
+img {
+    width: 27px;
+    height:1rem;
+}
+span {
+    margin-left:0.5rem;
+  width:1rem;
 }
 
-.Nanital {
-        position:absolute;
-        top: 28.5%;
-    left: 40%;
-    width:1.8rem;
-        height:1.8rem;
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+  }
+
 }
 
-.Almora {
-        position:absolute;
+
+}
+.cityData-7:hover .hide {
+    display:flex;
+}
+
+.cityData-8 {
+    position:absolute;
         top: 24.5%;
     left: 39%;
     width:1.8rem;
         height:1.8rem;
 
+ 
 
+z-index:1;
+.Almora {
+        width:100%;
+        height:100%;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+.hide {
+    display:none;
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color: #fff;
+     margin-top:0.2rem;
+     z-index: 1;
+     background-color: black;
+     background-color:white;
+      padding:0.5rem;
+     border-radius:1rem;
+    
+top: 10.2%;
+    left: 28%;
+height:7rem;
+
+
+justify-content:space-around;
+align-items:center;
+
+h2 {
+    margin-left:1rem;
+    margin-right:1rem;
+}
+ 
+.link {
+display:flex;
+cursor: pointer;
+width:90%;
+height:20%;
+font-size:1.4rem;
+justify-content:space-around;
+
+align-items:center;
+color:${props => props.theme.colors.blue};
+img {
+    width: 27px;
+    height:1rem;
+}
+span {
+    margin-left:0.5rem;
+  width:1rem;
+}
+
+  }
+
+}
+
+
+}
+
+.cityData-8:hover .hide {
+    display:flex;
+}
+
+.cityData-9 {
+    position:absolute;
+    top: 22.5%;
+ 
+        
+    left: 40%;
+    width:1.8rem;
+        height:1.8rem;
+z-index:1;
+
+.hide {
+    display:none;
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color: #fff;
+     margin-top:0.2rem;
+     z-index: 1;
+     background-color: black;
+     background-color:white;
+      padding:0.5rem;
+     border-radius:1rem;
+    
+top: 10.2%;
+    left: 28%;
+height:7rem;
+
+
+justify-content:space-around;
+align-items:center;
+
+h2 {
+    margin-left:1rem;
+    margin-right:1rem;
+}
+ 
+.link {
+display:flex;
+cursor: pointer;
+width:90%;
+height:20%;
+font-size:1.4rem;
+justify-content:space-around;
+
+align-items:center;
+color:${props => props.theme.colors.blue};
+img {
+    width: 27px;
+    height:1rem;
+}
+span {
+    margin-left:0.5rem;
+  width:1rem;
+}
+
+  }
+
+}
+
+.Nanital {
+        width:100%;
+        height:100%;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+
+
+}
+.cityData-9:hover .hide {
+    display:flex;
+}
+.cityData-10 {
+    position:absolute;
+        top: 23.5%;
+    left: 35%;
+    width:1.8rem;
+        height:1.8rem;
+        z-index:1;
+       
+    .Dehradun {
+       
+width:100%;
+height:100%;
+
+
+
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+.hide {
+    display:none;
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color: #fff;
+     margin-top:0.2rem;
+     z-index: 1;
+     background-color: black;
+     background-color:white;
+      padding:0.5rem;
+     border-radius:1rem;
+    
+top: 10.2%;
+    left: 28%;
+height:7rem;
+
+
+justify-content:space-around;
+align-items:center;
+
+h2 {
+    margin-left:1rem;
+    margin-right:1rem;
+}
+ 
+.link {
+display:flex;
+cursor: pointer;
+width:90%;
+height:20%;
+font-size:1.4rem;
+justify-content:space-around;
+
+align-items:center;
+color:${props => props.theme.colors.blue};
+img {
+    width: 27px;
+    height:1rem;
+}
+span {
+    margin-left:0.5rem;
+  width:1rem;
+}
+
+  }
+
+}
+}
+
+.cityData-10:hover .hide {
+    display:flex;
+}
+.cityData-11 {
+
+    position:absolute;
+     
+     top: 25.5%;
+ left: 40%;
+
+ width:1.8rem;
+     height:1.8rem;
+ 
+  z-index:1;
+.Pauri {
+       
+width:100%;
+height:100%;
+
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+}
+
+.cityData-11:hover .hide {
+    display:flex;
+}
+.cityData-12 {
+    position:absolute;
+        top: 23.5%;
+    left: 37%;
+z-index:1;
+    width:1.8rem;
+        height:1.8rem;
+
+.Tehri {
+      
+width:100%;
+height:100%;
 
 z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
+     }
+     .cityData-12:hover .hide {
+    display:flex;
+}
+     .cityData-13{
+        position:absolute;
+        top: 20.5%;
+    left: 35%;
+    width:1.8rem;
+        height:1.8rem;
+        z-index:1;
+.Utt {
+       
 
+        width:100%;
+height:100%;
+
+
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+     }
+     .cityData-13:hover .hide {
+    display:flex;
+}
+     .cityData-14 {
+        position:absolute;
+        top: 21.5%;
+    left: 36%;;
+
+    width:1.8rem;
+        height:1.8rem;
+
+
+z-index:1;
+.Kot {
+  
+width:100%;
+height:100%;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+     }
+
+     .cityData-14:hover .hide {
+    display:flex;
+}
+.cityData-15 {
+    position:absolute;
+    top: 71%;
+    left: 21%;
+
+z-index:1;
+    width:1.8rem;
+        height:1.8rem;
+
+.MUN{
+ width:100%;
+ height:100%;
+
+
+
+z-index:1;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+}
+
+.cityData-15:hover .hide {
+    display:flex;
+}
+
+
+.cityData-16 {
+    position:absolute;
+    top: 76%;
+    left: 25%;
+
+
+    width:1.8rem;
+        height:1.8rem;
+
+
+
+z-index:1;
+
+        .bky{
+    width:100%;
+    height:100%;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+}
+
+.cityData-16:hover .hide {
+    display:flex;
+}
+.cityData-21 {
+    position:absolute;
+    top: 37%;
+    left: 59%;
+
+    width:1.8rem;
+        height:1.8rem;
+
+border: 1px solid red;
+
+z-index:1;
+.ranchi{
+  
+    width:100%;
+    height:100%;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+}
+.cityData-21:hover .hide {
+    display:flex;
+}
+
+.cityData-22 {
+    position:absolute;
+    top: 39%;
+    left: 62%;;
+
+    width:1.8rem;
+        height:1.8rem;
+
+border: 1px solid red;
+
+
+z-index:1;
+.sahibhag{
+     width:100%;
+     height:100%;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+}
+
+.cityData-22:hover .hide {
+    display:flex;
+}
+
+.cityData-23 {
+
+    position:absolute;
+    top: 39%;
+    left: 58%;
+
+    width:1.8rem;
+        height:1.8rem;
+
+
+
+  border:1px solid red;
+
+z-index:1;
+.bhojpure{
+   
+    width:100%;
+    height:100%;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+     }
+.cityData-23:hover .hide {
+    display:flex;
+}
+.cityData-24 {
+    position:absolute;
+    top: 41%;
+    left: 58%;
+
+    width:1.8rem;
+        height:1.8rem;
+
+
+
+
+z-index:1;
+.gaya{
+    width:100%;
+    height:100%;
+  
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+}
+
+.cityData-24:hover .hide {
+    display:flex;
+}
+.cityData-25{
+    position:absolute;
+    top: 39%;
+    left: 55%;
+
+
+    width:1.8rem;
+        height:1.8rem;
+        z-index:1;
+
+.jeha{
+ width:100%;
+ height:100%;
+
+
+
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+}
+
+
+.cityData-25:hover .hide {
+    display:flex;
+}
+.cityData-26{
+    position:absolute;
+   
+    top: 37%;
+
+    left: 63%;
+
+    width:1.8rem;
+        height:1.8rem;
+
+
+
+
+z-index:1;
+.nawada{
+     width:100%;
+     height:100%;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+}
+
+.cityData-26:hover .hide {
+    display:flex;
+}
+.cityData-27 {
+    position:absolute;
+    top: 56%;
+    left: 27%;
+
+    width:1.8rem;
+        height:1.8rem;
+
+
+
+
+z-index:1;
+.rohtas{
+    width:100%;
+    height:100%;
+
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+}
+
+.cityData-27:hover .hide {
+    display:flex;
+}
+
+.cityData-28 {
+    position:absolute;
+ 
+    top: 31.2%;
+    left: 68%;
+    width: 1.8rem;
+
+ width:1.8rem;
+     height:1.8rem;
+     z-index:1;
+.singtam{
+   
+    width:100%;
+    height:100%;
+
+
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+}
+.cityData-28:hover .hide {
+    display:flex;
+}
+
+.cityData-29  {
+    position:absolute;
+    top: 33.5%;
+    left: 70%;;
+
+    width:1.8rem;
+        height:1.8rem;
+        z-index:1;
+.pelling{
+  width:100%;
+  height:100%;
+
+
+
+
+
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+}
+.cityData-29:hover .hide {
+    display:flex;
+}
+
+.cityData-30 {
+    position:absolute;
+    top: 35.2%;
+    left: 71%;
+
+    width:1.8rem;
+        height:1.8rem;
+
+
+
+
+z-index:1;
+
+.komipong{
+  
+    width:100%;
+    height:100%;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
+}
+
+     }
+
+     .cityData-30:hover .hide {
+    display:flex;
+}
+
+.cityData-31 {
+    position:absolute;
+    top: 48.2%;
+    left: 22%;
+    width:1.8rem;
+        height:1.8rem;
+
+z-index:1;
+.barwani{
+    width:100%;
+    height:100%;
+   
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
+}
+}
+.cityData-31:hover .hide {
+    display:flex;
+}
+
+
+.cityData-32 {
+    position:absolute;
+    top: 50.2%;
+    left: 41%;
+    width:1.8rem;
+        height:1.8rem;
+
+
+z-index:1;
+.chinnwara{
+ 
+
+width:100%;
+    height:100%;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
+}
+}
+.cityData-32:hover .hide {
+    display:flex;
+}
+.cityData-33 {
+    position:absolute;
+    top: 48%;
+    left: 43%;
+
+    width:1.8rem;
+        height:1.8rem;
+
+z-index:1;
+.seoni{
+   width:100%;
+   height:100%;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
+}
+     }
+   
+.cityData-33:hover .hide {
+    display:flex;
+}
+.cityData-34 {
+    position:absolute;
+    top: 50%;
+    left: 28%;
+
+    width:1.8rem;
+        height:1.8rem;
+
+z-index:1;
+.kha{
+   width:100%;
+   height:100%;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
+}
+}
+.cityData-33:hover .hide {
+    display:flex;
+}
+.cityData-34:hover .hide {
+    display:flex;
+}
 .paratwada{
     position:absolute;
     top: 52.5%;
@@ -664,196 +1494,24 @@ z-index:1;
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
 
-.rohtas{
-    position:absolute;
-    top: 56%;
-    left: 27%;
 
-    width:1.8rem;
-        height:1.8rem;
 
 
 
 
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
-}
-.bky{
-    position:absolute;
-    top: 76%;
-    left: 25%;
 
 
-    width:1.8rem;
-        height:1.8rem;
 
 
 
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
-}
-.MUN{
-    position:absolute;
-    top: 71%;
-    left: 21%;
 
 
-    width:1.8rem;
-        height:1.8rem;
 
 
 
 
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
-}
 
-.ranchi{
-    position:absolute;
-    top: 46%;
-    left: 59%;
 
-    width:1.8rem;
-        height:1.8rem;
-
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
-}
-.sahibhag{
-    position:absolute;
-    top: 44%;
-    left: 62%;;
-
-    width:1.8rem;
-        height:1.8rem;
-
-
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
-}
-
-.bhojpure{
-    position:absolute;
-    top: 39%;
-    left: 58%;
-
-    width:1.8rem;
-        height:1.8rem;
-
-
-
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
-}
-.gaya{
-    position:absolute;
-    top: 41%;
-    left: 58%;
-
-    width:1.8rem;
-        height:1.8rem;
-
-
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
-}
-
-.jeha{
-    position:absolute;
-    top: 42%;
-    left: 59%;
-
-    width:1.8rem;
-        height:1.8rem;
-
-
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
-}
-
-.nawada{
-    position:absolute;
-    top: 42%;
-    left: 63%;
-
-    width:1.8rem;
-        height:1.8rem;
-
-
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
-}
-
-.singtam{
-    position:absolute;
- 
-    top: 32.2%;
-    left: 70%;
-
-    width:1.8rem;
-        height:1.8rem;
-
-
-
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
-}
-
-.pelling{
-    position:absolute;
-    top: 33.5%;
-    left: 70%;;
-
-    width:1.8rem;
-        height:1.8rem;
-
-
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
-}
-
-.komipong{
-    position:absolute;
-    top: 35.2%;
-    left: 71%;
-
-    width:1.8rem;
-        height:1.8rem;
-
-
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
-}
 .rohtas {
     position:absolute;
     top: 39.2%;
@@ -864,55 +1522,7 @@ z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
 }
-.barwani{
-    position:absolute;
-    top: 48.2%;
-    left: 22%;
-    width:1.8rem;
-        height:1.8rem;
 
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
-}
-
-.chinnwara{
-    position:absolute;
-    top: 50.2%;
-    left: 41%;
-    width:1.8rem;
-        height:1.8rem;
-
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
-}
-
-.seoni{
-    position:absolute;
-    top: 48%;
-    left: 43%;
-
-    width:1.8rem;
-        height:1.8rem;
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
-}
-.kha{
-    position:absolute;
-    top: 50%;
-    left: 28%;
-
-    width:1.8rem;
-        height:1.8rem;
-
-z-index:1;
-        color: ${props => props.theme.colors.blue};
-  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
-}
 
 
 

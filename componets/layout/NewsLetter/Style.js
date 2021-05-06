@@ -14,7 +14,7 @@ margin-top:5rem;
 @media  (min-width: 1281px) {
 
 .flex {
-    height:17rem;
+    height:15rem;
 
     width:75rem;
     display:flex;
@@ -25,7 +25,7 @@ margin-top:5rem;
    h2 {
     
      margin-top:2rem;
-     font-size:3.2rem;
+     font-size:2.5rem;
      color:white;
     
      width:100%;
@@ -34,7 +34,7 @@ margin-top:5rem;
    font-family:1000;
    }
    button {
-     font-size:1.4rem;
+     font-size:1.2rem;
      color:#1690D2;
      background-color:white;
      padding:0.7rem;

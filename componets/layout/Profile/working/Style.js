@@ -11,10 +11,11 @@ height:100%;
 margin-top:5rem;
 @media (min-width: 1281px) {
 
+
     .grid {
 
         width:100%;
-        height:38rem;
+        height:35rem;
         position: relative;
         .bird {
           right: -37px;
@@ -100,6 +101,7 @@ margin-top:5rem;
 
 width:100%;
 height:37rem;
+
 position: relative;
 .bird {
   right: -37px;

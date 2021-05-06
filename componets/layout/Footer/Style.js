@@ -314,7 +314,7 @@ padding-right: 0.7rem;
   
       height: 30rem;
       
-        width:80%;
+        width:90%;
         display:flex;
         justify-content:space-between;
        align-items:center;
@@ -353,7 +353,7 @@ padding-right: 0.7rem;
              }
        }
        .flex-2 {
-        
+      
          width:30%;
          height:100%;
          justify-content:flex-start;
@@ -396,14 +396,14 @@ padding-right: 0.7rem;
                color: black;
                border-radius:2rem;
                background-color:white;
-               font-size:2.7rem;
+               font-size: 1.7rem;
                margin-right: 2rem;
                padding:0.5rem;
                cursor: pointer;
              }
 
              .fa-facebook-f {
-              padding-left: 1rem;
+              padding-left: 0.5rem;
     padding-right: 1rem;
              }
              .fa-twitter-square{

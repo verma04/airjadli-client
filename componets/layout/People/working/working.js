@@ -27,7 +27,7 @@ export default function Home() {
       <div class='card'  >
       <div class='card-1'  >
   <div class='head' >
-<h2>WHY WORKING WITH US</h2>
+<h2>WHY WORK WITH US</h2>
 
    
   </div>

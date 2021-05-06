@@ -85,6 +85,7 @@ position: relative;
             text-align:center;
             text-align:center;
         height:100%;
+        z-index:1;
         }
            
         }
@@ -170,6 +171,7 @@ position: relative;
         text-align:center;
         text-align:center;
     height:100%;
+    z-index:1;
     }
        
     }

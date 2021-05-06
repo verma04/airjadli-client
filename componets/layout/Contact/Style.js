@@ -395,7 +395,7 @@ background-color:white;
   justify-content:flex-start;
     flex-direction:column;
    align-items:center;
-        width:80%;
+        width:90%;
   height:70rem;
       box-shadow: 0 1px 1px rgb(0 0 0 / 5%), 0 2px 5px rgb(0 0 0 / 15%);
   

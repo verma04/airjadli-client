@@ -43,8 +43,9 @@ margin-top:5rem;
               align-items:left;
               flex-direction:column;
               width:60%;
-               
+             
               h2 {
+                z-index:1;
                   width:70%;
                 color: ${props => props.theme.colors.blue};
               }
