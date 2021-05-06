@@ -814,7 +814,7 @@ export default function Home({data}) {
   <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
     </svg>
   
-    {data.filter(element => element.cityName === "Tehri").map((number) => 
+    {data.filter(element => element.cityName === "Balapur").map((number) => 
  
  <span className="hide" onClick={() => router.push(`/networks/${number.slug}`) } >
    
@@ -850,7 +850,7 @@ export default function Home({data}) {
   <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
     </svg>
   
-    {data.filter(element => element.cityName === "Tehri").map((number) => 
+    {data.filter(element => element.cityName === "Balapur").map((number) => 
  
  <span className="hide" onClick={() => router.push(`/networks/${number.slug}`) } >
    
@@ -885,7 +885,7 @@ export default function Home({data}) {
   
   <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
     </svg>
-    {data.filter(element => element.cityName === "Tehri").map((number) => 
+    {data.filter(element => element.cityName === " Murtizapur").map((number) => 
  
  <span className="hide" onClick={() => router.push(`/networks/${number.slug}`) } >
    
@@ -922,7 +922,7 @@ export default function Home({data}) {
   <circle cx="50%" cy="50%" r="5" fill="#0085C5" stroke="#979797"></circle>
     </svg>
   
-    {data.filter(element => element.cityName === "Tehri").map((number) => 
+    {data.filter(element => element.cityName === "Paratwada").map((number) => 
  
  <span className="hide" onClick={() => router.push(`/networks/${number.slug}`) } >
    
