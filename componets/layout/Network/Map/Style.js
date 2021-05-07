@@ -249,7 +249,7 @@ span {
 top: 10.2%;
     left: 28%;
 height:7rem;
-
+z-index:1000;
 
 justify-content:space-around;
 align-items:center;
@@ -293,12 +293,13 @@ span {
         height:2rem;
 
         top: 16%;
-    z-index: 1;
+ 
     left: 32%;
 
 .dharmshala {
        
 
+    position:absolute;
        width:100%;
        height:100%;
 
@@ -372,11 +373,13 @@ span {
         top: 17%;
     left: 30%;
 
-    z-index:1;
+   
 .Kangra {
+    position:absolute;
+    z-index:1;
        width:100%;
        height:100%;
-
+      
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -445,9 +448,11 @@ span {
         height:2rem;
         top: 18%;
     left: 32%;
-
-z-index:1;    
+  
+  
 .Nurpur {
+    position:absolute;
+    z-index:1;
       width:100%;
       height:100%;
         color: ${props => props.theme.colors.blue};
@@ -468,7 +473,7 @@ z-index:1;
      background-color:white;
       padding:0.5rem;
      border-radius:1rem;
-    
+    z-index:1000;
 top: 10.2%;
     left: 28%;
 height:7rem;
@@ -519,9 +524,10 @@ span {
     left: 32%;
 
    
-z-index:1;
+
 .Bir {
-     
+    position:absolute;
+    z-index:1;
     width:100%;
     height:100%;
    
@@ -548,7 +554,7 @@ top: 10.2%;
     left: 28%;
 height:7rem;
 
-
+z-index:1000;
 justify-content:space-around;
 align-items:center;
 
@@ -592,12 +598,13 @@ span {
     position:absolute;
         width:2rem;
         height:2rem; 
-        z-index:1;
+ 
         top: 19%;
     left: 34%;
     
 .Manali {
-       
+    position:absolute;
+    z-index:1;
     width:100%;
     height:100%;
 
@@ -624,7 +631,7 @@ span {
 top: 10.2%;
     left: 28%;
 height:7rem;
-
+z-index:1000;
 
 justify-content:space-around;
 align-items:center;
@@ -670,9 +677,10 @@ span {
     width:2rem;
         height:2rem;
         position:absolute;
-z-index:1;
+
 .Palampur {
-      
+    position:absolute;
+    z-index:1;
      width:100%;
      height:100%;
         color: ${props => props.theme.colors.blue};
@@ -692,7 +700,7 @@ z-index:1;
      background-color:white;
       padding:0.5rem;
      border-radius:1rem;
-    
+    z-index:1000;
 top: 10.2%;
     left: 28%;
 height:7rem;
@@ -744,63 +752,17 @@ span {
 
  
 
-z-index:1;
+
 .Almora {
+    position:absolute;
+    z-index:1;
         width:100%;
         height:100%;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
 
-.hide {
-    display:none;
-    position:absolute;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-    color: #fff;
-     margin-top:0.2rem;
-     z-index: 1;
-     background-color: black;
-     background-color:white;
-      padding:0.5rem;
-     border-radius:1rem;
-    
-top: 10.2%;
-    left: 28%;
-height:7rem;
 
-
-justify-content:space-around;
-align-items:center;
-
-h2 {
-    margin-left:1rem;
-    margin-right:1rem;
-}
- 
-.link {
-display:flex;
-cursor: pointer;
-width:90%;
-height:20%;
-font-size:1.4rem;
-justify-content:space-around;
-
-align-items:center;
-color:${props => props.theme.colors.blue};
-img {
-    width: 27px;
-    height:1rem;
-}
-span {
-    margin-left:0.5rem;
-  width:1rem;
-}
-
-  }
-
-}
 
 
 }
@@ -817,59 +779,13 @@ span {
     left: 40%;
     width:1.8rem;
         height:1.8rem;
-z-index:1;
-
-.hide {
-    display:none;
-    position:absolute;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-    color: #fff;
-     margin-top:0.2rem;
-     z-index: 1;
-     background-color: black;
-     background-color:white;
-      padding:0.5rem;
-     border-radius:1rem;
-    
-top: 10.2%;
-    left: 28%;
-height:7rem;
 
 
-justify-content:space-around;
-align-items:center;
 
-h2 {
-    margin-left:1rem;
-    margin-right:1rem;
-}
- 
-.link {
-display:flex;
-cursor: pointer;
-width:90%;
-height:20%;
-font-size:1.4rem;
-justify-content:space-around;
-
-align-items:center;
-color:${props => props.theme.colors.blue};
-img {
-    width: 27px;
-    height:1rem;
-}
-span {
-    margin-left:0.5rem;
-  width:1rem;
-}
-
-  }
-
-}
 
 .Nanital {
+    position:absolute;
+    z-index:1;
         width:100%;
         height:100%;
         color: ${props => props.theme.colors.blue};
@@ -888,7 +804,7 @@ span {
     left: 35%;
     width:1.8rem;
         height:1.8rem;
-        z-index:1;
+   
        
     .Dehradun {
        
@@ -896,59 +812,12 @@ width:100%;
 height:100%;
 
 
-
+position:absolute;
+    z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
-.hide {
-    display:none;
-    position:absolute;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-    color: #fff;
-     margin-top:0.2rem;
-     z-index: 1;
-     background-color: black;
-     background-color:white;
-      padding:0.5rem;
-     border-radius:1rem;
-    
-top: 10.2%;
-    left: 28%;
-height:7rem;
 
-
-justify-content:space-around;
-align-items:center;
-
-h2 {
-    margin-left:1rem;
-    margin-right:1rem;
-}
- 
-.link {
-display:flex;
-cursor: pointer;
-width:90%;
-height:20%;
-font-size:1.4rem;
-justify-content:space-around;
-
-align-items:center;
-color:${props => props.theme.colors.blue};
-img {
-    width: 27px;
-    height:1rem;
-}
-span {
-    margin-left:0.5rem;
-  width:1rem;
-}
-
-  }
-
-}
 }
 
 .cityData-10:hover .hide {
@@ -963,10 +832,10 @@ span {
 
  width:1.8rem;
      height:1.8rem;
- 
-  z-index:1;
+
 .Pauri {
-       
+    position:absolute;
+    z-index:1;
 width:100%;
 height:100%;
 
@@ -983,12 +852,13 @@ height:100%;
     position:absolute;
         top: 23.5%;
     left: 37%;
-z-index:1;
+
     width:1.8rem;
         height:1.8rem;
 
 .Tehri {
-      
+    position:absolute;
+    z-index:1;
 width:100%;
 height:100%;
 
@@ -1006,10 +876,11 @@ z-index:1;
     left: 35%;
     width:1.8rem;
         height:1.8rem;
-        z-index:1;
+    
 .Utt {
        
-
+    position:absolute;
+    z-index:1;
         width:100%;
 height:100%;
 
@@ -1030,9 +901,10 @@ height:100%;
         height:1.8rem;
 
 
-z-index:1;
+
 .Kot {
-  
+    position:absolute;
+    z-index:1;
 width:100%;
 height:100%;
         color: ${props => props.theme.colors.blue};
@@ -1048,14 +920,15 @@ height:100%;
     top: 71%;
     left: 21%;
 
-z-index:1;
+
     width:1.8rem;
         height:1.8rem;
 
 .MUN{
  width:100%;
  height:100%;
-
+ position:absolute;
+    z-index:1;
 
 
 z-index:1;
@@ -1080,9 +953,11 @@ z-index:1;
 
 
 
-z-index:1;
+
 
         .bky{
+            position:absolute;
+    z-index:1;
     width:100%;
     height:100%;
         color: ${props => props.theme.colors.blue};
@@ -1112,12 +987,13 @@ z-index:1;
 
 
 
-z-index:1;
+
 
 
 
 .balapur{
-   
+    position:absolute;
+    z-index:1;
     width:100%;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
@@ -1150,12 +1026,13 @@ z-index:1;
 
 
 
-z-index:1;
+
 
 
 
 .dharni{
-   
+    position:absolute;
+    z-index:1;
     width:100%;
     height:100%;
         color: ${props => props.theme.colors.blue};
@@ -1182,10 +1059,11 @@ z-index:1;
         position:absolute;
     top: 56%;
     left: 27%;
-z-index:1;
+
 
 .murtizapur{
-     
+    position:absolute;
+    z-index:1;
      width:100%;
      height:100%;
         color: ${props => props.theme.colors.blue};
@@ -1206,11 +1084,12 @@ z-index:1;
     left: 30%;
     width:1.8rem;
         height:1.8rem;
-z-index:1;
+
 
 .paratwada{
 
-
+    position:absolute;
+    z-index:1;
 
 
 
@@ -1262,9 +1141,10 @@ z-index:1;
 
 
 
-z-index:1;
+
 .ranchi{
-  
+    position:absolute;
+    z-index:1;
     width:100%;
     height:100%;
         color: ${props => props.theme.colors.blue};
@@ -1287,8 +1167,10 @@ z-index:1;
 
 
 
-z-index:1;
+
 .sahibhag{
+    position:absolute;
+    z-index:1;
      width:100%;
      height:100%;
         color: ${props => props.theme.colors.blue};
@@ -1314,9 +1196,10 @@ z-index:1;
 
 
 
-z-index:1;
+
 .bhojpure{
-   
+    position:absolute;
+    z-index:1;
     width:100%;
     height:100%;
         color: ${props => props.theme.colors.blue};
@@ -1338,8 +1221,10 @@ z-index:1;
 
 
 
-z-index:1;
+
 .gaya{
+    position:absolute;
+    z-index:1;
     width:100%;
     height:100%;
   
@@ -1359,12 +1244,13 @@ z-index:1;
 
     width:1.8rem;
         height:1.8rem;
-        z-index:1;
+     
 
 .jeha{
  width:100%;
  height:100%;
-
+ position:absolute;
+    z-index:1;
 
 
         color: ${props => props.theme.colors.blue};
@@ -1389,8 +1275,10 @@ z-index:1;
 
 
 
-z-index:1;
+
 .nawada{
+    position:absolute;
+    z-index:1;
      width:100%;
      height:100%;
         color: ${props => props.theme.colors.blue};
@@ -1413,11 +1301,12 @@ z-index:1;
 
 
 
-z-index:1;
+
 .rohtas{
     width:100%;
     height:100%;
-
+    position:absolute;
+    z-index:1;
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
 }
@@ -1436,9 +1325,10 @@ z-index:1;
 
  width:1.8rem;
      height:1.8rem;
-     z-index:1;
+
 .singtam{
-   
+    position:absolute;
+    z-index:1;
     width:100%;
     height:100%;
 
@@ -1459,14 +1349,15 @@ z-index:1;
 
     width:1.8rem;
         height:1.8rem;
-        z-index:1;
+ 
 .pelling{
   width:100%;
   height:100%;
 
 
 
-
+  position:absolute;
+    z-index:1;
 
         color: ${props => props.theme.colors.blue};
   animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;    
@@ -1488,10 +1379,11 @@ z-index:1;
 
 
 
-z-index:1;
+
 
 .komipong{
-  
+    position:absolute;
+    z-index:1;
     width:100%;
     height:100%;
         color: ${props => props.theme.colors.blue};
@@ -1511,8 +1403,10 @@ z-index:1;
     width:1.8rem;
         height:1.8rem;
 
-z-index:1;
+
 .barwani{
+    position:absolute;
+    z-index:1;
     width:100%;
     height:100%;
    
@@ -1533,9 +1427,10 @@ z-index:1;
         height:1.8rem;
 
 
-z-index:1;
+
 .chinnwara{
- 
+    position:absolute;
+    z-index:1;
 
 width:100%;
     height:100%;
@@ -1554,8 +1449,10 @@ width:100%;
     width:1.8rem;
         height:1.8rem;
 
-z-index:1;
+
 .seoni{
+    position:absolute;
+    z-index:1;
    width:100%;
    height:100%;
         color: ${props => props.theme.colors.blue};
@@ -1574,8 +1471,10 @@ z-index:1;
     width:1.8rem;
         height:1.8rem;
 
-z-index:1;
+
 .kha{
+    position:absolute;
+    z-index:1;
    width:100%;
    height:100%;
         color: ${props => props.theme.colors.blue};
@@ -1914,7 +1813,7 @@ top: 10.2%;
  left: 28%;
 height:7rem;
 
-
+z-index:1000;
 justify-content:space-around;
 align-items:center;
 
