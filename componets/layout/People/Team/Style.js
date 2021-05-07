@@ -49,8 +49,8 @@ margin-top:5rem;
        .data {
      width:100%;
 
-     .team {
-      z-index:1000;
+    .team {
+      z-index:900;
          flex-flow: wrap;
          width:100%;
          margin-top:3rem;
@@ -69,24 +69,16 @@ margin-top:5rem;
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 1s;
-  transform-style: preserve-3d;
 
+  cursor: pointer;
+  overflow: hidden;
 
 
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
 
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  
-  backface-visibility: hidden;
-}
+
+
 
 .flip-card-front {
 background-color: rgb(221,243,255);
@@ -130,13 +122,23 @@ background-color: rgb(221,243,255);
 }
 
 .flip-card-back {
-  background-color: rgb(221,243,255);
+ 
   color: white;
-  transform: rotateY(180deg);
+
   display:flex;
   justify-content:center;
   align-items:center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgb(221,243,255);
+  z-index:1000;
 
+  width:100%;
+  height:100%;
+  transition: all 400ms ;
+  text-align: center;
   .data {
     display:flex;
     justify-content:flex-start;
@@ -162,6 +164,15 @@ background-color: rgb(221,243,255);
      }
   }
 }
+
+
+.flip-card-inner .flip-card-back:hover  {
+  opacity: 1;
+  transform: translateY(50px);
+
+}
+
+
      }
 
      .team-1 {
@@ -201,7 +212,7 @@ background-color: rgb(221,243,255);
     justify-content:space-between;
     flex-direction:column;
     align-items:center;
-    width:76%;
+    width:85%;
     .head {
         width:100%;
      height:3rem;
@@ -246,103 +257,113 @@ margin-bottom:0.9rem;
 }
 
 .flip-card-inner {
-position: relative;
-width: 100%;
-height: 100%;
-text-align: center;
-transition: transform 1s;
-transform-style: preserve-3d;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 
+  cursor: pointer;
+  overflow: hidden;
 
 
 }
 
-.flip-card:hover .flip-card-inner {
-transform: rotateY(180deg);
-}
 
-.flip-card-front, .flip-card-back {
-position: absolute;
-width: 100%;
-height: 100%;
--webkit-backface-visibility: hidden;
-backface-visibility: hidden;
-}
+
+
 
 .flip-card-front {
 background-color: rgb(221,243,255);
-color: black;
-img {
- width:100%;
- height:100%;
-}
-.det {
-             position: absolute;
-            
-         
-             left:3%;
-             bottom:4%;
-             opacity:1;
-             background:rgba(255,255,255, 0.9);
-             display:flex;
-            justify-content:center;
-             .data {
-             
-                 width:100%;
-                 padding:0.5rem;
+  color: black;
+  img {
+    width:100%;
+    height:100%;
+  }
+  .det {
+                position: absolute;
                
-            display:flex;
-            justify-content:center;
-           
-          
-            flex-direction:column;
-            h2 {
+            
+                left:3%;
+                bottom:4%;
+                opacity:1;
+                background:rgba(255,255,255, 0.9);
+                display:flex;
+               justify-content:center;
+                .data {
                 
-              text-align:left;
-              width:100%;
-                font-weight:900;
+                    width:100%;
+                    padding:0.5rem;
+                  
+               display:flex;
+               justify-content:center;
+              
+             
+               flex-direction:column;
+               h2 {
+                   
+                 text-align:left;
+                 width:100%;
+                   font-weight:900;
+               }
+               span {
+                text-align:left;
+                width:50%;
+               }
+                }
             }
-            span {
-             text-align:left;
-             width:50%;
-            }
-             }
-         }
 }
 
 .flip-card-back {
-background-color: rgb(221,243,255);
-color: white;
-transform: rotateY(180deg);
-display:flex;
-justify-content:center;
-align-items:center;
+ 
+  color: white;
 
-.data {
- display:flex;
- justify-content:flex-start;
-   align-items:left;
-  flex-direction:column;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgb(221,243,255);
+  z-index:1000;
+
   width:100%;
   height:100%;
+  transition: all 400ms ;
+  text-align: center;
+  .data {
+    display:flex;
+    justify-content:flex-start;
+      align-items:left;
+     flex-direction:column;
+     width:100%;
+     height:100%;
 
-  h1 {
-    margin:0.3rem;
-    text-align:left;
-
-    font-weight:900;
-  }
-  p {
-  padding:0.3rem;
-    font-size:0.9rem;
-   text-align:left;
-   
-   background-color: rgb(221,243,255);
-   z-index:1000;
-   margin-bottom:1rem;
+     h1 {
+       margin:0.3rem;
+       text-align:left;
+  
+       font-weight:900;
+     }
+     p {
+     padding:0.3rem;
+       font-size:0.9rem;
+      text-align:left;
+      
+      background-color: rgb(221,243,255);
+      z-index:1000;
+      margin-bottom:1rem;
+     }
   }
 }
+
+
+.flip-card-inner .flip-card-back:hover  {
+  opacity: 1;
+  transform: translateY(50px);
+
 }
+
   }
 
   .team-1 {
@@ -381,7 +402,7 @@ display:flex;
 justify-content:space-between;
 flex-direction:column;
 align-items:center;
-width:80%;
+width:90%;
 .head {
     width:100%;
  height:3rem;
@@ -427,103 +448,113 @@ margin-bottom:0.9rem;
 }
 
 .flip-card-inner {
-position: relative;
-width: 100%;
-height: 100%;
-text-align: center;
-transition: transform 1s;
-transform-style: preserve-3d;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 
+  cursor: pointer;
+  overflow: hidden;
 
 
 }
 
-.flip-card:hover .flip-card-inner {
-transform: rotateY(180deg);
-}
 
-.flip-card-front, .flip-card-back {
-position: absolute;
-width: 100%;
-height: 100%;
--webkit-backface-visibility: hidden;
-backface-visibility: hidden;
-}
+
+
 
 .flip-card-front {
 background-color: rgb(221,243,255);
-color: black;
-img {
-width:100%;
-height:100%;
-}
-.det {
-         position: absolute;
-        
-     
-         left:3%;
-         bottom:4%;
-         opacity:1;
-         background:rgba(255,255,255, 0.9);
-         display:flex;
-        justify-content:center;
-         .data {
-         
-             width:100%;
-             padding:0.5rem;
-           
-        display:flex;
-        justify-content:center;
-       
-      
-        flex-direction:column;
-        h2 {
+  color: black;
+  img {
+    width:100%;
+    height:100%;
+  }
+  .det {
+                position: absolute;
+               
             
-          text-align:left;
-          width:100%;
-            font-weight:900;
-        }
-        span {
-         text-align:left;
-         width:50%;
-        }
-         }
-     }
+                left:3%;
+                bottom:4%;
+                opacity:1;
+                background:rgba(255,255,255, 0.9);
+                display:flex;
+               justify-content:center;
+                .data {
+                
+                    width:100%;
+                    padding:0.5rem;
+                  
+               display:flex;
+               justify-content:center;
+              
+             
+               flex-direction:column;
+               h2 {
+                   
+                 text-align:left;
+                 width:100%;
+                   font-weight:900;
+               }
+               span {
+                text-align:left;
+                width:50%;
+               }
+                }
+            }
 }
 
 .flip-card-back {
-background-color: rgb(221,243,255);
-color: white;
-transform: rotateY(180deg);
-display:flex;
-justify-content:center;
-align-items:center;
+ 
+  color: white;
 
-.data {
-display:flex;
-justify-content:flex-start;
-align-items:left;
-flex-direction:column;
-width:100%;
-height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgb(221,243,255);
+  z-index:1000;
 
-h1 {
-margin:0.3rem;
-text-align:left;
+  width:100%;
+  height:100%;
+  transition: all 400ms ;
+  text-align: center;
+  .data {
+    display:flex;
+    justify-content:flex-start;
+      align-items:left;
+     flex-direction:column;
+     width:100%;
+     height:100%;
 
-font-weight:900;
+     h1 {
+       margin:0.3rem;
+       text-align:left;
+  
+       font-weight:900;
+     }
+     p {
+     padding:0.3rem;
+       font-size:0.9rem;
+      text-align:left;
+      
+      background-color: rgb(221,243,255);
+      z-index:1000;
+      margin-bottom:1rem;
+     }
+  }
 }
-p {
-padding:0.3rem;
-font-size:0.9rem;
-text-align:left;
 
-background-color: rgb(221,243,255);
-z-index:1000;
-margin-bottom:1rem;
+
+.flip-card-inner .flip-card-back:hover  {
+  opacity: 1;
+  transform: translateY(20px);
+
 }
-}
-}
+
 }
 .team-1 {
        display:none;
@@ -609,105 +640,114 @@ margin-bottom:0.9rem;
 
 
 }
-
 .flip-card-inner {
-position: relative;
-width: 100%;
-height: 100%;
-text-align: center;
-transition: transform 1s;
-transform-style: preserve-3d;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 
+  cursor: pointer;
+  overflow: hidden;
 
 
 }
 
-.flip-card:hover .flip-card-inner {
-transform: rotateY(180deg);
-}
 
-.flip-card-front, .flip-card-back {
-position: absolute;
-width: 100%;
-height: 100%;
--webkit-backface-visibility: hidden;
-backface-visibility: hidden;
-}
+
+
 
 .flip-card-front {
 background-color: rgb(221,243,255);
-color: black;
-img {
- width:100%;
- height:100%;
-}
-.det {
-             position: absolute;
-            
-         
-             left:3%;
-             bottom:4%;
-             opacity:1;
-             background:rgba(255,255,255, 0.9);
-             display:flex;
-            justify-content:center;
-             .data {
-             
-                 width:100%;
-                 padding:0.5rem;
+  color: black;
+  img {
+    width:100%;
+    height:100%;
+  }
+  .det {
+                position: absolute;
                
-            display:flex;
-            justify-content:center;
-           
-          
-            flex-direction:column;
-            h2 {
+            
+                left:3%;
+                bottom:4%;
+                opacity:1;
+                background:rgba(255,255,255, 0.9);
+                display:flex;
+               justify-content:center;
+                .data {
                 
-              text-align:left;
-              width:100%;
-                font-weight:900;
+                    width:100%;
+                    padding:0.5rem;
+                  
+               display:flex;
+               justify-content:center;
+              
+             
+               flex-direction:column;
+               h2 {
+                   
+                 text-align:left;
+                 width:100%;
+                   font-weight:900;
+               }
+               span {
+                text-align:left;
+                width:50%;
+               }
+                }
             }
-            span {
-             text-align:left;
-             width:50%;
-            }
-             }
-         }
 }
 
 .flip-card-back {
-background-color: rgb(221,243,255);
-color: white;
-transform: rotateY(180deg);
-display:flex;
-justify-content:center;
-align-items:center;
+ 
+  color: white;
 
-.data {
- display:flex;
- justify-content:flex-start;
-   align-items:left;
-  flex-direction:column;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgb(221,243,255);
+  z-index:1000;
+
   width:100%;
   height:100%;
+  transition: all 400ms ;
+  text-align: center;
+  .data {
+    display:flex;
+    justify-content:flex-start;
+      align-items:left;
+     flex-direction:column;
+     width:100%;
+     height:100%;
 
-  h1 {
-    margin:0.3rem;
-    text-align:left;
-
-    font-weight:900;
-  }
-  p {
-  padding:0.3rem;
-    font-size:0.9rem;
-   text-align:left;
-   
-   background-color: rgb(221,243,255);
-   z-index:1000;
-   margin-bottom:1rem;
+     h1 {
+       margin:0.3rem;
+       text-align:left;
+  
+       font-weight:900;
+     }
+     p {
+     padding:0.3rem;
+       font-size:0.9rem;
+      text-align:left;
+      
+      background-color: rgb(221,243,255);
+      z-index:1000;
+      margin-bottom:1rem;
+     }
   }
 }
+
+
+.flip-card-inner .flip-card-back:hover  {
+  opacity: 1;
+  transform: translateY(50px);
+
 }
+
   }
 
 

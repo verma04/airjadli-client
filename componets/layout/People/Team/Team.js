@@ -1,7 +1,7 @@
-import React , { useState } from 'react';
+import React , { useEffect, useState } from 'react';
 import { Section } from './Style';
 import AllTeam from './List';
-
+import axios from 'axios';
 import Mang from './Mangement';
 import Reg  from './regional'
 import Tech from './tech'
@@ -10,23 +10,31 @@ import Network from './Netwrk'
 import Masonry from "react-responsive-masonry"
 import { useQuery } from "react-query";
 import Loading from '../../../Loading/Loading';
-const fetchAllPeople = async () => {
-  const res = await fetch("https://airjadli.herokuapp.com/api/client/allpeople");
-  return res.json();
-};
 
 
+import useAxios from 'axios-hooks'
 function Aboutus({page}) {
-    const { data, status} = useQuery("AllPeople", fetchAllPeople);
-  ;
+
+  useEffect( async () => {
+    axios.get(`https://airjadli.herokuapp.com/api/client/allpeople`)
+    .then(res => {
+      const people = res.data;
+      setdata( people );
+    })
+  }, [data] )
+
+
+
+   
     const [  active , setActive] = useState("Board");
-  
+    const [  data , setdata] = useState("");
+   
+    if (data === "") return <p> <Loading/> </p>
+ 
+
+
     return (
-      <>
-      {status === "error"  && <p>Error fetching data</p>}
-      {status === "loading" && <Loading/>  }
-      {status === "success" && (
-        
+     
         <Section>
            <div class="flex" >
            <div class="head" >
@@ -56,8 +64,7 @@ function Aboutus({page}) {
 
 
 
-)}
-</>
+
 );
 }
 export default Aboutus
