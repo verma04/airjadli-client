@@ -505,6 +505,7 @@ span {
         justify-content:center;
        
         .birdOut {
+            display:none;
              z-index:999;
            width:90%;
            position: relative;
