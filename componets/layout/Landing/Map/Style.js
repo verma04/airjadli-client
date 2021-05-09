@@ -526,7 +526,7 @@ align-items:center;
 
 
 @media only screen and (device-width: 768px) {
-border:1px solid red;
+
   display:flex;
 justify-content:center;
 height:100%;
