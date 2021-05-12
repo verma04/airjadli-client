@@ -17,7 +17,7 @@ margin-top:8rem;
   
 
 
-  height: 32rem;
+  height: 20rem;
   
     width:75rem;
     display:flex;
@@ -166,7 +166,7 @@ padding-right: 0.7rem;
       
     
   
-      height: 32rem;
+      height: 20rem;
       
         width:76%;
         display:flex;
@@ -312,7 +312,7 @@ padding-right: 0.7rem;
       
     
   
-      height: 30rem;
+      height: 20rem;
       
         width:90%;
         display:flex;
@@ -453,7 +453,7 @@ padding-right: 0.7rem;
 }
 @media (max-width: 767px) {
   .flex {
-        height:35rem;
+        height:20rem;
       
         width:90%;
         display:flex;

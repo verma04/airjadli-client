@@ -7,6 +7,7 @@ import Image from 'next/image';
 import Map from './Map/Map';
 import Head from 'next/head';
 import Team from './Team/Team'
+import  Footer from '@/componets/layout/Footer/Footer'
 import router from 'next/router';
 import { useQuery } from "react-query";
 import Loading from '@/componets/Loading/Loading';
@@ -120,6 +121,8 @@ function City({id}) {
        
 
 <Team id={id} city={data}  data1={people} />  
+
+<Footer/>
 </>
       
          )}

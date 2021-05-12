@@ -223,8 +223,8 @@ max-height:50rem;
 justify-content:center;
 height:100%;
 margin-top:5rem;
-height:40rem;
-max-height:50rem;
+height:60rem;
+
  background-color:#ddf3ff;
 
 .flex {
@@ -235,22 +235,23 @@ max-height:50rem;
    
     .flex-1 {
      
-        width:60%;
+        width:90%;
         height:100%;
         display:flex;
         justify-content:center;
         align-items:center;
         flex-direction:column;
         .head {
+           
             width:100%;
             height:10%;
             display:flex;
             justify-content:flex-start;
-            margin-left:50%;
-            align-items:flex-end;
+           
+            align-items:flex-start;
             h1 {
                 width:35%;
-                text-align:left;
+                
                 color:${props => props.theme.colors.blue};
                 font-weight:1000;
                 text-transform:uppercase;
@@ -259,16 +260,16 @@ max-height:50rem;
         .data {
             width:100%;
             height:80%;
-          
+        
             display:flex;
             justify-content:flex-start;
-            align-items:center;
+          
             flex-direction:column;
             justify-content:flex-start;
          
           
             ul {
-                margin-left:25%;
+             
                 margin-top:1rem;
                
                 height:50%;

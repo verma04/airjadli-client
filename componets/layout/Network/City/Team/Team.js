@@ -36,7 +36,15 @@ function AllTeam({data1  , city, id}) {
               <div  style={{ height: `${height}px`,}}  class="flip-card">
   <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src={number.memberAvatar} alt="Avatar" />
+        <Image
+               className="myImage"
+         src={number.memberAvatar}
+         alt="Picture of the author"
+         
+         layout="fill"
+         objectFit="cover"
+        
+       />
          <div className="det" > 
           <div className="data" >
                          <h2>{number.memberName}</h2>
