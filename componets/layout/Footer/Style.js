@@ -453,7 +453,7 @@ padding-right: 0.7rem;
 }
 @media (max-width: 767px) {
   .flex {
-        height:20rem;
+        height:32rem;
       
         width:90%;
         display:flex;
