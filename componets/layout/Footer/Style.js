@@ -168,7 +168,7 @@ padding-right: 0.7rem;
   
       height: 20rem;
       
-        width:76%;
+        width:80%;
         display:flex;
         justify-content:space-between;
        align-items:center;

@@ -139,9 +139,7 @@ export const  Item = styled.div`
         width: auto; 
         overflow: hidden; 
         margin: 12px; 
-        border-radius: 5px; 
-        box-shadow: 9px 17px 45px -29px
-                    rgba(0, 0, 0, 0.44); 
+       
     } 
    
     /* Card image loading */
@@ -290,9 +288,7 @@ export const  Item = styled.div`
         width: auto; 
         overflow: hidden; 
         margin: 12px; 
-        border-radius: 5px; 
-        box-shadow: 9px 17px 45px -29px
-                    rgba(0, 0, 0, 0.44); 
+       
     } 
    
     /* Card image loading */
@@ -436,9 +432,7 @@ export const  Item = styled.div`
         width: auto; 
         overflow: hidden; 
         margin: 12px; 
-        border-radius: 5px; 
-        box-shadow: 9px 17px 45px -29px
-                    rgba(0, 0, 0, 0.44); 
+        
     } 
    
     /* Card image loading */
