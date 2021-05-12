@@ -195,23 +195,37 @@ width:100%;
 height:30rem;
 position: relative;
 
-.bird {
-        top: 6%;
-    height: 60rem;
-    width: 39%;
-    left: 1%;
-    position: absolute;
+.birdOut {
+    display:none;
+             z-index:999;
+           width:90%;
+           position: relative;
+           height:100%;
+            
+         .birdd {
+           
+         z-index:999;
+    height: 100%;
+    display:flex;
+  top:9%;
+        justify-content:flex-start;
+        
+        height: 65rem;
+    width: 100%;
    
+ 
+    position: absolute;
     transform: rotate( 
 3.2deg
  );
 
 
+
         img {
-            width: 96%;
-            height: 109%;
+        
         }
-    }
+    } 
+         }
 .card {
 position:absolute;
 bottom:7%;
@@ -238,10 +252,10 @@ justify-content:center;
 align-items:center;
 flex-direction:column;
 h1 {
-    margin-top:10%;
-    width:90%;
-height:100%;
-padding:4%;
+  
+   
+
+padding:1rem;
 background-color:white;
 }
    

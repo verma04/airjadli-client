@@ -148,7 +148,7 @@ height:24rem;
 display:flex;
 justify-content:space-between;
 flex-direction:column;
-width:80%;
+width:90%;
 .head {
     width:100%;
     height:5%;
@@ -163,7 +163,7 @@ color: ${props => props.theme.colors.blue};
 }
 .logo {
  display:flex;
-justify-content:space-around;
+justify-content:space-between;
 align-items:center;
 
     height:95%;
@@ -171,7 +171,7 @@ align-items:center;
     width:100%;
 
     .logo1 {
-        width:20%;
+        width:22%;
         height:80%;
         
         display:flex;

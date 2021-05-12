@@ -183,7 +183,7 @@ color:white;
   .grid {
 
 width:100%;
-height:40rem;
+height:43rem;
 position: relative;
 .bird {
   right: -37px;
@@ -212,16 +212,17 @@ width:100%;
 
 height:100%;
 .card-1 {
-    margin-top:10%;
+  
     display:flex;
-justify-content:flex-start;
+justify-content:space-around;
 align-items:center;
 flex-direction:column;
 height:100%;
-width:80%;
+width:90%;
+
 .head {
      width:100%;
-     height:10%;
+   
     
   
      display:flex;
@@ -237,7 +238,7 @@ color:white;
 
 .grid1 {
      width:100%;
-     height:15%;
+     height:10%;
     
   
      display:flex;

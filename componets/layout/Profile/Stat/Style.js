@@ -200,7 +200,7 @@ width:100%;
 @media (min-width: 768px) and (max-width: 1024px) {
     .flex{
 
-height:37rem;
+height:43rem;
 
 display:flex;
 justify-content:space-between;

@@ -153,7 +153,7 @@ height:100%;
 
     .flex{
 
-height:45rem;
+height:50rem;
 
 display:flex;
 justify-content:flex-start;

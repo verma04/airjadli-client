@@ -817,12 +817,12 @@ width:100%;
   height:12rem;
 
   z-index: 1;
-  top:4rem;
+  top:3rem;
   justify-content:center;
   .content {
      display:flex;
      justify-content:center;
-     width:60%;
+     width:70%;
     margin-left:5%;
     
      .list {

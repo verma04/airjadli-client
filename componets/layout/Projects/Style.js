@@ -383,7 +383,7 @@ width:76%;
 
 .grid1 {
     position: relative;
-     width:30%;
+     width:45%;
     
  cursor: pointer;
      margin-top:2rem;
