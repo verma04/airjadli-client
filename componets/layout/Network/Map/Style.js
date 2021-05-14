@@ -185,14 +185,14 @@ z-index:1;
     color: #fff;
      margin-top:0.2rem;
      z-index: 1;
-     background-color: black;
-     background-color:white;
+
+     background: rgba(255, 255, 255, 0.95);
       padding:0.5rem;
      border-radius:1rem;
      z-index:1000;
 top: 10.2%;
     left: 28%;
-height:7rem;
+height:5rem;
 width:7rem;
 
 justify-content:space-around;
@@ -241,23 +241,18 @@ span {
     color: #fff;
      margin-top:0.2rem;
      z-index: 1;
-     background-color: black;
-     background-color:white;
+
+     background: rgba(255, 255, 255, 0.95);
       padding:0.5rem;
      border-radius:1rem;
-    
+     z-index:1000;
 top: 10.2%;
     left: 28%;
-height:7rem;
-z-index:1000;
+height:5rem;
+width:7rem;
 
 justify-content:space-around;
 align-items:center;
-
-h2 {
-    margin-left:1rem;
-    margin-right:1rem;
-}
  
 .link {
 display:flex;
@@ -317,24 +312,19 @@ z-index:1;
     flex-direction:column;
     color: #fff;
      margin-top:0.2rem;
-     z-index: 1000;
-     background-color: black;
-     background-color:white;
+     z-index: 1;
+
+     background: rgba(255, 255, 255, 0.95);
       padding:0.5rem;
      border-radius:1rem;
      z-index:1000;
 top: 10.2%;
     left: 28%;
-height:7rem;
-
+height:5rem;
+width:7rem;
 
 justify-content:space-around;
 align-items:center;
-
-h2 {
-    margin-left:1rem;
-    margin-right:1rem;
-}
  
 .link {
 display:flex;
@@ -392,24 +382,19 @@ span {
     flex-direction:column;
     color: #fff;
      margin-top:0.2rem;
-     z-index: 1000;
-     background-color: black;
-     background-color:white;
+     z-index: 1;
+
+     background: rgba(255, 255, 255, 0.95);
       padding:0.5rem;
      border-radius:1rem;
      z-index:1000;
 top: 10.2%;
     left: 28%;
-height:7rem;
-
+height:5rem;
+width:7rem;
 
 justify-content:space-around;
 align-items:center;
-
-h2 {
-    margin-left:1rem;
-    margin-right:1rem;
-}
  
 .link {
 display:flex;
@@ -469,23 +454,18 @@ span {
     color: #fff;
      margin-top:0.2rem;
      z-index: 1;
-     background-color: black;
-     background-color:white;
+
+     background: rgba(255, 255, 255, 0.95);
       padding:0.5rem;
      border-radius:1rem;
-    z-index:1000;
+     z-index:1000;
 top: 10.2%;
     left: 28%;
-height:7rem;
-
+height:5rem;
+width:7rem;
 
 justify-content:space-around;
 align-items:center;
-
-h2 {
-    margin-left:1rem;
-    margin-right:1rem;
-}
  
 .link {
 display:flex;
@@ -545,23 +525,18 @@ span {
     color: #fff;
      margin-top:0.2rem;
      z-index: 1;
-     background-color: black;
-     background-color:white;
+
+     background: rgba(255, 255, 255, 0.95);
       padding:0.5rem;
      border-radius:1rem;
      z-index:1000;
 top: 10.2%;
     left: 28%;
-height:7rem;
+height:5rem;
+width:7rem;
 
-z-index:1000;
 justify-content:space-around;
 align-items:center;
-
-h2 {
-    margin-left:1rem;
-    margin-right:1rem;
-}
  
 .link {
 display:flex;
@@ -623,23 +598,18 @@ span {
     color: #fff;
      margin-top:0.2rem;
      z-index: 1;
-     background-color: black;
-     background-color:white;
+
+     background: rgba(255, 255, 255, 0.95);
       padding:0.5rem;
      border-radius:1rem;
-    
+     z-index:1000;
 top: 10.2%;
     left: 28%;
-height:7rem;
-z-index:1000;
+height:5rem;
+width:7rem;
 
 justify-content:space-around;
 align-items:center;
-
-h2 {
-    margin-left:1rem;
-    margin-right:1rem;
-}
  
 .link {
 display:flex;
@@ -696,23 +666,18 @@ span {
     color: #fff;
      margin-top:0.2rem;
      z-index: 1;
-     background-color: black;
-     background-color:white;
+
+     background: rgba(255, 255, 255, 0.95);
       padding:0.5rem;
      border-radius:1rem;
-    z-index:1000;
+     z-index:1000;
 top: 10.2%;
     left: 28%;
-height:7rem;
-
+height:5rem;
+width:7rem;
 
 justify-content:space-around;
 align-items:center;
-
-h2 {
-    margin-left:1rem;
-    margin-right:1rem;
-}
  
 .link {
 display:flex;
