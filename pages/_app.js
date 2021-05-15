@@ -9,7 +9,7 @@ import { Integrations } from "@sentry/tracing";
  import BacktoTop from '../componets/backtotop'
  import { ToastContainer, toast } from 'react-toastify';
  import 'react-toastify/dist/ReactToastify.css';
-
+import Chat from '../componets/Chat'
  import 'nprogress/nprogress.css';
  import NProgress from 'nprogress';
  import Head from 'next/head';
@@ -68,7 +68,7 @@ function MyApp({ Component, pageProps }) {
  <BacktoTop/>
  <ReactQueryDevtools initialIsOpen={true} />
  </QueryClientProvider>
- 
+ <Chat/>
   </ThemeProvider>
  
  
