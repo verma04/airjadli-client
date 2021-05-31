@@ -38,14 +38,22 @@ function Aboutus({page}) {
         <Section>
            <div class="flex" >
            <div class="head" >
-    
-               {page.category.filter(element => element.category !== "Member").map((number) => 
+           <span  id={active === "All" ? "active" : ""}  onClick={() => setActive("All")  }   >All</span>
+               {page.category.map((number) => 
                <>
-               <span id={active === number.category ? "active" : ""}  onClick={() => setActive(number.category)  }   >{number.category}</span>
+           
+               {number.category === "Member" ?
+               (
+                <span id={active === "Member" ? "active" : ""}  onClick={() => setActive("Member")  }   >Network</span>
+  
+               ):
+(    <span id={active === number.category ? "active" : ""}  onClick={() => setActive(number.category)  }   >{number.category}</span>)
+
+               }
+            
              </>
                
-   
-   
+           
                )
 }
 </div>

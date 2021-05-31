@@ -42,8 +42,12 @@ function List({list , active }) {
     const [  visible , setvisible] = useState(false);
   
    
-
+const arry = []
 const dat  =   list.filter(element => element.memberCategory === active)
+const dat2  =   list.filter(element => element.memberCategory2   === active)
+
+arry.push(...dat , ...dat2);
+
  const data = dat.sort((a, b) => parseFloat(a.memberCategoryId) - parseFloat(b.memberCategoryId))
 
   
@@ -57,7 +61,7 @@ const dat  =   list.filter(element => element.memberCategory === active)
  const random = Math.floor(Math.random() * months.length);
 
 
-   if(active === "Board") {
+   if(active === "All") {
      return (
        <div>
         <div  className="team"  >
@@ -203,7 +207,7 @@ const dat  =   list.filter(element => element.memberCategory === active)
 
 <div  className="team"  >
 <Masonry columnsCount={3} gutter="10px">
-{data.map((number) =>  {
+{arry.map((number) =>  {
  const height = Math.random() * (500 - 350) + 350;
 
  return (
