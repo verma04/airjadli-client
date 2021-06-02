@@ -52,16 +52,30 @@ const Navbar = () => {
     
     <div className='top' > 
           <div className ="contact" >
-       <h3>PRIVACY POLICY</h3>
+       <h3>JaldiFi terms</h3>
        
      </div>
 
      <div className ="contact1" >
-       <h3>TERMS AND CONDITIONS</h3>
+       <h3>GST Registration</h3>
+     
+     </div>
+     <div className ="contact1" >
+       <h3>Parental controls</h3>
+     
+     </div>
+
+     <div className ="contact1" >
+       <h3>Privacy policy</h3>
+     
+     </div>
+     
+     <div className ="contact1" >
+       <h3>Terms & Conditions</h3>
      
      </div>
      <div className ="contact2" >
-       <h3>© AirJaldi 2021</h3>
+       <h3>© {new Date().getFullYear()}</h3>
        </div>
 
        <div className='down' ></div>
