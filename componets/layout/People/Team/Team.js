@@ -26,7 +26,7 @@ function Aboutus({page}) {
 
 
    
-    const [  active , setActive] = useState("Board");
+    const [  active , setActive] = useState("All");
     const [  data , setdata] = useState("");
    
     if (data === "") return <p> <Loading/> </p>
