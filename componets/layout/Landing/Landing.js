@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer'
 import { Section} from './Style'
 import Head from 'next/head'
+import { useRouter } from "next/router";
 import News from '../NewsLetter/News'
 import Image from 'next/image'
 import Connection from './Connection/connection';
@@ -19,6 +20,7 @@ const fetchPage = async () => {
 
 export default function Home() {
   const { data, status } = useQuery("Page", fetchPage);
+  const router = useRouter();
   return (
     <>
     {status === "error" && <p></p>}
@@ -80,7 +82,7 @@ export default function Home() {
 </p>
 <div className='link' >
 <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
-<span  > {number.sectionLink}</span> </div>
+<span  onClick={() => router.push(`/${number.link}`)} > {number.sectionLink}</span> </div>
 </div>
 </div>
 
@@ -114,10 +116,10 @@ export default function Home() {
    <div className="data" >
      <h2>{number.sectionHead}</h2>
      <p>{number.sectionDes}
-areas ...</p>
+ar ...   </p>
 <div className='link' >
 <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
- <span>  {number.sectionLink}</span> </div>
+ <span  >  {number.sectionLink}</span> </div>
    </div>
   </div>
  
