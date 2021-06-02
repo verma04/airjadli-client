@@ -13,18 +13,23 @@ const networks = async () => {
   const res = await fetch("https://airjadli.herokuapp.com/api/client/network");
   return res.json();
 };
+const networksPage = async () => {
+  const res = await fetch("http://sandbox.airjaldi.com:3000/client/getNetworkPage");
+  return res.json();
+};
 export default function Home() {
   const { data, status } = useQuery("networks", networks);
+  const { data:data1, status:status1 } = useQuery("networksPage", networksPage);
   return (
     <>
     <Head>
         <title>Network - AirJaldi</title>
       </Head>
-    {status === "error" && <p>Error fetching data</p>}
-      {status === "loading" && 
+    {status1  === "error" && <p>Error fetching data</p>}
+      {status1  === "loading" && 
       <Loading/>
       }
-      {status === "success" && (
+      {status1  === "success" && (
           <>
       
       <Section>
@@ -32,7 +37,7 @@ export default function Home() {
     <div class="grid"    >
     <Image
               className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190581/AirJaldi/du959vxynd4qeslbx6uw.jpg'
+        src={data1.NetworkPageAvatar}
        
         layout="fill"
        
@@ -51,11 +56,7 @@ export default function Home() {
   <div class='grid1' >
 
   <h1>
-  Anduntias experat. Millabor rem et re
-nost, aceperuptam apere quis doluptur,
-odissunt, quo oditiore elibus esent rem.
-Ut et, cupis exerciisquo videseque nis est
-que sunto occuptatur sita volut volo
+  {data1.NetworkPageDescription}
       </h1>
 
    
@@ -75,9 +76,17 @@ que sunto occuptatur sita volut volo
 
       </Section>
      
-<Section1/>
+<Section1 data1={data1} />
+
+{status  === "loading" && 
+      <Loading/>
+      }
+      {status  === "success" && (
+          <>
 <Map  data={data} />
  
+ </>
+      )}
     
        
       <Footer/>
