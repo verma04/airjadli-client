@@ -80,7 +80,7 @@ export default function Home() {
 </p>
 <div className='link' >
 <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
-<span> {number.sectionLink}</span> </div>
+<span  > {number.sectionLink}</span> </div>
 </div>
 </div>
 
