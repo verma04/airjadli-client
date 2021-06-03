@@ -4,11 +4,15 @@ import styled from 'styled-components'
 
 
 export const Section = styled.section`
+a {
+  color:blue;
+}
  @media (min-width: 1281px) {
    display:flex;
    justify-content:center;
    width:100%;
    height:100%;
+  
    .flex {
      margin-top:12vh;
      width:80rem;
