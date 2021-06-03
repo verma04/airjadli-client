@@ -41,7 +41,7 @@ function Blog({id}) {
             <h1 className="head" >{data.title}</h1>
             
 
-            { data.youtubeLink === '' ?
+            { data.youtubeLink === '' ||  data.youtubeLink=== undefined ?
 (
 
   null
