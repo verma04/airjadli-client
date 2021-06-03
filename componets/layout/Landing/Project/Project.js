@@ -77,7 +77,7 @@ export default function Project({data}) {
     <div className='left' style={{  position: 'relative', width:"50%", height: '100%'}} >
     <Image
               className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190591/AirJaldi/s8l2fydbecxfe5w38m54.jpg"
+        src={data.section3Avatar}
         alt="Picture of the author"
         layout="fill"
         objectFit="cover"

@@ -38,9 +38,9 @@ SAFE & EASY.</h1>
 
 <button onClick={()  =>  window.open('https://billing.airjaldi.net', '_blank')  }  >Pay your bill now</button>
 
-<span>Looking for new plan for Home or Business
+<span>For new connection and help with billing 
     <br></br>
-    <li>Connect with th sales tem</li>
+    <li>please contact 18001213648</li>
 </span>
 
   <h1>

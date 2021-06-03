@@ -227,7 +227,7 @@ a {
    width:100%;
    height:100%;
    .flex {
-    margin-top: 3%;
+    margin-top: 5rem;
      width:90%;
      height:60%;
     
