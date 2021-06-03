@@ -236,6 +236,7 @@ export const  Item = styled.div`
    .center{
     margin-top:5rem;
      width:100%;
+     
    
      .img-wrapper {
        display:flex;
@@ -386,37 +387,19 @@ export const  Item = styled.div`
    .center{
     margin-top:5rem;
     width:75rem;
+    height: 10rem;
    
      .img-wrapper {
        display:flex;
         justify-content:center;
         
-        #border {
-          border-radius:50%;
-        }
-       
-       img {
-         position:relative;
-       
-  width:80%;
-  height:100%;
-  
-       }
+        align-items: center;
+       height: 10em;
+       width: 10rem;
+       position: relative;
+     
    
-       .fade {
-        top:10rem;
-        position:absolute;
-        
-       h2 {
-        
-       
-         left:6rem;
-         
-         color:white;
-         font-weight:1000;
-         font-size:2rem;
-       }
-     }
+   
      }
      .img-wrapper:hover img { 
             transform: scale(1.1); 

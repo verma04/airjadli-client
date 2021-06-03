@@ -1,12 +1,14 @@
 import React from 'react'
 import { Foot} from './Style'
 import Image from 'next/image'
+import { Router, useRouter } from "next/router";
 <style jsx>{`
 #myImage {
   width: 64px;
 }
 `}</style>
 const Navbar = () => {
+  const router = useRouter();
     return (
         <Foot>
             <div className="flex" >
@@ -19,7 +21,8 @@ const Navbar = () => {
               </div>
               <div className='bottom' >
               <h2>    Call 1-800-200-9989 or email
- <span>support@airjaldi.com </span> to
+ <span  onClick={() => window.open('mailto:support@airjaldi.com') }
+      title="support@example.com"  >support@airjaldi.com </span> to
 get connected. </h2>
               </div>
           </div>
@@ -42,7 +45,7 @@ get connected. </h2>
 your devices for high speed wireless
 internet access at affordable rates</h2>
          </div>
-         <button>Get JaldiFi deals</button>
+         <button onClick={() => router.push(`/get-connected`) }  >Get JaldiFi deals</button>
      </div>
        
           </div>

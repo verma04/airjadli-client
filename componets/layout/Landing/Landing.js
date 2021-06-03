@@ -139,10 +139,10 @@ ar ...   </p>
       <News/>
       <InNews  />
 
-      <Partner/>
+      <Partner data={data.partners} />
       
        
-      <Footer/>
+      <Footer  />
     
       </>
        )}

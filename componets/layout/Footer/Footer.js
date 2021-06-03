@@ -1,6 +1,7 @@
 import React from 'react'
 import { Foot} from './Style'
 import Image from 'next/image'
+import Link from 'next/link'
 <style jsx>{`
 #myImage {
   width: 64px;
@@ -52,26 +53,26 @@ const Navbar = () => {
     
     <div className='top' > 
           <div className ="contact" >
-       <h3>JaldiFi terms</h3>
+       <Link href='jaldifiTerms' >JaldiFi terms</Link>
        
      </div>
 
      <div className ="contact1" >
-       <h3>GST Registration</h3>
+       <Link href='gstRegistration' >GST Registration</Link>
      
      </div>
      <div className ="contact1" >
-       <h3>Parental controls</h3>
+       <Link href='parentalControls' >Parental controls</Link>
      
      </div>
 
      <div className ="contact1" >
-       <h3>Privacy policy</h3>
+       <Link href='privacyPolicy' >Privacy policy</Link>
      
      </div>
      
      <div className ="contact1" >
-       <h3>Terms & Conditions</h3>
+       <Link href="terms" >Terms & Conditions</Link>
      
      </div>
      <div className ="contact2" >

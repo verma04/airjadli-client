@@ -2,10 +2,15 @@
 import { Section} from './Style'
 
 import Image from 'next/image'
-
+import { useQuery } from "react-query";
 import { Router, useRouter } from "next/router";
 import { number } from 'prop-types';
+const fetchProjects = async () => {
+  const res = await fetch("https://airjadli.herokuapp.com/client/getprojects");
+  return res.json();
+};
 export default function Project({data}) {
+  const { data:data1, status } = useQuery("Projects", fetchProjects);
   const router = useRouter();
   return (
     <>
@@ -17,43 +22,23 @@ export default function Project({data}) {
    <div className="head" >
    <h1>PROJECTS</h1>
    </div>
-
+   {status === "error" && <p>Error fetching data</p>}
+      {status === "loading" && 
+      
+   <p></p>
+      
+      }
+        {status === "success" && (
+    
       <div class='card'  >
       <div class='card-1'  >
-  <div class='grid1' >
-
-   <div className="wrapper"  >
-   <Image
-              className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190590/AirJaldi/za5xtu8v76hx46byd9eq.jpg"
-        alt="Picture of the author"
-        layout="fill"
-        objectFit="cover"
-      />
-   </div>
-
-   <div className="data" >
-       <div class='name'>
-       <span>MONASTIC INSTITUTE</span>
-<h3>DZONGSAR INSTITUTE</h3>
-       </div>
-
-     <p>Epeditation plam id quam qui ut omniend
-ipient pera denturesed quet est restiorum-
-qui dolore pa perum expe autae simusa udit
-eume cum hil mo odiciis ipsa alit a conse-
-quam hitatibus et ut in.</p>
-<div className='link' >
-<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
- <span>  Learn more </span> </div>
-   </div>
-  </div>
-  <div class='grid1' >
+        {data1.map((number) =>  
+<div onClick={() => router.push(`/projects/${number.slug}`) } class='grid1' >
 
 <div className="wrapper"  >
 <Image
            className="myImage"
-     src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190591/AirJaldi/f2j0357fxvicngshvsef.jpg"
+           src={number.featureImg}
      alt="Picture of the author"
      layout="fill"
      objectFit="cover"
@@ -61,56 +46,30 @@ quam hitatibus et ut in.</p>
 </div>
 
 <div className="data" >
-<div class='name'>
-       <span>TELEMEDICINE</span>
-<h3>HARISAL DIGITAL VILLAGE</h3>
-       </div>
-  
-  <p>Epeditation plam id quam qui ut omniend
-ipient pera denturesed quet est restiorum-
-qui dolore pa perum expe autae simusa udit
-eume cum hil mo odiciis ipsa alit a conse-
-quam hitatibus et ut in.</p>
-<div className='link' >
-<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
-<span>  Learn more </span> </div>
-</div>
-</div>
-
-
-<div class='grid1' >
-
-   <div className="wrapper"  >
-   <Image
-              className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190590/AirJaldi/qqgyle8fzxj4ukuou7vo.jpg"
-        alt="Picture of the author"
-        layout="fill"
-        objectFit="cover"
-      />
-   </div>
-
-   <div className="data" >
-   <div class='name'>
-       <span>LIVE BROADCAST</span>
-<h3>DALAI LAMA’S 80TH BIRTHDAY</h3>
-       </div>
-     <p>Epeditation plam id quam qui ut omniend
-ipient pera denturesed quet est restiorum-
-qui dolore pa perum expe autae simusa udit
-eume cum hil mo odiciis ipsa alit a conse-
-quam hitatibus et ut in.</p>
-<div className='link' >
-<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
-<span>  Learn more </span> </div>
-   </div>
-  </div>
- 
-
-
-</div>
-</div>
+    <div class='name'>
+    <span>{number.category}</span>
+<h3>{number.title}</h3>
     </div>
+
+  <p>{number.description}</p>
+<div className='link' >
+<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<span>  Learn more </span> </div>
+</div>
+</div>
+
+
+
+
+        )}
+        </div>
+  
+</div>
+   
+   )}
+   </div>
+
+  
 
 
 <div className='grid-1' >

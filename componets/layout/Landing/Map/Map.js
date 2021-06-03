@@ -1,7 +1,9 @@
 import React from 'react';
 import { Section } from './Style'
 import Image from 'next/image'
+import { Router, useRouter } from "next/router";
 function Map() {
+    const router = useRouter();
     return (
         <div>
             <Section>
@@ -21,7 +23,7 @@ the internet should be as
 readily available to all.</p>
 <div className='link' >
 <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
- <span> Learn more about our networks</span> </div>
+ <span onClick={() => router.push(`/networks`) } > Learn more about our networks</span> </div>
                     
 </div>
 <div class="flex-2" >
