@@ -134,7 +134,7 @@ const Navbar = () => {
                <span id={router.pathname == "/get-connected" ? "activesm" : ""}  >   <Link  href="/contact" >  CONTACT US  </Link> </span>
                </div>
                <div class="nav-item" >
-               <span>        MAKE PAYMENT </span>
+               <span>    <Link  href="/payments" >MAKE PAYMENT</Link>     </span>
                </div>
    
             
@@ -289,7 +289,7 @@ const Navbar = () => {
  <h2 id={router.pathname == "/get-connected" ? "activesm" : ""}  >   <Link  href="/contact" > CONTACT US </Link> </h2>
   </div>
   <div className="link" >
- <h2>MAKE PAYMENT</h2> 
+ <h2><Link  href="/payments" >MAKE PAYMENT</Link> </h2> 
   </div>
   </div>
    
