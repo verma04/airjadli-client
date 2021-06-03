@@ -7,6 +7,7 @@ import { useQuery } from "react-query";
 import {  convertFromRaw } from 'draft-js';
 import {stateToHTML} from 'draft-js-export-html';
 import Loading from '../../../Loading/Loading';
+import ReactPlayer from 'react-player'
 const fetchNews = async ( id) => {
  const idd = id.queryKey[1]
   const res = await fetch(`https://airjadli.herokuapp.com/api/getNews/${idd}`);
@@ -40,6 +41,31 @@ function Blog({id}) {
             <h1 className="head" >{data.title}</h1>
             
 
+            { data.youtubeLink === '' ?
+(
+
+  null
+
+
+
+):
+
+
+(
+
+  <ReactPlayer
+  volume={0} 
+  className='react-player'
+
+  volume={100}
+url={data.youtubeLink}
+
+loop={true} 
+
+/>
+
+)
+}
             <div className="data"  dangerouslySetInnerHTML={convertFromJSONToHTML(data.description)} ></div>
         </div>
             
