@@ -162,7 +162,7 @@ span {
               
             }
             .link {
-               
+                cursor: pointer;
                 width:90%;
                 height:10%;
                 display:flex;

@@ -17,7 +17,7 @@ function Banner() {
   <span>
 
   For more about payments or resolving payment issues yo may connect with our billing team here,
-<br></br>Connect <span>Airlaji Billing</span>
+<br></br>Connect <span> 18001213648</span>
   </span>
   
     <h1>
