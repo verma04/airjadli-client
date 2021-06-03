@@ -81,18 +81,19 @@ margin-top:5rem;
 
     .flex{
 
-height:24rem;
+height:30rem;
 
 display:flex;
 justify-content:space-between;
 flex-direction:column;
-width:76%;
+width:75rem;
 .head {
     width:100%;
     height:5%;
     display:flex;
 justify-content:center;
 flex-direction:column;
+align-items: center;
 h1 {
     
 color: ${props => props.theme.colors.blue};
@@ -100,6 +101,7 @@ color: ${props => props.theme.colors.blue};
 
 }
 .logo {
+    
  display:flex;
 justify-content:space-around;
 align-items:center;
@@ -109,9 +111,9 @@ width:70%;
     width:100%;
 
     .logo1 {
-        width:15%;
-        height:80%;
-        
+        width:20%;
+        height:90%;
+         
         display:flex;
 justify-content:center;
 align-items:center;
@@ -119,17 +121,17 @@ flex-direction:column;
 .img {
    position: relative;
    width:100%;
-   height: 60%;
+   height: 20%;
 
 }
 h2 {
  margin-top:1rem;
      text-align:center;
      font-weight:900;
-     height:10%;
+     height:17%;
    }
    span {
-     height:10%;
+     height:40%;
      text-align:center;
      font-size:1.3rem;
        
@@ -145,18 +147,19 @@ h2 {
 @media (min-width: 768px) and (max-width: 1024px) {
     .flex{
 
-height:24rem;
+height:30rem;
 
 display:flex;
 justify-content:space-between;
 flex-direction:column;
-width:90%;
+width:75rem;
 .head {
     width:100%;
     height:5%;
     display:flex;
 justify-content:center;
 flex-direction:column;
+align-items: center;
 h1 {
     
 color: ${props => props.theme.colors.blue};
@@ -164,18 +167,19 @@ color: ${props => props.theme.colors.blue};
 
 }
 .logo {
+    
  display:flex;
-justify-content:space-between;
+justify-content:space-around;
 align-items:center;
-
+width:70%;
     height:95%;
 
     width:100%;
 
     .logo1 {
-        width:22%;
-        height:80%;
-        
+        width:20%;
+        height:90%;
+         
         display:flex;
 justify-content:center;
 align-items:center;
@@ -183,17 +187,17 @@ flex-direction:column;
 .img {
    position: relative;
    width:100%;
-   height: 60%;
+   height: 20%;
 
 }
 h2 {
  margin-top:1rem;
      text-align:center;
      font-weight:900;
-     height:10%;
+     height:17%;
    }
    span {
-     height:10%;
+     height:40%;
      text-align:center;
      font-size:1.3rem;
        
@@ -225,48 +229,52 @@ width:90%;
 justify-content:center;
 flex-direction:column;
 h1 {
+    text-align: center;
 color: ${props => props.theme.colors.blue};
 }
 
 }
 .logo {
- display:flex;
-justify-content:space-around;
-align-items:center;
-flex-wrap: wrap;
-width:100%;
-    height:35rem;
-
-    width:100%;
-
-    .logo1 {
-        width:45%;
-        height:45%;
-         
-        display:flex;
-justify-content:space-around;
-align-items:center;
-flex-direction:column;
-.img {
-   position: relative;
-   width:90%;
-   height: 60%;
-
-}
-h2 {
-     text-align:center;
-     font-weight:900;
-    
-   }
-   span {
-     text-align:center;
-     font-size:1.1rem;
-       
-   }
-    }
-
+           
+           display:flex;
+          justify-content:space-around;
+          flex-direction: column;
+         align-items:center;
+          width:100%;
+              height:95%;
    
-}
+              width:100%;
+   
+              .logo1 {
+                  width:95%;
+                  height:15em;
+                   
+                  display:flex;
+          justify-content:center;
+         align-items:center;
+         flex-direction:column;
+         .img {
+             position: relative;
+             width:100%;
+             height: 20%;
+        
+         }
+         h2 {
+           margin-top:1rem;
+               text-align:center;
+               font-weight:900;
+               height:17%;
+             }
+             span {
+               height:40%;
+               text-align:center;
+               font-size:1.3rem;
+                 
+             }
+              }
+   
+             
+          }
 
 }
 

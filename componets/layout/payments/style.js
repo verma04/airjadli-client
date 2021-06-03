@@ -179,25 +179,44 @@ height:100%;
 width:76%;
 
 .grid1 {
- 
-    width:50%;
-
-    background-color:white;
-    display:flex;
-justify-content:center;
-
-
-align-items:center;
-h1 {
- padding:1rem;
-
-   width:90%;
-   text-align:center;
-   text-align:center;
-
-}
+         
+         width:30%;
   
-}
+        
+         display:flex;
+    justify-content:center;
+flex-direction: column;
+
+    align-items:flex-start;
+    h1 {
+      margin-bottom: 1rem;
+     
+     color: white;
+        width:90%;
+        text-align:left;
+        
+
+    }
+    button {
+        width: 100%;
+        height: 2.7rem;
+ border: none;
+ color: white;
+ font-weight: 900;
+ font-size: 1.1rem;
+ background-color:#0085C5;
+
+    }
+    span {
+        margin-top: 1rem;
+        color: white;
+        li {
+  font-weight: 900;
+  list-style: none;
+        }
+    }
+       
+    }
 
 }
 }
@@ -264,22 +283,44 @@ height:100%;
 width:80%;
 
 .grid1 {
-     width:50%;
-     height:50%;
-    
-     display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:column;
-h1 {
+         
+         width:30%;
   
-   
+        
+         display:flex;
+    justify-content:center;
+flex-direction: column;
 
-padding:1rem;
-background-color:white;
-}
-   
-}
+    align-items:flex-start;
+    h1 {
+      margin-bottom: 1rem;
+     
+     color: white;
+        width:90%;
+        text-align:left;
+        
+
+    }
+    button {
+        width: 100%;
+        height: 2.7rem;
+ border: none;
+ color: white;
+ font-weight: 900;
+ font-size: 1.1rem;
+ background-color:#0085C5;
+
+    }
+    span {
+        margin-top: 1rem;
+        color: white;
+        li {
+  font-weight: 900;
+  list-style: none;
+        }
+    }
+       
+    }
 
 }
 }
@@ -300,25 +341,7 @@ background-color:white;
     width:100%;
     height:26rem;
 
-    .birdOut {
-             z-index:999;
-           width:90rem;
-           position: relative;
-           height:100%;
-           display:flex;
-           justify-content:center;
-         
-          
-         .birdd {
-           
-        display:none;
-  
-
-
-
-        
-    } 
-         }
+    
 
     .card {
     position:absolute;
@@ -337,19 +360,41 @@ background-color:white;
     width:90%;
   
     .grid1 {
-         width:90%;
-         height:80%;
+         
+         width:100%;
+  
         
          display:flex;
     justify-content:center;
-    align-items:center;
-    flex-direction:column;
+flex-direction: column;
+
+    align-items:flex-start;
     h1 {
-        margin-top:10%;
+      margin-bottom: 1rem;
+     
+     color: white;
+        width:90%;
+        text-align:left;
         
-        padding:1rem;
-     font-size:1.5rem;
-     background-color:white;
+
+    }
+    button {
+        width: 50%;
+        height: 2.7rem;
+ border: none;
+ color: white;
+ font-weight: 900;
+ font-size: 1.1rem;
+ background-color:#0085C5;
+
+    }
+    span {
+        margin-top: 1rem;
+        color: white;
+        li {
+  font-weight: 900;
+  list-style: none;
+        }
     }
        
     }

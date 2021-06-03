@@ -42,24 +42,14 @@ margin-top:5rem;
 
     .flex{
 
-height:24rem;
+height:20rem;
 
 display:flex;
 justify-content:space-between;
 flex-direction:column;
-width:76%;
-.head {
-    width:100%;
-    height:5%;
-    display:flex;
-justify-content:center;
-flex-direction:column;
-h1 {
-    
-color: ${props => props.theme.colors.blue};
-}
+align-items: center;
+width:75rem;
 
-}
 .logo {
  display:flex;
 justify-content:space-around;
@@ -67,36 +57,9 @@ align-items:center;
 width:70%;
     height:95%;
 
-    width:100%;
 
-    .logo1 {
-        width:15%;
-        height:80%;
-        
-        display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:column;
-.img {
-   position: relative;
-   width:100%;
-   height: 60%;
 
-}
-h2 {
- margin-top:1rem;
-     text-align:center;
-     font-weight:900;
-     height:10%;
-   }
-   span {
-     height:10%;
-     text-align:center;
-     font-size:1.3rem;
-       
-   }
-    }
-
+ position: relative;
    
 }
 
@@ -106,61 +69,24 @@ h2 {
 @media (min-width: 768px) and (max-width: 1024px) {
     .flex{
 
-height:24rem;
+height:20rem;
 
 display:flex;
 justify-content:space-between;
 flex-direction:column;
-width:90%;
-.head {
-    width:100%;
-    height:5%;
-    display:flex;
-justify-content:center;
-flex-direction:column;
-h1 {
-    
-color: ${props => props.theme.colors.blue};
-}
+align-items: center;
+width:75rem;
 
-}
 .logo {
  display:flex;
-justify-content:space-between;
+justify-content:space-around;
 align-items:center;
-
+width:70%;
     height:95%;
 
-    width:100%;
 
-    .logo1 {
-        width:22%;
-        height:80%;
-        
-        display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:column;
-.img {
-   position: relative;
-   width:100%;
-   height: 60%;
 
-}
-h2 {
- margin-top:1rem;
-     text-align:center;
-     font-weight:900;
-     height:10%;
-   }
-   span {
-     height:10%;
-     text-align:center;
-     font-size:1.3rem;
-       
-   }
-    }
-
+ position: relative;
    
 }
 
@@ -173,59 +99,24 @@ h2 {
 
     .flex{
 
- 
+height:10rem;
 
 display:flex;
 justify-content:space-between;
 flex-direction:column;
-width:90%;
-.head {
-    width:100%;
-    height:3rem;
-    display:flex;
-justify-content:center;
-flex-direction:column;
-h1 {
-color: ${props => props.theme.colors.blue};
-}
+align-items: center;
+width:100rem;
 
-}
 .logo {
  display:flex;
 justify-content:space-around;
 align-items:center;
-flex-wrap: wrap;
-width:100%;
-    height:35rem;
+width:70%;
+    height:95%;
 
-    width:100%;
 
-    .logo1 {
-        width:45%;
-        height:45%;
-         
-        display:flex;
-justify-content:space-around;
-align-items:center;
-flex-direction:column;
-.img {
-   position: relative;
-   width:90%;
-   height: 60%;
 
-}
-h2 {
-     text-align:center;
-     font-weight:900;
-    
-   }
-   span {
-     text-align:center;
-     font-size:1.1rem;
-       
-   }
-    }
-
+ position: relative;
    
 }
 
