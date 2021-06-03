@@ -9,6 +9,8 @@ display:flex;
 justify-content:center;
 height:100%;
 margin-top:5rem;
+flex-direction: column;
+align-items: center;
 
 @media (min-width: 1281px) {
 
@@ -97,6 +99,62 @@ margin-top:5rem;
       
 
    }
+
+   .grid1 {
+         height: 13rem;
+         width:60%;
+  
+        margin-top: 3rem;
+         display:flex;
+    justify-content:center;
+flex-direction: column;
+
+    align-items:center;
+    h1 {
+      margin-bottom: 1rem;
+     
+     color: black;
+        width:90%;
+    
+        text-align: center;
+        font-size: 3rem;
+
+    }
+    .btn {
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       button {
+        width: 40%;
+        height: 2.7rem;
+ border: none;
+ color: white;
+ font-weight: 900;
+ font-size: 1.1rem;
+ background-color:#0085C5;
+
+    }   
+    }
+ 
+   
+    span {
+        margin-top: 1rem;
+        color: black;
+        text-align: center;
+        line-height: 1.4;;
+        li {
+  font-weight: 900;
+  list-style: none;
+        }
+        span {
+            color:#1690d2;
+        }
+    }
+       
+    }
+
+
 }
 
 @media (min-width: 1025px) and (max-width: 1280px)  {
@@ -186,6 +244,59 @@ justify-content:space-evenly;
 
 
 }
+.grid1 {
+         height: 13rem;
+         width:60%;
+  
+        margin-top: 3rem;
+         display:flex;
+    justify-content:center;
+flex-direction: column;
+
+    align-items:center;
+    h1 {
+      margin-bottom: 1rem;
+     
+     color: black;
+        width:90%;
+    
+        text-align: center;
+        font-size: 3rem;
+
+    }
+    .btn {
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       button {
+        width: 40%;
+        height: 2.7rem;
+ border: none;
+ color: white;
+ font-weight: 900;
+ font-size: 1.1rem;
+ background-color:#0085C5;
+
+    }   
+    }
+ 
+   
+    span {
+        margin-top: 1rem;
+        color: black;
+        text-align: center;
+        line-height: 1.4;;
+        li {
+  font-weight: 900;
+  list-style: none;
+        }
+        span {
+            color:#1690d2;
+        }
+    }
+       
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -274,6 +385,59 @@ justify-content:space-evenly;
 
 
 }
+.grid1 {
+         height: 13rem;
+         width:60%;
+  
+        margin-top: 3rem;
+         display:flex;
+    justify-content:center;
+flex-direction: column;
+
+    align-items:center;
+    h1 {
+      margin-bottom: 1rem;
+     
+     color: black;
+        width:90%;
+    
+        text-align: center;
+        font-size: 3rem;
+
+    }
+    .btn {
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       button {
+        width: 40%;
+        height: 2.7rem;
+ border: none;
+ color: white;
+ font-weight: 900;
+ font-size: 1.1rem;
+ background-color:#0085C5;
+
+    }   
+    }
+ 
+   
+    span {
+        margin-top: 1rem;
+        color: black;
+        text-align: center;
+        line-height: 1.4;;
+        li {
+  font-weight: 900;
+  list-style: none;
+        }
+        span {
+            color:#1690d2;
+        }
+    }
+       
+    }
 
 }
   
@@ -291,7 +455,7 @@ flex-direction: column-reverse;
 width:100%;
 .left {
       width: 90%;
-      height: 45%;
+      height: 60%;
       display:flex;
 justify-content:space-evenly;
   align-items: center;
@@ -360,13 +524,66 @@ justify-content:space-evenly;
 }
 .right {
       width: 100%;
-      height: 45%;
+      height: 40%;
       position: relative;
    
 }
 
 
 }
+.grid1 {
+         height: 13rem;
+         width:100%;
+  
+        margin-top: 3rem;
+         display:flex;
+    justify-content:center;
+flex-direction: column;
+
+    align-items:center;
+    h1 {
+      margin-bottom: 1rem;
+     
+     color: black;
+        width:90%;
+    
+        text-align: center;
+        font-size: 2rem;
+
+    }
+    .btn {
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       button {
+        width: 90%;
+        height: 2.7rem;
+ border: none;
+ color: white;
+ font-weight: 900;
+ font-size: 1.1rem;
+ background-color:#0085C5;
+
+    }   
+    }
+ 
+   
+    span {
+        margin-top: 1rem;
+        color: black;
+        text-align: center;
+        line-height: 1.4;;
+        li {
+  font-weight: 900;
+  list-style: none;
+        }
+        span {
+            color:#1690d2;
+        }
+    }
+       
+    }
 }
 
 

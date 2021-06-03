@@ -9,6 +9,9 @@ export const Section = styled.section`
    justify-content:center;
    width:100%;
    height:100%;
+   a {
+     color:#1690d2;;
+   }
    .flex {
      margin-top:12vh;
      width:80rem;
@@ -20,6 +23,7 @@ export const Section = styled.section`
           flex-direction:column;
           width:100%;
           height:100%;
+   
           .head {
               text-align:left;
               font-size:2.5rem;

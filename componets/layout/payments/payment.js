@@ -6,9 +6,13 @@ import Image from 'next/image';
 import Facts from './facts/fact'
 import Images from './Image/Image'
 import Page from './page/Page'
+import Head from 'next/head';
 function payment() {
     return (
         <>
+             <Head>
+    <title>Payments - AirJaldi</title>
+  </Head>
         <Section>
         <Navbar/>
         <div class="grid">

@@ -10,7 +10,7 @@ function Fact() {
 
                <Image
               className="myImage"
-        src="https://res.cloudinary.com/airjaldi/image/upload/v1622632140/payment-options_ihj3fq.png"
+        src="https://res.cloudinary.com/airjaldi/image/upload/v1622716526/payment-options_1_lfzili.png"
         alt="Picture of the author"
         layout="fill"
         objectFit="contain"

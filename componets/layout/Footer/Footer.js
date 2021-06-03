@@ -75,6 +75,10 @@ const Navbar = () => {
        <Link href="terms" >Terms & Conditions</Link>
      
      </div>
+     <div className ="contact1" >
+       <Link href="financial" >Financial</Link>
+     
+     </div>
      <div className ="contact2" >
        <h3>© {new Date().getFullYear()}</h3>
        </div>
