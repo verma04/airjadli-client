@@ -30,41 +30,24 @@ export const  Item = styled.div`
     color:${props => props.theme.colors.blue};
    }
    }
-    .center{
-  
-     width:100%;
+   .center{
+    margin-top:5rem;
+    width:100%;
+    height: 10rem;
+    display:flex;
+        justify-content:center;
      .img-wrapper {
        display:flex;
         justify-content:center;
         
-        margin-bottom:1rem;
-        #border {
-          border-radius:50%;
-        }
-       img {
-         position:relative;
+        align-items: center;
        
-  width:50%;
-  height:50%;
-  
-  background-color: rgba(0,0,0,0.5);
-  
-       }
+       height: 10em;
+       width: 100%;
+       position: relative;
+     
    
-       .fade {
-        top:6rem;
-        position:absolute;
-        
-       h2 {
-        
-       
-         left:6rem;
-         
-         color:white;
-         font-weight:1000;
-         font-size:1.3rem;
-       }
-     }
+   
      }
      .img-wrapper:hover img { 
             transform: scale(1.1); 
