@@ -9,7 +9,14 @@ display:flex;
 justify-content:center;
 height:100%;
 margin-top:5rem;
+i {
+    
+    margin-bottom: 6rem;
+    font-size: 1rem;
+    padding-bottom: -3rem;
+    position: absolute;
 
+}
 @media (min-width: 1281px) {
 
    .flex{

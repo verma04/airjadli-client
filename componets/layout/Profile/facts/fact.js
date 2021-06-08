@@ -35,7 +35,7 @@ function Fact() {
         objectFit="cover"
       />
   </div>
-  <h2>80,000 km <sup>2</sup> </h2>
+  <h2>80,000 km <i>2</i> </h2>
   <span>Combined Wireless
 Coverage Area</span>
                    </div>
@@ -51,7 +51,7 @@ Coverage Area</span>
         objectFit="cover"
       />
   </div>
-  <h2>200,000<sup>+ </sup> </h2>
+  <h2>200,000  +  </h2>
   <span>Registered Users</span>
                    </div>
                 
