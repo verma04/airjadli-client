@@ -138,8 +138,8 @@ height:100%;
              margin-top:1rem;
              .img {
                  position: relative;
-               width:10rem;
-               height:4rem;
+               width:100%;
+               height:10rem;
              }
              p {
                  margin-top:0.5rem;
@@ -148,7 +148,7 @@ height:100%;
          }
          .right{
              width:45%;
-             
+             height: 10rem;;
              display:flex;
              justify-content:flex-end;
              align-items:flex-end;
