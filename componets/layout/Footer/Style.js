@@ -561,11 +561,21 @@ padding-right: 0.7rem;
            justify-content:space-around;
            flex-direction:column;
            color:white;
-           .contact{
+           .contact-1{
            h3 {
             color: white;
           }
            }
+           .contact1 {
+          line-height: 1.5rem;
+          h3 {
+            color: white;
+          }
+          a {
+            font-size: 1.2rem;
+          }
+         }
+         
            .contact1{
            h3 {
             color: white;

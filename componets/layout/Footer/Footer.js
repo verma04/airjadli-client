@@ -66,7 +66,7 @@ const Navbar = () => {
           <div className="flex-3" >
     
     <div className='top' > 
-          <div className ="contact" >
+          <div className ="contact1" >
        <Link href='jaldifiTerms' >JaldiFi terms</Link>
        
      </div>

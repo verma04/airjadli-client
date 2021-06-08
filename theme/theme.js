@@ -88,6 +88,9 @@ button {
   font-weight:500;
   word-spacing:0.2rem;
   }
+  tr {
+    font-family:  SourceSansPro-Regular;
+  }
   h3 {
     font-size: 1.2rem;
     line-height: var(--line-height-lg);

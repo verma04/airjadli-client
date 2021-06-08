@@ -23,6 +23,39 @@ export const Section = styled.section`
           flex-direction:column;
           width:100%;
           height:100%;
+
+          #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+ 
+#customers tr:nth-child(1){background: #1690d2;
+td {
+  color:  white;
+}
+td:nth-child(2){
+  width: 15rem;
+
+}
+}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
    
           .head {
               text-align:left;
@@ -90,11 +123,48 @@ export const Section = styled.section`
      height:76%;
     
      .single-post{
+       strong{
+         font-weight: 1000;
+       }
          display:flex;
          justify-content:center;
           flex-direction:column;
           width:100%;
           height:100%;
+
+          #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+ 
+#customers tr:nth-child(1){background: #1690d2;
+td {
+  color:  white;
+}
+td:nth-child(2){
+  width: 15rem;
+
+}
+}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+   
           .head {
               text-align:left;
               font-size:2.5rem;
@@ -167,6 +237,40 @@ export const Section = styled.section`
           flex-direction:column;
           width:100%;
           height:100%;
+
+          #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+ 
+#customers tr:nth-child(1){background: #1690d2;
+td {
+  color:  white;
+}
+td:nth-child(2){
+  width: 15rem;
+
+}
+}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+   
           .head {
               text-align:left;
               font-size:2.5rem;
@@ -224,12 +328,14 @@ export const Section = styled.section`
  @media (max-width: 767px) {
    display:flex;
    justify-content:center;
+   align-items: center;
    width:100%;
    height:100%;
+   margin-top: 5rem;
    .flex {
     margin-top: 3%;
-     width:90%;
-     height:60%;
+     width:100%;
+   
     
      .single-post{
          display:flex;
@@ -237,6 +343,43 @@ export const Section = styled.section`
           flex-direction:column;
           width:100%;
           height:100%;
+     
+
+          #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  border: 1px solid red;
+
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+ 
+#customers tr:nth-child(1){background: #1690d2;
+td {
+  color:  white;
+}
+td:nth-child(3){
+
+
+}
+}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+   
           .head {
               text-align:left;
               font-size:2.5rem;
@@ -258,6 +401,9 @@ export const Section = styled.section`
               width:100%;
               margin-top:0.7rem;
               margin-bottom:0.5rem;
+          }
+          h2 {
+            font-weight:900;
           }
           h1 {
               margin-top:2rem;
