@@ -2,28 +2,24 @@ import React from 'react';
 import { Section } from './Style'
 import Image from 'next/image'
 import { Router, useRouter } from "next/router";
-function Map() {
+function Map({data}) {
     const router = useRouter();
     return (
         <div>
             <Section>
             <div className="head" >
-          <h1>We Are Connecting Rural India</h1>
-          <p>Since 2009, we provide high-quality broadband connectivity In
-eight Indian states. We connect large and small clients from the
-corporate, civil society and private sectors.</p>
+          <h1>{data.sectionMapHead}</h1>
+          <p>{data.sectionMapPara}</p>
           </div>
                 <div class="flex" >
 
           
                    
                 <div class="flex-1" >
- <p>We believe that access to
-the internet should be as
-readily available to all.</p>
+ <p>{data.SectionNetwork}.</p>
 <div className='link' >
 <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
- <span onClick={() => router.push(`/networks`) } > Learn more about our networks</span> </div>
+ <span onClick={() => router.push(`/networks`) } > {data.SectionNetworkLink}</span> </div>
                     
 </div>
 <div class="flex-2" >

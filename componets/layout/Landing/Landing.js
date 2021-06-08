@@ -132,7 +132,7 @@ ar ...   </p>
 
 
       </Section>
-      <Map/>
+      <Map data={data}/>
 
       <Connection/>
       <Project data={data} />
