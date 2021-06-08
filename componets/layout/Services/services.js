@@ -15,6 +15,7 @@ const fetchservices = async () => {
 
 
 export default function Home() {
+  
   const { data, status } = useQuery("services", fetchservices);
   return (
     <>
