@@ -1,12 +1,13 @@
 import Head from 'next/head';
 
 import { Section} from './Style'
-
+import { Router, useRouter } from "next/router";
 
 import Image from 'next/image';
 
 
 export default function Home({data}) {
+  const router = useRouter();
   return (
     <>
       <Head>
@@ -39,7 +40,7 @@ export default function Home({data}) {
         <h2>{data.Section2head}</h2>
         <p>
 {data.Section2Data}</p>
-        <button  >{data.Section2Button}</button>
+        <button  onClick={() => router.push("/contact") }  >{data.Section2Button}</button>
 
 
     </div>
