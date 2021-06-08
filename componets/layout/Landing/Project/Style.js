@@ -13,7 +13,7 @@ flex-direction:column;
 
 
 @media (min-width: 1281px) {
-    margin-top:5rem;
+
 
     .grid {
   margin-top:5rem;

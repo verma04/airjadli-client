@@ -4,10 +4,14 @@ import styled from 'styled-components'
 
 
 export const Section = styled.section`
+a {
+    color:blue
+}
  @media (min-width: 1281px) {
    display:flex;
    justify-content:center;
-   
+   align-items: center;
+   flex-direction: column;
    width:100%;
    height:100%;
    .flex {
@@ -23,41 +27,49 @@ export const Section = styled.section`
           align-items:center;
      .single-post{
          display:flex;
-         
+    
          justify-content:center;
-          flex-direction:column;
+         display: flex;
+        flex-wrap: wrap;
           align-items:center;
           width:75rem;
           height:100%;
           .head {
-              text-align:left;
+             display: flex;
+             justify-content: center;
               width:100%;
              
               font-weight:1000;
           }
           .category {
-            text-align:left;
+       
               width:100%;
              
               
           }
           .data {
               width:100%;
+           
+         display: flex;
+        flex-wrap: wrap;
+          align-items:center;
+          justify-content:space-evenly;
           figure {
-              width:100%;
-          
+              width:30%;
+          margin-bottom: 0.5rem;
               display:flex;
               justify-content:center;
               img {
                 width:100%;
+              
               }
           }
           }
           p {
-            text-align:left;
+          
               font-size:1.2rem;
               margin-bottom:0.5rem;
-              width:60%;
+              width:90%;
               margin-top:0.7rem;
               margin-bottom:0.5rem;
              
@@ -188,13 +200,13 @@ span {
           width:81%;
           height:100%;
           .head {
-              text-align:left;
+            
               width:100%;
              
               font-weight:1000;
           }
           .category {
-            text-align:left;
+          
               width:100%;
              
               
@@ -212,7 +224,7 @@ span {
           }
           }
           p {
-            text-align:left;
+          
               font-size:1.2rem;
               margin-bottom:0.5rem;
               width:60%;
@@ -347,13 +359,13 @@ span {
           width:81%;
           height:100%;
           .head {
-              text-align:left;
+            
               width:100%;
              
               font-weight:1000;
           }
           .category {
-            text-align:left;
+          
               width:100%;
              
               
@@ -371,7 +383,7 @@ span {
           }
           }
           p {
-            text-align:left;
+          
               font-size:1.2rem;
               margin-bottom:0.5rem;
               width:60%;
@@ -503,7 +515,7 @@ span {
           width:95%;
           height:100%;
           .head {
-              text-align:left;
+            
               width:100%;
              
               font-weight:1000;
@@ -522,7 +534,7 @@ span {
               display:flex;
               justify-content:center;
               img {
-                width:100%;
+                width:70%;
               }
           }
           }

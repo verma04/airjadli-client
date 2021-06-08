@@ -12,7 +12,7 @@ import Stat from './Stat/Stat'
 import { useQuery } from "react-query";
 import Loading from '../../Loading/Loading';
 const fetchProfile = async () => {
-  const res = await fetch("https://airjadli.herokuapp.com/api/client/getprofile");
+  const res = await fetch("http://sandbox.airjaldi.com:3000/api/client/getprofile");
   return res.json();
 };
 export default function Home() {
@@ -75,11 +75,11 @@ export default function Home() {
      <About about={data.profileAboutus} />
      <Fact/>
 
-     <History/>
+     <History data={data.history}/>
 
      <Working/>
       
-      <Stat/>
+      
        
       <Footer/>
       </>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Section } from './Style'
 import Image from 'next/image'
-function History() {
+function History({data}) {
     return (
         <Section>
            <div class="flex" >
@@ -20,64 +20,22 @@ function History() {
         </div>
 
         <div className='data' >
-            <div className='data1' >
-   <div className="left" >1999</div>
- <p>Num et aut ant as dolum sam inciure ndenisti volupidis auta pe ex eos-
-sit, sundebis </p>
-            </div>
-            <div className='data1' >
-            <div className="left" >2000</div>
- <p>Num et aut ant as dolum sam inciure ndenisti volupidis auta pe ex eos-
-sit, sundebis </p>
-            </div>
-            <div className='data1' >
-            <div className="left" >2001</div>
- <p>Num et aut ant as dolum sam inciure ndenisti volupidis auta pe ex eos-
-sit, sundebis </p>
-            </div>
-            <div className='data1' >
-            <div className="left" >2003</div>
- <p>Num et aut ant as dolum sam inciure ndenisti volupidis auta pe ex eos-
-sit, sundebis </p>
-            </div>
-            <div className='data1' > <div className="left" >2006</div>
- <p>Num et aut ant as dolum sam inciure ndenisti volupidis auta pe ex eos-
-sit, sundebis </p></div>
-            <div className='data1' >
-            <div className="left" >2007</div>
- <p>Num et aut ant as dolum sam inciure ndenisti volupidis auta pe ex eos-
-sit, sundebis </p>
-            </div>
-            <div className='data1' >
-            <div className="left" >2008</div>
- <p>Num et aut ant as dolum sam inciure ndenisti volupidis auta pe ex eos-
-sit, sundebis </p>
-            </div>
-            <div className='data1' >
-            <div className="left" >2012</div>
- <p>Num et aut ant as dolum sam inciure ndenisti volupidis auta pe ex eos-
-sit, sundebis </p>
-            </div>
-            <div className='data1' >
-            <div className="left" >2015</div>
- <p>Num et aut ant as dolum sam inciure ndenisti volupidis auta pe ex eos-
-sit, sundebis </p>
-            </div>
-            <div className='data1' >
-            <div className="left" >2018</div>
- <p>Num et aut ant as dolum sam inciure ndenisti volupidis auta pe ex eos-
-sit, sundebis </p>
-            </div>
-            <div className='data1' >
-            <div className="left" >2019</div>
- <p>Num et aut ant as dolum sam inciure ndenisti volupidis auta pe ex eos-
-sit, sundebis </p>
-            </div>
-            <div className='data1' >
-            <div className="left" >2020</div>
- <p>Num et aut ant as dolum sam inciure ndenisti volupidis auta pe ex eos-
-sit, sundebis </p>
-            </div>
+        {data.map(number =>
+         
+              <div className='data1' >
+              <div className="left" >{number.head}</div>
+            <p>{number.para} </p>
+           
+                       </div>
+            )
+
+          }
+
+         
+              
+          
+          
+          
             </div>
         
         

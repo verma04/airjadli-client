@@ -15,7 +15,7 @@ margin-top:5rem;
     .grid {
 
         width:100%;
-        height:35rem;
+        height:45rem;
         position: relative;
         .bird {
           right: -37px;
@@ -53,7 +53,7 @@ margin-top:5rem;
         width:75rem;
         .head {
              width:100%;
-             height:10%;
+             height:5%;
             
           
              display:flex;
@@ -69,9 +69,9 @@ margin-top:5rem;
       
         .grid1 {
              width:100%;
-             height:17%;
+           padding-top: 1rem;
             
-          
+           padding-bottom: 1rem;
              display:flex;
         justify-content:center;
    

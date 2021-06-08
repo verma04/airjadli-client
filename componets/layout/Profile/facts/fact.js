@@ -21,9 +21,9 @@ function Fact() {
         objectFit="fit"
       />
   </div>
-  <h2>17 Networks</h2>
+  <h2>40 Networks</h2>
   <span>Operating in
-six Indian States</span>
+9 Indian States</span>
                    </div>
                    <div class='logo1' >
                   <div className="img" >
@@ -35,7 +35,7 @@ six Indian States</span>
         objectFit="cover"
       />
   </div>
-  <h2>30,000 km <sup>2</sup> </h2>
+  <h2>80,000 km <sup>2</sup> </h2>
   <span>Combined Wireless
 Coverage Area</span>
                    </div>
@@ -51,7 +51,7 @@ Coverage Area</span>
         objectFit="cover"
       />
   </div>
-  <h2>250,000<sup>+ </sup> </h2>
+  <h2>200,000<sup>+ </sup> </h2>
   <span>Registered Users</span>
                    </div>
                 
@@ -81,7 +81,7 @@ Coverage Area</span>
       />
   </div>
   <h2>Internet Access</h2>
-  <span>Internet AccessBeneficiaries*</span>
+  <span>Internet Access Beneficiaries*</span>
                    </div>
             
             

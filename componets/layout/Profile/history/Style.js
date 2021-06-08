@@ -35,7 +35,7 @@ margin-top:5rem;
        align-items:center;
        flex-direction:column;
  
-       width:40%;
+       width:50%;
        height:100%;
        .head {
            display:flex;
@@ -57,19 +57,20 @@ margin-top:5rem;
          
         
            .data1 {
+               margin-bottom: 0.5rem;
                width:100%;
                height:10%;
-              
+           
                display:flex;
                justify-content:space-between;
                align-items:center;
 
                .left {
-                   width:10%;
+                   width:7%;
                    color: ${props => props.theme.colors.blue};
                }
                p {
-                   width:80%;
+                   width:83%;
                }
 
            }

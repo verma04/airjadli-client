@@ -55,7 +55,10 @@ export default function Job({data}) {
              <p>{user.partnerContact}</p>
          </div>
 
-         <div className="bottom" >{user.partneremail}</div>
+         <div  
+         onClick={() => window.open(`mailto:${user.partneremail}`) }
+         title={user.partneremail}
+         className="bottom" >{user.partneremail}</div>
         
      </div>
 

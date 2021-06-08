@@ -14,7 +14,7 @@ import Partner from '../partners/partner'
 import { useQuery } from "react-query";
 import Loading from '../../Loading/Loading';
 const fetchPage = async () => {
-  const res = await fetch(" https://airjadli.herokuapp.com/client/landing");
+  const res = await fetch(" http://sandbox.airjaldi.com:3000/client/landing");
   return res.json();
 };
 

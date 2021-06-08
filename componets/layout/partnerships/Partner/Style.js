@@ -9,6 +9,7 @@ display:flex;
 justify-content:center;
 height:100%;
 
+
 @media (min-width: 1024px) and (max-width: 1280px) {
     .flex {
        width:74%;

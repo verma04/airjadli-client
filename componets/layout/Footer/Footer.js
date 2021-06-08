@@ -18,12 +18,14 @@ const Navbar = () => {
 
      <div className ="contact" >
        <h3>Any Queries or Any Comment:</h3>
-       <h3>info@airjaldi.net</h3>
+       <h3 onClick={() => window.open('mailto:info@airjaldi.net') }
+      title="info@airjaldi.net"  >info@airjaldi.net</h3>
      </div>
 
      <div className ="contact1" >
        <h3>For New Connections & Support:</h3>
-       <h3>support@airjaldi.net</h3>
+       <h3  onClick={() => window.open('mailto:support@airjaldi.com') }
+      title="support@example.com"  >support@airjaldi.net</h3>
      </div>
      <div className ="contact1" >
        <h3>Call Us Toll-Free:</h3>
@@ -37,9 +39,21 @@ const Navbar = () => {
           <div className='head' ><h2>FOLLOW US:</h2></div>
            
            <div className='icon' >
-           <i class="fab fa-facebook-f"></i>
-           <i class="fab fa-twitter"></i>
-           <i class="fab fa-youtube"></i>
+           <i
+           onClick={() => window.open('https://fb.com/airjaldi') }
+           title="https://fb.com/airjaldi"
+           
+           class="fab fa-facebook-f"></i>
+           <i 
+           onClick={() => window.open('https://twitter.com/AirJaldiRBB') }
+           title="https://twitter.com/AirJaldiRBB"
+           
+           class="fab fa-twitter"></i>
+           <i 
+           
+           onClick={() => window.open('https://www.youtube.com/channel/UC6LR9fyBNg-yuLFa0fj27wQ') }
+      title="https://www.youtube.com/channel/UC6LR9fyBNg-yuLFa0fj27wQ"
+           class="fab fa-youtube"></i>
 
 
 

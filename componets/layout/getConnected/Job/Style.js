@@ -8,7 +8,7 @@ export const  Section = styled.section`
 display:flex;
 justify-content:center;
 height:100%;
-
+z-index: 1000;
 
 @media  (min-width: 1281px) {
 
@@ -33,6 +33,7 @@ height:100%;
      }
      }
      .data {
+         z-index: 1000;
          display:flex;
          justify-content:space-between;
 

@@ -35,12 +35,6 @@ export default function Home() {
    
   </div>
   <div class='grid1' >
-<h2>SERVICE</h2>
-<p>A dedicated 24/7 customer care ready respond to queries, questions and issues, ensu-<br></br>
-ring that your experience with us is satisfactory.</p>
-   
-  </div>
-  <div class='grid1' >
 <h2>CONNECTIVITY</h2>
 
 <p>We provide multiple connectivity packages aimed at catering to different needs.</p>
@@ -48,16 +42,25 @@ ring that your experience with us is satisfactory.</p>
    
   </div>
   <div class='grid1' >
-<h2>TECHNICAL SUPPORT</h2>
-<p>Wherever we work, our team is close at hand to help physically address any issues and<br></br>
-offer you relevant products and services.</p>
+<h2>SERVICE</h2>
+<p>We believe that a dedicated, honest service is essential for connectivity. Our field teams, our 24x7 customer care and our national support teams stand ready to respond  queries, address issues and needs , and ensure that your experience with us is satisfactory.</p>
+   
+  </div>
+  
+  <div class='grid1' >
+<h2>CREATIVE SOLUTIONS</h2>
+<p>Every customer, whichever their location, have their own needs, challenges and opportunities. Our proven, long-term operational experience, our reach and intimate knowledge of our domain and areas of work enable us to tailor connectivity and service solutions which are relevant to the needs and requirements of small and large customers.  </p>
 
    
   </div>
   <div class='grid1' >
-<h2>CREATIVE SOLUTIONS</h2>
-<p>Every client and location have their own challenges and opportunities. We will provide<br></br>
-you solution for both, based on our experience, knowledge and technical partnerships</p>
+<h2>Connectivity and beyond
+</h2>
+<p>Increasingly, customers are looking to harness connectivity as a means of enriching their lives, enhancing their livelihoods and supporting operations and data collection and analysis. 
+AirJaldi has the required skills and systems to provide such “enabling services” to our customers and partners.  
+During the last few years we developed and supported connectivity-related solutions in education, environmental and energy IoT, precision agriculture, rural financing, telemedicine and security. We will be happy to harness our knowledge to your needs and help you develop solutions to your own needs. 
+
+</p>
 
    
   </div>

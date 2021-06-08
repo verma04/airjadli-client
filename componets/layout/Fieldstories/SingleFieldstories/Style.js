@@ -4,6 +4,9 @@ import styled from 'styled-components'
 
 
 export const Section = styled.section`
+a {
+    color:blue
+}
  @media (min-width: 1281px) {
    display:flex;
    justify-content:center;

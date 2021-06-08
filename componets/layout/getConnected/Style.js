@@ -22,11 +22,11 @@ position: relative;
         align-items:center;
 
         .birdOut {
-             z-index:999;
+           
            width:82rem;
            position: relative;
            height:100%;
-           z-index:1;
+        
          .birdd {
            
         
