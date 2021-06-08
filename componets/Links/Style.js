@@ -4,7 +4,11 @@ import styled from 'styled-components'
 
 
 export const Section = styled.section`
+  h1 {
+        font-weight: 1000; 
+       }
  @media (min-width: 1281px) {
+   margin-top: 3rem;
    display:flex;
    justify-content:center;
    width:100%;
@@ -125,6 +129,9 @@ td:nth-child(2){
      .single-post{
        strong{
          font-weight: 1000;
+       }
+       h1 {
+        font-weight: 1000; 
        }
          display:flex;
          justify-content:center;
