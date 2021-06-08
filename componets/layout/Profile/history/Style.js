@@ -263,7 +263,7 @@ height:100%;
     .data1 {
         width:100%;
         height:10%;
-       
+       margin-bottom: 0.5rem;
         display:flex;
         justify-content:space-between;
         align-items:center;

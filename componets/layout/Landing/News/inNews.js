@@ -33,7 +33,7 @@ export default function News() {
 
       <div class='card'  >
       <div class='card-1'  >
-        {data.slice(0, 3).map((number) => 
+        {data.reverse().slice(0, 3).map((number) => 
  <div class='grid1' >
 
  <div onClick={() => router.push(`/news/${number.slug}`) } className="wrapper"   >

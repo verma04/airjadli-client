@@ -267,7 +267,7 @@ color:white;
   .grid {
 
 width:100%;
-height:40rem;
+height:45rem;
 position: relative;
 .bird {
   display:none;
@@ -319,7 +319,7 @@ justify-content:center;
 
 flex-direction:column;
 p {
-  font-size:1.2rem;
+  font-size:1rem;
   color:white;
 }
 h2 {
