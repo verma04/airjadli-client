@@ -5,9 +5,6 @@ import styled from 'styled-components'
 
 
 export const  Section = styled.section`
-a{
-    color:rgb(22, 144, 210);
-}
 @media (min-width: 1035px) {
     display:flex;
 justify-content:center;
@@ -73,9 +70,7 @@ margin-top:5rem;
          display:none;
      }
 
-        a {
-            color:blue;
-        }
+       
     
    }
     
@@ -143,9 +138,7 @@ margin-top:5rem;
             font-weight:1000;
         }
 
-        a {
-            color:blue;
-        }
+       
     
    }
     
@@ -215,9 +208,7 @@ margin-top:5rem;
             font-weight:1000;
         }
 
-        a {
-            color:blue;
-        }
+       
     
    }
     
