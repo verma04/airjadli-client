@@ -13,28 +13,38 @@ export const Section = styled.section`
   
    .flex {
      margin-top:12vh;
-     width:80rem;
+     width:50rem;
      height:76%;
      img {
          width: 40rem;
          height: 30rem;
-           padding: 1rem;
+         margin-top: 1rem;
+                margin-bottom: 1rem;
+           
      }
     
      .single-post{
          display:flex;
          justify-content:center;
           flex-direction:column;
+          align-items: center;
           width:100%;
           height:100%;
           .head {
-              text-align:left;
+              text-align: center;
               font-size:2.5rem;
               font-weight:1000;
               padding-bottom: 0.5rem;
           }
+          .data {
+            display:flex;
+         justify-content:center;
+          flex-direction:column;
+          align-items: center;
+          }
           .category {
             padding-bottom: 0.5rem;
+            text-align: center;
           }
           figure {
               width:100%;
@@ -42,12 +52,14 @@ export const Section = styled.section`
               display:flex;
               justify-content:flex-start;
               img {
-                width: 40rem;
+                width: 100%;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
          height: 30rem;
               }
           }
           p {
-            text-align:left;
+            text-align: center;
               font-size:1.2rem;
               margin-bottom:0.5rem;
               width:100%;
@@ -104,7 +116,7 @@ export const Section = styled.section`
           width:100%;
           height:100%;
           .head {
-              text-align:left;
+              text-align: center;
               font-size:2.5rem;
               font-weight:1000;
           }
@@ -118,7 +130,7 @@ export const Section = styled.section`
               }
           }
           p {
-            text-align:left;
+            text-align: center;
               font-size:1.2rem;
               margin-bottom:0.5rem;
               width:100%;
@@ -176,7 +188,7 @@ export const Section = styled.section`
           width:100%;
           height:100%;
           .head {
-              text-align:left;
+              text-align: center;
               font-size:2.5rem;
               font-weight:1000;
           }
@@ -190,7 +202,7 @@ export const Section = styled.section`
               }
           }
           p {
-            text-align:left;
+            text-align: center;
               font-size:1.2rem;
               margin-bottom:0.5rem;
               width:100%;
@@ -246,7 +258,7 @@ export const Section = styled.section`
           width:100%;
           height:100%;
           .head {
-              text-align:left;
+              text-align: center;
               font-size:2.5rem;
               font-weight:1000;
           }
@@ -260,7 +272,7 @@ export const Section = styled.section`
               }
           }
           p {
-            text-align:left;
+            text-align: center;
               font-size:1.2rem;
               margin-bottom:0.5rem;
               width:100%;

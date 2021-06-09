@@ -33,7 +33,7 @@ function payment() {
       <div class='card-1'  >
   <div class='grid1' >
 
-      <h1>PAY BILLS ONLINE
+      <h1>PAY BILLS ONLINE<br></br>
 SAFE & EASY.</h1>
 
 <button onClick={()  =>  window.open('https://billing.airjaldi.net', '_blank')  }  >Pay your bill now</button>
