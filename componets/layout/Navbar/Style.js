@@ -13,6 +13,9 @@ height:100%;
 position:absolute;
 top:0;
 width:100%;
+a{
+   color:white
+}
 
 @media   (min-width: 1281px) {
    z-index:1000;

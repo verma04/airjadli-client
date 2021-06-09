@@ -121,6 +121,9 @@ button {
     color: #2f3435; 
     word-spacing:0.2rem;
   }
+  a{
+    color:rgb(22, 144, 210);
+}
   h6 {
     font-size: 0.6rem;
     line-height: var(--line-height-md);

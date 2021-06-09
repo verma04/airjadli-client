@@ -18,18 +18,18 @@ const Navbar = () => {
 
      <div className ="contact" >
        <h3>Any Queries or Any Comment:</h3>
-       <h3 onClick={() => window.open('mailto:info@airjaldi.net') }
+       <h3 id="hover" onClick={() => window.open('mailto:info@airjaldi.net') }
       title="info@airjaldi.net"  >info@airjaldi.net</h3>
      </div>
 
      <div className ="contact1" >
        <h3>For New Connections & Support:</h3>
-       <h3  onClick={() => window.open('mailto:support@airjaldi.com') }
+       <h3 id="hover"  onClick={() => window.open('mailto:support@airjaldi.com') }
       title="support@example.com"  >support@airjaldi.net</h3>
      </div>
      <div className ="contact1" >
        <h3>Call Us Toll-Free:</h3>
-       <h3>1-800-121-3648</h3>
+       <h3 id="hover">1-800-121-3648</h3>
      </div>
 
           </div>

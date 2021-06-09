@@ -13,8 +13,9 @@ margin-top:8rem;
 a:hover {
   font-weight: 1000;
 }
-h3:hover{
+#hover:hover{
   font-weight: 1000;
+  cursor: pointer;
 }
 
 @media (min-width: 1281px) {
