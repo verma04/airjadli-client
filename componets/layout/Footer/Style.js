@@ -10,6 +10,12 @@ justify-content:center;
 height:100%;
 background-color: ${props => props.theme.colors.footerColor};
 margin-top:8rem;
+a:hover {
+  font-weight: 1000;
+}
+h3:hover{
+  font-weight: 1000;
+}
 
 @media (min-width: 1281px) {
 

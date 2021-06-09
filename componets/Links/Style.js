@@ -7,6 +7,9 @@ export const Section = styled.section`
   h1 {
         font-weight: 1000; 
        }
+       strong {
+        font-weight: 1000; 
+       }
  @media (min-width: 1281px) {
    margin-top: 3rem;
    display:flex;
