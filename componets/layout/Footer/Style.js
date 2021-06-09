@@ -13,6 +13,9 @@ margin-top:8rem;
 a:hover {
   font-weight: 1000;
 }
+a {
+  color:white;
+}
 #hover:hover{
   font-weight: 1000;
   cursor: pointer;
