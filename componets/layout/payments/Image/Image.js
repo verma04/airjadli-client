@@ -4,7 +4,7 @@ import Image from 'next/image'
 function Fact() {
     return (
         <Section>
-           <div class="flex" >
+           <div class="flex-1" >
        
                <div className="logo" >
 

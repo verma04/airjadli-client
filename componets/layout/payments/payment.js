@@ -70,9 +70,9 @@ SAFE & EASY.</h1>
            
             <Facts/>
 
-            <Images/>
+          
             <Page/>
-
+          
             <Footer/>
         </>
     )

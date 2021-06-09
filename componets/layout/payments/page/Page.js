@@ -2,6 +2,7 @@ import React from 'react';
 import { Section } from './Style'
 import Image from 'next/image'
 import Banner from './Banner'
+import Imags from '../Image/Image'
 function Fact() {
     return (
         <Section>
@@ -61,7 +62,7 @@ Airjaldi will send you the status emails for your reference
                 
                 </div> 
                </div> 
-        
+        <Imags/>
         <Banner/>
         </Section>
     )

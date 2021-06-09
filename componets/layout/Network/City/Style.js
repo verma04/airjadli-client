@@ -116,7 +116,7 @@ max-height:50rem;
 justify-content:center;
 height:100%;
 margin-top:5rem;
-height:450rem;
+height:45rem;
 max-height:50rem;
  background-color:#ddf3ff;
  padding-bottom:2rem;
@@ -128,7 +128,7 @@ max-height:50rem;
     height:100%;
    
     .flex-1 {
-     
+    
         width:50%;
         height:100%;
         display:flex;
@@ -143,7 +143,7 @@ max-height:50rem;
             margin-left:50%;
             align-items:flex-end;
             h1 {
-                width:35%;
+                width:50%;
                 text-align:left;
                 color:${props => props.theme.colors.blue};
                 font-weight:1000;
@@ -181,7 +181,7 @@ max-height:50rem;
                 font-size:1.4rem;
                 line-height:1.3;
                 text-align:left;
-                width:50%;
+                width:68%;
                 span {
                     color:${props => props.theme.colors.blue};
                 }

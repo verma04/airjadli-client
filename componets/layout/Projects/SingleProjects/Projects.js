@@ -44,36 +44,18 @@ function Blog({id}) {
              <div className="single-post">
              <h3 className="category" >{data.category}</h3>
             <h2 className="head" >{data.title}</h2>
+
+            <h3  >{data.description}</h3>
             
+          <img src={data.featureImg} ></img>
+      
 
             <div className="data"  dangerouslySetInnerHTML={convertFromJSONToHTML(data.data)} ></div>
         </div>
 
 
   
-  <div className="section" >
-
-      <div className="left" >
-          <img src={data.featureImg} ></img>
-      </div>
-
-      <div className='right' >
-
-<div class="text" >
-<h2>
-“{data.sectionDec}”
-</h2>
-<span>“{data.sectionTitle}”</span>
-
-</div>
-
-
-
- </div>
-
-  
-  </div>
-            
+       
         </div>
             </Section>
            

@@ -12,6 +12,8 @@ margin-top:5rem;
 flex-direction: column;
 align-items: center;
 
+
+
 @media (min-width: 1281px) {
 
    .flex{
@@ -101,10 +103,12 @@ align-items: center;
    }
 
    .grid1 {
-         height: 13rem;
-         width:60%;
-  
-        margin-top: 3rem;
+    margin-top: 1rem;
+background-color: #F0F0F0;
+         height: 17rem;
+         width:100%;
+  margin-top: 1rem;
+        margin-top: 1rem;
          display:flex;
     justify-content:center;
 flex-direction: column;

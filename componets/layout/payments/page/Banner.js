@@ -2,6 +2,8 @@ import React from 'react'
 
 function Banner() {
     return (
+      <>
+     
         <div class='grid1' >
            
 
@@ -13,6 +15,7 @@ function Banner() {
   <button onClick={()  =>  window.open('https://billing.airjaldi.net', '_blank')  }  >Pay your bill now</button>
   </div>
  
+
   
   <span>
 
@@ -26,6 +29,7 @@ function Banner() {
   
      
     </div>
+    </>
     )
 }
 
