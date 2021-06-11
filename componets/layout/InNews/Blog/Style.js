@@ -28,7 +28,7 @@ export const Section = styled.section`
               font-weight:1000;
           }
           figure {
-              width:100%;
+              
           
               display:flex;
               justify-content:center;
