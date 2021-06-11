@@ -240,13 +240,14 @@ justify-content:space-around;
 align-items:center;
 flex-wrap: wrap;
 width:100%;
-    height:35rem;
+    height:40rem;
 
     width:100%;
 
     .logo1 {
         width:45%;
-        height:45%;
+  
+        height: 36%;
          
         display:flex;
 justify-content:space-around;
