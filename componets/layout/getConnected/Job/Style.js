@@ -87,8 +87,9 @@ z-index: 1000;
              }
          }
          .right{
+             margin-top: 2rem;;
              width:45%;
-             height:13rem;
+             height:7rem;
              display:flex;
              justify-content:flex-end;
              align-items:flex-end;

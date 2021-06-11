@@ -148,7 +148,7 @@ height:100%;
          }
          .right{
              width:45%;
-             height: 10rem;;
+             height: 7.5rem;;
              display:flex;
              justify-content:flex-end;
              align-items:flex-end;

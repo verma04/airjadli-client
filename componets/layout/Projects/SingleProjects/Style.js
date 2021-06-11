@@ -50,12 +50,12 @@ export const Section = styled.section`
               width:100%;
           
               display:flex;
-              justify-content:flex-start;
+              justify-content:center;
               img {
-                width: 100%;
+    
                 margin-top: 1rem;
                 margin-bottom: 1rem;
-         height: 30rem;
+    
               }
           }
           p {
