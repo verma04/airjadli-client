@@ -26,7 +26,7 @@ function Map({data}) {
 
 <img
               className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1618478577/rfiwoamay6d5fggq8ooo.png"
+        src="https://res.cloudinary.com/airjaldi/image/upload/v1623401359/airjaldi-map_a4irz3.png"
         alt="Picture of the author"
         layout="fill"
         objectFit="contain"
