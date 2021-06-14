@@ -8,6 +8,7 @@ import {  convertFromRaw } from 'draft-js';
 import {stateToHTML} from 'draft-js-export-html';
 import Loading from '../../../Loading/Loading';
 import ReactPlayer from 'react-player'
+import {FacebookShareButton, FacebookIcon , EmailShareButton, EmailIcon,   WhatsappIcon, WhatsappShareButton} from "react-share";
 const fetchNews = async ( id) => {
  const idd = id.queryKey[1]
   const res = await fetch(`http://sandbox.airjaldi.com:3000/api/getNews/${idd}`);
@@ -39,6 +40,68 @@ function Blog({id}) {
             <div  className="flex" >
              <div className="single-post">
             <h1 className="head" >{data.title}</h1>
+
+            <div className='set' >
+              <div className="set-left" >
+          <img src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642890/izo5ri94zqjviheltfps.jpg"} ></img>
+             <span id="d"  >AirJaldi  News</span>
+   
+
+
+             { parseInt((data.description.blocks.length)/2/6) === 0 ? 
+                (
+                
+                  <span>   1 min read <i class="fas fa-star"></i> </span>    
+              
+               )
+                :
+                (
+                
+                
+                  <span>     {parseInt((data.description.blocks.length)/2/6)} min read <i class="fas fa-star"></i> </span>    
+          
+              )
+
+                }
+
+
+
+
+
+
+            
+              
+           
+              </div>
+              <div className="set-right" >
+              <li>   <FacebookShareButton
+      url={`http://sandbox.airjaldi.com:5000/news/${id}`}
+      title={"AirJaldi News"}
+      hashtag="#Airjadli"
+     
+   >
+     <FacebookIcon size={36} />
+   </FacebookShareButton> </li>
+                                       <li>  <EmailShareButton url={`https://niraamya.herokuapp.com`}
+   url={`http://sandbox.airjaldi.com:5000/news/${id}`}
+   title={"AirJaldi News"}
+   hashtag="#Airjadli"
+   >
+     <EmailIcon size={36} />
+     </EmailShareButton></li>
+                                       <li>
+                                         <WhatsappShareButton
+     url={`http://sandbox.airjaldi.com:5000/news/${id}`}
+     title={"AirJaldi News"}
+     hashtag="#Airjadli"
+     separator=":: "
+     
+   >
+     <WhatsappIcon size={36} />
+   </WhatsappShareButton></li>
+              </div>
+            </div>
+            
             
 
             { data.youtubeLink === '' ||  data.youtubeLink=== undefined ?

@@ -13,26 +13,78 @@ export const Section = styled.section`
   
    .flex {
      margin-top:12vh;
-     width:50rem;
+     width:47rem;
      height:76%;
      img {
-         width: 40rem;
-         height: 30rem;
+         width: 47rem;
+  
          margin-top: 1rem;
                 margin-bottom: 1rem;
            
+     }
+     .set {
+       margin-top: 1rem;
+       width: 100%;
+       height: 3rem;;
+       display: flex;
+       justify-content: space-between;
+       .set-left {
+         width: 60%;
+         height: 100%;
+         display: flex;
+       justify-content: flex-start;
+        align-items: center;
+       
+       img {
+         padding-left: 1rem;;
+         padding-right: 1rem;;
+         width: 6%;
+         height: 90%;
+         
+         border-radius: 50%;
+       }
+       #d {
+   
+color: #0085C5;
+padding-left: 1rem;;
+         padding-right: 1rem;;
+
+       }
+       span {
+        padding-left: 1rem;;
+         padding-right: 1rem;;
+       }
+       }
+
+       .set-right {
+         width: 25%;
+         height: 100%;
+         display: flex;
+       justify-content: space-around;
+        align-items: center;
+  
+       img {
+         width: 10%;
+         height: 90%;
+       
+       }
+       li {
+         list-style:none;
+       }
+       }
      }
     
      .single-post{
          display:flex;
          justify-content:center;
           flex-direction:column;
-          align-items: center;
+          align-items: left;
           width:100%;
           height:100%;
           .head {
-              text-align: center;
-              font-size:2.5rem;
+              text-align: left;
+              font-size:3rem;
+            letter-spacing: -0.011em;
               font-weight:1000;
               padding-bottom: 0.5rem;
           }
@@ -44,7 +96,7 @@ export const Section = styled.section`
           }
           .category {
             padding-bottom: 0.5rem;
-            text-align: center;
+            text-align: left;
           }
           figure {
               width:100%;
@@ -59,7 +111,7 @@ export const Section = styled.section`
               }
           }
           p {
-            text-align: center;
+            text-align: left;
               font-size:1.2rem;
               margin-bottom:0.5rem;
               width:100%;
@@ -105,9 +157,60 @@ export const Section = styled.section`
    width:100%;
    height:100%;
    .flex {
-     margin-top:12vh;
+     margin-top:15vh;
      width:76%;
      height:76%;
+     .set {
+       margin-top: 1rem;
+       width: 100%;
+       height: 3rem;;
+       display: flex;
+       justify-content: space-between;
+       .set-left {
+         width: 60%;
+         height: 100%;
+         display: flex;
+       justify-content: flex-start;
+        align-items: center;
+       
+       img {
+         padding-left: 1rem;;
+         padding-right: 1rem;;
+         width: 6%;
+         height: 90%;
+         
+         border-radius: 50%;
+       }
+       #d {
+   
+color: #0085C5;
+padding-left: 1rem;;
+         padding-right: 1rem;;
+
+       }
+       span {
+        padding-left: 1rem;;
+         padding-right: 1rem;;
+       }
+       }
+
+       .set-right {
+         width: 25%;
+         height: 100%;
+         display: flex;
+       justify-content: space-around;
+        align-items: center;
+  
+       img {
+         width: 10%;
+         height: 90%;
+       
+       }
+       li {
+         list-style:none;
+       }
+       }
+     }
     
      .single-post{
          display:flex;
@@ -116,7 +219,7 @@ export const Section = styled.section`
           width:100%;
           height:100%;
           .head {
-              text-align: center;
+              text-align: left;
               font-size:2.5rem;
               font-weight:1000;
           }
@@ -130,7 +233,7 @@ export const Section = styled.section`
               }
           }
           p {
-            text-align: center;
+            text-align: left;
               font-size:1.2rem;
               margin-bottom:0.5rem;
               width:100%;
@@ -180,6 +283,57 @@ export const Section = styled.section`
      margin-top:12vh;
      width:80%;
      height:76%;
+     .set {
+       margin-top: 1rem;
+       width: 100%;
+       height: 3rem;;
+       display: flex;
+       justify-content: space-between;
+       .set-left {
+         width: 60%;
+         height: 100%;
+         display: flex;
+       justify-content: flex-start;
+        align-items: center;
+       
+       img {
+         padding-left: 1rem;;
+         padding-right: 1rem;;
+         width: 6%;
+         height: 90%;
+         
+         border-radius: 50%;
+       }
+       #d {
+   
+color: #0085C5;
+padding-left: 1rem;;
+         padding-right: 1rem;;
+
+       }
+       span {
+        padding-left: 1rem;;
+         padding-right: 1rem;;
+       }
+       }
+
+       .set-right {
+         width: 25%;
+         height: 100%;
+         display: flex;
+       justify-content: space-around;
+        align-items: center;
+  
+       img {
+         width: 10%;
+         height: 90%;
+       
+       }
+       li {
+         list-style:none;
+       }
+       }
+     }
     
      .single-post{
          display:flex;
@@ -188,7 +342,7 @@ export const Section = styled.section`
           width:100%;
           height:100%;
           .head {
-              text-align: center;
+              text-align: left;
               font-size:2.5rem;
               font-weight:1000;
           }
@@ -202,7 +356,7 @@ export const Section = styled.section`
               }
           }
           p {
-            text-align: center;
+            text-align: left;
               font-size:1.2rem;
               margin-bottom:0.5rem;
               width:100%;
@@ -258,7 +412,7 @@ export const Section = styled.section`
           width:100%;
           height:100%;
           .head {
-              text-align: center;
+              text-align: left;
               font-size:2.5rem;
               font-weight:1000;
           }
@@ -272,7 +426,7 @@ export const Section = styled.section`
               }
           }
           p {
-            text-align: center;
+            text-align: left;
               font-size:1.2rem;
               margin-bottom:0.5rem;
               width:100%;
@@ -290,6 +444,59 @@ export const Section = styled.section`
               margin-top:0.5rem;
               margin-bottom:0.5rem;
           }
+     }
+
+     .set {
+       margin-top: 1rem;
+       width: 100%;
+     
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       .set-left {
+         width: 90%;
+         height: 3rem;
+         display: flex;
+       justify-content: flex-start;
+        align-items: center;
+       
+       img {
+         padding-left: 1rem;;
+         padding-right: 1rem;;
+         width: 6%;
+         height: 90%;
+         
+         border-radius: 50%;
+       }
+       #d {
+   
+color: #0085C5;
+padding-left: 0.5rem;;
+         padding-right: 0.5rem;;
+
+       }
+       span {
+        padding-left: 1rem;;
+         padding-right: 1rem;;
+       }
+       }
+
+       .set-right {
+         width: 90%;
+         height: 3rem;
+         display: flex;
+       justify-content: flex-start;
+        align-items: center;
+  
+       img {
+         width: 10%;
+         height: 90%;
+       
+       }
+       li {
+         list-style:none;
+       }
+       }
      }
    }
    .btn {

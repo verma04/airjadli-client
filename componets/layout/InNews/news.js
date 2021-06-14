@@ -9,6 +9,7 @@ import styled, { createGlobalStyle } from 'styled-components';
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 import { useQuery } from "react-query";
+import {FacebookShareButton, FacebookIcon , EmailShareButton, EmailIcon,   WhatsappIcon, WhatsappShareButton} from "react-share";
 const fetchNews = async () => {
   const res = await fetch("http://sandbox.airjaldi.com:3000/api/client/getNews");
   return res.json();

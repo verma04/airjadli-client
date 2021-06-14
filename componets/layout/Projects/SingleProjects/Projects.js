@@ -8,6 +8,8 @@ import { useQuery } from "react-query";
 import {  convertFromRaw } from 'draft-js';
 import {stateToHTML} from 'draft-js-export-html';
 import Loading from '../../../Loading/Loading';
+
+import {FacebookShareButton, FacebookIcon , EmailShareButton, EmailIcon,   WhatsappIcon, WhatsappShareButton} from "react-share";
 const fetchNews = async ( id) => {
  const idd = id.queryKey[1]
   const res = await fetch(`http://sandbox.airjaldi.com:3000/client/getProjects/${idd}`);
@@ -46,6 +48,41 @@ function Blog({id}) {
             <h2 className="head" >{data.title}</h2>
 
             <h3  >{data.description}</h3>
+
+            <div className='set' >
+              <div className="set-left" >
+          <img src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642890/izo5ri94zqjviheltfps.jpg"} ></img>
+             <span id="d"  >AirJaldi  Projects</span>
+             <span  > {parseInt((data.data.blocks.length)/2/6)} min read <i class="fas fa-star"></i> </span>    
+              </div>
+              <div className="set-right" >
+              <li>   <FacebookShareButton
+      url={`http://sandbox.airjaldi.com:5000/projects/${id}`}
+      title={"AirJaldi Projects"}
+      hashtag="#Airjadli"
+     
+   >
+     <FacebookIcon size={36} />
+   </FacebookShareButton> </li>
+                                       <li>  <EmailShareButton url={`https://niraamya.herokuapp.com`}
+   url={`http://sandbox.airjaldi.com:5000/projects/${id}`}
+   title={"AirJaldi Projects"}
+   hashtag="#Airjadli"
+   >
+     <EmailIcon size={36} />
+     </EmailShareButton></li>
+                                       <li>
+                                         <WhatsappShareButton
+     url={`http://sandbox.airjaldi.com:5000/projects/${id}`}
+     title={"AirJaldi Projects"}
+     hashtag="#Airjadli"
+     separator=":: "
+     
+   >
+     <WhatsappIcon size={36} />
+   </WhatsappShareButton></li>
+              </div>
+            </div>
             
           <img src={data.featureImg} ></img>
       

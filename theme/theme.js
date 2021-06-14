@@ -2,6 +2,10 @@ import {  createGlobalStyle } from "styled-components";
 
 
  export default   createGlobalStyle`
+ em {
+  font-style: italic;
+}
+
 a { 
   text-decoration: none; 
   color: white;
