@@ -10,7 +10,7 @@ import Loading from '../../../Loading/Loading';
 import ReactPlayer from 'react-player'
 const fetchNews = async ( id) => {
  const idd = id.queryKey[1]
-  const res = await fetch(`https://airjadli.herokuapp.com/api/getNews/${idd}`);
+  const res = await fetch(`http://sandbox.airjaldi.com:3000/api/getNews/${idd}`);
   return res.json();
 };
 

@@ -10,7 +10,7 @@ import {stateToHTML} from 'draft-js-export-html';
 import Loading from '../../../Loading/Loading';
 const fetchNews = async ( id) => {
  const idd = id.queryKey[1]
-  const res = await fetch(`https://airjadli.herokuapp.com/client/getProjects/${idd}`);
+  const res = await fetch(`http://sandbox.airjaldi.com:3000/client/getProjects/${idd}`);
   return res.json();
 };
 
