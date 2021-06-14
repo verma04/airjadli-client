@@ -344,7 +344,7 @@ td:nth-child(2){
    margin-top: 5rem;
    .flex {
     margin-top: 3%;
-     width:100%;
+     width:95%;
    
     
      .single-post{

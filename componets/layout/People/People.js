@@ -8,7 +8,7 @@ import Image from 'next/image';
 import { useQuery } from "react-query";
 import Loading from '../../Loading/Loading';
 const fetchPeoplePage = async () => {
-  const res = await fetch("https://airjadli.herokuapp.com/api/client/Peopelpage");
+  const res = await fetch("http://sandbox.airjaldi.com:3000/api/client/Peopelpage");
   return res.json();
 };
 
