@@ -401,7 +401,7 @@ padding-left: 1rem;;
    width:100%;
    height:100%;
    .flex {
-    margin-top: 5rem;
+    margin-top: 7rem;
      width:90%;
      height:60%;
     
