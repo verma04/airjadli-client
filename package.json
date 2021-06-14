@@ -15,6 +15,7 @@
     "@react-pdf-viewer/default-layout": "^2.5.0",
     "@sentry/react": "^6.2.5",
     "@sentry/tracing": "^6.2.5",
+    "Validator": "^1.1.2",
     "aws-sdk": "^2.862.0",
     "axios": "^0.21.1",
     "axios-hooks": "^2.6.1",
@@ -70,7 +71,9 @@
     "superagent": "^6.1.0",
     "uuid": "^8.3.2",
     "validator": "^13.5.2",
-    "Validator": "^1.1.2",
     "web-push": "^3.4.4"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.12.0"
   }
 }
