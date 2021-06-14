@@ -22,12 +22,15 @@ a {
 }
 
 @media (min-width: 1281px) {
+  a {
+    font-size: 1.25rem;;
+  }
 
 .flex { 
   
 
 
-  height: 20rem;
+  height: 21rem;
   
     width:75rem;
     display:flex;

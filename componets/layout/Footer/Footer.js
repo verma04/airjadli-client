@@ -94,7 +94,7 @@ const Navbar = () => {
      
      </div>
      <div className ="contact2" >
-       <h3>© {new Date().getFullYear()}</h3>
+       <h3>AirJaldi © {new Date().getFullYear()}</h3>
        </div>
 
        <div className='down' ></div>

@@ -6,7 +6,7 @@ import { useQuery } from "react-query";
 import { Router, useRouter } from "next/router";
 import { number } from 'prop-types';
 const fetchProjects = async () => {
-  const res = await fetch("https://airjadli.herokuapp.com/client/getprojects");
+  const res = await fetch("http://sandbox.airjaldi.com:3000/client/getprojects");
   return res.json();
 };
 export default function Project({data}) {
@@ -32,7 +32,7 @@ export default function Project({data}) {
     
       <div class='card'  >
       <div class='card-1'  >
-        {data1.map((number) =>  
+        {data1.slice(0, 3).map((number) =>  
 <div onClick={() => router.push(`/projects/${number.slug}`) } class='grid1' >
 
 <div className="wrapper"  >

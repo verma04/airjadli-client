@@ -6,7 +6,7 @@ import { Router, useRouter } from "next/router";
 import { useQuery } from "react-query";
 
 const fetchNews = async () => {
-  const res = await fetch(" https://airjadli.herokuapp.com/api/client/getNews");
+  const res = await fetch("http://sandbox.airjaldi.com:3000/api/client/getNews");
   return res.json();
 };
 export default function News() {
