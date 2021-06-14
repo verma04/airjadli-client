@@ -124,6 +124,8 @@ function Blog({id}) {
 url={data.youtubeLink}
 
 loop={true} 
+width='100%'
+height='25rem'
 
 />
 

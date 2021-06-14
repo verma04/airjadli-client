@@ -280,7 +280,7 @@ padding-left: 1rem;;
    width:100%;
    height:100%;
    .flex {
-     margin-top:12vh;
+     margin-top:15vh;
      width:80%;
      height:76%;
      .set {
