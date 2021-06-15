@@ -39,7 +39,7 @@ function Aboutus({page}) {
            <div class="flex" >
            <div class="head" >
            <span  id={active === "All" ? "active" : ""}  onClick={() => setActive("All")  }   >All</span>
-               {page.category.map((number) => 
+               {page.category.sort((a, b) => a.categoryId - b.categoryId).map((number) => 
                <>
            
                {number.category === "Member" ?
