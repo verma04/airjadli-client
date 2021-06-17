@@ -9,7 +9,7 @@ import { useQuery } from "react-query";
 import Image from 'next/image';
 import Loading from '../../Loading/Loading';
 const fetchservices = async () => {
-  const res = await fetch("https://airjadli.herokuapp.com/api/client/getServices");
+  const res = await fetch("http://sandbox.airjaldi.com:3000/api/client/getServices");
   return res.json();
 };
 

@@ -6,7 +6,7 @@ import Footer from '../Footer/Footer';
 import { useQuery } from "react-query";
 import Loading from '../../Loading/Loading';
 const fetchContact = async () => {
-  const res = await fetch("https://airjadli.herokuapp.com/client/getContact");
+  const res = await fetch("http://sandbox.airjaldi.com:3000/client/getContact");
   return res.json();
 };
 function contact() {

@@ -9,7 +9,7 @@ import Image from 'next/image';
 import Loading from '../../Loading/Loading';
 
 const fetchTrianing = async () => {
-  const res = await fetch("https://airjadli.herokuapp.com/api/client/getTraining");
+  const res = await fetch("http://sandbox.airjaldi.com:3000/api/client/getTraining");
   return res.json();
 };
 export default function Home() {

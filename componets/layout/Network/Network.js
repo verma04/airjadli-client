@@ -10,7 +10,7 @@ import Image from 'next/image';
 import { useQuery } from "react-query";
 import Loading from '../../Loading/Loading';
 const networks = async () => {
-  const res = await fetch("https://airjadli.herokuapp.com/api/client/network");
+  const res = await fetch("http://sandbox.airjaldi.com:3000/api/client/network");
   return res.json();
 };
 const networksPage = async () => {
@@ -79,7 +79,7 @@ export default function Home() {
 <Section1 data1={data1} />
 
 {status  === "loading" && 
-      <Loading/>
+<p></p>
       }
       {status  === "success" && (
           <>

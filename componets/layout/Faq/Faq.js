@@ -8,7 +8,7 @@ import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer'
 import Loading from '../../Loading/Loading';
 const fetchFaq = async () => {
-  const res = await fetch("https://airjadli.herokuapp.com/client/getFaq");
+  const res = await fetch("http://sandbox.airjaldi.com:3000/client/getFaq");
   return res.json();
 };
 
