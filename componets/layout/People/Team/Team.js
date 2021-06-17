@@ -16,7 +16,7 @@ import useAxios from 'axios-hooks'
 function Aboutus({page}) {
 
   useEffect( async () => {
-    axios.get(`https://airjadli.herokuapp.com/api/client/allpeople`)
+    axios.get(`http://sandbox.airjaldi.com:3000/api/client/allpeople`)
     .then(res => {
       const people = res.data;
       setdata( people );
@@ -29,7 +29,7 @@ function Aboutus({page}) {
     const [  active , setActive] = useState("All");
     const [  data , setdata] = useState("");
    
-    if (data === "") return <p> <Loading/> </p>
+    if (data === "") return <p> </p>
  
 
 
