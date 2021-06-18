@@ -658,7 +658,7 @@ width:100%;
 .flex {
     height:5rem;
    
-    width:95%;
+    width: 89%;
     display:flex;
     justify-content:space-between;
    align-items:center;
@@ -667,9 +667,9 @@ width:100%;
      
 }
 .nav-img{
-         width:80%;
-         position: relative;
-         height:70%;
+   width: 74%;
+    position: relative;
+    height: 76%;
       }
       .fa-search {
          display:none

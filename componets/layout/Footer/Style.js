@@ -479,7 +479,7 @@ padding-right: 0.7rem;
 }
 @media (max-width: 767px) {
   .flex {
-        height:32rem;
+        height:38rem;
       
         width:90%;
         display:flex;
@@ -574,7 +574,8 @@ padding-right: 0.7rem;
        }
        .flex-3 {
         width:95%;
-         height:30%;
+        height: 39%;
+
        
          display:flex;
          justify-content:space-between;
@@ -582,13 +583,15 @@ padding-right: 0.7rem;
          flex-direction:column;
          .top{
            width:100%;
-           height:60%;
+           height:100%;
            display:flex;
            justify-content:space-around;
            flex-direction:column;
            color:white;
            .contact-1{
+             
            h3 {
+            
             color: white;
           }
            }

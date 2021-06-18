@@ -440,14 +440,15 @@ span {
         height:50%;
         
         display:flex;
-        justify-content:space-evenly;
+        justify-content:center;
         flex-direction:column;
       h2 {
         font-size:1.8rem;
         color:${props => props.theme.colors.blue};
       }
     p {
-       color: #2f3435; 
+       color: #2f3435;
+       margin-bottom : 2rem; ;
     }
     .head {
         h2 {
@@ -577,7 +578,7 @@ span {
         height:50%;
         
         display:flex;
-        justify-content:space-evenly;
+        justify-content:center;
         flex-direction:column;
       
     p {

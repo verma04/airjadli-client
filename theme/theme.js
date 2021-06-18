@@ -181,6 +181,7 @@ transition: transform .8s;
     body {
       overflow-x: hidden;
     }
+     
     .card {
       display:none;
     }
@@ -208,5 +209,13 @@ li {
 img {
   cursor: pointer;
 }
+p {
+    font-size:1.1rem;
+line-height:1.1;
+  margin-top: 0.3rem;
+    font-family:  SourceSansPro-Regular;
+    word-spacing:0.2rem;
+    color: #2f3435; 
+  }
  `;
 

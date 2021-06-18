@@ -119,7 +119,7 @@ export default function Home() {
 ar ...   </p>
 <div className='link' >
 <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
- <span  >  {number.sectionLink}</span> </div>
+ <span onClick={() => router.push(`/${number.link}`)}  >  {number.sectionLink}</span> </div>
    </div>
   </div>
  
