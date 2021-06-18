@@ -39,7 +39,7 @@ a {
     
    .flex-1 {
 
-     width:30%;
+     width:38%;
      height:100%;
   
      
@@ -48,6 +48,7 @@ a {
      flex-direction:column;
      .head {
       margin-top: 2rem;
+    margin-bottom: 1rem
      }
      .contact {
     
@@ -55,12 +56,14 @@ a {
       h3 {
         color: white;
         font-size: 1.2rem;
+        line-height: 1.4;
       }
 
      }
      .contact1 {
        margin-top:1.5rem;
       line-height: 1.5rem;
+      line-height: 1.4;
       h3 {
         color: white;
       }
@@ -75,13 +78,13 @@ a {
    
      width:30%;
      height:100%;
-     justify-content:flex-start;
+     
      display:flex;
-     justify-content:flex-start;
+     justify-content:space-between;
      align-items:center;
      flex-direction:column;
      .top {
-      margin-top: 2rem;
+      margin-top: 2.2rem;
        display:flex;
        justify-content:space-around;
         flex-direction:column;
