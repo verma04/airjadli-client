@@ -61,6 +61,9 @@ const Navbar = () => {
           
         
   </div>
+  <div className ="contact2" >
+       <h3>AirJaldi © {new Date().getFullYear()}</h3>
+       </div>
   <div className='down' ></div>
           </div>
           <div className="flex-3" >
@@ -93,9 +96,7 @@ const Navbar = () => {
        <Link href="financial" >Financial</Link>
      
      </div>
-     <div className ="contact2" >
-       <h3>AirJaldi © {new Date().getFullYear()}</h3>
-       </div>
+    
 
        <div className='down' ></div>
      </div>

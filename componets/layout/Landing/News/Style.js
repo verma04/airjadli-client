@@ -128,7 +128,7 @@ span {
         display:flex;
         justify-content:center;
         height:15%;
-   margin-top:2rem;
+  
         align-items:center;
         button {
             height:60%; 

@@ -9,7 +9,7 @@ display:flex;
 justify-content:center;
 height:100%;
 background-color: ${props => props.theme.colors.footerColor};
-margin-top:8rem;
+margin-top:5rem;
 a:hover {
   font-weight: 1000;
 }
@@ -71,7 +71,8 @@ a {
          }
    }
    .flex-2 {
-    
+     margin-top: 1.3rem;;
+   
      width:30%;
      height:100%;
      justify-content:flex-start;
@@ -129,10 +130,20 @@ padding-right: 1.2rem;
 padding-right: 0.7rem;
          }
        }
+
+       
      }
+     .contact2{
+       width: 100%;
+         margin-top:2.2rem;
+       h3 {
+        color: white;
+      }
+       }
+    
    }
    .flex-3 {
-    
+  
      width:30%;
      height:100%;
    
@@ -142,7 +153,7 @@ padding-right: 0.7rem;
      flex-direction:column;
      .top{
        width:100%;
-   margin-top:2rem;
+       margin-top:2rem;
        display:flex;
        justify-content:space-around;
        flex-direction:column;
@@ -154,18 +165,17 @@ padding-right: 0.7rem;
        }
        .contact1{
          margin-top:1.2rem;
+         text-align: right;
        h3 {
         color: white;
       }
        }
-       .contact2{
-         margin-top:2.2rem;
-       h3 {
-        color: white;
-      }
-       }
+       
 
      }
+
+
+    
    }
 }
 

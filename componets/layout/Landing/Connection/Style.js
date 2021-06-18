@@ -17,7 +17,7 @@ align-items:center;
     margin-top:5rem;
 
     .flex {
-        height: 26rem;
+        height: 28rem;
          
         width:75rem;
         display:flex;
@@ -25,7 +25,7 @@ align-items:center;
        align-items:center;
         
        .flex-1 {
-         width:48%;
+         width:49%;
          height:100%;
         
          background-color: ${props => props.theme.colors.darkblue};
@@ -34,7 +34,7 @@ align-items:center;
          justify-content: flex-start;
          flex-direction:column;
          .top {
-            
+            margin-top: 2rem;;
              height:35%;
             
              display:flex;
@@ -44,7 +44,7 @@ align-items:center;
              h2 {
                 color:white;
                 width:90%; 
-            font-size:1.9rem;
+            font-size:2.3rem;
             span {
                 font-family: SourceSansPro-Bold ;
             }
@@ -52,6 +52,7 @@ align-items:center;
 
          }
          .bottom {
+            margin-top: 2rem;;
              width:100%;
              height:40%;
              display:flex;
@@ -61,7 +62,7 @@ align-items:center;
               h2 {
                 color:white;
                 width:90%; 
-            font-size:1.9rem;
+                font-size:2.3rem;
             span {
                 font-family: SourceSansPro-Bold ;
                 font-weight:1000;
@@ -73,7 +74,7 @@ align-items:center;
         
        }
        .flex-2 {
-         width:48%;
+         width:49%;
          height:100%;
          background-color: ${props => props.theme.colors.yellow};
          display:flex;
