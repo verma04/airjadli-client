@@ -562,9 +562,9 @@ align-items:center;
   
 }
 .nav-img{
-      width:80%;
-      position: relative;
-      height:70%;
+   width: 74%;
+    position: relative;
+    height: 76%;
    }
    .fa-search {
       display:none

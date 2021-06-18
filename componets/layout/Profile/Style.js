@@ -285,7 +285,7 @@ background-color:white;
            width:90rem;
            position: relative;
            height:100%;
-           display:flex;
+           display:none;
            justify-content:center;
          
           

@@ -329,8 +329,9 @@ z-index:-1;
           }
       }
       .right{
+          margin-top:1rem;
           width:100%;
-          
+        
           display:flex;
           justify-content:flex-end;
           align-items:flex-end;
