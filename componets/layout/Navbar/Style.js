@@ -654,7 +654,12 @@ top:0;
 width:100%;
 
    height:30rem;
-   background: linear-gradient(${props => props.theme.colors.blue}, #1cb5e0); 
+   background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1618478621/ycpsax6xqmnxp58qv0nn.jpg"); 
+
+
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
 .flex {
     height:5rem;
    
