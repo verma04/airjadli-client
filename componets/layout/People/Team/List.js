@@ -110,7 +110,7 @@ arry.push(...dat , ...dat2);
 )}
 </Masonry>
 <div className="btn" >
-                  <button>load more</button>
+                 
                 </div>
         </div>
    
@@ -158,7 +158,7 @@ arry.push(...dat , ...dat2);
 )}
 </Masonry>
 <div className="btn" >
-                  <button>load more</button>
+                 
                 </div>
         </div>
    
@@ -252,7 +252,7 @@ arry.push(...dat , ...dat2);
 )}
 </Masonry>
 <div className="btn" >
-                  <button>load more</button>
+                
                 </div>
         </div>
    
@@ -299,7 +299,7 @@ arry.push(...dat , ...dat2);
 )}
 </Masonry>
 <div className="btn" >
-                  <button>load more</button>
+            
                 </div>
         </div>
    
