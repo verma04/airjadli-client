@@ -117,7 +117,7 @@ arry.push(...dat , ...dat2);
 
         <div  className="team-1"  >
 <Masonry columnsCount={1} gutter="10px">
-{list.map((number) =>  {
+{arry.map((number) =>  {
  const height = Math.random() * (500 - 350) + 350;
 
  return (
@@ -258,7 +258,7 @@ arry.push(...dat , ...dat2);
    
         <div  className="team-1"  >
 <Masonry columnsCount={1} gutter="10px">
-{list.map((number) =>  {
+{arry.map((number) =>  {
  const height = Math.random() * (500 - 350) + 350;
 
  return (
