@@ -537,7 +537,7 @@ align-items:center;
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
 
 display:flex;
 justify-content:flex-start;
