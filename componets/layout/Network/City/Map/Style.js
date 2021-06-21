@@ -253,13 +253,28 @@ margin-top:3rem;
     .flex-2 {
        
         width:100%;
-        height:20rem;
+        height:12rem;
         position: relative;
     }
 }
    
-   .grid {
-     display:none;
+.grid {
+       margin-top:4rem;
+       margin-bottom:4rem;
+       display:flex;
+       justify-content:space-evenly;
+        flex-direction:column;
+        width:90%;
+     ul {
+         display:none;
+     }
+        
+        h3 {
+            font-weight:1000;
+        }
+
+       
+    
    }
    
     
