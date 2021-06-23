@@ -222,9 +222,21 @@ padding-left: 1rem;;
      .single-post{
          display:flex;
          justify-content:center;
-          flex-direction:column;
+          flex-direction:space-around;
+          align-items: left;
+          flex-wrap: wrap;
           width:100%;
           height:100%;
+          .head {
+              text-align: left;
+              font-size:3rem;
+            letter-spacing: -0.011em;
+              font-weight:1000;
+              padding-bottom: 0.5rem;
+          }
+          .data {
+            display:flex;
+         justify-content:space-around;
           align-items: center;
           flex-wrap: wrap;
           figure {
@@ -233,12 +245,23 @@ padding-left: 1rem;;
              width: 100%;
            }
           }
-          .head {
-              text-align: left;
-              font-size:2.5rem;
-              font-weight:1000;
           }
-        
+          .category {
+            padding-bottom: 0.5rem;
+            text-align: left;
+          }
+          figure {
+              width:100%;
+          
+              display:flex;
+              justify-content:center;
+              img {
+    
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+    
+              }
+          }
           p {
             text-align: left;
               font-size:1.2rem;
@@ -345,13 +368,33 @@ padding-left: 1rem;;
      .single-post{
          display:flex;
          justify-content:center;
-          flex-direction:column;
+          flex-direction:space-around;
+          align-items: left;
+          flex-wrap: wrap;
           width:100%;
           height:100%;
           .head {
               text-align: left;
-              font-size:2.5rem;
+              font-size:3rem;
+            letter-spacing: -0.011em;
               font-weight:1000;
+              padding-bottom: 0.5rem;
+          }
+          .data {
+            display:flex;
+         justify-content:space-around;
+          align-items: center;
+          flex-wrap: wrap;
+          figure {
+            width: 32%;
+           img {
+             width: 100%;
+           }
+          }
+          }
+          .category {
+            padding-bottom: 0.5rem;
+            text-align: left;
           }
           figure {
               width:100%;
@@ -359,7 +402,10 @@ padding-left: 1rem;;
               display:flex;
               justify-content:center;
               img {
-                width:100%;
+    
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+    
               }
           }
           p {
@@ -415,13 +461,33 @@ padding-left: 1rem;;
      .single-post{
          display:flex;
          justify-content:center;
-          flex-direction:column;
+          flex-direction:space-around;
+          align-items: left;
+          flex-wrap: wrap;
           width:100%;
           height:100%;
           .head {
               text-align: left;
-              font-size:2.5rem;
+              font-size:3rem;
+            letter-spacing: -0.011em;
               font-weight:1000;
+              padding-bottom: 0.5rem;
+          }
+          .data {
+            display:flex;
+         justify-content:space-around;
+          align-items: center;
+          flex-wrap: wrap;
+          figure {
+            width: 49%;
+           img {
+             width: 100%;
+           }
+          }
+          }
+          .category {
+            padding-bottom: 0.5rem;
+            text-align: left;
           }
           figure {
               width:100%;
@@ -429,7 +495,10 @@ padding-left: 1rem;;
               display:flex;
               justify-content:center;
               img {
-                width:100%;
+    
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+    
               }
           }
           p {
@@ -439,6 +508,9 @@ padding-left: 1rem;;
               width:100%;
               margin-top:0.7rem;
               margin-bottom:0.5rem;
+          }
+          h2 {
+            font-weight:900;
           }
           h1 {
               margin-top:2rem;
