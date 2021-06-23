@@ -337,7 +337,7 @@ align-items:center;
     }
 
     .flex {
-        height:40rem;
+        height:30rem;
         
         width:80%;
         display:flex;

@@ -77,8 +77,9 @@ padding-left: 1rem;;
      .single-post{
          display:flex;
          justify-content:center;
-          flex-direction:column;
+          flex-direction:space-around;
           align-items: left;
+          flex-wrap: wrap;
           width:100%;
           height:100%;
           .head {
@@ -90,9 +91,15 @@ padding-left: 1rem;;
           }
           .data {
             display:flex;
-         justify-content:center;
-          flex-direction:column;
+         justify-content:space-around;
           align-items: center;
+          flex-wrap: wrap;
+          figure {
+            width: 32%;
+           img {
+             width: 100%;
+           }
+          }
           }
           .category {
             padding-bottom: 0.5rem;
@@ -218,20 +225,20 @@ padding-left: 1rem;;
           flex-direction:column;
           width:100%;
           height:100%;
+          align-items: center;
+          flex-wrap: wrap;
+          figure {
+            width: 32%;
+           img {
+             width: 100%;
+           }
+          }
           .head {
               text-align: left;
               font-size:2.5rem;
               font-weight:1000;
           }
-          figure {
-              width:100%;
-          
-              display:flex;
-              justify-content:center;
-              img {
-                width:100%;
-              }
-          }
+        
           p {
             text-align: left;
               font-size:1.2rem;
