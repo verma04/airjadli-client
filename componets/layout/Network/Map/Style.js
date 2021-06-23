@@ -4824,7 +4824,7 @@ to { opacity: 0; }
 
 
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     display:flex;
 justify-content:center;
 height:100%;

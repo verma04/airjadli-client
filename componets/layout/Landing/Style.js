@@ -203,7 +203,7 @@ span {
         justify-content:space-between;
         align-items:center;
         height:100%;
-        width:74%;
+        width:80%;
   
       
         .grid1 {

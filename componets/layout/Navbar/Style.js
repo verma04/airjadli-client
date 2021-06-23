@@ -243,13 +243,13 @@ a{
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
-   z-index:1000;
+   
    height:5rem;
-
+   z-index:1000;
     .flex {
         height:5rem;
-        z-index:1000;
-        width:75%;
+        
+        width:85%;
         display:flex;
         justify-content:space-between;
        align-items:center;
@@ -259,37 +259,39 @@ a{
         height: 100%;
    }
    
-       .dropdown-content {
+   .dropdown-content {
           z-index:3;
   display: none;
   position: fixed;
 
-  width:100%;
+
+   width:100%;
   top:0;
   left:0;
-  height:12rem;
+  height:4rem;
 
   z-index: 1;
   top:4rem;
   justify-content:center;
+  align-items:center;
   .content {
      display:flex;
      justify-content:center;
-     width:70%;
+     width:80%;
     margin-left:5%;
-
+align-items:center;
+height:100%;
      .list {
         width:50%;
         height:100%;
         display:flex;
         justify-content:space-between;
-   
-       
-       
+     
+align-items:center;       
         h3 {
-           height:18%;
-  
-         text-align:center;
+          
+      
+       
            font-size:1.1rem;
            display:flex;
            justify-content:center;
@@ -364,11 +366,11 @@ a{
     .search {
        display:flex;
        justify-content:center;
-       height:5rem;
+   
       width:100%;
       background-color:#1690d2;
       .input {
-         width:76%;
+         width:80%;
         
          height:100%;
          display:flex;
@@ -408,64 +410,10 @@ a{
        }
       }
     }
-    .data {
-       top:5rem;
-      
-       width:100%;
-       position:absolute;
-       height:25rem;
-       display:flex;
-       justify-content:center;
-       .data-2 {
-          margin-top:2rem;
-         background-color:white;
-         width:76%;
-         height:100%;
-         border: 1px solid red;
-         display:flex;
-       justify-content:space-around;
-  
-       .network {
-          width:40%;
-          display:flex;
-       justify-content:center;
-       overflow: auto;
-       height:100%;
-       border: 1px solid red;
-       }
-       .news {
-         width:40%;
-          display:flex;
-       justify-content:center;
-       overflow: auto;
-
-       border: 1px solid red;
-       flex-direction:column;
-       .news-1 {
-          margin-top:1rem;
-          display:flex;
-          justify-content:space-evenly;
-           align-items:center;
-          width:100%;
-    
-          border: 1px solid red;
-          img {
-             width:30%;
-             height:100%;
-          }
-          h3 {
-             width:65%;
-          }
-       }
-       }
-       }
-    
-    }
     .sm {
        display:none;
     }
 }
-
 
 @media (min-width: 769px) and (max-width: 1024px) {
   

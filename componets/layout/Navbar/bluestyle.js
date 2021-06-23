@@ -195,7 +195,7 @@ align-items:center;
     .flex {
         height:5rem;
         
-        width:76%;
+        width:85%;
         display:flex;
         justify-content:space-between;
        align-items:center;
@@ -205,7 +205,7 @@ align-items:center;
         height: 100%;
    }
    
-       .dropdown-content {
+   .dropdown-content {
           z-index:3;
   display: none;
   position: fixed;
@@ -223,7 +223,7 @@ align-items:center;
   .content {
      display:flex;
      justify-content:center;
-     width:60%;
+     width:80%;
     margin-left:5%;
 align-items:center;
 height:100%;

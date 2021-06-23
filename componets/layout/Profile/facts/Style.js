@@ -86,7 +86,7 @@ i {
 
     .flex{
 
-height:24rem;
+        height: 41rem;
 
 display:flex;
 justify-content:space-between;
@@ -108,14 +108,15 @@ color: ${props => props.theme.colors.blue};
  display:flex;
 justify-content:space-around;
 align-items:center;
+flex-wrap: wrap;
 width:70%;
     height:95%;
 
     width:100%;
 
     .logo1 {
-        width:15%;
-        height:80%;
+        width:26%;
+        height:50%;
         
         display:flex;
 justify-content:center;
@@ -150,7 +151,7 @@ h2 {
 @media (min-width: 768px) and (max-width: 1024px) {
     .flex{
 
-height:24rem;
+height:40rem;
 
 display:flex;
 justify-content:space-between;
@@ -170,16 +171,16 @@ color: ${props => props.theme.colors.blue};
 }
 .logo {
  display:flex;
-justify-content:space-between;
+justify-content:space-around;
 align-items:center;
-
+flex-wrap: wrap;
     height:95%;
 
     width:100%;
 
     .logo1 {
-        width:22%;
-        height:80%;
+        width:26%;
+        height:50%;
         
         display:flex;
 justify-content:center;

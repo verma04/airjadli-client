@@ -115,7 +115,7 @@ flex-direction:column;
 width:100%;
     height:95%;
 
-    width:60%;
+    width:100%;
     p {
         font-size:1.2rem;
     }

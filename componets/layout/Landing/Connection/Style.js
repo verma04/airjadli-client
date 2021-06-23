@@ -151,7 +151,7 @@ align-items:center;
     .flex {
         height: 26rem;
          
-        width:76%;
+        width:80%;
         display:flex;
         justify-content:space-between;
        align-items:center;
@@ -209,12 +209,12 @@ align-items:center;
          height:100%;
          background-color: ${props => props.theme.colors.yellow};
          display:flex;
-         justify-content:space-between;
+         justify-content:space-around;
          align-items:center;
          flex-direction:column;
          .top {
              width:100%;
-             height:50%;
+             height:40%;
      
              display:flex;
              justify-content:center;
@@ -232,7 +232,7 @@ align-items:center;
          }
          .bottom {
              width:90%;
-             height:50%;
+             height:60%;
             
              display:flex;
                   justify-content:space-around;

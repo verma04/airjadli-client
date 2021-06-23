@@ -83,14 +83,14 @@ margin-top:5rem;
 @media (min-width: 1025px) and (max-width: 1280px)  {
     .flex{
 
-height:45rem;
+height:50rem;
 
 display:flex;
-justify-content:flex-start;
+justify-content:space-between;
 
 width:100%;
 .flex-1 {
-   width:40%;
+   width:45%;
    height:100%;
 
    position: relative;
@@ -98,13 +98,13 @@ width:100%;
 
 }
 .flex-2 {
-   margin-left:7%;
+
  display:flex;
 justify-content:space-between;
 align-items:center;
 flex-direction:column;
 
-width:40%;
+width:50%;
 height:100%;
 .head {
     display:flex;
@@ -154,28 +154,29 @@ height:100%;
 
     .flex{
 
-height:50rem;
+
 
 display:flex;
 justify-content:flex-start;
-
+flex-direction: column;
+align-items: center;
 width:100%;
 .flex-1 {
-   width:40%;
-   height:100%;
+   width:100%;
+   height:70rem;
 
    position: relative;
-  
+  display: none;
 
 }
 .flex-2 {
-   margin-left:7%;
+
  display:flex;
 justify-content:space-between;
 align-items:center;
 flex-direction:column;
 
-width:50%;
+width:90%;
 height:100%;
 .head {
     display:flex;

@@ -157,9 +157,16 @@ padding-left: 1rem;;
    width:100%;
    height:100%;
    .flex {
-     margin-top:15vh;
-     width:76%;
+     margin-top:12vh;
+     width:70%;
      height:76%;
+     img {
+      width:100%;
+  
+         margin-top: 1rem;
+                margin-bottom: 1rem;
+           
+     }
      .set {
        margin-top: 1rem;
        width: 100%;
@@ -216,12 +223,25 @@ padding-left: 1rem;;
          display:flex;
          justify-content:center;
           flex-direction:column;
+          align-items: left;
           width:100%;
           height:100%;
           .head {
               text-align: left;
-              font-size:2.5rem;
+              font-size:3rem;
+            letter-spacing: -0.011em;
               font-weight:1000;
+              padding-bottom: 0.5rem;
+          }
+          .data {
+            display:flex;
+         justify-content:center;
+          flex-direction:column;
+          align-items: center;
+          }
+          .category {
+            padding-bottom: 0.5rem;
+            text-align: left;
           }
           figure {
               width:100%;
@@ -229,7 +249,10 @@ padding-left: 1rem;;
               display:flex;
               justify-content:center;
               img {
-                width:100%;
+    
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+    
               }
           }
           p {
@@ -280,12 +303,19 @@ padding-left: 1rem;;
    width:100%;
    height:100%;
    .flex {
-     margin-top:15vh;
+     margin-top:12vh;
      width:80%;
      height:76%;
+     img {
+         width: 90%;
+  
+         margin-top: 1rem;
+                margin-bottom: 1rem;
+           
+     }
      .set {
        margin-top: 1rem;
-       width: 100%;
+       width: 90%;
        height: 3rem;;
        display: flex;
        justify-content: space-between;
@@ -339,12 +369,25 @@ padding-left: 1rem;;
          display:flex;
          justify-content:center;
           flex-direction:column;
+          align-items: left;
           width:100%;
           height:100%;
           .head {
               text-align: left;
-              font-size:2.5rem;
+              font-size:3rem;
+            letter-spacing: -0.011em;
               font-weight:1000;
+              padding-bottom: 0.5rem;
+          }
+          .data {
+            display:flex;
+         justify-content:center;
+          flex-direction:column;
+          align-items: center;
+          }
+          .category {
+            padding-bottom: 0.5rem;
+            text-align: left;
           }
           figure {
               width:100%;
@@ -352,7 +395,10 @@ padding-left: 1rem;;
               display:flex;
               justify-content:center;
               img {
-                width:100%;
+    
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+    
               }
           }
           p {

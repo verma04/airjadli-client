@@ -100,7 +100,7 @@ margin-top:5rem;
   .grid {
 
 width:100%;
-height:37rem;
+height:50rem;
 
 position: relative;
 .bird {
@@ -136,14 +136,14 @@ justify-content:flex-start;
 align-items:center;
 flex-direction:column;
 height:100%;
-width:76%;
+width:90%;
 .head {
      width:100%;
-     height:10%;
+
     
-  
+  height: 5%;
      display:flex;
-justify-content:center;
+justify-content:flex-start;
 
 flex-direction:column;
 h2 {
@@ -155,7 +155,9 @@ color:white;
 
 .grid1 {
      width:100%;
-     height:17%;
+     padding-top: 1rem;
+            
+            padding-bottom: 1rem;
     
   
      display:flex;
@@ -183,7 +185,7 @@ color:white;
   .grid {
 
 width:100%;
-height:43rem;
+height:60rem;
 position: relative;
 .bird {
   right: -37px;
@@ -209,8 +211,8 @@ display:flex;
 justify-content:center;
 align-items:center;
 width:100%;
-
 height:100%;
+
 .card-1 {
   
     display:flex;
@@ -223,7 +225,6 @@ width:90%;
 .head {
      width:100%;
    
-    
   
      display:flex;
 justify-content:center;
@@ -238,8 +239,8 @@ color:white;
 
 .grid1 {
      width:100%;
-     height:10%;
     
+  margin-bottom: 1rem;;
   
      display:flex;
 justify-content:center;
