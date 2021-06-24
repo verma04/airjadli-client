@@ -34,7 +34,7 @@ export default class MyDocument extends Document {
     return (
         <Html>
             <Head>
-            <link rel="shortcut icon" href="https://res.cloudinary.com/dzcmadjl1/image/upload/v1611744812/Concierge/bmykknhiqk44krgobz6n.png" />
+         
              
                
             </Head>

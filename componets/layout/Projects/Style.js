@@ -8,9 +8,11 @@ export const  Section = styled.section`
 display:flex;
 justify-content:center;
 height:100%;
-
+span {
+    font-size: 1.2rem;
+}
 @media (min-width: 1024px) and (max-width: 1280px) {
-
+ 
     .grid {
 
         width:100%;
@@ -36,7 +38,7 @@ height:100%;
         align-items:center;
         flex-wrap: wrap;
       
-        width:76%;
+        width:80%;
       
         .grid1 {
             position: relative;
@@ -56,7 +58,7 @@ height:100%;
         }
         .data {
         width:90%;
-        height:13rem;
+        height:15rem;
          margin-bottom:2rem;
         display:flex;
         justify-content:space-evenly;
@@ -118,13 +120,16 @@ height:100%;
         color: #0085C5;
            }
     }
-    h2 {
-        padding-top:1rem;
+    h3 {
+        
         font-weight:900;
     }
+    span {
+    font-size: 1.2rem;
+}
    
     .head {
-        h2 {
+        h3 {
             padding-top:0.5rem;
         padding-bottom:0.5rem;
         text-align:left;
@@ -290,8 +295,8 @@ p {
     color: #0085C5;
        }
 }
-h2 {
-    padding-top:1rem;
+h3 {
+   
     font-weight:900;
 }
 
@@ -301,6 +306,10 @@ h2 {
     padding-bottom:0.5rem;
     text-align:left;
 }
+span {
+    font-size: 1.2rem;
+}
+
 
 }
 
@@ -399,7 +408,7 @@ height:15rem;
 }
 .data {
 width:90%;
-height:13rem;
+height:15rem;
  margin-bottom:2rem;
 display:flex;
 justify-content:space-evenly;
@@ -461,8 +470,8 @@ color: #2f3435;
 color: #0085C5;
    }
 }
-h2 {
-padding-top:1rem;
+h3 {
+
 font-weight:900;
 }
 
@@ -574,6 +583,10 @@ z-index:1;
   
 p {
    color: #2f3435; 
+}
+
+h3 {
+    font-weight: 1000;
 }
 .head {
     h2 {

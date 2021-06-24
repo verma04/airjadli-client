@@ -72,17 +72,17 @@ export default function Home() {
 
 <div className="data" >
  
-   <h2>{number.category}</h2> 
+   <span>{number.category}</span> 
 
   <h3>{number.title}</h3>
-  <p>
-
+  
+  <p>{number.description}</p>
  
   
        
        
             
-  </p>
+ 
   <div className='link' >
 <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
 <span>  Learn more </span> </div>

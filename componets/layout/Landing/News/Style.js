@@ -293,7 +293,7 @@ span {
          flex-direction:column;
 
          .head {
-            width:80%;
+            width: 94%;
         height:4rem;
             display:flex;
             justify-content:center;
@@ -322,21 +322,22 @@ span {
         justify-content:space-between;
         align-items:center;
         height:100%;
-        width:80%;
+        width: 94%;
       
         .grid1 {
              width:30%;
-             height:100%;
+             height:20rem;
              background-color:white;
              display:flex;
-        justify-content:center;
+             justify-content:space-between;
+  align-items:center;
         flex-direction:column;
-        align-items:center;
+        
         cursor: pointer;
         .wrapper {
-     
+  
             width:100%;
-  height:10rem;
+  height:48%;
         position: relative;
        
        

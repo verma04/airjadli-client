@@ -413,7 +413,7 @@ margin-top:5rem;
      flex-direction:column;
 
      .head {
-        width:80%;
+        width:95%;
         height:4rem;
         display:flex;
         justify-content:center;
@@ -439,11 +439,11 @@ margin-top:5rem;
   justify-content:space-between;
   align-items:center;
   height:100%;
-  width:80%;
+  width:95%;
 
   .grid1 {
        width:30%;
-       height:100%;
+       height:28rem;
        background-color:white;
        display:flex;
   justify-content:center;
