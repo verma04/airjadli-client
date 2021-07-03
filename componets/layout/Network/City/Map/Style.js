@@ -62,7 +62,13 @@ margin-top:5rem;
         h3 {
             font-weight:1000;
         }
-
+        p {
+                 margin-top: 0rem !important;
+                 
+        }
+        h3 {
+            margin-top: 1.5rem;
+        }
         ul {
          display:none;
      }
@@ -138,7 +144,13 @@ margin-top:5rem;
             font-weight:1000;
         }
 
-       
+        p {
+                 margin-top: 0rem !important;
+                 
+        }
+        h3 {
+            margin-top: 1.5rem;
+        }
     
    }
     
@@ -272,6 +284,15 @@ margin-top:3rem;
         h3 {
             font-weight:1000;
         }
+
+        p {
+                 margin-top: 0rem !important;
+                 
+        }
+        h3 {
+            margin-top: 1.5rem;
+        }
+       
 
        
     

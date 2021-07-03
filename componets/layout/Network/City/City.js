@@ -73,7 +73,10 @@ function City({id}) {
                   <div className="data" >
                       <ul>
                           <li className="top" >Technical Contact:</li>
-                          <li  onClick={() => window.open('mailto:support@airjaldi.com') }  >{data.contact}</li>
+                          <li  onClick={() => window.open('mailto:support@airjaldi.com') }  >{data.contact}
+                          
+                          Email: <span> support@airjaldi.net</span>
+                          </li>
                      
                           
                          

@@ -68,6 +68,7 @@ max-height:50rem;
             flex-direction:column;
             .top {
                 font-size:1.6rem;
+                font-weight: 900;
 
             }
             li {
@@ -75,7 +76,7 @@ max-height:50rem;
                 font-size:1.4rem;
                 line-height:1.3;
                 text-align:left;
-                width:50%;
+                width:60%;
                 span {
                     color:${props => props.theme.colors.blue};
                 }
@@ -116,15 +117,16 @@ max-height:50rem;
 justify-content:center;
 height:100%;
 margin-top:5rem;
-height:45rem;
-max-height:50rem;
+height:40rem;
+
  background-color:#ddf3ff;
- padding-bottom:2rem;
+ 
 
 .flex {
     display:flex;
     justify-content:center;
-    width:75rem;
+    width:100%;
+    
     height:100%;
    
     .flex-1 {
@@ -152,7 +154,7 @@ max-height:50rem;
         }
         .data {
             width:100%;
-            height:80%;
+            height:100%;
           
             display:flex;
             justify-content:flex-start;
@@ -162,10 +164,11 @@ max-height:50rem;
          
           
             ul {
+                
                 margin-left:25%;
                 margin-top:1rem;
-               
-                height:50%;
+                
+                height:35%;
                
                 
                 display:flex;
@@ -173,6 +176,7 @@ max-height:50rem;
             align-items:flex-start;
             flex-direction:column;
             .top {
+                font-weight: 900;
                 font-size:1.6rem;
 
             }
@@ -181,7 +185,7 @@ max-height:50rem;
                 font-size:1.4rem;
                 line-height:1.3;
                 text-align:left;
-                width:68%;
+                width:50%;
                 span {
                     color:${props => props.theme.colors.blue};
                 }
@@ -281,6 +285,7 @@ height:60rem;
             flex-direction:column;
             .top {
                 font-size:1.6rem;
+                font-weight:900;
 
             }
             li {
@@ -382,6 +387,9 @@ height:100%;
             justify-content:center;
             align-items:center;
             flex-direction:column;
+            .top {
+font-weight: 900;
+            }
             li {
                 line-height:1.1;
                 margin-top:0.5rem;
