@@ -21,7 +21,7 @@ function Aboutus({page}) {
       const people = res.data;
       setdata( people );
     })
-  }, [data] )
+  }, [] )
 
 
 
