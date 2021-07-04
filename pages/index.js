@@ -19,7 +19,8 @@ function index({data}) {
  console.log(data)
   
     return {
-      props: { data }, // will be passed to the page component as props
+      props: { data },
+      revalidate: 1,  // will be passed to the page component as props
     }
   }
 
