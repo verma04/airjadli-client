@@ -13,24 +13,14 @@ import Map from './Map/Map'
 import Partner from '../partners/partner'
 import { useQuery } from "react-query";
 import Loading from '../../Loading/Loading';
-const fetchPage = async () => {
-  const res = await fetch(" http://sandbox.airjaldi.com:3000/client/landing");
-  return res.json();
-};
 
-export default function Home() {
-  const { data, status } = useQuery("Page", fetchPage);
+
+export default function Home({data}) {
+
   const router = useRouter();
   return (
     <>
-    {status === "error" && <p></p>}
-      {status === "loading" && 
-      
-   <Loading/>
-      
-      }
-      {status === "success" && (
-    <>
+  
       
       <Head>
         <title>Home - AirJaldi</title>
@@ -144,8 +134,7 @@ ar ...   </p>
        
       <Footer  />
     
-      </>
-       )}
+     
       
        
     

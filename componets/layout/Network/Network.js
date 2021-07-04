@@ -13,23 +13,19 @@ const networks = async () => {
   const res = await fetch("http://sandbox.airjaldi.com:3000/api/client/network");
   return res.json();
 };
-const networksPage = async () => {
-  const res = await fetch("http://sandbox.airjaldi.com:3000/client/getNetworkPage");
-  return res.json();
-};
-export default function Home() {
+
+export default function Home({data1}) {
   const { data, status } = useQuery("networks", networks);
-  const { data:data1, status:status1 } = useQuery("networksPage", networksPage);
+  
   return (
+   
     <>
     <Head>
         <title>Network - AirJaldi</title>
       </Head>
-    {status1  === "error" && <p>Error fetching data</p>}
-      {status1  === "loading" && 
-      <Loading/>
-      }
-      {status1  === "success" && (
+  
+    
+   
           <>
       
       <Section>
@@ -92,7 +88,7 @@ export default function Home() {
       <Footer/>
     
       </>
-      )}
+      
   </>
   );
 }

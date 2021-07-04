@@ -7,15 +7,12 @@ import { useQuery } from "react-query";
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer'
 import Loading from '../../Loading/Loading';
-const fetchFaq = async () => {
-  const res = await fetch("http://sandbox.airjaldi.com:3000/client/getFaq");
-  return res.json();
-};
 
 
 
-function Faq() {
-  const { data, status } = useQuery("faq", fetchFaq);
+
+function Faq({data}) {
+  
   const [one, setOne] = useState(true)
   const toggle = (id) => {
     setOne(id)
@@ -34,10 +31,7 @@ function Faq() {
   return (
     
        <React.Fragment>
-          {status === "error" && <p>Error fetching data</p>}
-        {status === "loading" && <Loading/>  }
-        {status === "success" && (
-            <>
+      
            <Navbar/>
           <Section>
           <div class="grid"     >
@@ -235,8 +229,7 @@ function Faq() {
 
        <Footer/>
 
-       </>
-           )}
+     
 
           </React.Fragment>
     

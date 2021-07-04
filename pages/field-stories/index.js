@@ -1,11 +1,24 @@
 import React from 'react'
-import  Project from '@/componets/layout/Fieldstories/Fieldstories'
-function index() {
+import  Fs from '@/componets/layout/Fieldstories/Fieldstories'
+function index({data}) {
     return (
         <div>
-            <Project/>
+            <Fs data={data} />
         </div>
     )
 }
 
-export default index
+
+export async function getStaticProps(context) {
+    const res = await fetch(`http://sandbox.airjaldi.com:3000/client/fieldStories`)
+    const data = await res.json()
+  
+   
+  
+    return {
+      props: { data }, 
+      revalidate: 1, 
+    }
+ 
+  }
+export default index;

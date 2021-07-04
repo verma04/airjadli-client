@@ -3,18 +3,25 @@ import Contact from '../componets/layout/Contact/contact';
 import  Footer  from '../componets/layout/Footer/Footer';
 import Navbar from '../componets/layout/Navbar/Navbar';
 import Head from 'next/head'
-function contact() {
+function index({data}) {
     return (
         <div>
-                 <Head>
-        <title>Conatct - AirJaldi</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
-         
-            <Contact/>
- 
+            <Contact data={data} />
         </div>
     )
 }
 
-export default contact
+
+export async function getStaticProps(context) {
+    const res = await fetch(`http://sandbox.airjaldi.com:3000/client/getContact`)
+    const data = await res.json()
+  
+   
+  
+    return {
+      props: { data }, 
+      revalidate: 1, 
+    }
+ 
+  }
+  export default index;

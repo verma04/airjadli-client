@@ -11,20 +11,13 @@ import Working from './working/working';
 import Stat from './Stat/Stat'
 import { useQuery } from "react-query";
 import Loading from '../../Loading/Loading';
-const fetchProfile = async () => {
-  const res = await fetch("http://sandbox.airjaldi.com:3000/api/client/getprofile");
-  return res.json();
-};
-export default function Home() {
-  const { data, status } = useQuery("profile", fetchProfile);
+
+export default function Home({data}) {
+  
   return (
-    <>
-     {status === "error" && <p>Error fetching data</p>}
-      {status === "loading" && <Loading/>}
-      {status === "success" && (
-          <>
+ <>
       <Head>
-        <title>Home - AirJaldi</title>
+        <title>Profile - AirJaldi</title>
       </Head>
       <Section>
       <Navbar/>
@@ -82,8 +75,8 @@ export default function Home() {
       
        
       <Footer/>
+       
       </>
-      )}
-  </>
   );
 }
+

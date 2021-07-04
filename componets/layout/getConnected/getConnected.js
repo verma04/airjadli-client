@@ -8,22 +8,16 @@ import { useQuery } from "react-query";
 import Image from 'next/image';
 import Loading from '../../Loading/Loading';
 
-const fetchCareer = async () => {
-  const res = await fetch("http://sandbox.airjaldi.com:3000/api/client/getCarrer");
-  return res.json();
-};
 
 
-export default function Home() {
-  const { data, status } = useQuery("carrer",fetchCareer);
+
+export default function Home({data}) {
+  
   return (
     <>
-    {status === "error" && <p>Error fetching data</p>}
-      {status === "loading" &&  <Loading/> }
-      {status === "success" && (
-          <>
+   
       <Head>
-        <title>Home - AirJaldi</title>
+        <title>Carrer - AirJaldi</title>
       </Head>
       <Section>
       <Navbar/>
@@ -77,7 +71,6 @@ export default function Home() {
       <Footer/>
     
       </>
-      )}
-  </>
+   
   );
 }

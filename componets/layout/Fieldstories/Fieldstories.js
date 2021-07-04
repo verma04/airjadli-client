@@ -5,28 +5,18 @@ import { Section} from './Style'
 import styled, { createGlobalStyle } from 'styled-components';
 import { useQuery } from "react-query";
 import Image from 'next/image'
-const fetchFieldstories = async () => {
-  const res = await fetch("http://sandbox.airjaldi.com:3000/client/fieldStories");
-  return res.json();
-};
+
 import { useRouter } from 'next/router'
 import Loading from '../../Loading/Loading';
-export default function Home() {
-  const { data, status } = useQuery("Fieldstories", fetchFieldstories);
+export default function Home({data}) {
+
   const router = useRouter()
   return (
     <>
       <Head>
         <title>Fieldstories - AirJaldi</title>
       </Head>
-      {status === "error" && <p>Error fetching data</p>}
-      {status === "loading" && 
-      
-    <Loading/>
-      
-      }
-        {status === "success" && (
-    <>
+    
 
       <Section>
       <Navbar/>
@@ -105,7 +95,6 @@ export default function Home() {
        
       <Footer/>
       </>
-       )}
-    </>
+     
   );
 }

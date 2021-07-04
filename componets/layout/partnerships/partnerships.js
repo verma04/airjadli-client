@@ -1,3 +1,7 @@
+
+
+
+
 import Head from 'next/head';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer'
@@ -9,22 +13,15 @@ import Image from 'next/image';
 import { useQuery } from "react-query";
 import Loading from '../../Loading/Loading';
 
-const fetchUsers = async () => {
-  const res = await fetch("https://airjadli.herokuapp.com/api/client/getPartner");
-  return res.json();
-};
 
 
-export default function Home() {
-  const { data, status } = useQuery("partner", fetchUsers);
+export default function Home({data}) {
+  
   return (
     <>
-    {status === "error" && <p>Error fetching data</p>}
-      {status === "loading" && <Loading/>}
-      {status === "success" && (
-          <>
+ 
       <Head>
-        <title>Home - AirJaldi</title>
+        <title>PartnerShip - AirJaldi</title>
       </Head>
       <Section>
       <Navbar/>
@@ -80,7 +77,6 @@ export default function Home() {
        
       <Footer/>
       </>
-      )}
-  </>
+   
   );
 }

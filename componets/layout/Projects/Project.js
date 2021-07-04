@@ -5,28 +5,20 @@ import { Section} from './Style'
 import styled, { createGlobalStyle } from 'styled-components';
 import { useQuery } from "react-query";
 import Image from 'next/image'
-const fetchProjects = async () => {
-  const res = await fetch("https://airjadli.herokuapp.com/client/getprojects");
-  return res.json();
-};
+
 import { useRouter } from 'next/router'
 import Loading from '../../Loading/Loading';
-export default function Home() {
-  const { data, status } = useQuery("Projects", fetchProjects);
+export default function Home({data}) {
+ 
   const router = useRouter()
   return (
     <>
       <Head>
         <title>Projects - AirJaldi</title>
       </Head>
-      {status === "error" && <p>Error fetching data</p>}
-      {status === "loading" && 
+  
       
-    <Loading/>
-      
-      }
-        {status === "success" && (
-    <>
+   
 
       <Section>
       <Navbar/>
@@ -105,7 +97,6 @@ export default function Home() {
        
       <Footer/>
       </>
-       )}
-    </>
+   
   );
 }

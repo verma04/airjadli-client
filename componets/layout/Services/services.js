@@ -8,23 +8,18 @@ import Section1 from './Section/Section'
 import { useQuery } from "react-query";
 import Image from 'next/image';
 import Loading from '../../Loading/Loading';
-const fetchservices = async () => {
-  const res = await fetch("http://sandbox.airjaldi.com:3000/api/client/getServices");
-  return res.json();
-};
 
 
-export default function Home() {
+
+export default function Home({data}) {
   
-  const { data, status } = useQuery("services", fetchservices);
+  
   return (
+  
     <>
-    {status === "error" && <p>Error fetching data</p>}
-      {status === "loading" && <Loading/>}
-      {status === "success" && (
-          <>
+          
       <Head>
-        <title>dsd - AirJaldi</title>
+        <title>Services - AirJaldi</title>
       </Head>
       <Section>
       <Navbar/>
@@ -73,8 +68,7 @@ export default function Home() {
        
       <Footer/>
     
-      </>
-      )}
+     
   </>
   );
 }

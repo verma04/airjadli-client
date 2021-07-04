@@ -5,20 +5,14 @@ import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import { useQuery } from "react-query";
 import Loading from '../../Loading/Loading';
-const fetchContact = async () => {
-  const res = await fetch("http://sandbox.airjaldi.com:3000/client/getContact");
-  return res.json();
-};
-function contact() {
 
-  const { data, status } = useQuery("contact", fetchContact);
+function contact({data}) {
+
+ 
     return (
       <>
       
-      {status === "error" && <p>Error fetching data</p>}
-        {status === "loading" && <Loading/>  }
-        {status === "success" && (
-            <>
+    
        <Navbar/>
    
 
@@ -173,8 +167,7 @@ function contact() {
         </Section>
      <Footer/>
         </>
-           )}
-           </>
+          
     )
 }
 

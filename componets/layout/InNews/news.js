@@ -10,16 +10,12 @@ import { useRouter } from 'next/router'
 import Image from 'next/image'
 import { useQuery } from "react-query";
 import {FacebookShareButton, FacebookIcon , EmailShareButton, EmailIcon,   WhatsappIcon, WhatsappShareButton} from "react-share";
-const fetchNews = async () => {
-  const res = await fetch("http://sandbox.airjaldi.com:3000/api/client/getNews");
-  return res.json();
-};
 
 import Loading from '../../Loading/Loading'
 
 
-export default function Home({}) {
-  const { data, status } = useQuery("news", fetchNews);
+export default function Home({data}) {
+ 
   const router = useRouter()
   return (
     <>
@@ -27,15 +23,7 @@ export default function Home({}) {
         <title>News - AirJaldi</title>
       </Head>
      
-    {status === "error" && <p>Error fetching data</p>}
-      {status === "loading" && 
-      
-    <Loading/>
-      
-      }
-      {status === "success" && (
-    <>
-     
+   
      
       <Section>
       <Navbar/>
@@ -112,11 +100,11 @@ export default function Home({}) {
       </Section>
       <Footer/>
       </>
-       )}
+       
       
        
     
     
-    </>
+    
   );
 }
