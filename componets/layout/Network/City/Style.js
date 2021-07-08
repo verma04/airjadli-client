@@ -68,7 +68,7 @@ max-height:50rem;
             flex-direction:column;
             .top {
                 font-size:1.6rem;
-                font-weight: 900;
+                
 
             }
             li {
@@ -176,7 +176,7 @@ height:40rem;
             align-items:flex-start;
             flex-direction:column;
             .top {
-                font-weight: 900;
+                
                 font-size:1.6rem;
 
             }
@@ -388,7 +388,7 @@ height:100%;
             align-items:center;
             flex-direction:column;
             .top {
-font-weight: 900;
+
             }
             li {
                 line-height:1.1;
