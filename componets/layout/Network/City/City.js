@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import {  convertFromRaw } from 'draft-js';
 import {stateToHTML} from 'draft-js-export-html';
-import axios from "axios";
+
 import { Section} from './Style'
 import Image from 'next/image';
 import Map from './Map/Map';
@@ -11,25 +11,13 @@ import  Footer from '@/componets/layout/Footer/Footer'
 import router from 'next/router';
 import { useQuery } from "react-query";
 import Loading from '@/componets/Loading/Loading';
-const fetchNetwork = async ( id) => {
-  const idd = id.queryKey[1]
-   const res = await fetch(`https://airjadli.herokuapp.com/api/client/network/${idd}`);
-   return res.json();
- };
+
 
  
  
-function City({id}) {
+function City({data}) {
 
-  const [people, setpeople] = useState("");
-  useEffect( async () => {
-    const res = await axios.get(`http://sandbox.airjaldi.com:3000/api/client/people/${id}`)
-   
-  
-    const data = await res.data;
-    setpeople(data)
-    
-  } , [id]);
+ 
   
     const convertFromJSONToHTML = (text) => {
 
@@ -42,22 +30,14 @@ function City({id}) {
             }
       }
 
-      const { data, status } = useQuery(["news" , id ], fetchNetwork);
+   
 
     
-      if(people === '')
-      {
-        return (
-          <Loading/>
-        )
-      }  
+    
 
     return (
           <>
-        {status === "error" && <p>Error fetching data</p>}
-          {status === "loading" && <Loading/>}
-          {status === "success" && (
-            <>
+    
           <Head>
         <title>{data.cityName} - AirJaldi</title>
       </Head>
@@ -123,13 +103,12 @@ function City({id}) {
        
        
 
-<Team id={id} city={data}  data1={people} />  
+<Team id={data.slug} city={data}   />  
 
 <Footer/>
 </>
       
-         )}
-         </>
+        
          
           )
       }

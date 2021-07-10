@@ -1,20 +1,31 @@
-import React from 'react'
+import React , {useState , useEffect} from 'react'
 import Image from 'next/image'
 import { Section} from './Style'
 import { useQuery } from "react-query";
 import ReadMoreReact from 'read-more-react';
 import Loading from '@/componets/Loading/Loading';
-
+import axios from "axios";
 import Masonry from "react-responsive-masonry"
 
-const fetchpeople = async ( id) => {
-  const idd = id.queryKey[1]
-   const res = await fetch(`http://localhost:3000/api/client/people/${idd}`);
-   return res.json();
- };
+
 function AllTeam({data1  , city, id}) {
 
+  const [people, setpeople] = useState("");
+  useEffect( async () => {
+    const res = await axios.get(`http://sandbox.airjaldi.com:3000/api/client/people/${id}`)
+   
+  
+    const data = await res.data;
+    setpeople(data)
+    
+  } , [people]);
 
+  if(people===""){
+    return (
+      null
+
+    )
+  }
   
   
     return (
@@ -30,7 +41,7 @@ function AllTeam({data1  , city, id}) {
                        <Masonry columnsCount={3} gutter="10px">
      
 
-          {data1.map((number, i) => {
+          {people.map((number, i) => {
             const height = Math.random() * (500 - 350) + 300;
             return (
               <div  style={{ height: `${height}px`,}}  class="flip-card">
@@ -76,7 +87,7 @@ function AllTeam({data1  , city, id}) {
                        <Masonry columnsCount={1} gutter="10px">
      
 
-          {data1.map((number, i) => {
+          {people.map((number, i) => {
             const height = Math.random() * (500 - 350) + 300;
             return (
               <div  style={{ height: `${height}px`,}}  class="flip-card">
