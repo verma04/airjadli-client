@@ -10,9 +10,29 @@ import Image from 'next/image';
 export default function Job({data}) {
   return (
     <>
+     
       <Head>
-        <title>Home - AirJaldi</title>
+      <meta charset="UTF-8"/>
+
+<title>Partnerships - AirJaldi Networks</title>
+
+<link rel="canonical" href="https://airjaldi.com/partnerships" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="People - AirJaldi Networks" />
+<meta property="og:url" content="https://airjaldi.com/partnerships" />
+<meta property="og:site_name" content="AirJaldi Networks" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Partnerships - AirJaldi Networks" />
+
+
+<meta name="og:title" content="Partnerships"/>
+<meta name="og:type" content="website"/>
+<meta name="og:url" content="https://airjaldi.com/partnerships"/>
+      
       </Head>
+    
+     
       <Section>
   
   <div className='flex' >

@@ -13,9 +13,28 @@ export default function Home({data}) {
   const router = useRouter()
   return (
     <>
-      <Head>
-        <title>Projects - AirJaldi</title>
+       <Head>
+      <meta charset="UTF-8"/>
+
+<title>Projects - AirJaldi Networks</title>
+
+<link rel="canonical" href="https://airjaldi.com/projects" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Projects - AirJaldi Networks" />
+<meta property="og:url" content="https://airjaldi.com/projects" />
+<meta property="og:site_name" content="AirJaldi Networks" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Projects - AirJaldi Networks" />
+
+
+<meta name="og:title" content="Projects"/>
+<meta name="og:type" content="website"/>
+<meta name="og:url" content="https://airjaldi.com/projects"/>
+      
       </Head>
+    
+  
   
       
    

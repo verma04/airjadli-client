@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head';
 import Navbar from '../../Navbar/BlueNavbar';
 import Footer from '../../Footer/Footer';
 import  { Section } from './Style';
@@ -24,17 +25,38 @@ const convertFromJSONToHTML = (text) => {
       }
 }
 
-function Blog({id}) {
+function Blog({data}) {
    
-    const { data, status } = useQuery(["news" , id ], fetchNews);
+
 
     return (
         <>
-        {status === "error" && <p>Error fetching data</p>}
-          {status === "loading" && <Loading/>}
-          {status === "success" && (
-          
-        <div>
+
+<Head>
+      <meta charset="UTF-8"/>
+
+<title>{data.title} - AirJaldi Networks</title>
+<meta name="description"  content= {data.newsDescription}/>
+<link rel="canonical" href={"https://airjaldi.com/" + data.slug} />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content={"https://airjaldi.com/" + data.slug}  />
+<meta property="og:url" content={"https://airjaldi.com/" + data.slug}  />
+<meta property="og:site_name" content="AirJaldi Networks" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content={"https://airjaldi.com/" + data.slug}  />
+
+
+<meta name="og:title" content="News"/>
+<meta name="og:type" content="website"/>
+<meta name="og:description" content= {data.newsDescription}/>
+<meta name="og:url" content={"https://airjaldi.com/" + data.slug} />
+      
+      </Head>
+    
+     
+     
+       
             <Navbar/>
             <Section>
             <div  className="flex" >
@@ -75,7 +97,7 @@ function Blog({id}) {
               </div>
               <div className="set-right" >
               <li>   <FacebookShareButton
-      url={`http://sandbox.airjaldi.com:5000/news/${id}`}
+      url={`http://sandbox.airjaldi.com:5000/news/${data.slug}`}
       title={"AirJaldi News"}
       hashtag="#Airjadli"
      
@@ -83,7 +105,7 @@ function Blog({id}) {
      <FacebookIcon size={36} />
    </FacebookShareButton> </li>
                                        <li>  <EmailShareButton url={`https://niraamya.herokuapp.com`}
-   url={`http://sandbox.airjaldi.com:5000/news/${id}`}
+   url={`http://sandbox.airjaldi.com:5000/news/${data.slug}`}
    title={"AirJaldi News"}
    hashtag="#Airjadli"
    >
@@ -91,7 +113,7 @@ function Blog({id}) {
      </EmailShareButton></li>
                                        <li>
                                          <WhatsappShareButton
-     url={`http://sandbox.airjaldi.com:5000/news/${id}`}
+     url={`http://sandbox.airjaldi.com:5000/news/${data.slug}`}
      title={"AirJaldi News"}
      hashtag="#Airjadli"
      separator=":: "
@@ -141,10 +163,8 @@ height='25rem'
            
            
             <Footer/>
-        </div>
-         )}
-
-   </>
+        </>
+     
     )
 }
 

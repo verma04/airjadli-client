@@ -5,12 +5,37 @@ import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import { useQuery } from "react-query";
 import Loading from '../../Loading/Loading';
+import Head from 'next/head'
 
 function contact({data}) {
 
  
     return (
       <>
+      <Head>
+      <meta charset="UTF-8"/>
+
+<title>Contact Us - AirJaldi Networks</title>
+
+<link rel="canonical" href="https://airjaldi.com/contact/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Contact Us - AirJaldi Networks" />
+<meta property="og:description" content="&nbsp;" />
+<meta property="og:url" content="https://airjaldi.com/contact/" />
+<meta property="og:site_name" content="AirJaldi Networks" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="&nbsp;" />
+<meta name="twitter:title" content="Contact Us - AirJaldi Networks" />
+
+
+
+<meta name="og:title" content="Contact Us"/>
+<meta name="og:type" content="website"/>
+<meta name="og:url" content="https://airjaldi.com/contact/"/>
+
+
+      </Head>
       
     
        <Navbar/>

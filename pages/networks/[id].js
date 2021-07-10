@@ -40,7 +40,8 @@ export const getStaticPaths = async () => {
   
   
     return {
-      props: { city: data }
+      props: { city: data },
+      revalidate: 1, 
     }
   }
   

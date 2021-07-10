@@ -17,7 +17,6 @@ import Loading from '@/componets/Loading/Loading';
  
 function City({data}) {
 
- 
   
     const convertFromJSONToHTML = (text) => {
 
@@ -30,8 +29,8 @@ function City({data}) {
             }
       }
 
-   
 
+   
     
     
 
@@ -39,7 +38,30 @@ function City({data}) {
           <>
     
           <Head>
-        <title>{data.cityName} - AirJaldi</title>
+
+          <title>{data.cityName} - AirJaldi Networks</title>
+        <meta name="keywords" content={ data.cityName  + "AirJaldi Network" }/>
+<meta name="description" content={data.cityName + "AirJaldi Network"}/>
+
+<meta name="copyright"content="https://airjaldi.com/"/>
+<meta name="language" content="ES"/>
+
+
+
+<meta name="url" content={`http://sandbox.airjaldi.com:5000/netwroks/${data.slug}`}/>
+<meta name="identifier-URL" content={`http://sandbox.airjaldi.com:5000/netwroks/${data.slug}`}/>
+
+<meta http-equiv="Expires" content="0"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Cache-Control" content="no-cache"/>
+
+<meta name="og:title" content={data.cityName + "AirJaldi Network"}/>
+<meta name="og:type" content="Networks"/>
+<meta name="og:url" content={`http://sandbox.airjaldi.com:5000/netwroks/${data.slug}`}/>
+<meta name="og:image" content={data.featureImg}/>
+
+<meta name="og:description" content={data.cityName}/>
+
       </Head>
              <Section>
               <div className="flex" >

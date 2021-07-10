@@ -1,19 +1,29 @@
 import NotFound from '@/componets/layout/Get-connected/connected';
 import  Footer  from '../componets/layout/Footer/Footer';
 import Navbar from '../componets/layout/Navbar/Navbar';
-import Head from 'next/head'
-function notfound() {
+
+function connect({data}) {
     return (
         <div>
-              <Head>
-        <title>Get-Connected</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
+        
            
-            <NotFound/>
+            <NotFound data={data}/>
            
         </div>
     )
 }
 
-export default notfound;
+export async function getStaticProps(context) {
+    const res = await fetch(` http://sandbox.airjaldi.com:3000/client/getConnection`)
+    const data = await res.json()
+  
+ 
+  
+    return {
+      props: { data },
+      revalidate: 1,  // will be passed to the page component as props
+    }
+  }
+
+
+export default connect;

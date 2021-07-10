@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-        <Html>
+        <Html class="" lang="en-US" prefix="og: http://ogp.me/ns#">
             <Head>
          
              

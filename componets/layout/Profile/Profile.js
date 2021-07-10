@@ -17,7 +17,25 @@ export default function Home({data}) {
   return (
  <>
       <Head>
-        <title>Profile - AirJaldi</title>
+      <meta charset="UTF-8"/>
+
+<title>Profile - AirJaldi Networks</title>
+
+<link rel="canonical" href="https://airjaldi.com/profile" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Profile - AirJaldi Networks" />
+<meta property="og:url" content="https://airjaldi.com//profile" />
+<meta property="og:site_name" content="AirJaldi Networks" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Profile - AirJaldi Networks" />
+
+
+<meta name="og:title" content="Home"/>
+<meta name="og:type" content="website"/>
+<meta name="og:url" content="https://airjaldi.com/profile"/>
+      
+      
       </Head>
       <Section>
       <Navbar/>

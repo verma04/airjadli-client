@@ -10,9 +10,28 @@ import Head from 'next/head';
 function payment() {
     return (
         <>
-             <Head>
-    <title>Payments - AirJaldi</title>
-  </Head>
+      <Head>
+      <meta charset="UTF-8"/>
+
+<title>Payment - AirJaldi Networks</title>
+
+<link rel="canonical" href="https://airjaldi.com/payment" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="People - AirJaldi Networks" />
+<meta property="og:url" content="https://airjaldi.com/payment" />
+<meta property="og:site_name" content="AirJaldi Networks" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Payment - AirJaldi Networks" />
+
+
+<meta name="og:title" content="Payment"/>
+<meta name="og:type" content="website"/>
+<meta name="og:url" content="https://airjaldi.com/payment"/>
+      
+      </Head>
+    
+     
         <Section>
         <Navbar/>
         <div class="grid">

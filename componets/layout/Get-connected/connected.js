@@ -9,19 +9,36 @@ import News from '../NewsLetter/News';
 import Image from 'next/image';
 import { useQuery } from "react-query";
 import Loading from '../../Loading/Loading';
-const fetchConnection = async () => {
-  const res = await fetch("https://airjadli.herokuapp.com/client/getConnection");
-  return res.json();
-};
-function Connected() {
-  const { data, status } = useQuery("connection", fetchConnection);
+import Head from 'next/head'
+function Connected({data}) {
+ 
     return (
-      <>
-      {status === "error" && <p>Error fetching data</p>}
-        {status === "loading" && <Loading/>  }
-        {status === "success" && (
-            <>
+   
         <div>
+                <Head>
+                <meta charset="UTF-8"/>
+
+<title>Get your connection Now! - AirJaldi Networks</title>
+
+
+
+
+<link rel="canonical" href="https://airjaldi.com/get-connected/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Get your connection Now! - AirJaldi Networks" />
+<meta property="og:description" content="[/vc_column_text][/vc_column][/vc_row]" />
+<meta property="og:url" content="https://airjaldi.com/get-connected/" />
+<meta property="og:site_name" content="AirJaldi Networks" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="[/vc_column_text][/vc_column][/vc_row]" />
+<meta name="twitter:title" content="Get your connection Now! - AirJaldi Networks" />
+<meta name="og:title" content="Get your connection Now!"/>
+<meta name="og:type" content="website"/>
+<meta name="og:url" content="https://airjaldi.com/get-connected/"/>
+<meta name="og:description" content="[/vc_column_text][/vc_column][/vc_row]"/>
+      
+      </Head>
             <Navbar/>
               <Section>
 
@@ -154,9 +171,8 @@ function Connected() {
           <Footer/>
         </div>
    
-        </>
-      )}
-  </>
+     
+
   );
 }
 

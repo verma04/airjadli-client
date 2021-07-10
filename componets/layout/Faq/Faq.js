@@ -8,7 +8,7 @@ import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer'
 import Loading from '../../Loading/Loading';
 
-
+import Head from 'next/head'
 
 
 function Faq({data}) {
@@ -30,8 +30,35 @@ function Faq({data}) {
  
   return (
     
-       <React.Fragment>
-      
+       <>
+
+<Head>
+<title>FAQS - AirJaldi Networks</title>
+
+	
+	
+
+<link rel="canonical" href="https://airjaldi.com/faqs/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="FAQS - AirJaldi Networks" />
+<meta property="og:description" content="General &nbsp; New connections Troubleshooting Payment" />
+<meta property="og:url" content="https://airjaldi.com/faqs/" />
+<meta property="og:site_name" content="AirJaldi Networks" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="General &nbsp; New connections Troubleshooting Payment" />
+<meta name="twitter:title" content="FAQS - AirJaldi Networks" />
+
+
+<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/>
+
+<meta name="og:title" content="FAQS"/>
+<meta name="og:type" content="website"/>
+<meta name="og:url" content="https://airjaldi.com/faqs/"/>
+<meta name="og:description" content="General &nbsp; New connections Troubleshooting Payment"/>
+     
+  
+      </Head>
            <Navbar/>
           <Section>
           <div class="grid"     >
@@ -231,7 +258,7 @@ function Faq({data}) {
 
      
 
-          </React.Fragment>
+          </>
     
     
   
