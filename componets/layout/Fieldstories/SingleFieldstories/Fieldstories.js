@@ -10,11 +10,7 @@ import {stateToHTML} from 'draft-js-export-html';
 import Loading from '../../../Loading/Loading';
 import ReactPlayer from 'react-player'
 import {FacebookShareButton, FacebookIcon , EmailShareButton, EmailIcon,   WhatsappIcon, WhatsappShareButton} from "react-share";
-const fetchStories = async ( id) => {
- const idd = id.queryKey[1]
-  const res = await fetch(`http://sandbox.airjaldi.com:3000/client/getfieldStories/${idd}`);
-  return res.json();
-};
+
 
 const convertFromJSONToHTML = (text) => {
     try{
@@ -25,22 +21,39 @@ const convertFromJSONToHTML = (text) => {
       }
 }
 
-function Blog({id}) {
+function Blog({data}) {
    
-    const { data, status } = useQuery(["Stories" , id ], fetchStories);
+    
 
     return (
-        <>
-        {status === "error" && <p>Error fetching data</p>}
-          {status === "loading" && <Loading/>}
-          {status === "success" && (
+    
           
         <div>
             <Navbar/>
 
             <Head>
-        <title>{data.title} - AirJaldi</title>
+      <meta charset="UTF-8"/>
+
+<title>{data.title} - AirJaldi Networks</title>
+
+<link rel="canonical" href={`https://airjaldi.com/field-stories/${data.slug}`} />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content={data.title - "AirJaldi Networks"} />
+<meta property="og:url" content="https://airjaldi.com/field-stories" />
+<meta property="og:site_name" content="AirJaldi Networks" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content={`https://airjaldi.com/field-stories/${data.slug}`} />
+<meta name="description" content={data.description}/>
+
+<meta name="og:title" content="field-stories"/>
+<meta name="og:type" content="website"/>
+<meta name="og:url" content={`https://airjaldi.com/field-stories/${data.slug}`}/>
+      
       </Head>
+    
+  
+          
             <Section>
             <Section>
           <div  className="flex" >
@@ -85,7 +98,7 @@ function Blog({id}) {
               </div>
               <div className="set-right" >
               <li>   <FacebookShareButton
-      url={`http://sandbox.airjaldi.com:5000/field-stories/${id}`}
+      url={`http://sandbox.airjaldi.com:5000/field-stories/${data.slug}`}
       title={"AirJaldi Stories"}
       hashtag="#Airjadli"
      
@@ -93,7 +106,7 @@ function Blog({id}) {
      <FacebookIcon size={36} />
    </FacebookShareButton> </li>
                                        <li>  <EmailShareButton url={`https://niraamya.herokuapp.com`}
-   url={`http://sandbox.airjaldi.com:5000/field-stories/${id}`}
+   url={`http://sandbox.airjaldi.com:5000/field-stories/${data.slug}`}
    title={"AirJaldi Stories"}
    hashtag="#Airjadli"
    >
@@ -101,7 +114,7 @@ function Blog({id}) {
      </EmailShareButton></li>
                                        <li>
                                          <WhatsappShareButton
-     url={`http://sandbox.airjaldi.com:5000/field-stories/${id}`}
+     url={`http://sandbox.airjaldi.com:5000/field-stories/${data.slug}`}
      title={"AirJaldi Stories"}
      hashtag="#Airjadli"
      separator=":: "
@@ -164,9 +177,7 @@ loop={true}
            
             <Footer/>
         </div>
-         )}
 
-   </>
     )
 }
 

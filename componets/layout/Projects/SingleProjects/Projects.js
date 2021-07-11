@@ -10,11 +10,6 @@ import {stateToHTML} from 'draft-js-export-html';
 import Loading from '../../../Loading/Loading';
 
 import {FacebookShareButton, FacebookIcon , EmailShareButton, EmailIcon,   WhatsappIcon, WhatsappShareButton} from "react-share";
-const fetchNews = async ( id) => {
- const idd = id.queryKey[1]
-  const res = await fetch(`http://sandbox.airjaldi.com:3000/client/getProjects/${idd}`);
-  return res.json();
-};
 
 const convertFromJSONToHTML = (text) => {
     try{
@@ -25,15 +20,34 @@ const convertFromJSONToHTML = (text) => {
       }
 }
 
-function Blog({id}) {
+function Blog({data}) {
    
-    const { data, status } = useQuery(["news" , id ], fetchNews);
+    
 
     return (
         <>
-        {status === "error" && <p>Error fetching data</p>}
-          {status === "loading" && <Loading/>}
-          {status === "success" && (
+         <Head>
+      <meta charset="UTF-8"/>
+
+<title>{data.title} - AirJaldi Networks</title>
+
+<link rel="canonical" href={`https://airjaldi.com/projects/${data.slug}`} />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content={data.data.title - "AirJaldi Networks"} />
+<meta property="og:url" content="https://airjaldi.com/projects" />
+<meta property="og:site_name" content="AirJaldi Networks" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content={`https://airjaldi.com/projects/${data.slug}`} />
+<meta name="description" content={data.description}/>
+
+<meta name="og:title" content="Projects"/>
+<meta name="og:type" content="website"/>
+<meta name="og:url" content={`https://airjaldi.com/projects/${data.slug}`}/>
+      
+      </Head>
+    
+  
           
         <div>
             <Navbar/>
@@ -53,11 +67,29 @@ function Blog({id}) {
               <div className="set-left" >
           <img src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1618642890/izo5ri94zqjviheltfps.jpg"} ></img>
              <span id="d"  >AirJaldi  Projects</span>
-             <span  > {parseInt((data.data.blocks.length)/2/6)} min read <i class="fas fa-star"></i> </span>    
+           
+          
+          
+             { parseInt((data.data.blocks.length)/2/6) === 0 ? 
+                (
+                
+                  <span>   1 min read <i class="fas fa-star"></i> </span>    
+              
+               )
+                :
+                (
+                
+                
+                  <span>     {parseInt((data.data.blocks.length)/2/6)} min read <i class="fas fa-star"></i> </span>    
+          
+              )
+
+                }
+          
               </div>
               <div className="set-right" >
               <li>   <FacebookShareButton
-      url={`http://sandbox.airjaldi.com:5000/projects/${id}`}
+      url={`http://sandbox.airjaldi.com:5000/projects/${data.slug}`}
       title={"AirJaldi Projects"}
       hashtag="#Airjadli"
      
@@ -65,7 +97,7 @@ function Blog({id}) {
      <FacebookIcon size={36} />
    </FacebookShareButton> </li>
                                        <li>  <EmailShareButton url={`https://niraamya.herokuapp.com`}
-   url={`http://sandbox.airjaldi.com:5000/projects/${id}`}
+   url={`http://sandbox.airjaldi.com:5000/projects/${data.slug}`}
    title={"AirJaldi Projects"}
    hashtag="#Airjadli"
    >
@@ -73,7 +105,7 @@ function Blog({id}) {
      </EmailShareButton></li>
                                        <li>
                                          <WhatsappShareButton
-     url={`http://sandbox.airjaldi.com:5000/projects/${id}`}
+     url={`http://sandbox.airjaldi.com:5000/projects/${data.slug}`}
      title={"AirJaldi Projects"}
      hashtag="#Airjadli"
      separator=":: "
@@ -101,7 +133,7 @@ function Blog({id}) {
            
             <Footer/>
         </div>
-         )}
+         
 
    </>
     )
