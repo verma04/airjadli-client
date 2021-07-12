@@ -15,7 +15,7 @@ function gstRegistration() {
         <div>
 
 
-<HeadHead>
+<Head>
 	<meta charset="UTF-8"/>
 
 		<title>GST Registration - AirJaldi Networks</title>
@@ -30,7 +30,7 @@ function gstRegistration() {
 <meta property="og:site_name" content="AirJaldi Networks" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="GST Registration - AirJaldi Networks" />
-            </HeadHead>
+            </Head>
             <Navbar/>
 
      
