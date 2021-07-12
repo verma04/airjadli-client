@@ -6,10 +6,8 @@ import { useQuery } from "react-query";
 import Loading from '../Loading/Loading';
 import {  convertFromRaw } from 'draft-js';
 import {stateToHTML} from 'draft-js-export-html';
-const fetchLink = async () => {
-  const res = await fetch('http://sandbox.airjaldi.com:3000/client/footerLink');
-  return res.json();
-};
+import Head from 'next/head';
+
 
 const convertFromJSONToHTML = (text) => {
     try{
@@ -19,20 +17,33 @@ const convertFromJSONToHTML = (text) => {
         return { __html: 'Error' }
       }
 }
-function privacyPolicy() {
-    const { data, status } = useQuery("links", fetchLink);
+function privacyPolicy({data}) {
+
+
+ 
     return (
         <div>
+<Head>
+<meta charset="UTF-8"/>
+
+<title>Parental Controls - AirJaldi Networks</title>
+
+
+
+
+<link rel="canonical" href="https://airjaldi.com/parentalControls" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Parental Controls - AirJaldi Networks" />
+<meta property="og:url" content="https://airjaldi.com/parentalControls" />
+<meta property="og:site_name" content="AirJaldi Networks" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Parental Controls - AirJaldi Networks" />
+        
+        </Head>
             <Navbar/>
                
-    {status === "error" && <p>Error fetching data</p>}
-      {status === "loading" && 
-      
-    <Loading/>
-      
-      }
-      {status === "success" && (
-<>
+
      
             <Section>
             <div  className="flex" >
@@ -47,8 +58,6 @@ function privacyPolicy() {
             </Section>
             <Footer/>
 
-            </>
-            )}
             
         </div>
     )

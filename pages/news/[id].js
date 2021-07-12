@@ -37,7 +37,7 @@ export const getStaticPaths = async () => {
 
     console.log(id)
  
-    const res = await axios.get(`http://sandbox.airjaldi.com:3000/api/getNews/${id}`);
+    const res = await axios.get(`http://sandbox.airjaldi.com:3000/api/getNews/${encodeURI(id)}`);
     const data = await res.data;
     console.log(data)
     return {

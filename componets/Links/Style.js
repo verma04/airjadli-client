@@ -21,7 +21,7 @@ export const Section = styled.section`
    }
    .flex {
      margin-top:12vh;
-     width:80rem;
+     width:75rem;
      height:76%;
     
      .single-post{

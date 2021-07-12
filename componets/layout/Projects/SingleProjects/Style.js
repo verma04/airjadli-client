@@ -446,6 +446,7 @@ padding-left: 1rem;;
    justify-content:center;
    width:100%;
    height:100%;
+   
    h3 {
      margin-top: 1rem;;
    }

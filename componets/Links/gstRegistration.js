@@ -6,13 +6,31 @@ import { useQuery } from "react-query";
 import Loading from '../Loading/Loading';
 import {  convertFromRaw } from 'draft-js';
 import {stateToHTML} from 'draft-js-export-html';
-
+import Head from 'next/head';
 
 
 function gstRegistration() {
     
     return (
         <div>
+
+
+<HeadHead>
+	<meta charset="UTF-8"/>
+
+		<title>GST Registration - AirJaldi Networks</title>
+
+	
+
+<link rel="canonical" href="https://airjaldi.com/gstRegistration" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="GST Registration - AirJaldi Networks" />
+<meta property="og:url" content="https://airjaldi.com/gstRegistration" />
+<meta property="og:site_name" content="AirJaldi Networks" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="GST Registration - AirJaldi Networks" />
+            </HeadHead>
             <Navbar/>
 
      
