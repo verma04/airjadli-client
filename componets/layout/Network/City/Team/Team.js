@@ -16,9 +16,9 @@ function AllTeam({data1  , city, id}) {
    
   
     const data = await res.data;
-    setpeople(data)
+   await setpeople(data)
     
-  } , [people]);
+  } , []);
 
   if(people===""){
     return (
@@ -27,6 +27,7 @@ function AllTeam({data1  , city, id}) {
     )
   }
   
+  console.log(people)
   
     return (
      
