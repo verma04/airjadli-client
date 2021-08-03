@@ -523,6 +523,11 @@ font-size:1.2rem;
 }
 @media (max-width: 767px) {
 z-index:1;
+h2 {
+    text-align:left;
+    font-weight: 900;
+}
+
 .grid {
 
     width:100%;
@@ -578,6 +583,7 @@ p {
 .head {
     h2 {
     text-align:left;
+    font-weight: 900;
 }
 
 }

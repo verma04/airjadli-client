@@ -468,7 +468,7 @@ padding-left: 1rem;;
           height:100%;
           .head {
               text-align: left;
-              font-size:3rem;
+              font-size:2rem;
             letter-spacing: -0.011em;
               font-weight:1000;
               padding-bottom: 0.5rem;
