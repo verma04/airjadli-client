@@ -70,7 +70,7 @@ arry.push(...dat , ...dat2);
  const height = Math.random() * (500 - 350) + 350;
 
  return (
-      <div  style={{height: `${height}px`}} class="flip-card">
+      <div  style={{height: `25rem`}} class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
 
@@ -121,7 +121,7 @@ arry.push(...dat , ...dat2);
  const height = Math.random() * (500 - 350) + 350;
 
  return (
-      <div  style={{height: `${height}px`}} class="flip-card">
+      <div  style={{height: `25rem`}} class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
         <Image
@@ -211,7 +211,7 @@ arry.push(...dat , ...dat2);
  const height = Math.random() * (500 - 350) + 350;
 
  return (
-      <div  style={{height: `${height}px`}} class="flip-card">
+      <div  style={{height: `25rem`}} class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
         <Image
@@ -262,7 +262,7 @@ arry.push(...dat , ...dat2);
  const height = Math.random() * (500 - 350) + 350;
 
  return (
-      <div  style={{height: `${height}px`}} class="flip-card">
+      <div  style={{height: `25rem`}} class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
         <Image

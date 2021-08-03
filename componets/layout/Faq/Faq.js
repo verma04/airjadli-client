@@ -59,6 +59,9 @@ function Faq({data}) {
      
   
       </Head>
+     
+     
+     
            <Navbar/>
           <Section>
           <div class="grid"     >

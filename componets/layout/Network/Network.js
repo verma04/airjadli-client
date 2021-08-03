@@ -38,7 +38,8 @@ export default function Home({data1}) {
 <meta name="og:title" content="Networks"/>
 <meta name="og:type" content="website"/>
 <meta name="og:url" content="https://airjaldi.com/partnerships"/>
-      
+<meta property='og:description' content={data.NetworkPageDescription}/>
+<meta name='description' content={data.NetworkPageDescription}/>
       </Head>
     
   

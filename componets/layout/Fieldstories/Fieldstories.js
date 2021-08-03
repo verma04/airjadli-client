@@ -33,7 +33,9 @@ export default function Home({data}) {
 <meta name="og:type" content="website"/>
 <meta name="og:url" content="https://airjaldi.com/field-stories"/>
      
-     
+<meta property='og:description' content="field-stories - AirJaldi Networks"/>
+<meta name='description' content="field-stories - AirJaldi Networks"/>
+
    
  
      </Head>

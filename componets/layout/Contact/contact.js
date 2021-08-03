@@ -33,6 +33,8 @@ function contact({data}) {
 <meta name="og:title" content="Contact Us"/>
 <meta name="og:type" content="website"/>
 <meta name="og:url" content="https://airjaldi.com/contact/"/>
+<meta property='og:description' content={data.ContactDescription}/>
+<meta name='description' content={data.ContactDescription}/>
 
 
       </Head>

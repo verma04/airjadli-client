@@ -23,6 +23,8 @@ function payment() {
 <meta property="og:site_name" content="AirJaldi Networks" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Payment - AirJaldi Networks" />
+<meta property='og:description' content="Airjaldi Payments"/>
+<meta name='description' content="Airjaldi Payments"/>
 
 
 <meta name="og:title" content="Payment"/>

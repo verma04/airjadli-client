@@ -30,7 +30,8 @@ export default function Home({data}) {
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Profile - AirJaldi Networks" />
 
-
+<meta property='og:description' content={data.profileDescription}/>
+<meta name='description' content={data.profileDescription}/>
 <meta name="og:title" content="Home"/>
 <meta name="og:type" content="website"/>
 <meta name="og:url" content="https://airjaldi.com/profile"/>
@@ -52,7 +53,7 @@ export default function Home({data}) {
 
 <div className="birdOut" >
       <div className="birdd" > 
-  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
+  <img  alt="Image Arrow" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
    </div>
          </div>
   

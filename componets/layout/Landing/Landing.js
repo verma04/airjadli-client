@@ -30,12 +30,14 @@ export default function Home({data}) {
 <link rel="canonical" href="https://airjaldi.com/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
+
 <meta property="og:title" content="Home - AirJaldi Networks" />
 <meta property="og:url" content="https://airjaldi.com/" />
 <meta property="og:site_name" content="AirJaldi Networks" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Home - AirJaldi Networks" />
-
+<meta property='og:description' content='AirJaldi, the brand name used by Rural Broadband Pvt. Ltd., a class A Internet Service Provider, provides high-quality broadband connectivity to rural areas ...'/>
+<meta name='description' content='AirJaldi, the brand name used by Rural Broadband Pvt. Ltd., a class A Internet Service Provider, provides high-quality broadband connectivity to rural areas ...'/>
 
 <meta name="og:title" content="Home"/>
 <meta name="og:type" content="website"/>
@@ -47,7 +49,7 @@ export default function Home({data}) {
 
       <div className="birdOut" >
       <div className="birdd" > 
-  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
+  <img alt="Image Arrow" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
    </div>
          </div>
    
@@ -55,7 +57,7 @@ export default function Home({data}) {
     <Image
               className="myImage"
         src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1618478621/ycpsax6xqmnxp58qv0nn.jpg'
-        alt="Picture of the author"
+        alt="Landing Image"
         layout="fill"
        
         objectFit="cover"
@@ -76,7 +78,7 @@ export default function Home({data}) {
 <Image
            className="myImage"
      src={number.sectionAvatar}
-     alt="Picture of the author"
+     alt="Cover"
      layout="fill"
      objectFit="cover"
    />
@@ -87,7 +89,7 @@ export default function Home({data}) {
   <p>{number.sectionDes}
 </p>
 <div className='link' >
-<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<img alt="Image Arrow" src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
 <span  onClick={() => router.push(`/${number.link}`)} > {number.sectionLink}</span> </div>
 </div>
 </div>
@@ -121,10 +123,9 @@ export default function Home({data}) {
 
    <div className="data" >
      <h2>{number.sectionHead}</h2>
-     <p>{number.sectionDes}
-ar ...   </p>
+     <p>{number.sectionDes} ...   </p>
 <div className='link' >
-<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<img  alt="Image Arrow"  src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
  <span onClick={() => router.push(`/${number.link}`)}  >  {number.sectionLink}</span> </div>
    </div>
   </div>

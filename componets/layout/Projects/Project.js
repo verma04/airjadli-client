@@ -31,6 +31,8 @@ export default function Home({data}) {
 <meta name="og:title" content="Projects"/>
 <meta name="og:type" content="website"/>
 <meta name="og:url" content="https://airjaldi.com/projects"/>
+<meta property='og:description' content="Projects - AirJaldi Networks"/>
+<meta name='description' content="Projects - AirJaldi Networks"/>
       
       </Head>
     

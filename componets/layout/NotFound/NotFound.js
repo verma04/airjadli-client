@@ -2,13 +2,42 @@
 
 import React from 'react'
 
+import Head from 'next/head'
 import { Section} from './Style';
 import Navbar from '../Navbar/BlueNavbar';
 import Footer from '../Footer/Footer';
 
 function NotFound() {
     return (
+        
         <div>
+
+
+<Head>
+<title>FAQS - AirJaldi Networks</title>
+
+	
+	
+
+<link rel="canonical" href="https://airjaldi.com/*" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content=" 404 - AirJaldi Networks" />
+<meta property="og:description" content="404 - Page not Found" />
+<meta property="og:url" content="https://airjaldi.com/faqs/" />
+<meta property="og:site_name" content="AirJaldi Networks" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="404 - Page not Found" />
+<meta name="twitter:title" content="404 - AirJaldi Networks" />
+
+
+
+  
+      </Head>
+     
+     
+     
+      
             <Navbar/>
               <Section>
             <div className='flex' >

@@ -28,7 +28,8 @@ export default function Home({data}) {
 <meta property="og:site_name" content="AirJaldi Networks" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Training - AirJaldi Networks" />
-
+<meta property='og:description' content={data.tranningDescription}/>
+<meta name='description' content={data.tranningDescription}/>
 
 <meta name="og:title" content="Training"/>
 <meta name="og:type" content="website"/>
