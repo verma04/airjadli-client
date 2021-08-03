@@ -9,13 +9,10 @@ import Map from './Map/Map'
 import Image from 'next/image';
 import { useQuery } from "react-query";
 import Loading from '../../Loading/Loading';
-const networks = async () => {
-  const res = await fetch("http://sandbox.airjaldi.com:3000/api/client/network");
-  return res.json();
-};
+
 
 export default function Home({data1}) {
-  const { data, status } = useQuery("networks", networks);
+  
   
   return (
    
@@ -38,8 +35,8 @@ export default function Home({data1}) {
 <meta name="og:title" content="Networks"/>
 <meta name="og:type" content="website"/>
 <meta name="og:url" content="https://airjaldi.com/partnerships"/>
-<meta property='og:description' content={data1.NetworkPageDescription}/>
-<meta name='description' content={data1.NetworkPageDescription}/>
+<meta property='og:description' content={data1.page.NetworkPageDescription}/>
+<meta name='description' content={data1.page.NetworkPageDescription}/>
       </Head>
     
   
@@ -52,7 +49,7 @@ export default function Home({data1}) {
     <div class="grid"    >
     <Image
               className="myImage"
-        src={data1.NetworkPageAvatar}
+        src={data1.page.NetworkPageAvatar}
        
         layout="fill"
        
@@ -71,7 +68,7 @@ export default function Home({data1}) {
   <div class='grid1' >
 
   <h1>
-  {data1.NetworkPageDescription}
+  {data1.page.NetworkPageDescription}
       </h1>
 
    
@@ -91,17 +88,14 @@ export default function Home({data1}) {
 
       </Section>
      
-<Section1 data1={data1} />
+<Section1 data1={data1.page} />
 
-{status  === "loading" && 
-<p></p>
-      }
-      {status  === "success" && (
+
           <>
-<Map  data={data} />
+<Map  data={data1.list} />
  
  </>
-      )}
+    
     
        
       <Footer/>

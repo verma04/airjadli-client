@@ -49,7 +49,7 @@ export default function Home({data}) {
     <div class="grid"     >
     <Image
               className="myImage"
-        src={data.PeoplePageAvatar}
+        src={data.Page.PeoplePageAvatar}
         alt="Picture of the author"
         layout="fill"
        
@@ -66,7 +66,7 @@ export default function Home({data}) {
   <div class='grid1' >
 
   <h1>
-{data.PeoplePageDescription}
+{data.Page.PeoplePageDescription}
       </h1>
 
    
@@ -85,7 +85,7 @@ export default function Home({data}) {
 
       </Section>
      
-     <Team page={data}/>
+     <Team page={data.Page}  data={data.list}/>
     
       
        

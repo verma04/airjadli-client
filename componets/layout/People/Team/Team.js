@@ -13,23 +13,17 @@ import Loading from '../../../Loading/Loading';
 
 
 import useAxios from 'axios-hooks'
-function Aboutus({page}) {
+function Aboutus({page, data}) {
 
-  useEffect( async () => {
-    axios.get(`http://sandbox.airjaldi.com:3000/api/client/allpeople`)
-    .then(res => {
-      const people = res.data;
-      setdata( people );
-    })
-  }, [] )
+
 
 
 
    
     const [  active , setActive] = useState("All");
-    const [  data , setdata] = useState("");
+    
    
-    if (data === "") return <p> </p>
+    
  
 
 
@@ -68,6 +62,9 @@ function Aboutus({page}) {
               
                 
                </div> 
+    
+    
+    
         </Section>
 
 
