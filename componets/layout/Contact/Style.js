@@ -35,7 +35,7 @@ display:flex;
     
        .grid1 {
            
-            width:50%;
+         
           
             background-color:white;
             display:flex;
