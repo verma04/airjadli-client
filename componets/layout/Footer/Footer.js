@@ -70,30 +70,30 @@ const Navbar = () => {
     
     <div className='top' > 
           <div className ="contact1" >
-       <Link href='jaldifiTerms' >JaldiFi terms</Link>
+       <Link href='/jaldifiTerms' >JaldiFi terms</Link>
        
      </div>
 
      <div className ="contact1" >
-       <Link href='gstRegistration' >GST Registration</Link>
+       <Link href='/gstRegistration' >GST Registration</Link>
      
      </div>
      <div className ="contact1" >
-       <Link href='parentalControls' >Parental controls</Link>
+       <Link href='/parentalControls' >Parental controls</Link>
      
      </div>
 
      <div className ="contact1" >
-       <Link href='privacyPolicy' >Privacy policy</Link>
+       <Link href='/privacyPolicy' >Privacy policy</Link>
      
      </div>
      
      <div className ="contact1" >
-       <Link href="terms" >Terms & Conditions</Link>
+       <Link href="/terms" >Terms & Conditions</Link>
      
      </div>
      <div className ="contact1" >
-       <Link href="financial" >Financial</Link>
+       <Link href="/financial" >Financial</Link>
      
      </div>
     
