@@ -85,11 +85,11 @@ export default function Home({data}) {
       </Section>
      
      <About about={data.profileAboutus} />
-     <Fact/>
+     <Fact data={data}/>
 
      <History data={data.history}/>
 
-     <Working/>
+     <Working data={data}/>
       
       
        

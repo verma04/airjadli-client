@@ -1,7 +1,7 @@
 import React from 'react';
 import { Section } from './Style'
 import Image from 'next/image'
-function Fact() {
+function Fact({data}) {
     return (
         <Section>
            <div class="flex" >
@@ -15,43 +15,40 @@ function Fact() {
                   <div className="img" >
                   <Image
               className="myImage"
-        src="https://res.cloudinary.com/airjaldi/image/upload/v1623410753/9-states-icon_hgcaaq.png"
+        src={data.icon1img}
         alt="Picture of the author"
         layout="fill"
         objectFit="fit"
       />
   </div>
-  <h2>9 States</h2>
-  <span>Operating in
-  9 States</span>
+  <h2>{data.icon1head}</h2>
+  <span>{data.icon1para}</span>
                    </div>
                    <div class='logo1' >
                   <div className="img" >
                   <Image
               className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613366992/AirJaldi/iy44qpfeaoium4ejgsuw.png"
+              src={data.icon2img}
         alt="Picture of the author"
         layout="fill"
         objectFit="fit"
       />
   </div>
-  <h2>40 Networks</h2>
-  <span>Operating in
- 40 + Networks</span>
+  <h2>{data.icon2head}</h2>
+  <span>{data.icon2para}</span>
                    </div>
                    <div class='logo1' >
                   <div className="img" >
                   <Image
               className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613366992/AirJaldi/vu1r1krloemwladscg0m.png"
+              src={data.icon3img}
         alt="Picture of the author"
         layout="fill"
         objectFit="cover"
       />
   </div>
-  <h2>80,000 km <i>2</i> </h2>
-  <span>Combined Wireless
-Coverage Area</span>
+  <h2>{data.icon3head}</h2>
+  <span>{data.icon3para}</span>
                    </div>
                 
 
@@ -59,14 +56,15 @@ Coverage Area</span>
                   <div className="img" >
                   <Image
               className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613366992/AirJaldi/qltmiitz4diabtpiko5k.png"
+              src={data.icon4img}
         alt="Picture of the author"
         layout="fill"
         objectFit="cover"
       />
   </div>
-  <h2>200,000  +  </h2>
-  <span>Registered Users</span>
+
+  <h2>{data.icon4head}</h2>
+  <span>{data.icon4para}</span>
                    </div>
                 
                 
@@ -84,21 +82,7 @@ Coverage Area</span>
   <span>Registered Users</span>
                    </div> */}
 
-                   <div class='logo1' >
-                  <div className="img" >
-                  <Image
-              className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613366992/AirJaldi/y53asfiviamltztybdgr.png"
-        alt="Picture of the author"
-        layout="fill"
-        objectFit="cover"
-      />
-  </div>
-  <h2>Internet Access</h2>
-  <span>Internet Access Beneficiaries*</span>
-                   </div>
-            
-            
+               
             
                    </div> 
                </div> 

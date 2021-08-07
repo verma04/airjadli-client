@@ -9,6 +9,9 @@ display:flex;
 justify-content:center;
 height:100%;
 margin-top:5rem;
+h2 {
+    text-transform: uppercase;
+}
 @media (min-width: 1281px) {
 
 
