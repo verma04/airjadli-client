@@ -48,7 +48,9 @@ export default function Home({data}) {
   </div>
   
   <div class='grid1' >
-<h2>{data.work3head}</h2>
+
+
+<h2   >{data.work3head}</h2>
 <p>{data.work3para} </p>
 
    

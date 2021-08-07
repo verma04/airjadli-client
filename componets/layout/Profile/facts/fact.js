@@ -47,7 +47,7 @@ function Fact({data}) {
         objectFit="cover"
       />
   </div>
-  <h2>{data.icon3head}</h2>
+  <h2   dangerouslySetInnerHTML={{ __html: data.icon3head }} ></h2>
   <span>{data.icon3para}</span>
                    </div>
                 
