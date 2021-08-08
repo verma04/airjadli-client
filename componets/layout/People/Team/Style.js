@@ -18,7 +18,9 @@ margin-top:5rem;
        justify-content:space-between;
        flex-direction:column;
        align-items:center;
-       width:75rem;
+     
+    width: 81rem;
+
        z-index:1000;
        .head {
            width:100%;
