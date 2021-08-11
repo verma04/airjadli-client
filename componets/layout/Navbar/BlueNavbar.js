@@ -83,7 +83,7 @@ const Navbar = () => {
         <div className="list" >
         <h3 id={router.pathname == "/networks" ? "active" : ""}>  <Link    href="/networks" >Networks</Link></h3>
         <h3 id={router.pathname == "/projects" ? "active" : ""}>  <Link    href="/projects" >Project</Link></h3>
-        <h3 id={router.pathname == "/services" ? "active" : ""}>  <Link   href="/services" >Services</Link></h3>
+
         <h3 id={router.pathname == "/training" ? "active" : ""}>  <Link    href="/training" >Training</Link></h3>
         <h3 className="news" id={router.pathname == "/field-stories" ? "active" : ""}>  <Link    href="/field-stories" >Field Stories</Link></h3>
         </div>
@@ -95,26 +95,8 @@ const Navbar = () => {
              
                </div>
                <div class="nav-item" >
-               <span   >  GET CONNECTED </span>
+               <span   onClick={() =>router.push("/services")} > OUR SERVICES </span>
  
-               <div className="tri" ></div>
-               <div class="dropdown-content">
- 
-                 
-        <div className="content" >
-       
-       
-        <div className="list" >
-        <h3 id={router.pathname == "/get-connected" ? "activesm" : ""} className="small" > <Link  href="/get-connected" >Get a new Connection</Link></h3>
-        <h3 id={router.pathname == "/customers" ? "activesm" : ""} className="small" >  <Link   href="/customers" >Existing Customers</Link></h3>
-        <h3  id={router.pathname == "/faqs" ? "active" : ""} >   <Link   href="/faqs" >FAQs</Link></h3>
-          
-        </div>
- 
-        </div>
-   </div>
-             
-             
                </div>
                <div class="nav-item" >
                <span id={router.pathname == "/get-connected" ? "activesm" : ""}  >   <Link  href="/contact" >  CONTACT US  </Link> </span>
