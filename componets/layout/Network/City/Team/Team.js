@@ -45,7 +45,7 @@ function AllTeam({data1  , city, id}) {
           {people.map((number, i) => {
             const height = Math.random() * (500 - 350) + 300;
             return (
-              <div  style={{ height: `${height}px`,}}  class="flip-card">
+              <div  style={{height: `25rem`}} class="flip-card">
   <div class="flip-card-inner">
         <div class="flip-card-front">
         <Image
@@ -91,7 +91,7 @@ function AllTeam({data1  , city, id}) {
           {people.map((number, i) => {
             const height = Math.random() * (500 - 350) + 300;
             return (
-              <div  style={{ height: `${height}px`,}}  class="flip-card">
+              <div  style={{height: `25rem`}} class="flip-card">
   <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src={number.memberAvatar} alt="Avatar" />
