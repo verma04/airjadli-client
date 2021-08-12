@@ -3,20 +3,19 @@ import { Section } from './Style'
 import Image from 'next/image'
 import Banner from './Banner'
 import Imags from '../Image/Image'
-function Fact() {
+function Fact({data}) {
     return (
         <Section>
            <div class="flex" >
            <div class="left" >
              <div className="head" >
-                 <h2>How Online Payments Work </h2>
- <span> It's an easier, faster and safer way to pay online and on your mobile </span>
+                 <h2>{data.workhead1}</h2>
+ <span> {data.workhead2} </span>
              </div>
              <div className="mid" >
               <li>
           <span>
-            <i> 1. </i>   Sign in
-It's easy and only takes a few seconds
+            <i> 1. </i>   {data.work1head}
 
           </span>
              
@@ -24,36 +23,30 @@ It's easy and only takes a few seconds
               <li>
              
               <i> 2. </i> 
-       
-          Select the bill for which you want to pay
-You have a list of all your connections, bills & Status
+              {data.work2head}
 
 
               </li>
               <li>
               <i> 3. </i> 
-          Pick your choice of payment option
-Credit/Debit Cards, Internet Banking, UPI etc.
-
+              {data.work3head}
 
               </li>
 
               <li>
               <i> 4. </i> 
-          
-Receive email receipt of your payment made
-Airjaldi will send you the status emails for your reference
+              {data.work4head}
               </li>
              </div>
              <div className="bottom" >
-                 <span>This is only for representational purpose. The actual sign up requires you to provide other</span>
+                 <span>{data.workpara}</span>
              </div>
                 </div>
 
                <div className="right" >
                <Image
               className="myImage"
-        src="https://res.cloudinary.com/airjaldi/image/upload/v1622693959/mobile-screen-1_muudrp.png"
+        src={data.workAvatar}
         alt="Picture of the author"
         layout="fill"
         objectFit="contain"
@@ -62,8 +55,8 @@ Airjaldi will send you the status emails for your reference
                 
                 </div> 
                </div> 
-        <Imags/>
-        <Banner/>
+        <Imags data={data}/>
+        <Banner  data={data}/>
         </Section>
     )
 }

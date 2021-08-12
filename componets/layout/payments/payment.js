@@ -7,7 +7,7 @@ import Facts from './facts/fact'
 import Images from './Image/Image'
 import Page from './page/Page'
 import Head from 'next/head';
-function payment() {
+function payment({data}) {
     return (
         <>
       <Head>
@@ -39,7 +39,7 @@ function payment() {
         <div class="grid">
     <Image
               className="myImage"
-        src="https://res.cloudinary.com/airjaldi/image/upload/v1622693976/AirJaldi_New_Year_3_h9mo2g.jpg"
+        src={data.PaymentAvatar}
         alt="Picture of the author"
         layout="fill"
        
@@ -54,14 +54,13 @@ function payment() {
       <div class='card-1'  >
   <div class='grid1' >
 
-      <h1>PAY BILLS ONLINE<br></br>
-SAFE & EASY.</h1>
+      <h1>{data.Paymenthead1}</h1>
 
-<button onClick={()  =>  window.open('https://billing.airjaldi.net', '_blank')  }  >Pay your bill now</button>
+<button onClick={()  =>  window.open('https://billing.airjaldi.net', '_blank')  }  >{data.PaymentButton}</button>
 
-<span>For new connection and help with billing 
+<span>{data.PaymentPara1}
     <br></br>
-    <li>please contact 18001213648</li>
+    <li>{data.PaymentParaBot}</li>
 </span>
 
   <h1>
@@ -89,10 +88,10 @@ SAFE & EASY.</h1>
 
         </Section>
            
-            <Facts/>
+            <Facts data={data}/>
 
           
-            <Page/>
+            <Page data={data}/>
           
             <Footer/>
         </>

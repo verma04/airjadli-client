@@ -56,7 +56,7 @@ export default function Home({data}) {
     
     <Image
               className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1618478621/ycpsax6xqmnxp58qv0nn.jpg'
+        src={data.landingAvatar}
         alt="Landing Image"
         layout="fill"
        

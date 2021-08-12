@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Banner() {
+function Banner({data}) {
     return (
       <>
      
@@ -9,18 +9,18 @@ function Banner() {
 
 
 
-        <h1>Start paying your bills with Airjaldi today</h1>
+        <h1>{data.bannerHead}</h1>
   
   <div className='btn' >
-  <button onClick={()  =>  window.open('https://billing.airjaldi.net', '_blank')  }  >Pay your bill now</button>
+  <button onClick={()  =>  window.open('https://billing.airjaldi.net', '_blank')  }  >{data.bannerbutton}</button>
   </div>
  
 
   
   <span>
 
-  For more about payments or resolving payment issues yo may connect with our billing team here,
-<br></br>Connect <span> 18001213648</span>
+ {data.bannerQuery}
+<br></br><span> {data.bannerNumber}</span>
   </span>
   
     <h1>

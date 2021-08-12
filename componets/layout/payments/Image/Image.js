@@ -1,7 +1,7 @@
 import React from 'react';
 import { Section } from './Style'
 import Image from 'next/image'
-function Fact() {
+function Fact({data}) {
     return (
         <Section>
            <div class="flex-1" >
@@ -10,7 +10,7 @@ function Fact() {
 
                <Image
               className="myImage"
-        src="https://res.cloudinary.com/airjaldi/image/upload/v1622725388/payment-1_rtkf5v.png"
+        src={data.bannerAvatar}
         alt="Picture of the author"
         layout="fill"
         objectFit="contain"
