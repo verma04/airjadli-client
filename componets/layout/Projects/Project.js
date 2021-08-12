@@ -1,11 +1,11 @@
 import Head from 'next/head';
-import Navbar from '../Navbar/BlueNavbar';
+import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer'
 import { Section} from './Style'
 import styled, { createGlobalStyle } from 'styled-components';
 import { useQuery } from "react-query";
 import Image from 'next/image'
-
+import { Section1 } from './Style1'
 import { useRouter } from 'next/router'
 import Loading from '../../Loading/Loading';
 export default function Home({data}) {
@@ -38,16 +38,61 @@ export default function Home({data}) {
     
   
   
-      
+      <Section1>
+      <Navbar/>
+    <div class="grid">
+    <Image
+              className="myImage"
+        src={data.page.ProjectsPageAvatar}
+        alt="Picture of the author"
+        layout="fill"
+       
+        objectFit="cover"
+      />
+
+
+<div className="birdOut" >
+      <div className="birdd" > 
+ 
+   </div>
+         </div>
+  
+      <div class='card'  >
+       
+
+      <div class='card-1'  >
+  <div class='grid1' >
+
+  <h1>
+ {data.page.ProjectsPageDescription}
+      </h1>
+
+   
+  </div>
+ 
+
+
+
+ 
+
+
+</div>
+</div>
+    </div>
+
+
+
+      </Section1>
+     
    
 
       <Section>
-      <Navbar/>
+
     <div class="grid"    >
    
       <div class='card'  >
       <div class='card-1'  >
-      {data.map((number) =>  
+      {data.data.map((number) =>  
       <div  onClick={() => router.push(`/projects/${number.slug}`) }  class='grid1' >
 
 <div className="wrapper"  style={{  position: 'relative', width:"100%", height: '13rem'}} >

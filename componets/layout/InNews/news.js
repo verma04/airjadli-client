@@ -1,7 +1,8 @@
 import Head from 'next/head';
-import Navbar from '../Navbar/BlueNavbar';
+import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer'
 import { Section} from './Style'
+import { Section1} from './Style1'
 import moment from 'moment'
 import { useEffect  , useState  } from 'react';
 import ReadMoreReact from 'read-more-react';
@@ -42,7 +43,52 @@ export default function Home({data}) {
       </Head>
     
      
-     
+      <Section1>
+      <Navbar/>
+    <div class="grid">
+    <Image
+              className="myImage"
+        src={data.page.NewsPageAvatar}
+        alt="Picture of the author"
+        layout="fill"
+       
+        objectFit="cover"
+      />
+
+
+<div className="birdOut" >
+    
+         </div>
+  
+      <div class='card'  >
+       
+
+      <div class='card-1'  >
+  <div class='grid1' >
+
+  <h1>
+ {data.page.NewsPageDescription}
+      </h1>
+
+   
+  </div>
+ 
+
+
+
+ 
+
+
+</div>
+</div>
+    </div>
+
+
+
+      </Section1>
+  
+    
+
    
      
       <Section>
@@ -51,7 +97,7 @@ export default function Home({data}) {
    
    <div class='card'  >
    <div class='card-1'  >
-   {data.map((number) =>  
+   {data.data.map((number) =>  
    
 <div  onClick={() => router.push(`/news/${number.slug}`) }  class='grid1' >
 

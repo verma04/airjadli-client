@@ -32,7 +32,7 @@ export default function Project({data}) {
     
       <div class='card'  >
       <div class='card-1'  >
-        {data1.slice(0, 3).map((number) =>  
+        {data1.data.slice(0, 3).map((number) =>  
 <div onClick={() => router.push(`/projects/${number.slug}`) } class='grid1' >
 
 <div className="wrapper"  >
