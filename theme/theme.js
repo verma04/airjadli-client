@@ -5,6 +5,9 @@ import {  createGlobalStyle } from "styled-components";
  em {
   font-style: italic;
 }
+strong {
+  font-weight: bold;
+}
 
 sub, sup {
   /* Specified in % so that the sup/sup is the right size relative to the surrounding text */
