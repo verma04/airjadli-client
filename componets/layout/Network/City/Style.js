@@ -27,7 +27,7 @@ max-height:50rem;
         height:100%;
         display:flex;
         justify-content:center;
-       
+        align-items:center;
         flex-direction:column;
         .head {
             width:100%;

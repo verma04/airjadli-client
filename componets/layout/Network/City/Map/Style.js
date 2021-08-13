@@ -30,7 +30,7 @@ margin-top:5rem;
         height:100%;
         display:flex;
         justify-content:center;
-        align-items:center;
+        
         flex-direction:column;
        p {
            padding-top:1rem;
@@ -111,7 +111,7 @@ margin-top:5rem;
         height:100%;
         display:flex;
         justify-content:center;
-        align-items:center;
+        
         flex-direction:column;
        p {
            padding-top:1rem;
@@ -185,7 +185,7 @@ margin-top:5rem;
         height:100%;
         display:flex;
         justify-content:center;
-        align-items:center;
+        
         flex-direction:column;
        p {
            padding-top:1rem;
