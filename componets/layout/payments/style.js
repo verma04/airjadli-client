@@ -8,6 +8,9 @@ export const  Section = styled.section`
 display:flex;
 justify-content:center;
 height:100%;
+flex-direction: column;
+align-items: center;
+width: 100%;
 
 @media (min-width: 1281px) {
 
@@ -116,6 +119,11 @@ height:100%;
        
     }
    
+
+    .youtube {
+        margin-top: 3rem;
+        width: 80%;
+    }
 
   
 
@@ -405,6 +413,11 @@ flex-direction: column;
    
 }
 
+
+.youtube {
+        margin-top: 3rem;
+        width: 90%;
+    }
 
 
 

@@ -1,13 +1,29 @@
 import Head from 'next/head';
-
+import { useEffect , useState} from 'react'
 import { Section} from './Style'
-import { Router, useRouter } from "next/router";
+
 
 import Image from 'next/image';
 
+import {  convertFromRaw } from 'draft-js';
+import {stateToHTML} from 'draft-js-export-html';
+const convertFromJSONToHTML = (text) => {
+  let data = JSON.parse(text)
 
-export default function Home({data}) {
-  const router = useRouter();
+    try{
+        return { __html: stateToHTML(convertFromRaw(data))}
+      } catch(exp) {
+        console.log(exp)
+        return { __html: 'Error' }
+      }
+}
+
+
+
+ function Data({ser  }) {
+
+  
+
   return (
     <>
       <Head>
@@ -15,52 +31,77 @@ export default function Home({data}) {
       </Head>
       <Section>
     
-    <div class="grid"   >
+      <div className="haed" >
+ <h2>Services({ser.servicesSet.length})</h2>
 
-        <div className="head" >
-            <h2>{data.servicesData}</h2>
-        </div>
+
+                
+            </div>
+  
+        <div className='flex' >
+        {ser.servicesSet.map((number , index ) => 
+            <div   key={number._id} className="flex-1" >
+      <div className="head" >
+          <h2>{index+1}. {number.servicesName}</h2>
+      </div>
+      
+      <div className='data' >
+     
+       <div className='left' >
     
-
-    <div className="data" > 
-    <div className="set" >
-     <h2>{data.SectionHead}</h2>
-
-<p>{data.SectionData}</p>
-
-<p>Call 1-800-200-9989 or email , <span  style={{cursor:"pointer"}}  onClick={() => window.open('mailto:support@airjaldi.com') }  > support@airjaldi.com <span/></span> to get connected</p>
-
-    </div>
-    </div>
-
-
-<div className="data-1" >
-    <div className="left" >
-
-        <h2>{data.Section2head}</h2>
-        <p>
-{data.Section2Data}</p>
-        <button  onClick={() => router.push("/contact") }  >{data.Section2Button}</button>
-
-
-    </div>
-
-    <div className="right" >
-    <Image
-              className="myImage"
-        src={data.Section2img}
+        <div  className="des" >
+      <div className="img" >
+        <Image
+                    className="myImage"
+              src={number.servicesAvatar}
+              layout="fill"
+              objectFit="cover"
+            />
+            </div>
        
-        layout="fill"
+      <p  className="data" dangerouslySetInnerHTML={convertFromJSONToHTML(number.servicesveDescription)} />
+        </div>
+      
+      
+      
+      
+       </div>
+      
        
-        objectFit="cover"
-      />
+      
+       <div className='right' >
+      
+           
+
+    
+        <div className="box" >
+        
+        <div className="contact" >
+                   <h3>CONTACT</h3>
+                   <p>{number.servicesContact}</p>
+               </div>
+      
+               <div className="bottom" >{number.servicesemail}</div>
+              
+           </div>
+      
+      
+      
+            
+      
+      </div>
+      </div>
 
 
-    </div>
-     </div>
-    </div>
-
-
+            </div>
+        )}
+      
+          
+        </div>
+         
+           
+   
+     
 
       </Section>
      
@@ -72,3 +113,7 @@ export default function Home({data}) {
     </>
   );
 }
+
+
+
+export default Data;

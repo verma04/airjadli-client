@@ -7,6 +7,7 @@ import Facts from './facts/fact'
 import Images from './Image/Image'
 import Page from './page/Page'
 import Head from 'next/head';
+import ReactPlayer from 'react-player'
 function payment({data}) {
     return (
         <>
@@ -84,7 +85,16 @@ function payment({data}) {
     </div>
 
 
+    <div className="youtube" >
 
+<ReactPlayer 
+width='100%'
+height='35rem'
+url={data.Paymentyoutube} />
+
+
+</div>
+ 
 
         </Section>
            

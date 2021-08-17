@@ -84,7 +84,7 @@ export default function Home({data}) {
 
       </Section>
      
-<Section1 data={data} />
+<Section1 ser={data} />
  
 <NewsLetter/>
        

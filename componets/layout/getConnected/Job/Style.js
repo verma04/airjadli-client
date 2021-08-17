@@ -560,7 +560,7 @@ height:2rem;
   .flex-1 {
      margin-top:2rem;
   .head {
-      height:3rem;
+
       display:flex;
     justify-content:center;
   flex-direction:column;
