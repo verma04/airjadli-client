@@ -8,7 +8,12 @@ import {  createGlobalStyle } from "styled-components";
 strong {
   font-weight: bold;
 }
-
+.contact {
+  cursor: pointer;
+  .bottom {
+    cursor: pointer;
+  }
+}
 sub, sup {
   /* Specified in % so that the sup/sup is the right size relative to the surrounding text */
   font-size: 52%;

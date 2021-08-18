@@ -79,7 +79,7 @@ width: 100%;
                width:100%;
                height:20rem;
              }
-             p {
+             .p {
                  margin-top:0.5rem;
 
 
@@ -741,7 +741,7 @@ z-index:-1;
             width:100%;
             height:10rem;
           }
-          p {
+          .p {
               margin-top:0.5rem;
           }
           }

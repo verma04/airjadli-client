@@ -10,6 +10,8 @@ import {stateToHTML} from 'draft-js-export-html';
 const convertFromJSONToHTML = (text) => {
   let data = JSON.parse(text)
 
+  console.log(data)
+
     try{
         return { __html: stateToHTML(convertFromRaw(data))}
       } catch(exp) {
@@ -59,7 +61,7 @@ const convertFromJSONToHTML = (text) => {
             />
             </div>
        
-      <p  className="data" dangerouslySetInnerHTML={convertFromJSONToHTML(number.servicesveDescription)} />
+      <div    className="p" dangerouslySetInnerHTML={convertFromJSONToHTML(number.servicesveDescription)} />
         </div>
       
       
@@ -81,7 +83,7 @@ const convertFromJSONToHTML = (text) => {
                    <p>{number.servicesContact}</p>
                </div>
       
-               <div className="bottom" >{number.servicesemail}</div>
+               <div onClick={() => window.open(`mailto:${number.servicesemail}`) } title={number.servicesemail}  className="bottom" >{number.servicesemail}</div>
               
            </div>
       
