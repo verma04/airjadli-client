@@ -94,6 +94,17 @@ url={data.Paymentyoutube} />
 
 
 </div>
+
+
+<div className="youtube" >
+
+<ReactPlayer 
+width='100%'
+height='35rem'
+url={data.Paymentyoutube2} />
+
+
+</div>
  
 
         </Section>
