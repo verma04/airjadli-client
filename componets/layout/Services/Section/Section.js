@@ -63,7 +63,7 @@ const convertFromJSONToHTML = (text) => {
       <div  className="des" >
    
      
-    <p  className="data" dangerouslySetInnerHTML={convertFromJSONToHTML(number.servicesveDescription)} />
+    <div  className="data" dangerouslySetInnerHTML={convertFromJSONToHTML(number.servicesveDescription)} />
     
     <h3>For more details email <span>{number.servicesemail} </span> or call {number.servicesContact} </h3>
       </div>
