@@ -33,7 +33,7 @@ span {
            cursor: pointer;
        }
        h2 {
-           font-size:2rem;
+        font-size:1.7rem;
            color: ${props => props.theme.colors.blue};
            text-transform:uppercase;
        }
@@ -49,7 +49,7 @@ span {
  margin-bottom:2rem;
  .cat {
    color: ${props => props.theme.colors.blue};
-    font-size:2.4rem;
+   font-size:1.7rem;
     margin-top: 2rem;
     font-weight: 600;
  }
@@ -59,10 +59,11 @@ span {
   
     .data {
         display:flex;
+        justify-content: space-between;
     
 
         .left {
-            width:65%;
+            width:48%;
              position: relative;
             display:flex;
             justify-content:flex-start;
@@ -77,7 +78,7 @@ span {
     
     h2 {
     color:black;
-    font-size:1.7rem;
+    font-size:1.5rem;
     font-weight: 800;
     }
     }
@@ -93,7 +94,7 @@ span {
                 margin-top:0.5rem;
                 width: 90%;
 
-                font-size: 1.5rem;
+               
 
               
         display:flex;
@@ -103,7 +104,7 @@ span {
          height:100%;
          .head {
              text-align:left;
-             font-size:2.5rem;
+              font-size:1.7rem;
              font-weight:1000;
            
          }
@@ -118,7 +119,7 @@ span {
          }
          p {
            text-align:left;
-           font-size: 1.5rem;
+   
              margin-bottom:0.5rem;
              width:100%;
              margin-top:0.7rem;
@@ -145,7 +146,7 @@ span {
         width: 90%;
        margin-top: 2rem;
     color:black;
-    font-size:1.5rem;
+    font-size:1.3rem;
 
       
                 font-weight: 1000;
@@ -162,7 +163,7 @@ span {
         
         }
         .right{
-            width:30%;
+            width:45%;
          min-height: 15rem;
             display:flex;
             justify-content:flex-end;
@@ -274,7 +275,7 @@ min-height: 15rem;
         height:100%;
         .head {
             text-align:left;
-            font-size:2.5rem;
+             font-size:1.7rem;
             font-weight:1000;
           
         }
@@ -316,7 +317,7 @@ min-height: 15rem;
        width: 90%;
       margin-top: 2rem;
    color:black;
-   font-size:1.5rem;
+   font-size:1.3rem;
 
      
                font-weight: 1000;
@@ -442,7 +443,7 @@ min-height: 15rem;
         height:100%;
         .head {
             text-align:left;
-            font-size:2.5rem;
+             font-size:1.7rem;
             font-weight:1000;
           
         }
@@ -484,7 +485,7 @@ min-height: 15rem;
        width: 90%;
       margin-top: 2rem;
    color:black;
-   font-size:1.5rem;
+   font-size:1.3rem;
 
      
                font-weight: 1000;
@@ -599,7 +600,7 @@ min-height: 15rem;
                margin-top:0.5rem;
                width: 100%;
 
-               font-size: 1.5rem;
+   
 
              
        display:flex;
@@ -609,7 +610,7 @@ min-height: 15rem;
         height:100%;
         .head {
             text-align:left;
-            font-size:2.5rem;
+             font-size:1.7rem;
             font-weight:1000;
           
         }
@@ -652,7 +653,7 @@ min-height: 15rem;
       margin-top: 2rem;
       line-height: 2rem;
    color:black;
-   font-size:1.5rem;
+   font-size:1.3rem;
 
      
                font-weight: 1000;

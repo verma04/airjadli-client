@@ -11,7 +11,7 @@ function Fact({data}) {
         <Section>
            <div class="flex" >
            <div class="head" >
-               <h1>The safer, easier way to pay your bills.</h1>
+               <h1>{data.PaymentTopIcon}</h1>
                 </div>
 
                <div className="logo" >

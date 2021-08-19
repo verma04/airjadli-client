@@ -2,10 +2,46 @@ import React from 'react';
 import { Section } from './Style'
 import Image from 'next/image'
 import Banner from './Banner'
+import ReactPlayer from 'react-player'
 import Imags from '../Image/Image'
 function Fact({data}) {
     return (
         <Section>
+
+                <Imags data={data}/>
+           
+                <div className="ved" > 
+
+<div className="youtube" >
+
+<ReactPlayer 
+width='95%'
+height='30rem'
+url={data.Paymentyoutube} />
+
+
+
+
+
+</div>
+
+
+
+<div className="youtube" >
+
+<ReactPlayer 
+width='95%'
+height='30rem'
+url={data.Paymentyoutube2} />
+
+
+
+
+
+</div>
+
+</div>
+
            <div class="flex" >
            <div class="left" >
              <div className="head" >
@@ -55,8 +91,8 @@ function Fact({data}) {
                 
                 </div> 
                </div> 
-        <Imags data={data}/>
-        <Banner  data={data}/>
+    
+        {/* <Banner  data={data}/> */}
         </Section>
     )
 }
