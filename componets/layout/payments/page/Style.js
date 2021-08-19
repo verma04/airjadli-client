@@ -190,6 +190,33 @@ flex-direction: column;
 
 @media (min-width: 1025px) and (max-width: 1280px)  {
 
+    .ved {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    .youtube {
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+ width: 40%;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-self: center;
+        flex-wrap: wrap;
+        width: 100%;
+        input {
+            margin-top: 1rem;
+            width: 50%;
+            height: 2rem;
+        }
+        button {
+            margin-top: 1rem;
+            width: 20%;
+            height: 3rem;
+        }
+    }
+
+}
     .flex{
 
 height:40rem;

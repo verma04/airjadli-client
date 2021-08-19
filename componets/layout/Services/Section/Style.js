@@ -231,10 +231,11 @@ margin-bottom:2rem;
  
    .data {
        display:flex;
+       justify-content: space-between;
    
 
        .left {
-           width:65%;
+           width:50%;
             position: relative;
            display:flex;
            justify-content:flex-start;
@@ -249,7 +250,7 @@ min-height: 15rem;
    
    h2 {
    color:black;
-   font-size:1.7rem;
+   font-size:1.5rem;
    font-weight: 800;
    }
    }
@@ -265,7 +266,7 @@ min-height: 15rem;
                margin-top:0.5rem;
                width: 90%;
 
-               font-size: 1.5rem;
+            
 
              
        display:flex;
@@ -290,7 +291,7 @@ min-height: 15rem;
         }
         p {
           text-align:left;
-          font-size: 1.5rem;
+   
             margin-bottom:0.5rem;
             width:100%;
             margin-top:0.7rem;
@@ -334,7 +335,7 @@ min-height: 15rem;
        
        }
        .right{
-           width:30%;
+           width:43%;
         min-height: 15rem;
            display:flex;
            justify-content:flex-end;
