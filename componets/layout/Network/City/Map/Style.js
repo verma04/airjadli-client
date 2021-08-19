@@ -32,11 +32,7 @@ margin-top:5rem;
         justify-content:center;
         
         flex-direction:column;
-       p {
-           padding-top:1rem;
-           padding-bottom:1rem;
-       }
-        
+     
     }
     .flex-2 {
          
@@ -113,10 +109,7 @@ margin-top:5rem;
         justify-content:center;
         
         flex-direction:column;
-       p {
-           padding-top:1rem;
-           padding-bottom:1rem;
-       }
+    
         
     }
     .flex-2 {
@@ -187,10 +180,7 @@ margin-top:5rem;
         justify-content:center;
         
         flex-direction:column;
-       p {
-           padding-top:1rem;
-           padding-bottom:1rem;
-       }
+     
         
     }
     .flex-2 {
