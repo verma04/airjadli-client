@@ -28,91 +28,109 @@ const convertFromJSONToHTML = (text) => {
 
   return (
     <>
-      <Head>
-        <title>Home - AirJaldi</title>
-      </Head>
-      <Section>
-    
-      <div className="haed" >
- <h2>Services({ser.servicesSet.length})</h2>
+    <Head>
+      <title>Home - AirJaldi</title>
+    </Head>
+    <Section>
+
+    <div className="haed" >
 
 
-                
-            </div>
-  
-        <div className='flex' >
-        {ser.servicesSet.map((number , index ) => 
-            <div   key={number._id} className="flex-1" >
-      <div className="head" >
-          <h2>{index+1}. {number.servicesName}</h2>
-      </div>
-      
-      <div className='data' >
-     
-       <div className='left' >
-    
-        <div  className="des" >
-      <div className="img" >
-        <Image
-                    className="myImage"
-              src={number.servicesAvatar}
-              layout="fill"
-              objectFit="cover"
-            />
-            </div>
-       
-      <div    className="p" dangerouslySetInnerHTML={convertFromJSONToHTML(number.servicesveDescription)} />
-        </div>
-      
-      
-      
-      
-       </div>
-      
-       
-      
-       <div className='right' >
-      
-           
 
-    
-        <div className="box" >
-        
-        <div className="contact" >
-                   <h3>CONTACT</h3>
-                   <p>{number.servicesContact}</p>
-               </div>
-      
-               <div onClick={() => window.open(`mailto:${number.servicesemail}`) } title={number.servicesemail}  className="bottom" >{number.servicesemail}</div>
+
+
               
-           </div>
-      
-      
-      
-            
-      
-      </div>
-      </div>
+          </div>
+
+      <div className='flex' >
 
 
-            </div>
-        )}
-      
-          
-        </div>
-         
-           
+      {ser.category.map(cat =>
+<>
+<h2 className="cat"  >{cat.categoryName}</h2>
+{ser.servicesSet.filter(element => element.category === cat._id).map((number , index ) => 
+          <div   key={number._id} className="flex-1" >
+
+    
+    <div className='data' >
+   
+     <div className='left' >
+
+     <div className="head" >
+        <h2>{number.servicesName}</h2>
+    </div>
+
+      <div  className="des" >
    
      
+    <p  className="data" dangerouslySetInnerHTML={convertFromJSONToHTML(number.servicesveDescription)} />
+    
+    <h3>For more details email <span>{number.servicesemail} </span> or call {number.servicesContact} </h3>
+      </div>
+    
 
-      </Section>
+
+    
+    
+    
+     </div>
+    
+     
+    
+     <div className='right' >
+    
+         
+
+     <Image
+                  className="myImage"
+            src={number.servicesAvatar}
+            layout="fill"
+            objectFit="cover"
+          />
+          
+    
+    </div>
+    </div>
+    
+  
+
+          </div>
+     
+     
+     )}
+    
+
+
+</>
+
+ )
+
+
+ }
+    
+        
+      </div>
+       
+         
+  
+
+
+
+   
+
+    </Section>
+   
+
+
+
      
 
- 
+  </>
+
+
   
-       
   
-    </>
+  
   );
 }
 
