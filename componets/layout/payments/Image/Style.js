@@ -17,15 +17,16 @@ padding-top: 1.5rem;
 padding-bottom: 1.5rem;
    .flex-1{
 
-       height:20rem;
+       height:30rem;
 
        display:flex;
        justify-content:space-between;
        flex-direction:column;
        align-items: center;
-       width:75rem;
+       width:80rem;
       
        .logo {
+           border: 1px solid red;
         display:flex;
        justify-content:space-around;
       align-items:center;
@@ -45,19 +46,19 @@ padding-bottom: 1.5rem;
 
     .flex-1{
 
-height:20rem;
+height:25rem;
 
 display:flex;
 justify-content:space-between;
 flex-direction:column;
 align-items: center;
-width:75rem;
+width: 100%;
 
 .logo {
  display:flex;
 justify-content:space-around;
 align-items:center;
-width:70%;
+width:100%;
     height:95%;
 
 
