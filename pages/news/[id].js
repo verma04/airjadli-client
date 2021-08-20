@@ -2,8 +2,6 @@ import React from 'react'
 import  Blog from '@/componets/layout/InNews/Blog/Blog'
 import axios from 'axios'
 function index({news}) {
-
-  if(news) return <> </>
     return (
         <div>
         
@@ -28,7 +26,7 @@ export const getStaticPaths = async () => {
     
     return {
       paths,
-      fallback: true
+      fallback: false
     }
     
   }

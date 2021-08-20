@@ -3,10 +3,6 @@ import  City from '@/componets/layout/Network/City/City'
 import  Navbar from '@/componets/layout/Navbar/BlueNavbar'
 import  Footer from '@/componets/layout/Footer/Footer'
 function index({city}) {
-   
-  if(city) return <> </>
-
-
     return (
         <div>
             <Navbar/>
@@ -30,7 +26,7 @@ export const getStaticPaths = async () => {
     
     return {
       paths,
-      fallback: true
+      fallback: false
     }
     
   }

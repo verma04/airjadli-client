@@ -2,9 +2,6 @@ import React from 'react'
 import  Blog from '@//componets/layout/Fieldstories/SingleFieldstories/Fieldstories'
 import axios  from 'axios'
 function index({news}) {
-
-
-  if(news) return <> </>
     return (
         <div>
         
@@ -26,7 +23,7 @@ export const getStaticPaths = async () => {
     
     return {
       paths,
-      fallback: true
+      fallback: false
     }
     
   }
@@ -35,11 +32,11 @@ export const getStaticPaths = async () => {
    
     const id = context.params.id;
 
-   
+    console.log(id)
  
     const res = await axios.get(`http://sandbox.airjaldi.com:3000/client/getfieldStories/${encodeURI(id)}`);
     const data = await res.data;
-  
+    console.log(data)
     return {
       props: { news: data},
       revalidate: 1, 
