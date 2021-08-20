@@ -45,7 +45,7 @@ get connected. </h2>
 your devices for high speed wireless
 internet access at affordable rates</h2>
          </div>
-         <button onClick={() => router.push(`/get-connected`) }  >Get JaldiFi deals</button>
+         <button  onClick={() => window.open('https://www.jaldifi.net/')  }  >Get JaldiFi deals</button>
      </div>
        
           </div>
