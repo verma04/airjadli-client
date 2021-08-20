@@ -1,7 +1,11 @@
 import React from 'react'
 import  Blog from '@//componets/layout/Projects/SingleProjects/Projects'
 import axios from 'axios'
+import { useRouter } from 'next/router'
 function index({news}) {
+  if (router.isFallback) {
+    return <div>Loading...</div>
+  }
     return (
         <div>
         
