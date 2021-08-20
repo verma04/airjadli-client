@@ -32,11 +32,11 @@ export const getStaticPaths = async () => {
    
     const id = context.params.id;
 
-    console.log(id)
+
  
     const res = await axios.get(`http://sandbox.airjaldi.com:3000/client/getProjects/${encodeURI(id)}`);
     const data = await res.data;
-    console.log(data)
+   
     return {
       props: { news: data},
       revalidate: 1, 
