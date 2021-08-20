@@ -1,3 +1,5 @@
+import React , { useState} from 'react'
+
 import Head from 'next/head';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer'
@@ -13,6 +15,9 @@ import Loading from '../../Loading/Loading';
 
 export default function Home({data}) {
   
+  
+
+
   
   return (
   
@@ -83,6 +88,8 @@ export default function Home({data}) {
 
 
       </Section>
+
+
      
 <Section1 ser={data} />
  

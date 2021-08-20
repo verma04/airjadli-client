@@ -176,7 +176,17 @@ span {
         
 
     }
-
+  
+    button {
+        margin-top: 0.5rem;
+    width: 10rem;
+    padding: 0.5rem;
+    border: none;
+    font-size: 1.3rem;
+    padding: 0.4rem;
+    background-color: #0085C5;
+    color: white;
+    }
     }
   }
 
@@ -515,6 +525,10 @@ min-height: 15rem;
 
        
 
+   }
+
+   button {
+       
    }
 
    }

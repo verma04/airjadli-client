@@ -26,7 +26,7 @@ padding-bottom: 1.5rem;
        width:80rem;
       
        .logo {
-           border: 1px solid red;
+         
         display:flex;
        justify-content:space-around;
       align-items:center;

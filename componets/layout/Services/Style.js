@@ -22,7 +22,7 @@ height:100%;
 
     
     .card {
-       z-index:990;
+       z-index:1;
        position:absolute;
        bottom:8%;
        display:flex;

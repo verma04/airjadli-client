@@ -3,6 +3,7 @@ import { useEffect , useState} from 'react'
 import { Section} from './Style'
 
 
+import Modal from '../modal/modal'
 import Image from 'next/image';
 
 import {  convertFromRaw } from 'draft-js';
@@ -24,6 +25,7 @@ const convertFromJSONToHTML = (text) => {
 
  function Data({ser  }) {
 
+  const [ modal , setmodal] = useState(false)
   
 
   return (
@@ -91,6 +93,8 @@ const convertFromJSONToHTML = (text) => {
     
     </div>
     </div>
+
+    <button  onClick={()=> setmodal(true)} >Conatact Us</button>
     
   
 
@@ -122,8 +126,21 @@ const convertFromJSONToHTML = (text) => {
    
 
 
+{modal? 
+(
+<>
+<Modal cat={ser.category} setmodal={setmodal}/>
+</>
+)
+:
+(
+  <>
+  </>
+)
 
-     
+}
+
+
 
   </>
 
