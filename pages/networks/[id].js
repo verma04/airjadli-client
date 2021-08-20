@@ -3,6 +3,10 @@ import  City from '@/componets/layout/Network/City/City'
 import  Navbar from '@/componets/layout/Navbar/BlueNavbar'
 import  Footer from '@/componets/layout/Footer/Footer'
 function index({city}) {
+   
+  if(city) return <> </>
+
+
     return (
         <div>
             <Navbar/>
