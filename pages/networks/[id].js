@@ -42,7 +42,7 @@ export const getStaticPaths = async () => {
     if (data === null) {
       return {
         redirect: {
-          destination: '/news',
+          destination: '/networks',
           permanent: false,
         },
       }
