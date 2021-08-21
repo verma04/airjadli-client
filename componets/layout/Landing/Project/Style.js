@@ -10,6 +10,9 @@ justify-content:center;
 height:100%;
 align-items:center;
 flex-direction:column;
+.data {
+    cursor: pointer;
+}
 
 
 @media (min-width: 1281px) {
@@ -40,7 +43,7 @@ flex-direction:column;
 
          .card {
       
-    
+cursor: pointer;
       display:flex;
       justify-content:center;
       align-items:center;
