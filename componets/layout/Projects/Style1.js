@@ -19,38 +19,7 @@ height:100%;
    display:flex;
         justify-content:center;
         align-items:center;
-         .birdOut {
-             z-index:999;
-           width:90rem;
-           position: relative;
-           height:100%;
-           display:flex;
-           justify-content:center;
-         
-          
-         .birdd {
-           
-         z-index:999;
-    height: 100%;
-    display:flex;
-  top:7%;
-        justify-content:flex-start;
-        
-        height: 70rem;
-    width: 100%;
-   
-   width:100%;
-    position: absolute;
-  
-
-
-
-        img {
-        
-        }
-    } 
-         }
-    
+       
    
     .card {
        z-index:990;
