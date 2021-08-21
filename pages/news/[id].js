@@ -2,6 +2,8 @@ import React from 'react'
 import  Blog from '@/componets/layout/InNews/Blog/Blog'
 import axios from 'axios'
 function index({news}) {
+
+  if (!news) return<div></div>
     return (
         <div>
         
@@ -26,7 +28,7 @@ export const getStaticPaths = async () => {
     
     return {
       paths,
-      fallback: false
+      fallback: true
     }
     
   }
@@ -39,7 +41,14 @@ export const getStaticPaths = async () => {
  
     const res = await axios.get(`http://sandbox.airjaldi.com:3000/api/getNews/${encodeURI(id)}`);
     const data = await res.data;
-    console.log(data)
+    if (data === null) {
+      return {
+        redirect: {
+          destination: '/news',
+          permanent: false,
+        },
+      }
+    }
     return {
       props: { news: data},
       revalidate: 1, 

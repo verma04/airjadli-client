@@ -3,6 +3,7 @@ import  City from '@/componets/layout/Network/City/City'
 import  Navbar from '@/componets/layout/Navbar/BlueNavbar'
 import  Footer from '@/componets/layout/Footer/Footer'
 function index({city}) {
+  if (!city) return<div></div>
     return (
         <div>
             <Navbar/>
@@ -24,9 +25,10 @@ export const getStaticPaths = async () => {
       }
     })
     
+    
     return {
       paths,
-      fallback: false
+      fallback: true
     }
     
   }
@@ -37,7 +39,14 @@ export const getStaticPaths = async () => {
  
     const res = await fetch('https://airjadli.herokuapp.com/api/client/network/' + id);
     const data = await res.json();
-  
+    if (data === null) {
+      return {
+        redirect: {
+          destination: '/news',
+          permanent: false,
+        },
+      }
+    }
   
     return {
       props: { city: data },
