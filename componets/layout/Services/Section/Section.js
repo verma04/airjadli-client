@@ -94,7 +94,7 @@ const convertFromJSONToHTML = (text) => {
     </div>
     </div>
 
-    <button   onClick={()=> setmodal(true)} >Conatact Us</button>
+    <button   onClick={()=> setmodal(true)} >Contact Us</button>
     
   
 
