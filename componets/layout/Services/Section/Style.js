@@ -12,6 +12,17 @@ align-items:center;
 flex-direction:column;
 width: 100%;
 
+button {
+        margin-top: 0.5rem;
+    width: 10rem;
+    padding: 0.5rem;
+    border: none;
+    font-size: 1.3rem;
+    padding: 0.4rem;
+    background-color: #0085C5;
+    color: white;
+    }
+
 span {
     cursor: pointer;
 }

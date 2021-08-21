@@ -1,6 +1,6 @@
 import React from 'react'
 import { Section} from './Style'
-function modal({setmodal , cat}) {
+function modal({setmodal , ser}) {
     return (
         <Section>
 
@@ -41,7 +41,16 @@ function modal({setmodal , cat}) {
 
      <div class="group">      
      <select name="cars" id="cars">
- 
+ {ser.map(number => 
+  <>
+  
+  <option>{number.servicesName}</option>
+  </>
+
+
+ )
+
+ }
  
   </select>
        <span class="highlight"></span>

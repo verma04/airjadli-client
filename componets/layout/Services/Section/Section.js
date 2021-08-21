@@ -94,7 +94,7 @@ const convertFromJSONToHTML = (text) => {
     </div>
     </div>
 
-    <button  onClick={()=> setmodal(true)} >Conatact Us</button>
+    <button   onClick={()=> setmodal(true)} >Conatact Us</button>
     
   
 
@@ -129,7 +129,7 @@ const convertFromJSONToHTML = (text) => {
 {modal? 
 (
 <>
-<Modal cat={ser.category} setmodal={setmodal}/>
+<Modal ser={ser.servicesSet} setmodal={setmodal}/>
 </>
 )
 :
