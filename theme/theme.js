@@ -2,6 +2,10 @@ import {  createGlobalStyle } from "styled-components";
 
 
  export default   createGlobalStyle`
+
+ span {
+   cursor: pointer;
+ }
  em {
   font-style: italic;
 }

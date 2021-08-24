@@ -8,10 +8,13 @@ import News from '../NewsLetter/News'
 import Image from 'next/image'
 import Connection from './Connection/connection';
 import Project from './Project/Project'
+
+import FieldNews from './FieldNews/FieldNews'
 import InNews from './News/inNews'
 import Map from './Map/Map'
 import Partner from '../partners/partner'
 import { useQuery } from "react-query";
+
 import Loading from '../../Loading/Loading';
 
 
@@ -144,8 +147,10 @@ export default function Home({data}) {
       <Connection/>
       <Project data={data} />
       <News/>
-      <InNews  />
 
+      
+      <InNews  />
+      <FieldNews/>
       {/* <Partner data={data.partners} /> */}
       
        

@@ -280,7 +280,7 @@ flex-direction:column;
       color: black;
       border-radius:2rem;
       background-color:white;
-      font-size:2.7rem;
+      font-size:1.3rem;
       margin-right: 2rem;
       padding:0.7rem;
       cursor: pointer;

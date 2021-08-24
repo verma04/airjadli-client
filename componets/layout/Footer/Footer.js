@@ -51,9 +51,24 @@ const Navbar = () => {
            class="fab fa-twitter"></i>
            <i 
            
-           onClick={() => window.open('https://www.youtube.com/channel/UC6LR9fyBNg-yuLFa0fj27wQ') }
-      title="https://www.youtube.com/channel/UC6LR9fyBNg-yuLFa0fj27wQ"
+          
            class="fab fa-youtube"></i>
+
+<i
+
+
+onClick={() => window.open('https://www.instagram.com/airjaldi/') }
+title="-https://www.instagram.com/airjaldi/"
+class="fab fa-instagram"></i>
+
+<i
+
+
+onClick={() => window.open(' https://www.linkedin.com/company/airjaldi.com') }
+title=" https://www.linkedin.com/company/airjaldi.com"
+ 
+
+class="fab fa-linkedin"></i>
 
 
 

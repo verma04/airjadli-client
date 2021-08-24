@@ -704,10 +704,69 @@ span {
     }
 
     .grid-1 {
-      display:none;
-    }
+        margin-top:5rem;
+        width:100%;
+        height:35rem;
+   
+        display:flex;
+        justify-content:space-between;
+        flex-direction: column;
+    
+        .left {
+            width:100% !important;
+            height:48% !important;;
+           
+        }
+        .right {
+            width:100%;
+            height:48%;
+           
+            display:flex;
+            justify-content:center;
+            flex-direction:column;
+            align-items:center;
+            .text {
+                width:90%;
+                height:100%;
+                display:flex;
+                justify-content:center;
+            
+                flex-direction:column;
+                h2 {
+                    width:100%;
+                    font-size: 1.7rem;
 
+                    
+                }
+                span {
+                    margin-top:1rem;
+                    font-size:1.3rem;
+                }
+              
+            }
+            .link {
+                cursor: pointer;
+                width:90%;
+                height:10%;
+                display:flex;
+                justify-content:flex-start;
+                align-items:center;
+                color:${props => props.theme.colors.blue};
+                
+                i {
+  font-size:1.2rem;
+}
+span {
+    margin-left:0.5rem;
+  font-size:1.2rem;
+}
+
+                
+            }
+        }
+    }
     .btn {
+        margin-top: 2rem;
         display:flex;
         justify-content:center;
         height:15%;
