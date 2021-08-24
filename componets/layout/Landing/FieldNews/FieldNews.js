@@ -65,7 +65,7 @@ export default function News() {
 </div>
 </div>
 <div className='btn' >
-<button onClick={() => router.push('/news')} >see all stories</button>
+<button onClick={() => router.push('/field-stories')} >see all stories</button>
 </div>
     </div>
 
