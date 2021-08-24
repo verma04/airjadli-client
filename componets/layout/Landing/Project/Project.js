@@ -96,7 +96,13 @@ export default function Project({data}) {
 
    <div className='link' >
 <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
- <span onClick={()=> router.push("/field-stories/piyush-manviya-katkumb") } > Watch the video </span> </div>
+ <span
+     onClick={() => window.open(data.section2Youtube) }
+     title={data.section2Youtube}
+     
+ 
+ 
+  > Watch the video </span> </div>
 
     </div>
 
