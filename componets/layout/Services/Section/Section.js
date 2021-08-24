@@ -38,6 +38,29 @@ const convertFromJSONToHTML = (text) => {
     <div className="haed" >
 
 
+    <div className="logo" >
+
+
+ {ser.category.map(number => 
+    <div class='logo1' >
+   <div className="img" >
+   <Image
+className="myImage"
+src={number.categoryImage}
+alt="Picture of the author"
+layout="fill"
+objectFit="contain"
+/>
+</div>
+<h2>{number.categoryName}</h2>
+<p>{number.categorydes}</p>
+<button>Check our offers here</button>
+    </div> 
+ )}
+
+
+    </div> 
+
 
 
 
