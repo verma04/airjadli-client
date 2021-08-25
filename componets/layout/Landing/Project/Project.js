@@ -1,10 +1,12 @@
 
-import { Section} from './Style'
+import { Section } from './Style'
 
 import Image from 'next/image'
 import { useQuery } from "react-query";
 import { Router, useRouter } from "next/router";
 import { number } from 'prop-types';
+import { useState } from 'react';
+import ReactPlayer from 'react-player'
 const fetchProjects = async () => {
   const res = await fetch("http://sandbox.airjaldi.com:3000/client/getprojects");
   return res.json();
@@ -12,6 +14,8 @@ const fetchProjects = async () => {
 export default function Project({data}) {
   const { data:data1, status } = useQuery("Projects", fetchProjects);
   const router = useRouter();
+
+  const [ved, setved] = useState(true)
   return (
     <>
       
@@ -36,6 +40,8 @@ export default function Project({data}) {
 <div onClick={() => router.push(`/projects/${number.slug}`) } class='grid1' >
 
 <div className="wrapper"  >
+
+ 
 <Image
            className="myImage"
            src={number.featureImg}
@@ -43,6 +49,7 @@ export default function Project({data}) {
      layout="fill"
      objectFit="cover"
    />
+ 
 </div>
 
 <div className="data" >
@@ -75,14 +82,30 @@ export default function Project({data}) {
 <div className='grid-1' >
 
     <div className='left' style={{  position: 'relative', width:"50%", height: '100%'}} >
+ 
+    {ved ? 
+  (
     <Image
-              className="myImage"
-        src={data.section3Avatar}
-        alt="Picture of the author"
-        layout="fill"
-        objectFit="cover"
-      />
+    className="myImage"
+src={data.section3Avatar}
+alt="Picture of the author"
+layout="fill"
+objectFit="cover"
+/>
+  )
+  :
+  (
+
+    <ReactPlayer 
+width='100%'
+height='30rem'
+url={data.section2Youtube} />
+
+  )
+
+  }
     </div>
+
 
     <div className='right' >
 
@@ -97,8 +120,8 @@ export default function Project({data}) {
    <div className='link' >
 <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
  <span
-     onClick={() => window.open(data.section2Youtube) }
-     title={data.section2Youtube}
+     onClick={() => setved(false) }
+
      
  
  
