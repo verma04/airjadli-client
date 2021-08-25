@@ -8,6 +8,7 @@ import Image from 'next/image';
 
 import {  convertFromRaw } from 'draft-js';
 import {stateToHTML} from 'draft-js-export-html';
+import router from 'next/router';
 const convertFromJSONToHTML = (text) => {
   let data = JSON.parse(text)
 
@@ -54,7 +55,7 @@ objectFit="contain"
 </div>
 <h2>{number.categoryName}</h2>
 <p>{number.categorydes}</p>
-<button>Check our offers here</button>
+<button onClick={()=> router.push(`#${number.categoryName}`) } >Check our offers here</button>
     </div> 
  )}
 
@@ -72,7 +73,7 @@ objectFit="contain"
 
       {ser.category.map(cat =>
 <>
-<h2 className="cat"  >{cat.categoryName}</h2>
+<h2  id={cat.categoryName} className="cat"  >{cat.categoryName}</h2>
 {ser.servicesSet.filter(element => element.category === cat._id).map((number , index ) => 
           <div   key={number._id} className="flex-1" >
 

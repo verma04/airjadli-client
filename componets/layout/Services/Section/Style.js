@@ -64,6 +64,7 @@ span {
             text-align:left;
             font-weight:900;
            width: 100%;
+           font-size: 1.7rem;
           }
           p {
        
@@ -681,6 +682,7 @@ z-index:-1;
             text-align:left;
             font-weight:900;
            width: 100%;
+          
           }
           p {
        
