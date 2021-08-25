@@ -699,7 +699,7 @@ z-index:-1;
           justify-content: left;
           
           img {
-   width:  45% ;
+   width: 74% ;
  
           }
      
@@ -712,13 +712,13 @@ z-index:-1;
             text-align:left;
             font-weight:900;
            width: 100%;
-           font-size: 1.7rem;
+         
            height: 2rem;
           }
           p {
        height: 8em;
             text-align:left;
-            font-size:1.3rem;
+            
               
           }
           button {
