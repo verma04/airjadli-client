@@ -29,35 +29,42 @@ span {
 
 @media (min-width: 1281px) {
     
-    .haed {
-       
-        width:75rem;
-     
+
         .logo {
         display:flex;
-       justify-content:space-around;
-      align-items:center;
-       width:70%;
+       justify-content:space-between;
+      align-items:flex-start;
+       width:77rem;
         
   margin-top: 4rem;
-           width:100%;
-
+        margin-bottom: 2em;
+       
            .logo1 {
-               width:20%;
+               width:23%;
              
-            
+            border: 1ox solid red;
                
                display:flex;
-       justify-content:center;
+       justify-content:space-between;
       align-items:center;
       flex-direction:column;
       .img {
           position: relative;
-          width:100%;
-          height: 10rem;
+          width: 100%;
+    height: 8rem;
+
+          
+          display: flex;
+          justify-content: left;
+          
+          img {
+   width:  45% ;
+ 
+          }
      
       }
       h2 {
+          
            margin-bottom: 1.5rem;
         margin-top:1rem;
         color: ${props => props.theme.colors.blue};
@@ -65,9 +72,10 @@ span {
             font-weight:900;
            width: 100%;
            font-size: 1.7rem;
+           height: 2rem;
           }
           p {
-       
+       height: 6em;
             text-align:left;
             font-size:1.3rem;
               
@@ -75,13 +83,14 @@ span {
           button {
               margin-top: 1.5rem;
               width: 100%;
+              border-radius: 0%;
           }
            }
 
           
        }
 
-   }
+   
 
   .flex {
     width:80rem;
@@ -243,45 +252,52 @@ span {
 @media (min-width: 1024px) and (max-width: 1280px) {
     
      
-    .haed {
-       
-       width:80%;
-    
-       .logo {
+    .logo {
         display:flex;
-       justify-content:space-around;
-      align-items:center;
-       width:70%;
+       justify-content:space-between;
+      align-items:flex-start;
+       width:85%;
         
   margin-top: 4rem;
-           width:100%;
-
+        margin-bottom: 2em;
+       
            .logo1 {
-               width:30%;
+               width:23%;
              
-            
+            border: 1ox solid red;
                
                display:flex;
-       justify-content:center;
+       justify-content:space-between;
       align-items:center;
       flex-direction:column;
-      flex-wrap: wrap;
       .img {
           position: relative;
-          width:100%;
-          height: 10rem;
+          width: 100%;
+    height: 8rem;
+
+          
+          display: flex;
+          justify-content: left;
+          
+          img {
+   width:  45% ;
+ 
+          }
      
       }
       h2 {
+          
            margin-bottom: 1.5rem;
         margin-top:1rem;
         color: ${props => props.theme.colors.blue};
             text-align:left;
             font-weight:900;
            width: 100%;
+           font-size: 1.7rem;
+           height: 2rem;
           }
           p {
-       
+       height: 6em;
             text-align:left;
             font-size:1.3rem;
               
@@ -289,14 +305,12 @@ span {
           button {
               margin-top: 1.5rem;
               width: 100%;
+              border-radius: 0%;
           }
            }
 
           
        }
-
-  }
-
  .flex {
     width:80%;
     
@@ -444,45 +458,52 @@ min-height: 15rem;
 
 @media (min-width: 768px) and (max-width: 1024px) {
     
-    .haed {
-       
-       width:80%;
-    
-       .logo {
+    .logo {
         display:flex;
-       justify-content:space-around;
-      align-items:center;
-    flex-wrap: wrap;
-       width:70%;
+       justify-content:space-between;
+      align-items:flex-start;
+       width:95%;
         
   margin-top: 4rem;
-           width:100%;
-
+        margin-bottom: 2em;
+       
            .logo1 {
-               width:30%;
+               width:23%;
              
-            
+            border: 1ox solid red;
                
                display:flex;
-       justify-content:center;
+       justify-content:space-between;
       align-items:center;
       flex-direction:column;
       .img {
           position: relative;
-          width:100%;
-          height: 10rem;
+          width: 90%;
+    height: 8rem;
+
+          
+          display: flex;
+          justify-content: left;
+          
+          img {
+   width:  60% ;
+ 
+          }
      
       }
       h2 {
+          
            margin-bottom: 1.5rem;
         margin-top:1rem;
         color: ${props => props.theme.colors.blue};
             text-align:left;
             font-weight:900;
            width: 100%;
+           font-size: 1.7rem;
+           height: 2rem;
           }
           p {
-       
+       height: 8em;
             text-align:left;
             font-size:1.3rem;
               
@@ -490,13 +511,14 @@ min-height: 15rem;
           button {
               margin-top: 1.5rem;
               width: 100%;
+              border-radius: 0%;
           }
            }
 
           
        }
 
-  }
+  
 
  .flex {
     width:80%;
@@ -647,59 +669,69 @@ min-height: 15rem;
 
 @media (max-width: 767px) {
 z-index:-1;
-.haed {
-       
-       width:90%;
+
     
        .logo {
         display:flex;
        justify-content:space-around;
       align-items:center;
        width:70%;
-        
+        flex-wrap:wrap;
   margin-top: 4rem;
            width:100%;
 
            .logo1 {
                width:45%;
              
-            
+            border: 1ox solid red;
                
                display:flex;
-       justify-content:center;
+       justify-content:space-between;
       align-items:center;
       flex-direction:column;
       .img {
           position: relative;
-          width:100%;
-          height: 10rem;
+          width: 100%;
+    height: 8rem;
+
+          
+          display: flex;
+          justify-content: left;
+          
+          img {
+   width:  45% ;
+ 
+          }
      
       }
       h2 {
+          
            margin-bottom: 1.5rem;
         margin-top:1rem;
         color: ${props => props.theme.colors.blue};
             text-align:left;
             font-weight:900;
            width: 100%;
-          
+           font-size: 1.7rem;
+           height: 2rem;
           }
           p {
-       
+       height: 8em;
             text-align:left;
             font-size:1.3rem;
               
           }
           button {
-              margin-top: 1.5rem;
+              margin-top: 1rem;
               width: 100%;
+              border-radius: 0%;
+              margin-bottom: 1.5rem;
           }
            }
-
           
        }
 
-  }
+  
 
  .flex {
     width:90%;

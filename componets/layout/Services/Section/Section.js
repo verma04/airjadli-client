@@ -36,7 +36,6 @@ const convertFromJSONToHTML = (text) => {
     </Head>
     <Section>
 
-    <div className="haed" >
 
 
     <div className="logo" >
@@ -45,7 +44,7 @@ const convertFromJSONToHTML = (text) => {
  {ser.category.map(number => 
     <div class='logo1' >
    <div className="img" >
-   <Image
+   <img
 className="myImage"
 src={number.categoryImage}
 alt="Picture of the author"
@@ -66,7 +65,7 @@ objectFit="contain"
 
 
               
-          </div>
+     
 
       <div className='flex' >
 
