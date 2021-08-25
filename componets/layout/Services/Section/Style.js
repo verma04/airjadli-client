@@ -724,7 +724,7 @@ z-index:-1;
           button {
               margin-top: 1rem;
               width: 100%;
-              border-radius: 0%;
+           
               margin-bottom: 1.5rem;
           }
            }
