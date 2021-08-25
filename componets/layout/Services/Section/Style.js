@@ -83,7 +83,7 @@ span {
           button {
               margin-top: 1.5rem;
               width: 100%;
-              border-radius: 0%;
+              
           }
            }
 
@@ -305,7 +305,7 @@ span {
           button {
               margin-top: 1.5rem;
               width: 100%;
-              border-radius: 0%;
+              
           }
            }
 
@@ -511,7 +511,7 @@ min-height: 15rem;
           button {
               margin-top: 1.5rem;
               width: 100%;
-              border-radius: 0%;
+              
           }
            }
 
@@ -724,7 +724,7 @@ z-index:-1;
           button {
               margin-top: 1rem;
               width: 100%;
-           
+              
               margin-bottom: 1.5rem;
           }
            }
