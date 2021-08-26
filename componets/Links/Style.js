@@ -100,7 +100,7 @@ td:nth-child(2){
               margin-bottom:0.9rem;
           }
           li {
-              list-style:disc;
+              
               margin-left:1.5rem;
               font-size:1.2rem;
               margin-top:0.5rem;
@@ -211,7 +211,7 @@ td:nth-child(2){
               margin-bottom:0.9rem;
           }
           li {
-              list-style:disc;
+              
               margin-left:1.5rem;
               font-size:1.2rem;
               margin-top:0.5rem;
@@ -317,7 +317,7 @@ td:nth-child(2){
               margin-bottom:0.9rem;
           }
           li {
-              list-style:disc;
+              
               margin-left:1.5rem;
               font-size:1.2rem;
               margin-top:0.5rem;
@@ -426,7 +426,7 @@ td:nth-child(3){
               margin-bottom:0.9rem;
           }
           li {
-              list-style:disc;
+              
               margin-left:1.5rem;
               font-size:1.2rem;
               margin-top:0.5rem;
