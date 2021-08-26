@@ -575,7 +575,7 @@ flex-direction:column;
              
              display:flex;
              justify-content:space-around;
-             width:60%;
+             width:100%;
              align-items:center;
              .fab {
                color: black;

@@ -2,8 +2,6 @@
 
 import styled from 'styled-components'
 
-
-
 export const  Section1 = styled.section`
 display:flex;
 justify-content:center;
