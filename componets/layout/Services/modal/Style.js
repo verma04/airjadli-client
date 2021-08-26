@@ -573,6 +573,7 @@ input:focus ~ .highlight {
   border: 1px solid #888;
   width: 80%;
   height: 80%;
+  min-height: 50rem;
   background-color: rgb(221,243,255);;
   box-shadow: 0 1px 1px rgb(0 0 0 / 5%), 0 2px 5px rgb(0 0 0 / 15%);
   .form {
