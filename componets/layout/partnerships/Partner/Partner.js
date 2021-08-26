@@ -1,3 +1,6 @@
+
+
+
 import Head from 'next/head';
 
 import { Section} from './Style'
@@ -38,25 +41,23 @@ export default function Job({data}) {
   <div className='flex' >
   {data.map((user) => (
       <div className="flex-1" >
-<div className="head" >
-    <h2>{user.partnerName}</h2>
-</div>
 
 <div className='data' >
  
  <div className='left' >
-  
+ <div className="head" >
+    <h2>{user.partnerName}</h2>
+</div>
+
   <div className="des" >
-<div className="img" >
-  <Image
-              className="myImage"
-        src={user.partnerAvatar}
-        layout="fill"
-        objectFit="cover"
-      />
-      </div>
- 
+
 <p>{user.partnerveDescription}</p>
+
+<h3>For more details email <span
+  onClick={() => window.open(`mailto:${user.partneremail}`) }
+  title={user.partneremail}
+
+> {user.partneremail} </span> call 1-800-121-3648</h3>
   </div>
 
 
@@ -68,20 +69,15 @@ export default function Job({data}) {
 
  <div className='right' >
 
-     <div className="box" >
-
-         <div className="contact" >
-             <h3>CONTACT</h3>
-             <p>{user.partnerContact}</p>
-         </div>
-
-         <div  
-         onClick={() => window.open(`mailto:${user.partneremail}`) }
-         title={user.partneremail}
-         className="bottom" >{user.partneremail}</div>
-        
-     </div>
-
+ <div className="img" >
+  <Image
+              className="myImage"
+        src={user.partnerAvatar}
+        layout="fill"
+        objectFit="cover"
+      />
+      </div>
+ 
  </div>
 
 

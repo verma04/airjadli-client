@@ -26,6 +26,11 @@ button {
 span {
     cursor: pointer;
 }
+.data-1 {
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+}
 
 @media (min-width: 1281px) {
     
@@ -141,7 +146,7 @@ span {
             justify-content:center;
             flex-direction:column;
  
-          
+         
             p {
                 margin-top:0.5rem;
                 width: 90%;

@@ -88,7 +88,7 @@ objectFit="contain"
       <div  className="des" >
    
      
-    <div  className="data" dangerouslySetInnerHTML={convertFromJSONToHTML(number.servicesveDescription)} />
+    <div  className="data-1" dangerouslySetInnerHTML={convertFromJSONToHTML(number.servicesveDescription)} />
     
     <h3>For more details email <span>{number.servicesemail} </span> or call {number.servicesContact} </h3>
       </div>

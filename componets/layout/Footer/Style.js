@@ -16,6 +16,9 @@ a:hover {
 a {
   color:white;
 }
+i {
+  z-index: 1;
+}
 #hover:hover{
   font-weight: 1000;
   cursor: pointer;

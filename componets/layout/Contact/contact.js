@@ -45,7 +45,7 @@ function contact({data}) {
 
         <Section>
        
-<div class="grid"     >
+<div className="grid"     >
    
  
    
@@ -60,9 +60,9 @@ function contact({data}) {
       
        objectFit="cover"
      />
-       <div class='card'  >
-     <div class='card-1'  >
- <div class='grid1' >
+       <div className='card'  >
+     <div className='card-1'  >
+ <div className='grid1' >
 
  <h1>
 {data.ContactDescription}
@@ -93,15 +93,15 @@ function contact({data}) {
      <div className="top" >
          <div className="top-1" >
              <h2>Questions? Comments?</h2>
-             <span><i class="fas fa-envelope"></i>info@airjaldi.net</span>
+             <span><i className="fas fa-envelope"></i>info@airjaldi.net</span>
          </div>
          <div  className="top-1" >
              <h2>New Connections & Support</h2>
-             <span><i class="fas fa-envelope"></i>support@airjaldi.net</span>
+             <span><i className="fas fa-envelope"></i>support@airjaldi.net</span>
          </div>
          <div id="act" className="top-1" >
         <h2> Call Us Toll-Free:</h2>
-<span> <i class="fas fa-phone-alt"></i>1-800-121-3648</span>
+<span> <i className="fas fa-phone-alt"></i>1-800-121-3648</span>
          </div>
      </div>
 
@@ -113,30 +113,30 @@ function contact({data}) {
                  
                  <form>
      
-     <div class="group">      
+     <div className="group">      
        <input type="text" required/>
-       <span class="highlight"></span>
-       <span class="bar"></span>
+       <span className="highlight"></span>
+       <span className="bar"></span>
        <label>Your Name</label>
      </div>
        
-     <div class="group">      
+     <div className="group">      
        <input type="text" required/>
-       <span class="highlight"></span>
-       <span class="bar"></span>
+       <span className="highlight"></span>
+       <span className="bar"></span>
        <label>Your Number </label>
      </div>
-     <div class="group">      
+     <div className="group">      
        <input type="text" required/>
-       <span class="highlight"></span>
-       <span class="bar"></span>
+       <span className="highlight"></span>
+       <span className="bar"></span>
        <label>Your Email
  </label>
      </div>
-     <div class="group">      
+     <div className="group">      
        <input type="text" required/>
-       <span class="highlight"></span>
-       <span class="bar"></span>
+       <span className="highlight"></span>
+       <span className="bar"></span>
        <label>Your Message</label>
      </div>
  
@@ -146,38 +146,47 @@ function contact({data}) {
  
                  </div>
  
-                 <div class="socials-list">
-                     <a target="_blank" href="http://www.facebook.com/AirJaldi" class="w-socials-item facebook">
+                 <div className="socials-list">
+                     <a target="_blank" href="http://www.facebook.com/AirJaldi" className="w-socials-item facebook">
 	
 			
-				<i class="fab fa-facebook-f"></i>
+				<i className="fab fa-facebook-f"></i>
 				</a>
 	
-            <a target="_blank" href="http://twitter.com/AirJaldiRBB" class="w-socials-item twitter">
+            <a target="_blank" href="http://twitter.com/AirJaldiRBB" className="w-socials-item twitter">
 				
 				
-                <i class="fab fa-twitter"></i>
-				
-			</a>
-            <a target="_blank" href="http://plus.google.com/s/airjaldi" class="w-socials-item google">
-				
-				
-                <i class="fab fa-google-plus-g"></i>
+                <i className="fab fa-twitter"></i>
 				
 			</a>
-            <a target="_blank" href="http://www.linkedin.com/company/1689736" class="w-socials-item linkedin">
+
+      <a target="_blank" href="https://www.youtube.com/channel/UC6LR9fyBNg-yuLFa0fj27wQ" className="w-socials-item youtube">
 				
 			
-                <i class="fab fa-linkedin"></i>
+        <i className="fab fa-youtube"></i>
+
+</a>
+
+<a target="_blank" href="https://www.instagram.com/airjaldi/" className="w-socials-item instagram">
+				
+			
+        <i className="fab fa-instagram"></i>
+
+</a>
+
+            <a target="_blank" href="http://www.linkedin.com/company/1689736" className="w-socials-item linkedin">
+				
+			
+                <i className="fab fa-linkedin"></i>
 			
 			</a></div>
         </div>
         <div className="mid-2" >
-  <h2>Network Teams:</h2>
+ 
   {data.network.map(number =>
     <li>
     {number.NetworkName}:
-    <span> <i class="fas fa-phone-alt"></i>{number.NetworkNumber}</span>
+    <span> <i className="fas fa-phone-alt"></i>{number.NetworkNumber}</span>
   
     </li>
         )
