@@ -100,10 +100,10 @@ td:nth-child(2){
               margin-bottom:0.9rem;
           }
           li {
-              
+               line-height: 1.2rem;
               margin-left:1.5rem;
               font-size:1.2rem;
-              margin-top:0.5rem;
+              margin-top:1rem;
               margin-bottom:0.5rem;
           }
      }
