@@ -20,6 +20,7 @@ height:100%;
         justify-content:center;
         align-items:center;
        
+    
    
     .card {
        z-index:990;
@@ -42,16 +43,16 @@ height:100%;
          
             width:50%;
       
-            background-color:white;
+          
             display:flex;
-       justify-content:center;
+       justify-content:flex-start;
   
    
        align-items:center;
        h1 {
          padding:1rem;
-     
-           width:90%;
+         background-color:white;
+      
            text-align:center;
            text-align:center;
    
