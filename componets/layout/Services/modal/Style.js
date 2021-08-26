@@ -577,9 +577,7 @@ input:focus ~ .highlight {
   background-color: rgb(221,243,255);;
   box-shadow: 0 1px 1px rgb(0 0 0 / 5%), 0 2px 5px rgb(0 0 0 / 15%);
   .form {
-    
-   
-     width:100%;
+      width:100%;
      height:100%;;
      display:flex;
        justify-content:center;
