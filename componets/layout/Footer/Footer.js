@@ -93,7 +93,7 @@ className="fab fa-linkedin"></i>
      
      </div>
      <div className ="contact1" >
-       <Link href='/parentalControls' >Parental controls</Link>
+       <Link href='/privacyPolicy' >Privacy Policy</Link>
      
      </div>
 
