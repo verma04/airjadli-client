@@ -91,7 +91,7 @@ height:100%;
      }
  }
  .card {
-    z-index:990;
+    
     position:absolute;
     bottom:8%;
     display:flex;

@@ -2,7 +2,30 @@ import {  createGlobalStyle } from "styled-components";
 
 
  export default   createGlobalStyle`
+.styles_scroll-to-top__2A70v {
+    background-color: white;
+  
+    right: 4rem !important;;
 
+    bottom: 40px;
+    position: fixed;
+    z-index: 2;
+    cursor: pointer;
+    right: 10%;
+    border-radius: 7px;
+    width: 40px;
+    height: 40px;
+    transition: opacity 1s ease-in-out;
+    box-shadow: 0 9px 25px 0 rgb(132 128 177 / 28%);
+    border: none;
+    outline: none;
+    z-index: 1;
+    margin-bottom: 6rem;
+    background-color: rgb(0, 133, 197) !important;
+    svg {
+      fill: white;
+    }
+}
  span {
    cursor: pointer;
  }

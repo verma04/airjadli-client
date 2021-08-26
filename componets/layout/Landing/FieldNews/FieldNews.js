@@ -5,13 +5,14 @@ import Image from 'next/image'
 import { Router, useRouter } from "next/router";
 import { useQuery } from "react-query";
 
-const fetchNews = async () => {
+const fieldNews = async () => {
   const res = await fetch("http://sandbox.airjaldi.com:3000/client/fieldStories");
   return res.json();
 };
 export default function News() {
-  const { data, status } = useQuery("news", fetchNews);
+  const { data, status } = useQuery("fieldNews",fieldNews);
   const router = useRouter();
+  
   return (
     <>
     {status === "error" && <p></p>}
@@ -33,10 +34,10 @@ export default function News() {
 
       <div class='card'  >
       <div class='card-1'  >
-        {data.data.reverse().slice(0, 3).map((number) => 
+        {data.data.slice(0, 3).map((number) => 
  <div class='grid1' >
 
- <div onClick={() => router.push(`/news/${number.slug}`) } className="wrapper"   >
+ <div onClick={() => router.push(`/field-stories/${number.slug}`) } className="wrapper"   >
  <Image
             className="myImage"
       src={number.featureImg}
@@ -46,7 +47,7 @@ export default function News() {
     />
  </div>
 
- <div onClick={() => router.push(`/news/${number.slug}`) } className="data" >
+ <div onClick={() => router.push(`/field-stories/${number.slug}`) } className="data" >
      <div class='name'>
   
 <h3>{number.title}</h3>

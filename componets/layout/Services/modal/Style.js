@@ -11,6 +11,7 @@ height:100%;
 align-items:center;
 flex-direction:column;
 width: 100%;
+z-index: 1;
 
 @media (min-width: 1281px) {
     
@@ -37,6 +38,7 @@ width: 100%;
   border: 1px solid #888;
   width: 40%;
   height: 60%;
+  min-height: 35rem;
   background-color: rgb(221,243,255);;
   box-shadow: 0 1px 1px rgb(0 0 0 / 5%), 0 2px 5px rgb(0 0 0 / 15%);
   .form {
@@ -198,7 +200,7 @@ input:focus ~ .highlight {
 /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 2; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 5%; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -215,7 +217,8 @@ input:focus ~ .highlight {
   padding: 20px;
   border-radius: 1rem;
   border: 1px solid #888;
-  width: 60%;
+  width: 50%;
+  min-height: 30rem;
   height: 80%;
   background-color: rgb(221,243,255);;
   box-shadow: 0 1px 1px rgb(0 0 0 / 5%), 0 2px 5px rgb(0 0 0 / 15%);
@@ -376,7 +379,7 @@ input:focus ~ .highlight {
 /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 2; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 4%; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -415,7 +418,7 @@ input:focus ~ .highlight {
        flex-direction:column;
       .group 			  { 
   position:relative; 
-  margin-bottom:45px; 
+  margin-bottom:30px; 
   width:100%;
 }
 button {
@@ -427,9 +430,9 @@ button {
    color:white;
 }
 input 				{
-  font-size:18px;
+ 
   background-color: rgb(221,243,255);;
-  padding:10px 10px 10px 5px;
+  padding:5px 5px 5px 3px;
   display:block;
   width:90%;
   border:none;
@@ -438,9 +441,9 @@ input 				{
 }
 
 select				{
-  font-size:18px;
+  
   background-color: rgb(221,243,255);;
-  padding:10px 10px 10px 5px;
+  padding:5px 5px 5px 3px;
   display:block;
   width:90%;
   border:none;
