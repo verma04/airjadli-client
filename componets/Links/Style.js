@@ -10,6 +10,12 @@ export const Section = styled.section`
        strong {
         font-weight: 1000; 
        }
+
+       ol {
+         li {
+           list-style: decimal-leading-zero;
+         }
+       }
  @media (min-width: 1281px) {
    margin-top: 3rem;
    display:flex;
