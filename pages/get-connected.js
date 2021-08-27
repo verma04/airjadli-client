@@ -14,7 +14,7 @@ function connect({data}) {
 }
 
 export async function getStaticProps(context) {
-    const res = await fetch(` http://sandbox.airjaldi.com:3000/client/getConnection`)
+    const res = await fetch(`https://admin.airjaldi.com/client/getConnection`)
     const data = await res.json()
   
  

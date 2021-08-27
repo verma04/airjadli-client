@@ -8,7 +8,7 @@ import { number } from 'prop-types';
 import { useState } from 'react';
 import ReactPlayer from 'react-player'
 const fetchProjects = async () => {
-  const res = await fetch("http://sandbox.airjaldi.com:3000/client/getprojects");
+  const res = await fetch("https://admin.airjaldi.com/client/getprojects");
   return res.json();
 };
 export default function Project({data}) {

@@ -6,7 +6,7 @@ import { Router, useRouter } from "next/router";
 import { useQuery } from "react-query";
 
 const fieldNews = async () => {
-  const res = await fetch("http://sandbox.airjaldi.com:3000/client/fieldStories");
+  const res = await fetch("https://admin.airjaldi.com/client/fieldStories");
   return res.json();
 };
 export default function News() {

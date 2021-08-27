@@ -12,7 +12,7 @@ function index({news}) {
 }
 
 export const getStaticPaths = async () => {
-    const res = await fetch('http://sandbox.airjaldi.com:3000/client/fieldStories');
+    const res = await fetch('https://admin.airjaldi.com/client/fieldStories');
     const data = await res.json();
   
     // map data to an array of path objects with params (id)
@@ -35,7 +35,7 @@ export const getStaticPaths = async () => {
 
     console.log(id)
  
-    const res = await axios.get(`http://sandbox.airjaldi.com:3000/client/getfieldStories/${encodeURI(id)}`);
+    const res = await axios.get(`https://admin.airjaldi.com/client/getfieldStories/${encodeURI(id)}`);
     const data = await res.data;
     if (data === null) {
       return {

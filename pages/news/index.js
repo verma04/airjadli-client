@@ -12,7 +12,7 @@ function index({data}) {
 
 
 export async function getStaticProps(context) {
-    const res = await fetch(`http://sandbox.airjaldi.com:3000/api/client/getNews`)
+    const res = await fetch(`https://admin.airjaldi.com/api/client/getNews`)
     const data = await res.json()
   
  
