@@ -5,7 +5,24 @@ import styled from 'styled-components'
 
 
 export const  Section = styled.section`
+.cityData-35 {
+    position:absolute;
+    top: 50%;
+    left: 35%;
 
+    width:1.8rem;
+        height:1.8rem;
+
+
+.betul{
+    position:absolute;
+    z-index:1;
+   width:100%;
+   height:100%;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
+}
+}
 @media (min-width: 1281px) {
     display:flex;
 justify-content:center;
@@ -1098,7 +1115,7 @@ z-index:1;
 
 .cityData-21 {
     position:absolute;
-    top: 37%;
+    top: 45%;
     left: 59%;
 
     width:1.8rem;
@@ -1309,8 +1326,10 @@ z-index:1;
 
 .cityData-29  {
     position:absolute;
-    top: 33.5%;
-    left: 70%;;
+    
+    top: 30.5%;
+    left: 67%;
+
 
     width:1.8rem;
         height:1.8rem;
@@ -1454,7 +1473,28 @@ width:100%;
 }
 
 
+.cityData-35 {
+    position:absolute;
+    top: 50%;
+    left: 35%;
 
+    width:1.8rem;
+        height:1.8rem;
+
+
+.betul{
+    position:absolute;
+    z-index:1;
+   width:100%;
+   height:100%;
+        color: ${props => props.theme.colors.blue};
+  animation: blinker 2s cubic-bezier(.5, 0, 1, 1) infinite alternate;     
+}
+}
+
+.cityData-35:hover .hide {
+    display:flex;
+}
 
 
 
