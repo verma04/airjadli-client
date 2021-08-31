@@ -19,7 +19,7 @@ margin-top:5rem;
        flex-direction:column;
        align-items:center;
      
-    width: 81rem;
+       width: 90rem;
 
        z-index:1000;
        .head {
@@ -214,7 +214,7 @@ background-color: rgb(221,243,255);
     justify-content:space-between;
     flex-direction:column;
     align-items:center;
-    width:85%;
+    width: 93%;
     .head {
         width:100%;
      height:3rem;
@@ -231,7 +231,7 @@ background-color: rgb(221,243,255);
       z-index:1000;
       text-transform:uppercase;
       cursor: pointer;
-      font-size:1.2rem;
+      font-size: 1rem;
  color: ${props => props.theme.colors.blue};
 
     }
