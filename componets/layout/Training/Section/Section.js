@@ -27,7 +27,7 @@ export default function Home({data}) {
 
 <p>{data.SectionData}</p>
 
-<p>Call 1-800-200-9989 or email <span  style={{cursor:"pointer"}}  onClick={() => window.open('mailto:support@airjaldi.com') }  >support@airjaldi.com</span>  to get connected</p>
+<p>Call 1800-121-3648 or email <span  style={{cursor:"pointer"}}  onClick={() => window.open('mailto:support@airjaldi.net') }  >support@airjaldi.net</span>  to get connected</p>
 
     </div>
     </div>

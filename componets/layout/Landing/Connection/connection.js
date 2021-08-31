@@ -20,9 +20,9 @@ const Navbar = () => {
 </h2>  
               </div>
               <div className='bottom' >
-              <h2>    Call 1-800-200-9989 or email
- <span  onClick={() => window.open('mailto:support@airjaldi.com') }
-      title="support@example.com"  >support@airjaldi.com </span> to
+              <h2>    Call 1800-121-3648 or email
+ <span  onClick={() => window.open('mailto:support@airjaldi.net') }
+      title="support@airjaldi.net"  >support@airjaldi.net </span> to
 get connected. </h2>
               </div>
           </div>
