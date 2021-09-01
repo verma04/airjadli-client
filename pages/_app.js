@@ -28,16 +28,7 @@ function MyApp({ Component, pageProps }) {
   if (!queryClientRef.current) {
     queryClientRef.current = new QueryClient()
   }
-  Sentry.init({
-    dsn: "https://3a4d943fe29d4ba68aab95c9a473c046@o571355.ingest.sentry.io/5719377",
-    integrations: [new Integrations.BrowserTracing()],
-  
-    // Set tracesSampleRate to 1.0 to capture 100%
-    // of transactions for performance monitoring.
-    // We recommend adjusting this value in production
-    tracesSampleRate: 1.0,
-  });
-  
+
   return (
 <div>
 <Head>
