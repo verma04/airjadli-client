@@ -648,7 +648,7 @@ width:100%;
    z-index:2;
    background-color:red;
    display:flex;
-   justify-content:center;
+   justify-content:flex-start;
    align-items:center;
    flex-direction:column;
    align-items:center;
@@ -720,7 +720,7 @@ width:100%;
    }
    #last{
       width:100%;
-      height:20.6%;
+    
     margin-top:1%;
       h3 {
         

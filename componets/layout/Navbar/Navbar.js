@@ -254,18 +254,10 @@ const Navbar = () => {
  
   </div>
   <div id="last"  className="link" >
-  <h2>GET CONNECTED</h2>
+ 
 
   
-
-<div   className="list" >
-<h3 id={router.pathname == "/get-connected" ? "activesm" : ""} className="small" > <Link  href="/get-connected" >Get a new Connection</Link></h3>
-<h3 id={router.pathname == "/customers" ? "activesm" : ""} className="small" >  <Link   href="/customers" >Existing Customers</Link></h3>
-<h3  id={router.pathname == "/faqs" ? "active" : ""} >   <Link   href="/faqs" >FAQs</Link></h3>
-  
-</div>
-
-
+  <h2 onClick={() =>router.push("/services")}    >  OUR SERVICES </h2>
   
   
   </div>
