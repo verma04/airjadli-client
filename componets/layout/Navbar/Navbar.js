@@ -250,7 +250,7 @@ null
  <li><h3>Network</h3></li>
    <li>{number.cityName} </li>
    <li></li>
-   <li  onClick={()=> router.push(`/network/${number.slug}`)} >View <img alt="Image Arrow" src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img></li>
+   <li  onClick={()=> router.push(`/networks/${number.slug}`)} >View <img alt="Image Arrow" src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img></li>
      </ul>
                </div>
                  )}
