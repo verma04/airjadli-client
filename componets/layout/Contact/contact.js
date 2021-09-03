@@ -147,39 +147,8 @@ function contact({data}) {
                  </div>
  
                  <div className="socials-list">
-                     <a target="_blank" href="http://www.facebook.com/AirJaldi" className="w-socials-item facebook">
-	
-			
-				<i className="fab fa-facebook-f"></i>
-				</a>
-	
-            <a target="_blank" href="http://twitter.com/AirJaldiRBB" className="w-socials-item twitter">
-				
-				
-                <i className="fab fa-twitter"></i>
-				
-			</a>
-
-      <a target="_blank" href="https://www.youtube.com/channel/UC6LR9fyBNg-yuLFa0fj27wQ" className="w-socials-item youtube">
-				
-			
-        <i className="fab fa-youtube"></i>
-
-</a>
-
-<a target="_blank" href="https://www.instagram.com/airjaldi/" className="w-socials-item instagram">
-				
-			
-        <i className="fab fa-instagram"></i>
-
-</a>
-
-            <a target="_blank" href="http://www.linkedin.com/company/1689736" className="w-socials-item linkedin">
-				
-			
-                <i className="fab fa-linkedin"></i>
-			
-			</a></div>
+        
+     
         </div>
         <div className="mid-2" >
  
