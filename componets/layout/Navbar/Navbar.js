@@ -12,7 +12,7 @@ import {stateToHTML} from 'draft-js-export-html';
 
 const saerchNavbar = async (sea) => {
   const idd = sea.queryKey[1]
-  const res = await fetch(`http://localhost:3000/api/client/search/${idd}`);
+  const res = await fetch(`https://admin.airjaldi.com/api/client/search/${idd}`);
   return res.json();
 };
  
