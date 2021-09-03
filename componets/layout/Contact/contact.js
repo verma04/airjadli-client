@@ -147,7 +147,7 @@ function contact({data}) {
                  </div>
  
                  <div className="socials-list">
-        
+        </div>
      
         </div>
         <div className="mid-2" >
