@@ -50,8 +50,8 @@ const Navbar = () => {
            
            className="fab fa-twitter"></i>
            <i 
-           onClick={() => window.open('https://www.youtube.com/channel/UC6LR9fyBNg-yuLFa0fj27wQ') }
-           title="https://www.youtube.com/channel/UC6LR9fyBNg-yuLFa0fj27wQ"
+           onClick={() => window.open('https://www.youtube.com/channel/UCa8WdkFntz5dFZlpHrXZjFQ') }
+           title="https://www.youtube.com/channel/UCa8WdkFntz5dFZlpHrXZjFQ"
           
            className="fab fa-youtube"></i>
 

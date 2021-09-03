@@ -274,14 +274,14 @@ const Navbar = () => {
  
   </div>
   <div id="last"  className="link" >
+
   <h2  onClick={()=> router.push('/services')}  >Services</h2>
 
   
   
 
 
-  
-  
+
   </div>
 
   <div className="link" >

@@ -12,7 +12,7 @@ function AllTeam({data1  , city, id}) {
 
   const [people, setpeople] = useState("");
   useEffect( async () => {
-    const res = await axios.get(`http://sandbox.airjaldi.com:3000/api/client/people/${id}`)
+    const res = await axios.get(`https://admin.airjaldi.com/api/client/people/${id}`)
    
   
     const data = await res.data;

@@ -726,8 +726,10 @@ width:100%;
    }
    #last{
       width:100%;
+
       height: 8.6%;
-    margin-top:1%;
+
+
     h2 {
        text-transform: uppercase;
     }

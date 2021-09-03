@@ -290,8 +290,8 @@ flex-direction:column;
     }
 
     .fa-facebook-f {
-     padding-left: 1.2rem;
-padding-right: 1.2rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
     .fa-twitter-square{
      padding-left: 0.7rem;
