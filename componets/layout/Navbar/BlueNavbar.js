@@ -100,6 +100,8 @@ const Navbar = () => {
                </div>
                <div class="nav-item" >
                <span id={router.pathname == "/get-connected" ? "activesm" : ""}  >   <Link  href="/contact" >  CONTACT US  </Link> </span>
+              
+            
                </div>
                <div class="nav-item" >
                <span>       <Link  href="/payments" >MAKE PAYMENT</Link>  </span>
@@ -197,16 +199,10 @@ const Navbar = () => {
  
   </div>
   <div id="last"  className="link" >
-  <h2>GET CONNECTED</h2>
+  <h2  onClick={()=> router.push('/services')}  >Services</h2>
 
   
 
-<div   className="list" >
-<h3 id={router.pathname == "/get-connected" ? "activesm" : ""} className="small" > <Link  href="/get-connected" >Get a new Connection</Link></h3>
-<h3 id={router.pathname == "/customers" ? "activesm" : ""} className="small" >  <Link   href="/customers" >Existing Customers</Link></h3>
-<h3  id={router.pathname == "/faqs" ? "active" : ""} >   <Link   href="/faqs" >FAQs</Link></h3>
-  
-</div>
 
 
   
@@ -214,7 +210,9 @@ const Navbar = () => {
   </div>
 
   <div className="link" >
- <h2 id={router.pathname == "/get-connected" ? "activesm" : ""}  >   <Link  href="/contact" >  CONTACT US  </Link>  CONTACT US </h2>
+ <h2 id={router.pathname == "/get-connected" ? "activesm" : ""}  >   <Link  href="/contact" >  CONTACT US  </Link>  </h2>
+ 
+ <h3  style={{marginTop:'1em'}} id={router.pathname == "/faq" ? "active" : ""} >  <Link  href="/profile" >  Faq</Link></h3>
   </div>
   <div className="link" >
  <h2><Link  href="/payments" >MAKE PAYMENT</Link> </h2> 

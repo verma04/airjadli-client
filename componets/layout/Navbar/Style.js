@@ -48,6 +48,9 @@ a{
   z-index: 1;
   top:4rem;
   justify-content:center;
+  #faq {
+   margin-left:50%;
+  }
   .content {
      display:flex;
      justify-content:center;
@@ -274,6 +277,9 @@ a{
   top:4rem;
   justify-content:center;
   align-items:center;
+  #faq {
+   margin-left:60%;
+  }
   .content {
      display:flex;
      justify-content:center;
@@ -648,7 +654,7 @@ width:100%;
    z-index:2;
    background-color:red;
    display:flex;
-   justify-content:center;
+   justify-content:flex-start;
    align-items:center;
    flex-direction:column;
    align-items:center;
@@ -720,8 +726,11 @@ width:100%;
    }
    #last{
       width:100%;
-      height:20.6%;
+      height: 8.6%;
     margin-top:1%;
+    h2 {
+       text-transform: uppercase;
+    }
       h3 {
         
       height:10%;

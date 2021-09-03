@@ -26,6 +26,18 @@ import {  createGlobalStyle } from "styled-components";
       fill: white;
     }
 }
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0085C5;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+   /* creates padding around scroll thumb */
+}
  span {
    cursor: pointer;
  }
@@ -88,9 +100,12 @@ div {
   font-family:  SourceSansPro-Regular;
 
       overflow-x: hidden;
-       
+      scrollbar-color: yellow blue;
+      
       ::-webkit-scrollbar {
-  width: 10px;
+ 
+
+  
   #nprogress .bar {
   background: #FFBB00 !important;
 }
@@ -105,14 +120,7 @@ div {
 /* Track */
  
 /* Handle */
-::-webkit-scrollbar-thumb {
-  background: ${props => props.theme.colors.brown}; 
-  border-radius: 5px;
-}
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: ${props => props.theme.colors.darkBrown};
-}
+
       
   }
   ul {

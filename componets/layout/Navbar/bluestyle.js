@@ -590,7 +590,7 @@ height:100%;
 z-index:2;
 background-color:red;
 display:flex;
-justify-content:center;
+justify-content:flex-start;
 align-items:center;
 flex-direction:column;
 align-items:center;
@@ -661,27 +661,30 @@ background-color:#0a5d9f;
   
 }
 #last{
-   width:100%;
-   height:20.6%;
- margin-top:1%;
-   h3 {
+      width:100%;
+      height: 5.6%;
+    margin-top:1%;
+    h2 {
+       text-transform: uppercase;
+    }
+      h3 {
+        
+      height:10%;
+      }
+      .list {
+   
+      height:90%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      h3 {
+         height: 29%;
+      }
+         
+      }
      
-   height:10%;
    }
-   .list {
-
-   height:90%;
-   display:flex;
-   justify-content:center;
-   align-items:center;
-   flex-direction:column;
-   h3 {
-      height: 29%;
-   }
-      
-   }
-  
-}
 
 }
 }
