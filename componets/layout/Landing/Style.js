@@ -60,7 +60,7 @@ height:100%;
 
     .card {
    
-       z-index:1000;
+       z-index:2;
         position:absolute;
         bottom:7%;
         display:flex;
@@ -188,7 +188,7 @@ span {
 
     
     .card {
-       z-index:1000;
+       z-index:10;
         position:absolute;
         bottom:7%;
         display:flex;
@@ -313,7 +313,7 @@ span {
 
    
     .card {
-       z-index:1000;
+       z-index:10;
         position:absolute;
         bottom:7%;
         display:flex;

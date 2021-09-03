@@ -20,7 +20,7 @@ function City({data}) {
   
     const convertFromJSONToHTML = (text) => {
 
-        console.log(text)
+        
           try{
               return { __html: stateToHTML(convertFromRaw(text))}
             } catch(exp) {
