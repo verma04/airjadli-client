@@ -15,6 +15,19 @@ z-index:1000;
 a{
    color:white
 }
+
+::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0085C5;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+   /* creates padding around scroll thumb */
+}
+
 @media  (min-width: 1280px) {
    
    height:5rem;
