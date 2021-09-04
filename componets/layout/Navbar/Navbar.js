@@ -36,7 +36,7 @@ const Navbar = () => {
    const change= (e) => {
    setsea(e.target.value)
    }
-   console.log(data)
+  
    const convertFromJSONToHTML = (text) => {
 
     try{
@@ -133,25 +133,13 @@ const Navbar = () => {
                <div class="nav-item" >
                <span id={router.pathname == "/get-connected" ? "activesm" : ""}  >   <Link  href="/contact" >  CONTACT US  </Link> </span>
 
-               <div className="tri" ></div>
-               <div class="dropdown-content">
- 
-                 
-        <div id="faq" className="content" >
-        <div className="list" >
-        <h3 id={router.pathname == "/faq" ? "active" : ""} >  <Link  href="/profile" > FAQ</Link></h3>
-        
-       
-        </div>
-       
-       
- 
-        </div>
-  
-  
-   </div>
-             
-             
+           
+               </div>
+
+               <div class="nav-item" >
+               <span id={router.pathname == "/faqs" ? "activesm" : ""}  >   <Link  href="/faqs" > FAQ  </Link> </span>
+
+           
                </div>
                <div class="nav-item" >
                <span>    <Link  href="/payments" >MAKE PAYMENT</Link>     </span>
@@ -327,7 +315,7 @@ null
              <div className="news-1" >
                <img src={number.featureImg} ></img>
                <ul>
- <li><h3>News </h3></li>
+ <li><h3>Field Stories</h3></li>
    <li>{number.title} </li>
   <li></li>
    <li  onClick={()=> router.push(`/field-stories/${number.slug}`)} ><h3>View</h3> <img alt="Image Arrow" src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img></li>
