@@ -8,6 +8,9 @@ export const  Section = styled.section`
 display:flex;
 justify-content:center;
 height:100%;
+span {
+    cursor: pointer;
+}
 
 @media  (min-width: 1281px) {
     .grid-1 {
@@ -23,14 +26,18 @@ height:100%;
         justify-content:center;
         align-items:center;
          .birdOut {
-             z-index:999;
+            
+    z-index: 1;
+
            width:82rem;
            position: relative;
            height:100%;
           
          .birdd {
            
-         z-index:999;
+        
+    z-index: 1;
+
     height: 100%;
     display:flex;
   top:6%;
@@ -117,12 +124,14 @@ display:flex;
 cursor: pointer;
 justify-content:flex-start;
 color:${props => props.theme.colors.blue};
+cursor: pointer;
 img {
     width:34px;
     height:1rem;
 }
 span {
     margin-left:0.5rem;
+    cursor: pointer;
     font-size:1.2rem;
 }
 
@@ -153,14 +162,18 @@ span {
         justify-content:center;
        
         .birdOut {
-             z-index:999;
+            
+    z-index: 1;
+
            width:90%;
            position: relative;
            height:100%;
             
          .birdd {
            
-         z-index:999;
+        
+    z-index: 1;
+
     height: 100%;
     display:flex;
   top:8%;
@@ -278,14 +291,18 @@ span {
         justify-content:center;
        
         .birdOut {
-             z-index:999;
+            
+    z-index: 1;
+
            width:100%;
            position: relative;
            height:100%;
             
          .birdd {
            
-         z-index:999;
+        
+    z-index: 1;
+
     height: 100%;
     display:flex;
   top:8%;
@@ -507,14 +524,18 @@ span {
        
         .birdOut {
             display:none;
-             z-index:999;
+            
+    z-index: 1;
+
            width:90%;
            position: relative;
            height:100%;
             
          .birdd {
            
-         z-index:999;
+        
+    z-index: 1;
+
     height: 100%;
     display:flex;
   top:8%;
