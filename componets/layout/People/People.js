@@ -49,7 +49,7 @@ export default function Home({data}) {
     <div class="grid"     >
     <Image
               className="myImage"
-        src={data.Page.PeoplePageAvatar}
+        src={ process.env.url+data.Page.PeoplePageAvatar}
         alt="Picture of the author"
         layout="fill"
        
