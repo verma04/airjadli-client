@@ -73,7 +73,7 @@ function Faq({data}) {
  
  <Image
            className="myImage"
-           src={data.FaqAvatar}
+           src={  process.env.url+    data.FaqAvatar}
     
      layout="fill"
     
