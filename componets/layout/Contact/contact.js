@@ -54,7 +54,7 @@ function contact({data}) {
    
    <Image
              className="myImage"
-             src={data.ContactAvatar}
+             src={ process.env.url+ data.ContactAvatar}
       
        layout="fill"
       
