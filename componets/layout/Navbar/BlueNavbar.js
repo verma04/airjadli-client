@@ -225,7 +225,7 @@ null
  
                  {data.network.map((number, i)  => 
                  <div className="news-1" >
-                   <img src={number.featureImg} ></img>
+                   <img src={ process.env.url + number.featureImg} ></img>
                    <ul>
  <li><h3>Network</h3></li>
    <li>{number.cityName} </li>
@@ -255,7 +255,7 @@ null
 
 {data.news.map(number => 
 <div className="news-1" >
- <img src={number.featureImg} ></img>
+ <img src={ process.env.url +  number.featureImg} ></img>
 
  <ul>
  <li><h3>News</h3></li>
@@ -281,7 +281,7 @@ null
 
              {data.project.map(number => 
              <div className="news-1" >
-               <img src={number.featureImg} ></img>
+               <img src={ process.env.url + number.featureImg} ></img>
                <ul>
  <li><h3>Projects</h3></li>
    <li>{number.title} </li>
@@ -305,7 +305,7 @@ null
 
              {data.field.map(number => 
              <div className="news-1" >
-               <img src={number.featureImg} ></img>
+               <img src={ process.env.url + number.featureImg} ></img>
                <ul>
  <li><h3>Field Stories</h3></li>
    <li>{number.title} </li>
