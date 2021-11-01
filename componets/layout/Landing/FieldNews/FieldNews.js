@@ -40,7 +40,7 @@ export default function News() {
  <div onClick={() => router.push(`/field-stories/${number.slug}`) } className="wrapper"   >
  <Image
             className="myImage"
-      src={number.featureImg}
+      src={ process.env.url +  number.featureImg}
       alt="Picture of the author"
       layout="fill"
       objectFit="cover"

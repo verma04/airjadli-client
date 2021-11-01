@@ -44,7 +44,7 @@ export default function Project({data}) {
  
 <Image
            className="myImage"
-           src={number.featureImg}
+           src={ process.env.url +  number.featureImg}
      alt="Picture of the author"
      layout="fill"
      objectFit="cover"
@@ -87,7 +87,7 @@ export default function Project({data}) {
   (
     <Image
     className="myImage"
-src={data.section3Avatar}
+src={ process.env.url + data.section3Avatar}
 alt="Picture of the author"
 layout="fill"
 objectFit="cover"

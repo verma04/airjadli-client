@@ -43,7 +43,7 @@ export default function Home({data}) {
     <div class="grid">
     <Image
               className="myImage"
-        src={data.page.ProjectsPageAvatar}
+        src={ process.env.url+data.page.ProjectsPageAvatar}
         alt="Picture of the author"
         layout="fill"
        

@@ -116,7 +116,7 @@ function Blog({data}) {
               </div>
             </div>
             
-          <img src={data.featureImg} ></img>
+          <img src={ process.env.url + data.featureImg} ></img>
       
 
             <div className="data"  dangerouslySetInnerHTML={convertFromJSONToHTML(data.data)} ></div>
