@@ -17,7 +17,6 @@ jobs:
     
           script: |
             cd airjadli-client
-          
             export NVM_DIR="$HOME/.nvm"
             [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
             nvm install --lts
@@ -25,7 +24,7 @@ jobs:
             npm -v
             npm i pm2@latest -g
             rm -rf node_modules package-lock.json
-            npm i 
+            npm install
             npm run build
             pm2 delete  client
             pm2 start 'npm start' --name client
