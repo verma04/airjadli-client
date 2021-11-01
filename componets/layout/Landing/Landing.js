@@ -117,7 +117,7 @@ export default function Home({data}) {
    <div className="wrapper"  style={{  position: 'relative', width:"100%", height: '50%'}} >
    <Image
               className="myImage"
-        src={  number.sectionAvatar}
+        src={ process.env.url + number.sectionAvatar}
         alt="Picture of the author"
         layout="fill"
         objectFit="cover"
