@@ -48,7 +48,7 @@ export default function Home({data}) {
     <div class="grid">
     <Image
               className="myImage"
-        src={data.page.NewsPageAvatar}
+        src={ process.env.url +  data.page.NewsPageAvatar}
         alt="Picture of the author"
         layout="fill"
        
@@ -120,7 +120,7 @@ export default function Home({data}) {
        return (
          <Image
          className="myImage"
-        src={number.featureImg}
+        src={ process.env.url + number.featureImg}
         alt="Picture of the author"
         layout="fill"
         objectFit="cover"
