@@ -23,7 +23,7 @@ jobs:
             node -v
             npm i pm2@latest -g
             rm -rf node_modules package-lock.json
-            npm install 
+            yarn install 
             npm run build
             pm2 delete  client
             pm2 start 'npm start' --name client
