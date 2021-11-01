@@ -15,7 +15,7 @@ function Fact({data}) {
                   <div className="img" >
                   <Image
               className="myImage"
-        src={data.icon1img}
+        src={ process.env.url+data.icon1img}
         alt="Picture of the author"
         layout="fill"
         objectFit="fit"
@@ -28,7 +28,7 @@ function Fact({data}) {
                   <div className="img" >
                   <Image
               className="myImage"
-              src={data.icon2img}
+              src={ process.env.url+data.icon2img}
         alt="Picture of the author"
         layout="fill"
         objectFit="fit"
@@ -41,7 +41,7 @@ function Fact({data}) {
                   <div className="img" >
                   <Image
               className="myImage"
-              src={data.icon3img}
+              src={ process.env.url+data.icon3img}
         alt="Picture of the author"
         layout="fill"
         objectFit="cover"
@@ -56,7 +56,7 @@ function Fact({data}) {
                   <div className="img" >
                   <Image
               className="myImage"
-              src={data.icon4img}
+              src={ process.env.url+ data.icon4img}
         alt="Picture of the author"
         layout="fill"
         objectFit="cover"
