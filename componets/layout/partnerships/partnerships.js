@@ -38,7 +38,7 @@ export default function Home({data}) {
     
     <Image
               className="myImage"
-        src={data.aboutAvatar}
+        src={ process.env.url+ data.aboutAvatar}
        
         layout="fill"
        

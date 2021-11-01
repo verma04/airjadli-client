@@ -72,7 +72,7 @@ export default function Job({data}) {
  <div className="img" >
   <Image
               className="myImage"
-        src={user.partnerAvatar}
+        src={ process.env.url+ user.partnerAvatar}
         layout="fill"
         objectFit="cover"
       />
