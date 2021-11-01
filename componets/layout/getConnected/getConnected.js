@@ -24,7 +24,7 @@ export default function Home({data}) {
     <div class="grid"      >
     <Image
               className="myImage"
-        src={data.carrerAvatar}
+        src={ process.env.url+ data.carrerAvatar}
        
         layout="fill"
        
