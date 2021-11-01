@@ -87,7 +87,7 @@ export default function Project({data}) {
   (
     <Image
     className="myImage"
-src={ process.env.url + data.section3Avatar}
+src={process.env.url + data.section3Avatar}
 alt="Picture of the author"
 layout="fill"
 objectFit="cover"
