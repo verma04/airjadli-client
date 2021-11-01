@@ -44,7 +44,7 @@ export default function Home({data}) {
     <div class="grid">
     <Image
               className="myImage"
-        src={data.page.FieldStoryPageAvatar}
+        src={ process.env.url+   data.page.FieldStoryPageAvatar}
         alt="Picture of the author"
         layout="fill"
        
@@ -113,7 +113,7 @@ export default function Home({data}) {
        return (
          <Image
          className="myImage"
-        src={number.featureImg}
+        src={ process.env.url+  number.featureImg}
         alt="Picture of the author"
         layout="fill"
         objectFit="cover"
