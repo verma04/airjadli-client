@@ -20,7 +20,7 @@ function Fact({data}) {
                   <div className="img" >
                   <Image
               className="myImage"
-        src={ process.env.url+  process.env.url+ data.icon1img}
+        src={process.env.url+ data.icon1img}
         alt="Picture of the author"
         layout="fill"
         objectFit="contain"
