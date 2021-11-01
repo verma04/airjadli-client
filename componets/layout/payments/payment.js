@@ -40,7 +40,7 @@ function payment({data}) {
         <div class="grid">
     <Image
               className="myImage"
-        src={data.PaymentAvatar}
+        src={  process.env.url+data.PaymentAvatar}
         alt="Picture of the author"
         layout="fill"
        

@@ -10,7 +10,7 @@ function Fact({data}) {
 
                <Image
               className="myImage"
-        src={data.bannerAvatar}
+        src={  process.env.url+ data.bannerAvatar}
         alt="Picture of the author"
         layout="fill"
         objectFit="contain"

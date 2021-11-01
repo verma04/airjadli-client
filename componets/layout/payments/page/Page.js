@@ -82,7 +82,7 @@ url={data.Paymentyoutube2} />
                <div className="right" >
                <Image
               className="myImage"
-        src={data.workAvatar}
+        src={  process.env.url+ data.workAvatar}
         alt="Picture of the author"
         layout="fill"
         objectFit="contain"
