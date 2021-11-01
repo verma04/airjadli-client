@@ -50,7 +50,7 @@ function AllTeam({data1  , city, id}) {
         <div class="flip-card-front">
         <Image
                className="myImage"
-         src={number.memberAvatar}
+         src={ process.env.url+ number.memberAvatar}
          alt="Picture of the author"
          
          layout="fill"
@@ -94,7 +94,7 @@ function AllTeam({data1  , city, id}) {
               <div  style={{height: `25rem`}} class="flip-card">
   <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src={number.memberAvatar} alt="Avatar" />
+          <img src={ process.env.url+ number.memberAvatar} alt="Avatar" />
          <div className="det" > 
           <div className="data" >
                          <h2>{number.memberName}</h2>
