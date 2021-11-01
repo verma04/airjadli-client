@@ -76,7 +76,7 @@ arry.push(...dat , ...dat2);
 
         <Image
                className="myImage"
-         src={number.memberAvatar}
+         src={  process.env.url+ number.memberAvatar}
          alt="Picture of the author"
          
          layout="fill"
@@ -126,7 +126,7 @@ arry.push(...dat , ...dat2);
         <div class="flip-card-front">
         <Image
                className="myImage"
-         src={number.memberAvatar}
+         src={  process.env.url+ number.memberAvatar}
          alt="Picture of the author"
          
          layout="fill"
@@ -216,7 +216,7 @@ arry.push(...dat , ...dat2);
         <div class="flip-card-front">
         <Image
                className="myImage"
-         src={number.memberAvatar}
+         src={  process.env.url+ number.memberAvatar}
          alt="Picture of the author"
          
          layout="fill"
@@ -267,7 +267,7 @@ arry.push(...dat , ...dat2);
         <div class="flip-card-front">
         <Image
                className="myImage"
-         src={number.memberAvatar}
+         src={  process.env.url+ number.memberAvatar}
          alt="Picture of the author"
          
          layout="fill"
