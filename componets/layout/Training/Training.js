@@ -49,7 +49,7 @@ export default function Home({data}) {
 
     <Image
               className="myImage"
-        src={data.tranningAvatar}
+        src={ process.env.url+data.tranningAvatar}
        
         layout="fill"
        

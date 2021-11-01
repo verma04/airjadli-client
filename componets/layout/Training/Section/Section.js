@@ -38,7 +38,7 @@ export default function Home({data}) {
 <div className="right" >
     <Image
               className="myImage"
-        src={data.Section2img}
+        src={ process.env.url+data.Section2img}
        
         layout="fill"
        
