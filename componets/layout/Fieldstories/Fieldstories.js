@@ -113,7 +113,7 @@ export default function Home({data}) {
        return (
          <Image
          className="myImage"
-        src={ process.env.url+  number.featureImg}
+        src={  number.featureImg}
         alt="Picture of the author"
         layout="fill"
         objectFit="cover"
