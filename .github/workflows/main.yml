@@ -21,10 +21,9 @@ jobs:
             [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
             nvm install --lts
             node -v
-            npm -v
             npm i pm2@latest -g
             rm -rf node_modules package-lock.json
-            npm install
+            npm install --force
             npm run build
             pm2 delete  client
             pm2 start 'npm start' --name client
