@@ -111,7 +111,7 @@ function City({data}) {
                   <div className="flex-2" >
                   <Image
               className="myImage"
-        src={data.featureImg}
+        src={process.env.url+data.featureImg}
         alt="Picture of the author"
         layout="fill"
         objectFit="cover"
