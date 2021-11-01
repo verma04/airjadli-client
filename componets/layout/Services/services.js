@@ -57,7 +57,7 @@ export default function Home({data}) {
    </div>
     <Image
               className="myImage"
-        src={data.servicesAvatar}
+        src={ process.env.url+ data.servicesAvatar}
        
         layout="fill"
        

@@ -46,7 +46,7 @@ const convertFromJSONToHTML = (text) => {
    <div className="img" >
    <img
 className="myImage"
-src={number.categoryImage}
+src={process.env.url+ number.categoryImage}
 alt="Picture of the author"
 layout="fill"
 objectFit="contain"
@@ -108,7 +108,7 @@ objectFit="contain"
 
      <Image
                   className="myImage"
-            src={number.servicesAvatar}
+            src={ process.env.url+ number.servicesAvatar}
             layout="fill"
             objectFit="cover"
           />
