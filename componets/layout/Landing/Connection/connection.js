@@ -32,7 +32,7 @@ get connected. </h2>
        
      <Image
         
-     src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617868237/w77nybjkb1ztmbvuw5zu.png"
+     src={`${process.env.url}/w77nybjkb1ztmbvuw5zu.png`}
     
      layout="fill"
      objectFit="contain"
@@ -41,7 +41,8 @@ get connected. </h2>
      </div>
      <div className='bottom' >
          <div className="text" >
-      <h2>Connect to <span>JaldiFi hotspots</span>  with
+     
+      <h2>Connect to     <span>JaldiFi hotspots </span>  with
 your devices for high speed wireless
 internet access at affordable rates</h2>
          </div>

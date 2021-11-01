@@ -34,7 +34,7 @@ export default function Home({data1}) {
 
 <meta name="og:title" content="Networks"/>
 <meta name="og:type" content="website"/>
-<meta name="og:url" content="https://airjaldi.com/partnerships"/>
+<meta name="og:url" content="https://airjaldi.com/networks"/>
 <meta property='og:description' content={data1.page.NetworkPageDescription}/>
 <meta name='description' content={data1.page.NetworkPageDescription}/>
       </Head>
@@ -58,7 +58,7 @@ export default function Home({data1}) {
       
       <div className="birdOut" >
       <div className="birdd" > 
-  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
+  <img src={`${process.env.url}/qnjyqjew5x5sbmfq0rrp.png`} ></img>
    </div>
          </div>
 

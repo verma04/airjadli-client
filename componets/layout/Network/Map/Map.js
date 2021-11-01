@@ -190,7 +190,7 @@ export default function Home({data}) {
 
    <div className='link' >
    View 
-<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<img src={`${process.env.url}kks3py9aencqms2riscm.png`}></img>
 <span></span> </div>
    
    </span>
@@ -1516,7 +1516,7 @@ export default function Home({data}) {
   
     <Image
               className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1618377512/AirJaldi/yluwzprmhzewfrr8l5zt.png'
+        src={`${process.env.url}/yluwzprmhzewfrr8l5zt.png`}
        
         layout="fill"
          

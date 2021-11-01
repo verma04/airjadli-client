@@ -17,14 +17,14 @@ export default function Home({data}) {
     <div class="grid" >
     <Image
               className="myImage"
-        src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1618487935/fjlpllrerc2873pkifo6.jpg'
+        src={`${process.env.url}/fjlpllrerc2873pkifo6.jpg`}
         alt="Picture of the author"
         layout="fill"
        
         objectFit="cover"
       />
        <div className="bird" > 
-  <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616736338/i4zzojgwybld0b5moqqq.png'} ></img>
+  <img src={`${process.env.url}/i4zzojgwybld0b5moqqq.png`} ></img>
    </div>
 
       <div class='card'  >

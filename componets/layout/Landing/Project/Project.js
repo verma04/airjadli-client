@@ -118,7 +118,7 @@ url={data.section2Youtube} />
    </div>
 
    <div className='link' >
-<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<img src={`${process.env.url}/kks3py9aencqms2riscm.png`}></img>
  <span
      onClick={() => setved(false) }
 

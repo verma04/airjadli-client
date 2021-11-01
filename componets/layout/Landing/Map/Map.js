@@ -18,7 +18,7 @@ function Map({data}) {
                 <div class="flex-1" >
  <p>{data.SectionNetwork}.</p>
 <div className='link' >
-<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<img src="https://admin.airjaldi.com/static/kks3py9aencqms2riscm.png"></img>
  <span onClick={() => router.push(`/networks`) } > {data.SectionNetworkLink}</span> </div>
                     
 </div>
@@ -26,7 +26,7 @@ function Map({data}) {
 
 <img
               className="myImage"
-        src="https://res.cloudinary.com/airjaldi/image/upload/v1623401359/airjaldi-map_a4irz3.png"
+        src={`${process.env.url}/airjaldi-map_a4irz3.png`}
         alt="Picture of the author"
         layout="fill"
         objectFit="contain"

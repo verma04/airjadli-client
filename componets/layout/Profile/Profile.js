@@ -53,7 +53,7 @@ export default function Home({data}) {
 
 <div className="birdOut" >
       <div className="birdd" > 
-  <img  alt="Image Arrow" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1616733745/qnjyqjew5x5sbmfq0rrp.png'} ></img>
+  <img  alt="Image Arrow" src={`${process.env.url}/qnjyqjew5x5sbmfq0rrp.png`} ></img>
    </div>
          </div>
   

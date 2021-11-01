@@ -17,6 +17,8 @@ function index({city}) {
 export const getStaticPaths = async () => {
     const res = await fetch('https://admin.airjaldi.com/api/client/network');
     const data = await res.json();
+
+
   
     // map data to an array of path objects with params (id)
     const paths = data.map(city => {
@@ -37,8 +39,10 @@ export const getStaticPaths = async () => {
    
     const id = context.params.id;
  
-    const res = await fetch('https://airjadli.herokuapp.com/api/client/network/' + id);
+    const res = await fetch('https://admin.airjaldi.com/api/client/network/' + id);
     const data = await res.json();
+
+    console.log(data)
     if (data === null) {
       return {
         redirect: {
@@ -51,6 +55,7 @@ export const getStaticPaths = async () => {
     return {
       props: { city: data },
       revalidate: 1, 
+
     }
   }
   

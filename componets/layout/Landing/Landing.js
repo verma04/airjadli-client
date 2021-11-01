@@ -52,7 +52,7 @@ export default function Home({data}) {
 
       <div className="birdOut" >
       <div className="birdd" > 
-  <img alt="Image Arrow" src={'https://res.cloudinary.com/airjaldi/image/upload/v1630472261/Airjaldi_WebSite/q7knrij3epaxvb6i1u1p.png'} ></img>
+  <img alt="Image Arrow" src={'https://admin.airjaldi.com/static/q7knrij3epaxvb6i1u1p.png'} ></img>
    </div>
          </div>
    
@@ -92,7 +92,7 @@ export default function Home({data}) {
   <p>{number.sectionDes}
 </p>
 <div className='link' >
-<img alt="Image Arrow" src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<img alt="Image Arrow" src="https://admin.airjaldi.com/static/kks3py9aencqms2riscm.png"></img>
 <span  onClick={() => router.push(`/${number.link}`)} > {number.sectionLink}</span> </div>
 </div>
 </div>
@@ -128,7 +128,7 @@ export default function Home({data}) {
      <h2>{number.sectionHead}</h2>
      <p>{number.sectionDes} ...   </p>
 <div className='link' >
-<img  alt="Image Arrow"  src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+<img  alt="Image Arrow"  src="https://admin.airjaldi.com/static/kks3py9aencqms2riscm.png"></img>
  <span onClick={() => router.push(`/${number.link}`)}  >  {number.sectionLink}</span> </div>
    </div>
   </div>

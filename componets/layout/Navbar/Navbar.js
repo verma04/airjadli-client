@@ -65,8 +65,8 @@ const Navbar = () => {
  <div    onClick={() =>router.push("/")}  class="nav-img" >
                <Image
                className="myImage"
-         src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1614312333/AirJaldi/opzgbjka9kd6japxx0ye.png"
-         alt="Picture of the author"
+               src={`${process.env.url}/opzgbjka9kd6japxx0ye.png`}
+               alt="Navbar Logo"
          
          layout="fill"
          objectFit="contain"

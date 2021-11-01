@@ -101,7 +101,7 @@ export default function Home({data}) {
        return (
          <Image
          className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613451963/AirJaldi/odjjeta8wpc8nn2cwbit.png"
+        src={`${process.env.url}/odjjeta8wpc8nn2cwbit.png`}
         alt="Picture of the author"
         layout="fill"
         objectFit="cover"
@@ -142,7 +142,7 @@ export default function Home({data}) {
             
  
   <div className='link' >
-<img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img>
+  <img src={`${process.env.url}/kks3py9aencqms2riscm.png`}></img>
 <span>  Learn more </span> </div>
 
 

@@ -8,7 +8,7 @@ function History({data}) {
         <div class='flex-1' > 
         <Image
               className="myImage"
-        src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1613190590/AirJaldi/twoma15cgblrrohtpa61.jpg"
+        src={`${process.env.url}/twoma15cgblrrohtpa61.jpg`}
         alt="Picture of the author"
         layout="fill"
         objectFit="fit"
