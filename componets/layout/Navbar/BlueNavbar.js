@@ -225,7 +225,7 @@ null
  
                  {data.network.map((number, i)  => 
                  <div className="news-1" >
-                   <img src={ process.env.url + number.featureImg} ></img>
+                   <img src={ process.env.url + number.featureImg.substring(7)} ></img>
                    <ul>
  <li><h3>Network</h3></li>
    <li>{number.cityName} </li>
