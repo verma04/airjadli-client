@@ -97,15 +97,15 @@ function Blog({data}) {
               </div>
               <div className="set-right" >
               <li>   <FacebookShareButton
-      url={`http://sandbox.airjaldi.com:5000/news/${data.slug}`}
+      url={`https://airjaldi.com/news/${data.slug}`}
       title={"AirJaldi News"}
       hashtag="#Airjadli"
      
    >
      <FacebookIcon size={36} />
    </FacebookShareButton> </li>
-                                       <li>  <EmailShareButton url={`https://niraamya.herokuapp.com`}
-   url={`http://sandbox.airjaldi.com:5000/news/${data.slug}`}
+                                       <li>  <EmailShareButton url={`https://airjaldi.com`}
+   url={`https://airjaldi.com/news/${data.slug}`}
    title={"AirJaldi News"}
    hashtag="#Airjadli"
    >
@@ -113,7 +113,7 @@ function Blog({data}) {
      </EmailShareButton></li>
                                        <li>
                                          <WhatsappShareButton
-     url={`http://sandbox.airjaldi.com:5000/news/${data.slug}`}
+     url={`https://airjaldi.com/news/${data.slug}`}
      title={"AirJaldi News"}
      hashtag="#Airjadli"
      separator=":: "
