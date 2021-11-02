@@ -238,7 +238,7 @@ null
  <li><h3>Network</h3></li>
    <li>{number.cityName} </li>
    <li></li>
-   <li  onClick={()=> router.push(`/networks/${number.slug}`)} >View <img alt="Image Arrow" src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img></li>
+   <li  onClick={()=> router.push(`/networks/${number.slug}`)} >View <img alt="Image Arrow" src={`${process.env.url}/kks3py9aencqms2riscm.png`}></img></li>
      </ul>
                </div>
                  )}
@@ -269,7 +269,7 @@ null
  <li><h3>News</h3></li>
    <li>{number.title} </li>
    <li><p>{number.newsDescription} </p> </li>
-   <li  onClick={()=> router.push(`/news/${number.slug}`)} >View <img alt="Image Arrow" src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img></li>
+   <li  onClick={()=> router.push(`/news/${number.slug}`)} >View <img alt="Image Arrow" src={`${process.env.url}/kks3py9aencqms2riscm.png`}></img></li>
      </ul>
 
  </div>
@@ -294,7 +294,7 @@ null
  <li><h3>Projects</h3></li>
    <li>{number.title} </li>
    <li><p>{number.description} </p></li>
-   <li  onClick={()=> router.push(`/projects/${number.slug}`)}  >View <img alt="Image Arrow" src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img></li>
+   <li  onClick={()=> router.push(`/projects/${number.slug}`)}  >View <img alt="Image Arrow" src={`${process.env.url}/kks3py9aencqms2riscm.png`}></img></li>
      </ul>
                </div>
              )}
@@ -318,7 +318,7 @@ null
  <li><h3>Field Stories</h3></li>
    <li>{number.title} </li>
   <li></li>
-   <li  onClick={()=> router.push(`/field-stories/${number.slug}`)} ><h3>View</h3> <img alt="Image Arrow" src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1617687365/AirJaldi/kks3py9aencqms2riscm.png"></img></li>
+   <li  onClick={()=> router.push(`/field-stories/${number.slug}`)} ><h3>View</h3> <img alt="Image Arrow" src={`${process.env.url}/kks3py9aencqms2riscm.png`}></img></li>
      </ul>
                </div>
              )}
