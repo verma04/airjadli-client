@@ -3,7 +3,7 @@ const withFonts = require('next-fonts');
 const dev = process.env.NODE_ENV !== 'production';
 module.exports = withFonts({
     env: {
-        url: dev ? 'http://localhost:3000/static' : 'https://admin.airjaldi.com/static'
+        url: dev ? 'https://airjaldi.fra1.digitaloceanspaces.com' : 'https://airjaldi.fra1.digitaloceanspaces.com'
       },
   
   webpack: config => {

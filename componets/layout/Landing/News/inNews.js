@@ -37,13 +37,46 @@ export default function News() {
  <div class='grid1' >
 
  <div onClick={() => router.push(`/news/${number.slug}`) } className="wrapper"   >
- <Image
+ {(() => {
+        if (number.featureImg === "" ) {
+          return (
+            <Image
             className="myImage"
-            src={ process.env.url + number.featureImg.substring(7)}
-      alt="Picture of the author"
-      layout="fill"
-      objectFit="cover"
-    />
+           src="/static/odjjeta8wpc8nn2cwbit.png"
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="cover"
+           />
+               
+           
+          )
+        } 
+        else if  (number.featureImg.length > 40 ) {
+          return (
+            <Image
+            className="myImage"
+           src={ number.featureImg}
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="cover"
+           />
+               
+           
+          )
+        }
+          else { 
+          return (
+            <Image
+            className="myImage"
+           src={process.env.url + number.featureImg}
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="cover"
+           />
+          )
+          }
+       
+      })()}
  </div>
 
  <div onClick={() => router.push(`/news/${number.slug}`) } className="data" >
