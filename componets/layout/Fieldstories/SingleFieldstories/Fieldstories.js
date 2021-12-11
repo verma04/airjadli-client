@@ -126,7 +126,7 @@ function Blog({data}) {
             </div>
             
 
-            <div className="wrapper"  style={{  marginTop:"1rem", marginBottom:"1rem" position: 'relative', width:"100%", height: '20rem'}} >
+            <div className="wrapper"  style={{  marginTop:"1rem", marginBottom:"1rem", position: 'relative', width:"100%", height: '20rem'}} >
 {(() => {
         if (data.featureImg === "" ) {
           return (
