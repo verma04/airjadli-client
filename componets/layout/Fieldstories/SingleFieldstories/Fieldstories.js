@@ -125,6 +125,40 @@ function Blog({data}) {
               </div>
             </div>
             
+
+            <div className="wrapper"  style={{  marginTop:"1rem", marginBottom:"1rem" position: 'relative', width:"100%", height: '20rem'}} >
+{(() => {
+        if (data.featureImg === "" ) {
+          return (
+            <Image
+            className="myImage"
+           src="/static/odjjeta8wpc8nn2cwbit.png"
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="contain"
+           />
+               
+           
+          )
+        } 
+       
+          else { 
+          return (
+            <Image
+            className="myImage"
+           src={process.env.url + data.featureImg}
+           alt="Picture of the author"
+           layout="fill"
+           objectFit="contain"
+           />
+          )
+          }
+       
+      })()}
+    
+
+
+</div>
             
 
             { data.youtubelink === '' ?
